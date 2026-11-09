@@ -42,7 +42,8 @@ button{font:inherit;font-weight:600;padding:10px;border:0;border-radius:6px;back
 ${error ? `<p class="err">${error}</p>` : ''}
 <button type="submit">Anmelden</button>
 </form></body></html>`;
-  return new Response(html, { status: 401, headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' } });
+  // Status 200, damit Vercel in der Projektübersicht das Icon findet; geschützt bleibt alles ausser Login-Seite und Icons
+  return new Response(html, { status: 200, headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' } });
 }
 
 export default async function middleware(request) {

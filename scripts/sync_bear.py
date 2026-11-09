@@ -1,10 +1,12 @@
-"""Wandelt Bear-Suchergebnisse (JSON von Bear search_notes mit includeContent) in data/restaurants.json um.
+"""Wandelt Bear-Suchergebnisse (JSON von Bear search_notes mit includeContent, Suche "#GASTRO") in data/restaurants.json um.
+Übernommen werden alle Notizen mit #GASTRO und einem Regionen-Tag oder #SCHWEIZ. #Radar markiert Favoriten.
 Aufruf: python3 scripts/sync_bear.py <bear-export.json> [weitere.json ...]
 """
 import json, re, sys, unicodedata, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 anp = json.load(open(ROOT / "data/anpassungen.json"))
 hidden, names = anp["ausgeblendet"], anp["namen"]
+REGIONS = {"Zürich+", "Eglisau+", "Ticino+", "Grono", "Sottoceneri", "Sopraceneri", "Locarnese"}
 
 def keyOf(s):
     s = unicodedata.normalize("NFD", s.lower())
@@ -48,14 +50,15 @@ out, seen = [], set()
 for n in notes:
     md, raw = n["metadata"], n["content"]
     if md["id"] in seen: continue
+    if "GASTRO" not in md["tags"] or not (REGIONS & set(md["tags"]) or "SCHWEIZ" in md["tags"]): continue
     seen.add(md["id"])
     name = re.sub(r"^(Rest\.|Restaurant)\s+", "", cleanMd(md["title"]), flags=re.I).strip()
     k = keyOf(name)
     if k in hidden: continue
     addr, src = findAddress(raw)
     out.append(dict(id=md["id"], key=k, name=names.get(k, name), title=md["title"], adresse=addr, quelle=src,
-                    tags=sorted(t for t in md["tags"] if t != "evernote"), notiz=excerpt(raw), web=website(raw),
+                    tags=sorted(t for t in md["tags"] if t != "evernote"), radar="Radar" in md["tags"], notiz=excerpt(raw), web=website(raw),
                     geaendert=md["modified"][:10]))
 out.sort(key=lambda x: x["name"].lower())
 json.dump(out, open(ROOT / "data/restaurants.json", "w"), ensure_ascii=False, indent=1)
-print(f"{len(out)} Einträge, {sum(1 for o in out if not o['adresse'])} ohne Adresse, {sum(1 for o in out if o['quelle']=='bear')} mit 📍-Zeile")
+print(f"{len(out)} Einträge, {sum(o['radar'] for o in out)} Radar, {sum(1 for o in out if not o['adresse'])} ohne Adresse, {sum(1 for o in out if o['quelle']=='bear')} mit 📍-Zeile")

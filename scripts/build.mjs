@@ -12,8 +12,14 @@ async function swisstopo(addr) {
   const a = (await r.json()).results?.[0]?.attrs;
   return a ? [+a.lat.toFixed(6), +a.lon.toFixed(6)] : null;
 }
-async function nominatim(addr) {
-  await new Promise(r => setTimeout(r, 1100));   // höchstens 1 Anfrage pro Sekunde
+// Nominatim erlaubt höchstens 1 Anfrage pro Sekunde: Anfragen nacheinander abarbeiten
+let nominatimQueue = Promise.resolve();
+function nominatim(addr) {
+  const run = nominatimQueue.then(() => nominatimNow(addr));
+  nominatimQueue = run.catch(() => {}).then(() => new Promise(r => setTimeout(r, 1100)));
+  return run;
+}
+async function nominatimNow(addr) {
   const u = "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=ch,de,it,fr,at,li&q=" + encodeURIComponent(addr);
   const r = await fetch(u, { headers: { "User-Agent": "restauranz (vercel build)", "Accept-Language": "de" } });
   if (!r.ok) throw new Error("nominatim " + r.status);

@@ -22,7 +22,7 @@
 :root {
   --bg: #f3f5f8; --surface: #fff; --fg: #16202c; --muted: #5b6878; --line: #d9dfe7;
   --accent: #0b5cad; --accent-ink: #fff; --accent-soft: #e2edf8; --warn: #a35a00; --warn-soft: #fbefdc;
-  --ok: #1f7a4a; --pin: #c2410c;
+  --ok: #1f7a4a; --pin: #c2410c; --pin-muted: #7b8794;
   /* Schriften wie in UnterweX */
   --display: "Barlow Condensed", "Arial Narrow", sans-serif;
   --font: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
@@ -30,11 +30,11 @@
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0f151c; --surface: #17202a; --fg: #e6ebf1; --muted: #9aa7b6; --line: #2a3644;
-  --accent: #5aa6f0; --accent-ink: #0b1724; --accent-soft: #1b2d42; --warn: #f0b060; --warn-soft: #3a2a14; --ok: #5ccf8f; --pin: #fb923c;
+  --accent: #5aa6f0; --accent-ink: #0b1724; --accent-soft: #1b2d42; --warn: #f0b060; --warn-soft: #3a2a14; --ok: #5ccf8f; --pin: #fb923c; --pin-muted: #8896a5;
   color-scheme: dark } }
 :root[data-theme="dark"] {
   --bg: #0f151c; --surface: #17202a; --fg: #e6ebf1; --muted: #9aa7b6; --line: #2a3644;
-  --accent: #5aa6f0; --accent-ink: #0b1724; --accent-soft: #1b2d42; --warn: #f0b060; --warn-soft: #3a2a14; --ok: #5ccf8f; --pin: #fb923c;
+  --accent: #5aa6f0; --accent-ink: #0b1724; --accent-soft: #1b2d42; --warn: #f0b060; --warn-soft: #3a2a14; --ok: #5ccf8f; --pin: #fb923c; --pin-muted: #8896a5;
   color-scheme: dark }
 * { box-sizing: border-box }
 [hidden] { display: none !important }
@@ -43,6 +43,8 @@ body { background: var(--bg); color: var(--fg); font: 15px/1.45 var(--font); dis
 #side { display: flex; flex-direction: column; min-height: 0; border-right: 1px solid var(--line); background: var(--surface) }
 #map { min-height: 0; background: var(--bg) }
 .top { padding: calc(12px + env(safe-area-inset-top)) 16px 10px; display: grid; gap: 10px; border-bottom: 1px solid var(--line) }
+.top > * { min-width: 0 }
+#side { min-width: 0; overflow: hidden }
 .head { display: flex; align-items: center; gap: 10px }
 .head img { width: 34px; height: 34px; border-radius: 8px }
 h1 { margin: 0; font: 700 28px/1 var(--display); letter-spacing: .01em; display: flex; align-items: baseline; gap: 8px; flex: 1; min-width: 0 }
@@ -56,6 +58,9 @@ button:focus-visible, input:focus { outline: 2px solid var(--accent); outline-of
 .seg::-webkit-scrollbar { display: none }
 .seg button { flex: 0 0 auto; border-radius: 999px; padding: 7px 12px; font-size: 14px }
 .seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg) }
+.seg button.radar { color: var(--pin); border-color: var(--pin); margin-right: 6px }
+.seg button.radar[aria-pressed="true"] { background: var(--pin); color: #fff; border-color: var(--pin) }
+#list .star { color: var(--pin) }
 input[type=search], input.addr { width: 100%; min-width: 0; font: 16px var(--font); padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--fg) }
 details.filters summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--muted); list-style: none; display: flex; gap: 6px; align-items: center }
 details.filters summary::-webkit-details-marker { display: none }
@@ -91,6 +96,7 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 .badge.pending { background: var(--accent-soft); color: var(--accent) }
 .empty { padding: 20px 16px; color: var(--muted) }
 .pop { display: grid; gap: 6px; min-width: 220px; max-width: 290px; font: 14px/1.4 var(--font) }
+.pop .fav { color: var(--pin); font: 700 12px var(--font); letter-spacing: .06em; text-transform: uppercase }
 .pop h3 { margin: 0; font: 700 19px/1.15 var(--display) }
 .pop .addr { color: var(--muted); font-size: 13px }
 .pop .note { font-size: 13px; margin: 0 }
@@ -141,7 +147,7 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
 // Regionen wie in Unterwegz: je ein Bear-Tag
-const REGIONS = [["Alle", null], ["Zürich", "Zürich+"], ["Eglisau", "Eglisau+"], ["Ticino", "Ticino+"], ["Grono", "Grono"], ["Locarnese", "Locarnese"]];
+const REGIONS = [["Alle", null], ["Zürich", "Zürich+"], ["Eglisau", "Eglisau+"], ["Ticino", "Ticino+"], ["Sopraceneri", "Sopraceneri"], ["Locarnese", "Locarnese"], ["Sottoceneri", "Sottoceneri"], ["Grono", "Grono"]];
 const REGION_TAGS = new Set(REGIONS.map(r => r[1]).filter(Boolean));
 // Tags, die (fast) alle tragen oder nur zur Ablage dienen: nicht als Filter zeigen
 const HIDDEN = new Set(["GASTRO", "SCHWEIZ", "Radar", "UNTERWEGS", "GASTRO/Küche", "Aktualisieren", "evernote"]);
@@ -159,6 +165,7 @@ const store = {
 
 let DATA = [];
 let region = store.get("guide.region", null);
+let onlyRadar = store.get("guide.radar", false);
 const selected = new Set(store.get("guide.tags", []));
 let showAllTags = false;
 let inArea = false;
@@ -206,6 +213,7 @@ const Area = L.Control.extend({
 map._controlCorners.topcenter = corner;
 new Area({ position: "topcenter" }).addTo(map);
 
+const mutedPin = () => getComputedStyle(document.documentElement).getPropertyValue("--pin-muted").trim() || "#7b8794";
 const pinColor = () => getComputedStyle(document.documentElement).getPropertyValue("--pin").trim() || "#c2410c";
 const markers = new Map();
 const markerLayer = L.featureGroup().addTo(map);
@@ -243,8 +251,10 @@ async function locateMissing() {
 
 // ---------- Filter ----------
 function inRegion(d) { return !region || d.tags.includes(region); }
+const isRadar = d => d.radar || d.tags.includes("Radar");
 function matches(d) {
   if (!inRegion(d)) return false;
+  if (onlyRadar && !editMode && !isRadar(d)) return false;
   if (!editMode) for (const t of selected) if (!d.tags.includes(t)) return false;
   const q = fold($("q").value.trim());
   if (q) {
@@ -270,6 +280,12 @@ function chip(t, n) {
 }
 function renderRegions() {
   const box = $("regions"); box.textContent = "";
+  const fav = document.createElement("button");
+  fav.type = "button"; fav.className = "radar"; fav.textContent = "★ Radar";
+  fav.title = "Nur Favoriten (Tag Radar)";
+  fav.setAttribute("aria-pressed", onlyRadar);
+  fav.onclick = () => { onlyRadar = !onlyRadar; store.set("guide.radar", onlyRadar); renderRegions(); render(true); };
+  box.appendChild(fav);
   for (const [name, tag] of REGIONS) {
     const b = document.createElement("button");
     b.type = "button"; b.textContent = name;
@@ -312,7 +328,7 @@ function popupHtml(d) {
   const apple = "https://maps.apple.com/?q=" + encodeURIComponent(d.name) + (d.lat != null ? `&ll=${d.lat},${d.lon}` : "&address=" + encodeURIComponent(d.adresse || ""));
   const google = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(d.name + (d.adresse ? ", " + d.adresse : ""));
   const tags = d.tags.filter(t => !HIDDEN.has(t)).map(t => `<span>${esc(label(t))}</span>`).join("");
-  return `<div class="pop"><h3>${esc(d.name)}</h3>` +
+  return `<div class="pop">${isRadar(d) ? '<span class="fav">★ Radar</span>' : ""}<h3>${esc(d.name)}</h3>` +
     `<div class="addr">${esc(d.adresse || "Keine Adresse")}</div>` +
     (d.notiz ? `<p class="note">${esc(d.notiz)}</p>` : "") +
     (tags ? `<div class="tags">${tags}</div>` : "") +
@@ -336,10 +352,15 @@ function render(fit) {
   if (!editMode) renderGroups(lastFiltered);
   $("reset").hidden = editMode || (!selected.size && !$("q").value);
   markerLayer.clearLayers(); markers.clear();
-  for (const d of lastFiltered) if (d.lat != null) {
-    const m = L.circleMarker([d.lat, d.lon], { radius: 7, color: "#fff", weight: 2, fillColor: pinColor(), fillOpacity: .95 })
+  // Favoriten (Radar) gross und farbig, die übrigen klein und grau; Favoriten oben
+  const pinned = lastFiltered.filter(d => d.lat != null).sort((a, b) => isRadar(a) - isRadar(b));
+  for (const d of pinned) {
+    const fav = isRadar(d);
+    const m = L.circleMarker([d.lat, d.lon], fav
+        ? { radius: 8, color: "#fff", weight: 2, fillColor: pinColor(), fillOpacity: 1 }
+        : { radius: 5, color: "#fff", weight: 1.5, fillColor: mutedPin(), fillOpacity: .9 })
       .bindPopup(() => popupHtml(d), { maxWidth: 300 })
-      .bindTooltip(d.name, { direction: "top", offset: [0, -6] });
+      .bindTooltip((fav ? "★ " : "") + d.name, { direction: "top", offset: [0, -6] });
     m.on("click", () => markActive(d.id));
     markers.set(d.id, m); markerLayer.addLayer(m);
   }
@@ -347,9 +368,9 @@ function render(fit) {
   renderList();
 }
 function visibleItems() {
-  if (!inArea) return lastFiltered;
   const b = map.getBounds();
-  return lastFiltered.filter(d => d.lat != null && b.contains([d.lat, d.lon]));
+  const items = inArea ? lastFiltered.filter(d => d.lat != null && b.contains([d.lat, d.lon])) : lastFiltered;
+  return editMode ? items : [...items].sort((a, b) => isRadar(b) - isRadar(a));
 }
 function renderList() {
   const items = visibleItems();
@@ -371,7 +392,7 @@ function renderList() {
 function listItem(d) {
   const li = document.createElement("li"); li.className = "item"; li.dataset.id = d.id;
   const tags = d.tags.filter(t => !HIDDEN.has(t) && !REGION_TAGS.has(t) && !/^(Restaurant|Stadt)$/.test(t)).map(label).join(" · ");
-  li.innerHTML = `<span class="n">${esc(d.name)}</span>` +
+  li.innerHTML = `<span class="n">${isRadar(d) ? '<span class="star" title="Radar">★</span> ' : ""}${esc(d.name)}</span>` +
     `<span class="a${d.adresse ? "" : " none"}">${esc(d.adresse || "Keine Adresse")}${d.adresse && d.lat == null ? " · nicht auf der Karte" : ""}</span>` +
     (tags ? `<span class="t">${esc(tags)}</span>` : "");
   li.onclick = () => openItem(d);

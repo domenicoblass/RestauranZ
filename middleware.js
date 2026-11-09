@@ -23,7 +23,7 @@ function loginPage(error = '') {
   const html = `<!doctype html><html lang="de-CH"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"><title>RestauranZ – Anmelden</title>
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="RestauranZ">
-<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/favicon.ico?v=2" sizes="any"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png?v=2"><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2"><link rel="manifest" href="/manifest.webmanifest">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Source+Sans+3:wght@400;600&display=swap">
 <style>
 :root{--paper:#f3f5f8;--card:#fff;--ink:#16202c;--muted:#5b6878;--line:#d9dfe7;--accent:#0b5cad;--err:#b4532a}

@@ -122,7 +122,9 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 .pop details.fix button { padding: 6px 9px; font-size: 13px }
 .pop .msg { display: block; font-size: 12px; color: var(--muted); margin-top: 3px }
 .pop .msg.ok { color: var(--ok) } .pop .msg.bad { color: var(--warn) }
-.pop button.del { justify-self: start; border: 0; background: none; padding: 2px 0; color: #b42318; font-size: 13px; text-decoration: underline }
+.pop .more { display: flex; gap: 16px; flex-wrap: wrap }
+.pop .more button { border: 0; background: none; padding: 2px 0; font-size: 13px; text-decoration: underline; color: var(--muted) }
+.pop button.del { color: #b42318 }
 .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--surface); color: var(--fg) }
 .leaflet-container { font: 13px var(--font) }
 .leaflet-bar a, .leaflet-control-layers { background: var(--surface); color: var(--fg) }
@@ -368,9 +370,10 @@ function popupEl(d) {
     `<div class="acts"><a class="bear" href="${esc(bearOpen(d))}">In Bear öffnen</a><a href="${esc(apple)}" target="_blank" rel="noopener">Apple Karten</a><a href="${esc(google)}" target="_blank" rel="noopener">Google Maps</a>` +
     (d.web ? `<a href="${esc(d.web)}" target="_blank" rel="noopener">Website</a>` : "") + `</div>` +
     `<details class="fix"${d.adresse ? "" : " open"}><summary>${d.adresse ? "Adresse ändern" : "Adresse suchen und eintragen"}</summary></details>` +
-    `<button type="button" class="del">Löschen</button>`;
+    `<div class="more"><button type="button" class="coll" title="Sammelartikel aus der App nehmen (Tag #GASTRO/Sammlung)">Ist eine Sammlung</button><button type="button" class="del">Löschen</button></div>`;
   el.querySelector("details.fix").appendChild(addressForm(d, false));
   el.querySelector(".del").onclick = () => trashNote(d);
+  el.querySelector(".coll").onclick = () => { hideLocally(d, "sammlung"); location.href = bearAddTag(d, "GASTRO/Sammlung"); };
   L.DomEvent.disableClickPropagation(el);
   return el;
 }
@@ -383,7 +386,7 @@ function openItem(d) {
   markActive(d.id);
   const m = markers.get(d.id);
   if (m) { map.setView(m.getLatLng(), Math.max(map.getZoom(), 15)); m.openPopup(); }
-  else L.popup({ maxWidth: 300 }).setLatLng(map.getCenter()).setContent(popupEl(d)).openOn(map);
+  else L.popup({ maxWidth: 320, autoPanPaddingTopLeft: [20, 84] }).setLatLng(map.getCenter()).setContent(popupEl(d)).openOn(map);
 }
 let lastFiltered = [];
 function render(fit) {
@@ -398,7 +401,7 @@ function render(fit) {
     const m = L.circleMarker([d.lat, d.lon], fav
         ? { radius: 8, color: "#fff", weight: 2, fillColor: pinColor(), fillOpacity: 1 }
         : { radius: 5, color: "#fff", weight: 1.5, fillColor: mutedPin(), fillOpacity: .9 })
-      .bindPopup(() => popupEl(d), { maxWidth: 320 })
+      .bindPopup(() => popupEl(d), { maxWidth: 320, autoPanPaddingTopLeft: [20, 84] })
       .bindTooltip((fav ? "★ " : "") + d.name, { direction: "top", offset: [0, -6] });
     m.on("click", () => markActive(d.id));
     markers.set(d.id, m); markerLayer.addLayer(m);

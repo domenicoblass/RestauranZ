@@ -109,6 +109,13 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 .pop .acts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px }
 .pop .acts a { font-weight: 600; font-size: 13px; text-decoration: none; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--line); color: var(--fg) }
 .pop .acts a.bear { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+.pop details.fix summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--accent) }
+.pop details.fix .edit-row { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px }
+.pop details.fix input { width: 100%; font: 15px var(--font); padding: 7px 9px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--fg) }
+.pop details.fix button { padding: 6px 9px; font-size: 13px }
+.pop .msg { display: block; font-size: 12px; color: var(--muted); margin-top: 3px }
+.pop .msg.ok { color: var(--ok) } .pop .msg.bad { color: var(--warn) }
+.pop button.del { justify-self: start; border: 0; background: none; padding: 2px 0; color: #b42318; font-size: 13px; text-decoration: underline }
 .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--surface); color: var(--fg) }
 .leaflet-container { font: 13px var(--font) }
 .leaflet-bar a, .leaflet-control-layers { background: var(--surface); color: var(--fg) }
@@ -336,16 +343,23 @@ function renderGroups(filtered) {
 
 // ---------- Darstellung ----------
 const bearOpen = d => "bear://x-callback-url/open-note?id=" + encodeURIComponent(d.id);
-function popupHtml(d) {
+function popupEl(d) {
   const apple = "https://maps.apple.com/?q=" + encodeURIComponent(d.name) + (d.lat != null ? `&ll=${d.lat},${d.lon}` : "&address=" + encodeURIComponent(d.adresse || ""));
   const google = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(d.name + (d.adresse ? ", " + d.adresse : ""));
   const tags = d.tags.filter(t => !HIDDEN.has(t)).map(t => `<span>${esc(label(t))}</span>`).join("");
-  return `<div class="pop">${isRadar(d) ? '<span class="fav">★ Radar</span>' : ""}<h3>${esc(d.name)}</h3>` +
+  const el = document.createElement("div"); el.className = "pop";
+  el.innerHTML = `${isRadar(d) ? '<span class="fav">★ Radar</span>' : ""}<h3>${esc(d.name)}</h3>` +
     `<div class="addr">${esc(d.adresse || "Keine Adresse")}</div>` +
     (d.notiz ? `<p class="note">${esc(d.notiz)}</p>` : "") +
     (tags ? `<div class="tags">${tags}</div>` : "") +
     `<div class="acts"><a class="bear" href="${esc(bearOpen(d))}">In Bear öffnen</a><a href="${esc(apple)}" target="_blank" rel="noopener">Apple Karten</a><a href="${esc(google)}" target="_blank" rel="noopener">Google Maps</a>` +
-    (d.web ? `<a href="${esc(d.web)}" target="_blank" rel="noopener">Website</a>` : "") + `</div></div>`;
+    (d.web ? `<a href="${esc(d.web)}" target="_blank" rel="noopener">Website</a>` : "") + `</div>` +
+    `<details class="fix"${d.adresse ? "" : " open"}><summary>${d.adresse ? "Adresse ändern" : "Adresse suchen und eintragen"}</summary></details>` +
+    `<button type="button" class="del">Löschen</button>`;
+  el.querySelector("details.fix").appendChild(addressForm(d, false));
+  el.querySelector(".del").onclick = () => trashNote(d);
+  L.DomEvent.disableClickPropagation(el);
+  return el;
 }
 function markActive(id) {
   document.querySelectorAll("#list li.active").forEach(li => li.classList.remove("active"));
@@ -356,7 +370,7 @@ function openItem(d) {
   markActive(d.id);
   const m = markers.get(d.id);
   if (m) { map.setView(m.getLatLng(), Math.max(map.getZoom(), 15)); m.openPopup(); }
-  else L.popup({ maxWidth: 300 }).setLatLng(map.getCenter()).setContent(popupHtml(d)).openOn(map);
+  else L.popup({ maxWidth: 300 }).setLatLng(map.getCenter()).setContent(popupEl(d)).openOn(map);
 }
 let lastFiltered = [];
 function render(fit) {
@@ -371,7 +385,7 @@ function render(fit) {
     const m = L.circleMarker([d.lat, d.lon], fav
         ? { radius: 8, color: "#fff", weight: 2, fillColor: pinColor(), fillOpacity: 1 }
         : { radius: 5, color: "#fff", weight: 1.5, fillColor: mutedPin(), fillOpacity: .9 })
-      .bindPopup(() => popupHtml(d), { maxWidth: 300 })
+      .bindPopup(() => popupEl(d), { maxWidth: 320 })
       .bindTooltip((fav ? "★ " : "") + d.name, { direction: "top", offset: [0, -6] });
     m.on("click", () => markActive(d.id));
     markers.set(d.id, m); markerLayer.addLayer(m);
@@ -420,14 +434,21 @@ function tidy(v) {
 function editItem(d) {
   const li = document.createElement("li"); li.dataset.id = d.id;
   const p = pending[d.id];
-  li.innerHTML = `<span class="n">${esc(d.name)}${p ? '<span class="badge pending">an Bear gesendet</span>' : (d.adresse ? "" : '<span class="badge">fehlt</span>')}</span>` +
-    `<div class="edit-row"><input class="addr" type="text" placeholder="Strasse Nr, PLZ Ort" autocomplete="street-address" aria-label="Adresse von ${esc(d.name)}">` +
-    `<button type="button" data-act="check">Prüfen</button><button type="button" class="primary" data-act="save">In Bear speichern</button>` +
-    `<button type="button" data-act="search">Suchen</button><button type="button" data-act="note">Notiz</button>` +
-    `<button type="button" data-act="coll" title="Sammelartikel aus der App nehmen (Tag #GASTRO/Sammlung)">Ist eine Sammlung</button></div><span class="msg" role="status"></span>`;
-  const inp = li.querySelector("input"), msg = li.querySelector(".msg");
-  inp.value = d.adresse || "";
+  li.innerHTML = `<span class="n">${esc(d.name)}${p ? '<span class="badge pending">an Bear gesendet</span>' : (d.adresse ? "" : '<span class="badge">fehlt</span>')}</span>`;
+  li.appendChild(addressForm(d, true));
+  return li;
+}
+// Formular zum Eintragen einer Adresse; wird in der Liste («Adressen») und im Kartenfenster verwendet
+function addressForm(d, withExtras) {
+  const box = document.createElement("div");
+  box.innerHTML = `<div class="edit-row"><input class="addr" type="text" placeholder="Strasse Nr, PLZ Ort" autocomplete="street-address" aria-label="Adresse von ${esc(d.name)}">` +
+    `<button type="button" data-act="search" title="In Google Maps nach dem Restaurant suchen">Suchen</button><button type="button" data-act="check">Prüfen</button><button type="button" class="primary" data-act="save">In Bear speichern</button>` +
+    (withExtras ? `<button type="button" data-act="note">Notiz</button><button type="button" data-act="coll" title="Sammelartikel aus der App nehmen (Tag #GASTRO/Sammlung)">Ist eine Sammlung</button>` : "") +
+    `</div><span class="msg" role="status"></span>`;
+  const inp = box.querySelector("input"), msg = box.querySelector(".msg");
+  inp.value = pending[d.id]?.adresse || d.adresse || "";
   inp.addEventListener("paste", e => { const t = e.clipboardData?.getData("text"); if (t) { e.preventDefault(); inp.value = tidy(t); } });
+  inp.addEventListener("keydown", e => { if (e.key === "Enter") check(); });
   const say = (t, cls) => { msg.textContent = t; msg.className = "msg " + (cls || ""); };
   async function check() {
     const a = tidy(inp.value); inp.value = a;
@@ -438,21 +459,20 @@ function editItem(d) {
     if (!c) { say("Diese Adresse finde ich nicht auf der Karte. Speichern geht trotzdem.", "bad"); return false; }
     probe && probe.remove();
     probe = L.circleMarker(c, { radius: 10, color: "#fff", weight: 3, fillColor: "#2563eb", fillOpacity: 1 }).addTo(map).bindTooltip(d.name, { permanent: true, direction: "top", offset: [0, -8] });
-    map.setView(c, 16);
-    say("Gefunden, siehe Karte.", "ok");
+    if (withExtras) map.setView(c, 16);
+    say("Gefunden, blauer Punkt auf der Karte.", "ok");
     return c;
   }
-  li.querySelector('[data-act="check"]').onclick = check;
-  li.querySelector('[data-act="search"]').onclick = () => window.open("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(d.name), "_blank", "noopener");
-  li.querySelector('[data-act="note"]').onclick = () => { location.href = bearOpen(d); };
-  li.querySelector('[data-act="coll"]').onclick = () => {
-    collections[d.id] = new Date().toISOString();
-    store.set("guide.sammlung", collections);
-    location.href = bearAddTag(d, "GASTRO/Sammlung");
-    DATA = DATA.filter(x => x.id !== d.id);
-    render(false);
-  };
-  li.querySelector('[data-act="save"]').onclick = async () => {
+  box.querySelector('[data-act="check"]').onclick = check;
+  box.querySelector('[data-act="search"]').onclick = () => window.open("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(d.name + (d.adresse ? ", " + d.adresse : "")), "_blank", "noopener");
+  if (withExtras) {
+    box.querySelector('[data-act="note"]').onclick = () => { location.href = bearOpen(d); };
+    box.querySelector('[data-act="coll"]').onclick = () => {
+      hideLocally(d, "sammlung");
+      location.href = bearAddTag(d, "GASTRO/Sammlung");
+    };
+  }
+  box.querySelector('[data-act="save"]').onclick = async () => {
     const a = tidy(inp.value);
     if (!a) { say("Bitte zuerst eine Adresse eintragen.", "bad"); return; }
     const c = await check();
@@ -461,8 +481,22 @@ function editItem(d) {
     applyPending();
     location.href = bearAppend(d, a);
     say("An Bear gesendet. Die Notiz hat jetzt eine Zeile «📍 Adresse».", "ok");
+    if (!withExtras) setTimeout(() => { map.closePopup(); probe && probe.remove(); probe = null; render(false); const m = markers.get(d.id); m && m.openPopup(); }, 900);
   };
-  return li;
+  return box;
+}
+// Bis zum nächsten Abgleich lokal ausblenden (Sammlung markiert oder in Bear gelöscht)
+function hideLocally(d, why) {
+  collections[d.id] = { why, am: new Date().toISOString() };
+  store.set("guide.sammlung", collections);
+  DATA = DATA.filter(x => x.id !== d.id);
+  map.closePopup();
+  render(false);
+}
+function trashNote(d) {
+  if (!confirm(`«${d.name}» löschen?\n\nDie Notiz kommt in Bear in den Papierkorb. Von dort lässt sie sich wiederherstellen.`)) return;
+  hideLocally(d, "geloescht");
+  location.href = "bear://x-callback-url/trash?" + new URLSearchParams({ id: d.id, show_window: "no" }).toString();
 }
 // Lokal gespeicherte Adressen anwenden; sobald Bear dieselbe Adresse liefert, wird der Eintrag gelöscht
 function applyPending() {

@@ -1,0 +1,40 @@
+{
+ "_info": "Aus dem alten Guide übernommen. Schlüssel = vereinfachter Name.",
+ "ausgeblendet": {
+  "asconaosteriaosteriagrottobaldoria": "Ascona: Osteria Osteria Grotto Baldoria",
+  "bulachteufengenusswanderung": "Bülach-Teufen: Genusswanderung",
+  "essenentlangdera2gotthard": "Essen entlang der A2 (Gotthard)",
+  "freiensteinopenairimneuenkino": "Freienstein: Openair im NeuenKINO",
+  "grottobaldoria": "Grotto Baldoria",
+  "nidoperuanisch": "Nido (peruanisch)",
+  "popupinzurich": "Pop-up in Zürich",
+  "popupsimspatsommer2023": "Pop-ups im Spätsommer 2023",
+  "quartierbeizhorneggzurichseefeld": "Quartierbeiz Hornegg Zürich Seefeld",
+  "rafzandelfingen": "Rafz-Andelfingen",
+  "schwarzwaldhofgutalbfuhren": "Schwarzwald: Hofgut Albführen",
+  "sidefiinpopup": "Sidefiin (Pop-up)",
+  "sottocenerimontegeneroso": "Sottoceneri: Monte Generoso",
+  "spritzwerk": "Spritzwerk",
+  "stettbach7kulinarischetipps": "Stettbach: 7 kulinarische Tipps",
+  "teufenirchelziegelhutte": "Teufen-Irchel-Ziegelhütte"
+ },
+ "namen": {
+  "amigostapasimniederdorfeineneueanlaufstellefurfansdesspanischenaperos": "Amigos Tapas",
+  "berg8044keinerverlasstdenberghungrig": "Berg 8044",
+  "dierestaurantkritikzumluludeszurcheropernhauses": "Lulu",
+  "f39frohlichstrasse": "f39",
+  "flaachreststernenpopup": "Flaach: Rest. Sternen",
+  "iykykporchetta": "Iykyk",
+  "leventinachiggiognaanzonicostradaalta": "Leventina: Osteria Anzonico",
+  "osteriacentralewipkingen": "Osteria Centrale",
+  "resthotelwidderfondueaufdemdach": "Rest./Hotel Widder",
+  "ristzampanoristorantezampano": "Rist. Zampano",
+  "stafarestspiisbeizaberen": "Rest. Spiisbeiz Aberen",
+  "thalwilrestaurantetzliberg": "Restaurant Etzliberg",
+  "turbenthalalpwirtschaftschnurrberg": "Alpwirtschaft Schnurrberg",
+  "turbenthalrestschauenberg": "Rest. Schauenberg",
+  "winterthurrestdadomenico": "Rest. Da Domenico",
+  "winterthurrestdetapas": "Rest. De Tapas",
+  "zollikonrestrossli": "Rest. Rössli"
+ }
+}

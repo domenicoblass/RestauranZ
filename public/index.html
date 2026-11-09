@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="RestauranZ">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#f3f5f8">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon-32.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<title>RestauranZ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root {
+  --bg: #f3f5f8; --surface: #fff; --fg: #16202c; --muted: #5b6878; --line: #d9dfe7;
+  --accent: #0b5cad; --accent-ink: #fff; --accent-soft: #e2edf8; --warn: #a35a00; --warn-soft: #fbefdc;
+  --ok: #1f7a4a; --pin: #c2410c;
+  /* Schriften wie in UnterweX */
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f151c; --surface: #17202a; --fg: #e6ebf1; --muted: #9aa7b6; --line: #2a3644;
+  --accent: #5aa6f0; --accent-ink: #0b1724; --accent-soft: #1b2d42; --warn: #f0b060; --warn-soft: #3a2a14; --ok: #5ccf8f; --pin: #fb923c;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f151c; --surface: #17202a; --fg: #e6ebf1; --muted: #9aa7b6; --line: #2a3644;
+  --accent: #5aa6f0; --accent-ink: #0b1724; --accent-soft: #1b2d42; --warn: #f0b060; --warn-soft: #3a2a14; --ok: #5ccf8f; --pin: #fb923c;
+  color-scheme: dark }
+* { box-sizing: border-box }
+[hidden] { display: none !important }
+html, body { height: 100%; margin: 0 }
+body { background: var(--bg); color: var(--fg); font: 15px/1.45 var(--font); display: grid; grid-template-columns: 390px 1fr; grid-template-rows: 100%; overflow: hidden }
+#side { display: flex; flex-direction: column; min-height: 0; border-right: 1px solid var(--line); background: var(--surface) }
+#map { min-height: 0; background: var(--bg) }
+.top { padding: calc(12px + env(safe-area-inset-top)) 16px 10px; display: grid; gap: 10px; border-bottom: 1px solid var(--line) }
+.head { display: flex; align-items: center; gap: 10px }
+.head img { width: 34px; height: 34px; border-radius: 8px }
+h1 { margin: 0; font: 700 28px/1 var(--display); letter-spacing: .01em; display: flex; align-items: baseline; gap: 8px; flex: 1; min-width: 0 }
+h1 small { font: 400 13px var(--font); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+button { font: 600 14px var(--font); border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); padding: 8px 11px; cursor: pointer }
+button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink) }
+button:disabled { opacity: .45; cursor: default }
+button:focus-visible, input:focus { outline: 2px solid var(--accent); outline-offset: 1px }
+#mode[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink) }
+.seg { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; padding-bottom: 1px }
+.seg::-webkit-scrollbar { display: none }
+.seg button { flex: 0 0 auto; border-radius: 999px; padding: 7px 12px; font-size: 14px }
+.seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg) }
+input[type=search], input.addr { width: 100%; min-width: 0; font: 16px var(--font); padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--fg) }
+details.filters summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--muted); list-style: none; display: flex; gap: 6px; align-items: center }
+details.filters summary::-webkit-details-marker { display: none }
+details.filters summary::before { content: "▸"; transition: transform .15s }
+details.filters[open] summary::before { transform: rotate(90deg) }
+details.filters summary b { color: var(--accent) }
+.groups { display: grid; gap: 8px; max-height: 32vh; overflow: auto; margin-top: 8px }
+.group b { display: block; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px }
+.chips { display: flex; flex-wrap: wrap; gap: 5px }
+.chip { font: 600 13px/1 var(--font); padding: 7px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg) }
+.chip span { color: var(--muted); font-weight: 400; margin-left: 3px }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink) }
+.chip[aria-pressed="true"] span { color: inherit; opacity: .8 }
+.chip.zero { opacity: .45 }
+.chip.more { border-style: dashed; color: var(--muted) }
+.bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 13px; color: var(--muted); min-height: 20px }
+.bar .reset { margin-left: auto; padding: 5px 9px; font-size: 13px }
+ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-height: 0 }
+#list li { padding: 11px 16px; border-bottom: 1px solid var(--line); display: grid; gap: 3px }
+#list li.item { cursor: pointer }
+#list li.item:hover, #list li.active { background: var(--accent-soft) }
+#list .n { font: 700 18px/1.15 var(--display) }
+#list .a { font-size: 13px; color: var(--muted) }
+#list .a.none { color: var(--warn) }
+#list .t { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+#list .edit-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px }
+#list .edit-row input { flex: 1 1 100% }
+#list .msg { font-size: 12px; color: var(--muted) }
+#list .msg.ok { color: var(--ok) } #list .msg.bad { color: var(--warn) }
+.badge { font: 600 11px/1 var(--font); padding: 3px 6px; border-radius: 4px; background: var(--warn-soft); color: var(--warn); margin-left: 6px; vertical-align: 2px }
+.badge.pending { background: var(--accent-soft); color: var(--accent) }
+.empty { padding: 20px 16px; color: var(--muted) }
+.pop { display: grid; gap: 6px; min-width: 220px; max-width: 290px; font: 14px/1.4 var(--font) }
+.pop h3 { margin: 0; font: 700 19px/1.15 var(--display) }
+.pop .addr { color: var(--muted); font-size: 13px }
+.pop .note { font-size: 13px; margin: 0 }
+.pop .tags { display: flex; flex-wrap: wrap; gap: 4px }
+.pop .tags span { font-size: 11px; padding: 3px 6px; border-radius: 5px; background: var(--accent-soft); color: var(--fg) }
+.pop .acts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px }
+.pop .acts a { font-weight: 600; font-size: 13px; text-decoration: none; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--line); color: var(--fg) }
+.pop .acts a.bear { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--surface); color: var(--fg) }
+.leaflet-container { font: 13px var(--font) }
+.leaflet-bar a, .leaflet-control-layers { background: var(--surface); color: var(--fg) }
+.ctl-btn { display: block; width: 34px; height: 34px; line-height: 34px; text-align: center; text-decoration: none; color: var(--fg); font-size: 18px }
+.area-btn { white-space: nowrap; font: 600 13px var(--font); padding: 8px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); box-shadow: 0 1px 4px rgba(0,0,0,.2) }
+.area-btn[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+.leaflet-top.leaflet-center { left: 50%; transform: translateX(-50%) }
+@media (max-width: 760px) {
+  body { grid-template-columns: 100%; grid-template-rows: 44% 56% }
+  #map { grid-row: 1 } #side { grid-row: 2; border-right: 0; border-top: 1px solid var(--line) }
+  .top { padding-top: 10px }
+  .groups { max-height: 24vh }
+}
+</style>
+</head>
+<body>
+<aside id="side">
+  <div class="top">
+    <div class="head">
+      <img src="/apple-touch-icon.png" alt="">
+      <h1>RestauranZ <small id="count"></small></h1>
+      <button id="mode" type="button" aria-pressed="false" title="Adressen zuordnen">Adressen</button>
+    </div>
+    <div class="seg" id="regions" role="group" aria-label="Region"></div>
+    <input id="q" type="search" placeholder="Name, Ort oder Stichwort" aria-label="Suchen" autocomplete="off">
+    <div id="browseOnly">
+      <details class="filters" id="filters"><summary>Tags <b id="tagSum"></b></summary><div class="groups" id="groups"></div></details>
+    </div>
+    <div class="seg" id="editTabs" hidden role="group" aria-label="Anzeige">
+      <button type="button" data-v="missing" aria-pressed="true">Ohne Adresse</button>
+      <button type="button" data-v="nopin" aria-pressed="false">Nicht auf der Karte</button>
+      <button type="button" data-v="all" aria-pressed="false">Alle</button>
+    </div>
+    <div class="bar"><span id="info"></span><button class="reset" id="reset" type="button" hidden>Filter löschen</button></div>
+  </div>
+  <ul id="list"></ul>
+</aside>
+<div id="map" role="region" aria-label="Karte"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+// Regionen wie in Unterwegz: je ein Bear-Tag
+const REGIONS = [["Alle", null], ["Zürich", "Zürich+"], ["Eglisau", "Eglisau+"], ["Ticino", "Ticino+"], ["Grono", "Grono"], ["Locarnese", "Locarnese"]];
+const REGION_TAGS = new Set(REGIONS.map(r => r[1]).filter(Boolean));
+// Tags, die (fast) alle tragen oder nur zur Ablage dienen: nicht als Filter zeigen
+const HIDDEN = new Set(["GASTRO", "SCHWEIZ", "Radar", "UNTERWEGS", "GASTRO/Küche", "Aktualisieren", "evernote"]);
+const KUECHE = "GASTRO/Küche/";
+const TOP_N = 14;
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const label = t => t.startsWith(KUECHE) ? t.slice(KUECHE.length) : t.replace(/^UNTERWEGS\//, "").replace(/\+$/, "");
+const fold = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+
+let DATA = [];
+let region = store.get("guide.region", null);
+const selected = new Set(store.get("guide.tags", []));
+let showAllTags = false;
+let inArea = false;
+let editMode = false, editView = "missing";
+// Adressen, die hier gesetzt und an Bear geschickt wurden, bis der nächste Abgleich sie mitbringt
+const pending = store.get("guide.pending", {});
+const geoCache = store.get("guide.geo", {});
+
+// ---------- Karte ----------
+const map = L.map("map", { zoomControl: true }).setView([47.38, 8.54], 9);
+const layers = {
+  "Strassenkarte (OSM)": L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }),
+  "Landeskarte (swisstopo)": L.tileLayer("https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg", { maxZoom: 19, maxNativeZoom: 18, attribution: '© <a href="https://www.swisstopo.admin.ch">swisstopo</a>' }),
+  "Luftbild (swisstopo)": L.tileLayer("https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.swissimage/default/current/3857/{z}/{x}/{y}.jpeg", { maxZoom: 19, attribution: '© <a href="https://www.swisstopo.admin.ch">swisstopo</a>' })
+};
+(layers[store.get("guide.layer", "")] || layers["Strassenkarte (OSM)"]).addTo(map);
+L.control.layers(layers, null, { position: "topright" }).addTo(map);
+map.on("baselayerchange", e => store.set("guide.layer", e.name));
+
+const Locate = L.Control.extend({
+  onAdd() {
+    const d = L.DomUtil.create("div", "leaflet-bar");
+    d.innerHTML = '<a href="#" class="ctl-btn" title="Mein Standort" aria-label="Mein Standort">⌖</a>';
+    d.firstChild.onclick = e => { e.preventDefault(); map.locate({ setView: true, maxZoom: 15 }); };
+    L.DomEvent.disableClickPropagation(d);
+    return d;
+  }
+});
+new Locate({ position: "topleft" }).addTo(map);
+let meMarker = null;
+map.on("locationfound", e => { meMarker && meMarker.remove(); meMarker = L.circleMarker(e.latlng, { radius: 7, color: "#fff", weight: 2, fillColor: "#2563eb", fillOpacity: 1 }).addTo(map); });
+
+// Knopf oben in der Mitte: nur Einträge im aktuellen Kartenausschnitt
+const corner = L.DomUtil.create("div", "leaflet-top leaflet-center", map.getContainer().querySelector(".leaflet-control-container"));
+const Area = L.Control.extend({
+  onAdd() {
+    const b = L.DomUtil.create("button", "area-btn");
+    b.type = "button"; b.id = "areaBtn"; b.setAttribute("aria-pressed", "false");
+    b.textContent = "Im Kartenausschnitt suchen";
+    b.onclick = () => { inArea = !inArea; b.setAttribute("aria-pressed", inArea); b.textContent = inArea ? "Nur Kartenausschnitt ✕" : "Im Kartenausschnitt suchen"; renderList(); };
+    L.DomEvent.disableClickPropagation(b);
+    return b;
+  }
+});
+map._controlCorners.topcenter = corner;
+new Area({ position: "topcenter" }).addTo(map);
+
+const pinColor = () => getComputedStyle(document.documentElement).getPropertyValue("--pin").trim() || "#c2410c";
+const markers = new Map();
+const markerLayer = L.featureGroup().addTo(map);
+let probe = null;   // Vorschau-Marker beim Zuordnen
+
+// ---------- Koordinaten im Browser (nur für neue oder nicht gefundene Adressen) ----------
+async function geocode(addr) {
+  if (addr in geoCache) return geoCache[addr];
+  let hit = null;
+  try {
+    const u = "https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&origins=address&sr=4326&limit=1&searchText=" + encodeURIComponent(addr);
+    const a = (await (await fetch(u)).json()).results?.[0]?.attrs;
+    if (a) hit = [a.lat, a.lon];
+  } catch {}
+  if (!hit) {
+    try {
+      const u = "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=ch,de,it,fr,at,li&q=" + encodeURIComponent(addr);
+      const r = await (await fetch(u, { headers: { "Accept-Language": "de" } })).json();
+      if (r[0]) hit = [+r[0].lat, +r[0].lon];
+    } catch { return undefined; }
+  }
+  geoCache[addr] = hit;
+  store.set("guide.geo", geoCache);
+  return hit;
+}
+async function locateMissing() {
+  const todo = DATA.filter(d => d.adresse && d.lat == null && geoCache[d.adresse] === undefined);
+  for (const d of DATA) if (d.adresse && d.lat == null && geoCache[d.adresse]) [d.lat, d.lon] = geoCache[d.adresse];
+  for (const d of todo) {
+    const c = await geocode(d.adresse);
+    if (c) [d.lat, d.lon] = c;
+  }
+  if (todo.length) render(false);
+}
+
+// ---------- Filter ----------
+function inRegion(d) { return !region || d.tags.includes(region); }
+function matches(d) {
+  if (!inRegion(d)) return false;
+  if (!editMode) for (const t of selected) if (!d.tags.includes(t)) return false;
+  const q = fold($("q").value.trim());
+  if (q) {
+    const hay = fold([d.name, d.title, d.adresse, d.notiz, d.tags.map(label).join(" ")].join(" "));
+    if (!q.split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  if (editMode && editView === "missing" && d.adresse) return false;
+  if (editMode && editView === "nopin" && d.lat != null) return false;
+  return true;
+}
+function tagCounts(items) {
+  const c = new Map();
+  for (const d of items) for (const t of d.tags) if (!HIDDEN.has(t) && !REGION_TAGS.has(t)) c.set(t, (c.get(t) || 0) + 1);
+  return c;
+}
+function chip(t, n) {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "chip" + (n === 0 ? " zero" : "");
+  b.setAttribute("aria-pressed", selected.has(t));
+  b.innerHTML = esc(label(t)) + (n != null ? `<span>${n}</span>` : "");
+  b.onclick = () => { selected.has(t) ? selected.delete(t) : selected.add(t); store.set("guide.tags", [...selected]); render(true); };
+  return b;
+}
+function renderRegions() {
+  const box = $("regions"); box.textContent = "";
+  for (const [name, tag] of REGIONS) {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = name;
+    b.setAttribute("aria-pressed", region === tag);
+    b.onclick = () => { region = tag; store.set("guide.region", tag); renderRegions(); render(true); };
+    box.appendChild(b);
+  }
+}
+function renderGroups(filtered) {
+  const counts = tagCounts(filtered);
+  const all = tagCounts(DATA.filter(inRegion));
+  const g = $("groups"); g.textContent = "";
+  const kitchen = [...all.keys()].filter(t => t.startsWith(KUECHE)).sort((a, b) => label(a).localeCompare(label(b), "de"));
+  const other = [...all.keys()].filter(t => !t.startsWith(KUECHE)).sort((a, b) => all.get(b) - all.get(a) || a.localeCompare(b, "de"));
+  const add = (title, tags, more) => {
+    if (!tags.length) return;
+    const div = document.createElement("div"); div.className = "group";
+    div.innerHTML = `<b>${esc(title)}</b>`;
+    const c = document.createElement("div"); c.className = "chips";
+    tags.forEach(t => c.appendChild(chip(t, selected.has(t) ? null : (counts.get(t) || 0))));
+    if (more) c.appendChild(more);
+    div.appendChild(c); g.appendChild(div);
+  };
+  add("Küche", kitchen);
+  const shown = showAllTags ? other : other.slice(0, TOP_N);
+  for (const t of selected) if (!t.startsWith(KUECHE) && !shown.includes(t)) shown.push(t);
+  let more = null;
+  if (other.length > TOP_N) {
+    more = document.createElement("button"); more.type = "button"; more.className = "chip more";
+    more.textContent = showAllTags ? "Weniger" : `Alle ${other.length} Tags`;
+    more.onclick = () => { showAllTags = !showAllTags; render(false); };
+  }
+  add("Tags", shown, more);
+  $("tagSum").textContent = selected.size ? [...selected].map(label).join(", ") : "";
+}
+
+// ---------- Darstellung ----------
+const bearOpen = d => "bear://x-callback-url/open-note?id=" + encodeURIComponent(d.id);
+function popupHtml(d) {
+  const apple = "https://maps.apple.com/?q=" + encodeURIComponent(d.name) + (d.lat != null ? `&ll=${d.lat},${d.lon}` : "&address=" + encodeURIComponent(d.adresse || ""));
+  const google = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(d.name + (d.adresse ? ", " + d.adresse : ""));
+  const tags = d.tags.filter(t => !HIDDEN.has(t)).map(t => `<span>${esc(label(t))}</span>`).join("");
+  return `<div class="pop"><h3>${esc(d.name)}</h3>` +
+    `<div class="addr">${esc(d.adresse || "Keine Adresse")}</div>` +
+    (d.notiz ? `<p class="note">${esc(d.notiz)}</p>` : "") +
+    (tags ? `<div class="tags">${tags}</div>` : "") +
+    `<div class="acts"><a class="bear" href="${esc(bearOpen(d))}">In Bear öffnen</a><a href="${esc(apple)}" target="_blank" rel="noopener">Apple Karten</a><a href="${esc(google)}" target="_blank" rel="noopener">Google Maps</a>` +
+    (d.web ? `<a href="${esc(d.web)}" target="_blank" rel="noopener">Website</a>` : "") + `</div></div>`;
+}
+function markActive(id) {
+  document.querySelectorAll("#list li.active").forEach(li => li.classList.remove("active"));
+  const li = document.querySelector(`#list li[data-id="${CSS.escape(id)}"]`);
+  if (li) { li.classList.add("active"); li.scrollIntoView({ block: "nearest" }); }
+}
+function openItem(d) {
+  markActive(d.id);
+  const m = markers.get(d.id);
+  if (m) { map.setView(m.getLatLng(), Math.max(map.getZoom(), 15)); m.openPopup(); }
+  else L.popup({ maxWidth: 300 }).setLatLng(map.getCenter()).setContent(popupHtml(d)).openOn(map);
+}
+let lastFiltered = [];
+function render(fit) {
+  lastFiltered = DATA.filter(matches);
+  if (!editMode) renderGroups(lastFiltered);
+  $("reset").hidden = editMode || (!selected.size && !$("q").value);
+  markerLayer.clearLayers(); markers.clear();
+  for (const d of lastFiltered) if (d.lat != null) {
+    const m = L.circleMarker([d.lat, d.lon], { radius: 7, color: "#fff", weight: 2, fillColor: pinColor(), fillOpacity: .95 })
+      .bindPopup(() => popupHtml(d), { maxWidth: 300 })
+      .bindTooltip(d.name, { direction: "top", offset: [0, -6] });
+    m.on("click", () => markActive(d.id));
+    markers.set(d.id, m); markerLayer.addLayer(m);
+  }
+  if (fit && markerLayer.getLayers().length) map.fitBounds(markerLayer.getBounds(), { padding: [30, 30], maxZoom: 15 });
+  renderList();
+}
+function visibleItems() {
+  if (!inArea) return lastFiltered;
+  const b = map.getBounds();
+  return lastFiltered.filter(d => d.lat != null && b.contains([d.lat, d.lon]));
+}
+function renderList() {
+  const items = visibleItems();
+  const total = DATA.filter(inRegion).length;
+  const noPin = items.filter(d => d.lat == null).length;
+  $("count").textContent = editMode ? `${items.length} Einträge` : `${items.length} von ${total}`;
+  $("info").textContent = editMode
+    ? "Adresse eintragen, prüfen und in Bear speichern."
+    : (noPin && !inArea ? `${noPin} davon ohne Ort auf der Karte` : "");
+  const ul = $("list"); ul.textContent = "";
+  if (!items.length) {
+    ul.innerHTML = `<li class="empty">${editMode && editView === "missing" ? "Alle Einträge in dieser Auswahl haben eine Adresse." : "Nichts gefunden. Ändere die Region, die Tags oder die Suche."}</li>`;
+    return;
+  }
+  const frag = document.createDocumentFragment();
+  for (const d of items) frag.appendChild(editMode ? editItem(d) : listItem(d));
+  ul.appendChild(frag);
+}
+function listItem(d) {
+  const li = document.createElement("li"); li.className = "item"; li.dataset.id = d.id;
+  const tags = d.tags.filter(t => !HIDDEN.has(t) && !REGION_TAGS.has(t) && !/^(Restaurant|Stadt)$/.test(t)).map(label).join(" · ");
+  li.innerHTML = `<span class="n">${esc(d.name)}</span>` +
+    `<span class="a${d.adresse ? "" : " none"}">${esc(d.adresse || "Keine Adresse")}${d.adresse && d.lat == null ? " · nicht auf der Karte" : ""}</span>` +
+    (tags ? `<span class="t">${esc(tags)}</span>` : "");
+  li.onclick = () => openItem(d);
+  return li;
+}
+
+// ---------- Adressen zuordnen ----------
+const bearAppend = (d, addr) => "bear://x-callback-url/add-text?" + new URLSearchParams({ id: d.id, mode: "append", new_line: "yes", open_note: "no", show_window: "no", text: "📍 Adresse: " + addr }).toString().replace(/\+/g, "%20");
+function tidy(v) {
+  return v.replace(/\s*[\r\n]+\s*/g, ", ").replace(/,\s*(Schweiz|Switzerland|Suisse|Svizzera|CH)\s*$/, "").replace(/\s{2,}/g, " ").replace(/^,\s*|,\s*$/g, "").trim();
+}
+function editItem(d) {
+  const li = document.createElement("li"); li.dataset.id = d.id;
+  const p = pending[d.id];
+  li.innerHTML = `<span class="n">${esc(d.name)}${p ? '<span class="badge pending">an Bear gesendet</span>' : (d.adresse ? "" : '<span class="badge">fehlt</span>')}</span>` +
+    `<div class="edit-row"><input class="addr" type="text" placeholder="Strasse Nr, PLZ Ort" autocomplete="street-address" aria-label="Adresse von ${esc(d.name)}">` +
+    `<button type="button" data-act="check">Prüfen</button><button type="button" class="primary" data-act="save">In Bear speichern</button>` +
+    `<button type="button" data-act="search">Suchen</button><button type="button" data-act="note">Notiz</button></div><span class="msg" role="status"></span>`;
+  const inp = li.querySelector("input"), msg = li.querySelector(".msg");
+  inp.value = d.adresse || "";
+  inp.addEventListener("paste", e => { const t = e.clipboardData?.getData("text"); if (t) { e.preventDefault(); inp.value = tidy(t); } });
+  const say = (t, cls) => { msg.textContent = t; msg.className = "msg " + (cls || ""); };
+  async function check() {
+    const a = tidy(inp.value); inp.value = a;
+    if (!a) { say("Bitte zuerst eine Adresse eintragen.", "bad"); return null; }
+    say("Suche …");
+    const c = await geocode(a);
+    if (c === undefined) { say("Keine Verbindung zur Adresssuche.", "bad"); return null; }
+    if (!c) { say("Diese Adresse finde ich nicht auf der Karte. Speichern geht trotzdem.", "bad"); return false; }
+    probe && probe.remove();
+    probe = L.circleMarker(c, { radius: 10, color: "#fff", weight: 3, fillColor: "#2563eb", fillOpacity: 1 }).addTo(map).bindTooltip(d.name, { permanent: true, direction: "top", offset: [0, -8] });
+    map.setView(c, 16);
+    say("Gefunden, siehe Karte.", "ok");
+    return c;
+  }
+  li.querySelector('[data-act="check"]').onclick = check;
+  li.querySelector('[data-act="search"]').onclick = () => window.open("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(d.name), "_blank", "noopener");
+  li.querySelector('[data-act="note"]').onclick = () => { location.href = bearOpen(d); };
+  li.querySelector('[data-act="save"]').onclick = async () => {
+    const a = tidy(inp.value);
+    if (!a) { say("Bitte zuerst eine Adresse eintragen.", "bad"); return; }
+    const c = await check();
+    pending[d.id] = { adresse: a, lat: c ? c[0] : null, lon: c ? c[1] : null, am: new Date().toISOString() };
+    store.set("guide.pending", pending);
+    applyPending();
+    location.href = bearAppend(d, a);
+    say("An Bear gesendet. Die Notiz hat jetzt eine Zeile «📍 Adresse».", "ok");
+  };
+  return li;
+}
+// Lokal gespeicherte Adressen anwenden; sobald Bear dieselbe Adresse liefert, wird der Eintrag gelöscht
+function applyPending() {
+  for (const d of DATA) {
+    const p = pending[d.id];
+    if (!p) continue;
+    if (d.quelle === "bear" && d.adresse === p.adresse) { delete pending[d.id]; continue; }
+    d.adresse = p.adresse;
+    if (p.lat != null) { d.lat = p.lat; d.lon = p.lon; } else { delete d.lat; delete d.lon; }
+  }
+  store.set("guide.pending", pending);
+}
+
+// ---------- Bedienung ----------
+function setMode(on) {
+  editMode = on;
+  $("mode").setAttribute("aria-pressed", on);
+  $("mode").textContent = on ? "Fertig" : "Adressen";
+  $("browseOnly").hidden = on;
+  $("editTabs").hidden = !on;
+  if (!on && probe) { probe.remove(); probe = null; }
+  render(!on);
+}
+$("mode").onclick = () => setMode(!editMode);
+$("editTabs").querySelectorAll("button").forEach(b => b.onclick = () => {
+  editView = b.dataset.v;
+  $("editTabs").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  render(false);
+});
+map.on("moveend", () => { if (inArea) renderList(); });
+let qTimer;
+$("q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(() => render(false), 150); });
+$("reset").onclick = () => { selected.clear(); store.set("guide.tags", []); $("q").value = ""; render(true); };
+
+(async function start() {
+  renderRegions();
+  $("list").innerHTML = '<li class="empty">Lade …</li>';
+  try {
+    const r = await fetch("/restaurants.json", { cache: "no-cache" });
+    const j = await r.json();
+    DATA = j.eintraege || j;
+  } catch {
+    $("list").innerHTML = '<li class="empty">Die Daten konnten nicht geladen werden. Bitte neu laden.</li>';
+    return;
+  }
+  applyPending();
+  render(true);
+  locateMissing();
+})();
+</script>
+</body>
+</html>

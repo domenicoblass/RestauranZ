@@ -6,7 +6,7 @@ import json, re, sys, unicodedata, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 anp = json.load(open(ROOT / "data/anpassungen.json"))
 hidden, names = anp["ausgeblendet"], anp["namen"]
-REGIONS = {"Zürich+", "Eglisau+", "Ticino+", "Grono", "Sottoceneri", "Sopraceneri", "Locarnese"}
+REGIONS = {"Zürich+", "Eglisau+", "Lachen+", "Ticino+", "Grono", "Sottoceneri", "Sopraceneri", "Locarnese"}
 
 def keyOf(s):
     s = unicodedata.normalize("NFD", s.lower())

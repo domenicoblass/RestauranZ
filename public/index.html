@@ -64,10 +64,11 @@ button:focus-visible, input:focus { outline: 2px solid var(--accent); outline-of
 .seg::-webkit-scrollbar { display: none }
 .seg button { flex: 0 0 auto; border-radius: 999px; padding: 7px 12px; font-size: 14px }
 .seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg) }
+.seg img.wappen { height: 20px; width: auto; vertical-align: -5px; margin-right: 6px; filter: drop-shadow(0 0 .6px rgba(0,0,0,.55)) }
+.seg button[aria-pressed="true"] img.wappen { filter: drop-shadow(0 0 .8px rgba(255,255,255,.9)) }
+.seg button.sub img.wappen { height: 15px; vertical-align: -3px; margin-right: 4px }
 .seg button.sub { font-size: 13px; padding-left: 10px; padding-right: 10px; border-style: dashed }
 #regions button.sub { flex-grow: 0 }
-.seg button.sub::before { content: "› "; color: var(--muted) }
-.seg button.sub[aria-pressed="true"]::before { color: inherit }
 .seg button.radar { color: var(--pin); border-color: var(--pin); margin-right: 6px }
 .seg button.radar[aria-pressed="true"] { background: var(--pin); color: #fff; border-color: var(--pin) }
 #list .star { color: var(--pin) }
@@ -168,7 +169,8 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
 // Regionen wie in Unterwegz: je ein Bear-Tag
-const REGIONS = [["Alle", null], ["Zürich", "Zürich+"], ["Eglisau", "Eglisau+"], ["Lachen", "Lachen+"], ["Grono", "Grono"], ["Locarnese", "Locarnese"], ["Ticino", "Ticino+"], ["Sopraceneri", "Sopraceneri", "sub"], ["Sottoceneri", "Sottoceneri", "sub"]];
+// [Name, Bear-Tag, Wappen, Unterregion]
+const REGIONS = [["Alle", null], ["Zürich", "Zürich+", "zuerich"], ["Tössriederen", "Eglisau+", "toessriederen"], ["Lachen", "Lachen+", "lachen"], ["Grono", "Grono", "grono"], ["Locarnese", "Locarnese", "locarno"], ["Ticino", "Ticino+", "ticino"], ["Sopraceneri", "Sopraceneri", "ticino", "sub"], ["Sottoceneri", "Sottoceneri", "ticino", "sub"]];
 const REGION_TAGS = new Set(REGIONS.map(r => r[1]).filter(Boolean));
 // Tags, die (fast) alle tragen oder nur zur Ablage dienen: nicht als Filter zeigen
 const HIDDEN = new Set(["GASTRO", "SCHWEIZ", "Radar", "UNTERWEGS", "GASTRO/Küche", "Aktualisieren", "evernote"]);
@@ -309,10 +311,11 @@ function renderRegions() {
   fav.setAttribute("aria-pressed", onlyRadar);
   fav.onclick = () => { onlyRadar = !onlyRadar; store.set("guide.radar", onlyRadar); renderRegions(); render(true); };
   box.appendChild(fav);
-  for (const [name, tag, sub] of REGIONS) {
+  for (const [name, tag, wappen, sub] of REGIONS) {
     const b = document.createElement("button");
     b.type = "button"; b.textContent = name;
-    if (sub) { b.className = "sub"; b.title = "Teil von Ticino"; b.setAttribute("aria-label", name); }
+    if (wappen) { const img = document.createElement("img"); img.className = "wappen"; img.src = `/wappen/${wappen}.png`; img.alt = ""; b.prepend(img); }
+    if (sub) { b.classList.add("sub"); b.title = "Teil von Ticino"; b.setAttribute("aria-label", name); }
     b.setAttribute("aria-pressed", region === tag);
     b.onclick = () => { region = tag; store.set("guide.region", tag); renderRegions(); render(true); };
     box.appendChild(b);

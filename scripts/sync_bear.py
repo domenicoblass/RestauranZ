@@ -1,5 +1,5 @@
 """Wandelt Bear-Suchergebnisse (JSON von Bear search_notes mit includeContent, Suche "#GASTRO") in data/restaurants.json um.
-Übernommen werden alle Notizen mit #GASTRO und einem Regionen-Tag oder #SCHWEIZ. #Radar markiert Favoriten.
+Übernommen werden alle Notizen mit #GASTRO und einem Regionen-Tag oder #SCHWEIZ, ausser Sammelartikel (#GASTRO/Sammlung). #Radar markiert Favoriten.
 Aufruf: python3 scripts/sync_bear.py <bear-export.json> [weitere.json ...]
 """
 import json, re, sys, unicodedata, pathlib
@@ -50,6 +50,7 @@ out, seen = [], set()
 for n in notes:
     md, raw = n["metadata"], n["content"]
     if md["id"] in seen: continue
+    if "GASTRO/Sammlung" in md["tags"]: continue   # Sammelartikel, keine einzelnen Lokale
     if "GASTRO" not in md["tags"] or not (REGIONS & set(md["tags"]) or "SCHWEIZ" in md["tags"]): continue
     seen.add(md["id"])
     name = re.sub(r"^(Rest\.|Restaurant)\s+", "", cleanMd(md["title"]), flags=re.I).strip()

@@ -1,83 +1,5 @@
 [
  {
-  "id": "7B0084B0-522D-42E3-9ACF-954C1B116EF0",
-  "key": "10restaurantsmitaussensitzplatzendirektamsee",
-  "name": "10 Restaurants mit Aussensitzplätzen direkt am See",
-  "title": "10 Restaurants mit Aussensitzplätzen direkt am See",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Graubünden",
-   "Ostschweiz",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zentralschweiz",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Nachgewürzt | Wolfgang Fassbender | 14.6.2020",
-  "web": "https://www.seehusquinten.ch/kontakt/",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "7867C5F0-5934-4F9C-A5DA-86BB71B7BAD0",
-  "key": "10schweizergourmetrestaurantsmittollenterrassen",
-  "name": "10 Schweizer Gourmetrestaurants mit tollen Terrassen",
-  "title": "10 Schweizer Gourmetrestaurants mit tollen Terrassen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "Basel",
-   "Bern",
-   "GASTRO",
-   "Mittelland",
-   "Ostschweiz",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zentralschweiz",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Clip-Quelle:10 Schweizer Gourmetrestaurants mit besonders tollen Terrassen",
-  "web": "https://terrasse-zuerich.ch/",
-  "geaendert": "2022-03-28"
- },
- {
-  "id": "490DAF19-C675-415C-BA10-302CA8833502",
-  "key": "15stadthotelsmitbesteraussicht",
-  "name": "15 Stadthotels mit bester Aussicht",
-  "title": "15 Stadthotels mit bester Aussicht",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Basel",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Locarnese",
-   "Romandie",
-   "SCHWEIZ",
-   "Sopraceneri",
-   "Sottoceneri",
-   "Stadt",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zentralschweiz",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Was gibt es Schöneres, als bei einem erfrischenden Cocktail die atemberaubende Aussicht auf den Genfersee, den Rhein oder die Zürcher Altstadt zu geniessen? Diese Hotels bieten allesamt eine umwerfende Panoramasicht auf die Stadt.",
-  "web": "https://www.myswitzerland.com/de-ch/unterkuenfte/mandarin-oriental-geneva/",
-  "geaendert": "2026-05-14"
- },
- {
   "id": "6659E7B7-8FC8-4769-A38E-F22D935EF587",
   "key": "5cafesinwohnquartieren",
   "name": "5 Cafés in Wohnquartieren",
@@ -96,29 +18,6 @@
   "notiz": "Sara Lisa Schäubli | Entdecken | 25.1.2020",
   "web": "https://kafiparadiesli.ch/",
   "geaendert": "2022-03-05"
- },
- {
-  "id": "FB1F2025-A1DE-460D-809B-22307BD55FEE",
-  "key": "5stilvolleneueunterkunfteinderschweiz",
-  "name": "5 stilvolle neue Unterkünfte in der Schweiz",
-  "title": "5 stilvolle neue Unterkünfte in der Schweiz",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Basel",
-   "Bern",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Wenn sich die Nächte lang und eisig um unsere Ohren schlagen, wird es Zeit, nach kuschligen Betten Ausschau zu halten. Nach Orten, an denen es sich verweilen lässt. Immer wieder öffnen neue, besonders gemütliche Unterkünfte ihre Türen. …",
-  "web": "https://www.tre-mondi.ch/",
-  "geaendert": "2024-07-30"
  },
  {
   "id": "90F71FBA-42DE-442E-9E33-E312D011A8EB",
@@ -166,78 +65,6 @@
   "geaendert": "2026-11-09"
  },
  {
-  "id": "4BF3DD54-80F1-427A-9B01-7100F200B1A9",
-  "key": "6restaurantsmitgrossenterrassenundaussenplatzen",
-  "name": "6 Restaurants mit grossen Terrassen und Aussenplätzen",
-  "title": "6 Restaurants mit grossen Terrassen und Aussenplätzen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Graubünden",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Nachgewürzt | Wolfgang Fassbender | 7.11.2020",
-  "web": "https://www.lotti-lokal.ch/",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "145B75A4-2EDF-4B1A-BC16-EEF08EFCFB80",
-  "key": "7badirestaurantsinderschweizdiegutesessenservieren",
-  "name": "7 Badi-Restaurants in der Schweiz, die gutes Essen servieren",
-  "title": "7 Badi-Restaurants in der Schweiz, die gutes Essen servieren",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "Bern",
-   "GASTRO",
-   "Mittelland",
-   "Ostschweiz",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zentralschweiz",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Wolfgang Fassbender Nachgewürzt |   08.08.2020",
-  "web": "https://seeliken.ch/",
-  "geaendert": "2024-08-22"
- },
- {
-  "id": "470A186B-1A05-4228-839F-5CEC9DE97E2C",
-  "key": "7hotelsindenschweizerbergenmiteinertollenaussicht",
-  "name": "7 Hotels in den Schweizer Bergen mit einer tollen Aussicht",
-  "title": "7 Hotels in den Schweizer Bergen mit einer tollen Aussicht",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Mittelland",
-   "Radar",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wallis",
-   "Zentralschweiz"
-  ],
-  "radar": true,
-  "notiz": "Sara Lisa Schäubli | Entdecken | 13.10.2020",
-  "web": "https://www.pilatus.ch/entdecken/hotels/pilatus-kulm-hotels",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "014B945D-67E7-4C1B-850A-ACD03030582E",
   "key": "7schonewinterhideawaysfureineauszeitindenbergen",
   "name": "7 schöne Winter-Hideaways für eine Auszeit in den Bergen",
@@ -274,33 +101,6 @@
   "notiz": "Aarau gilt nicht gerade als ein Hotspot auf der kulinarischen Landkarte. Wem aber zum Beispiel nach dem Besuch der Ausstellung über das aktuelle Kunstschaffen im Kanton Aargau im Kunsthaus der Magen knurrt, muss sich dennoch keine …",
   "web": "",
   "geaendert": "2024-11-15"
- },
- {
-  "id": "149E3297-7804-4ABE-A18B-C16523FEF9E3",
-  "key": "abenteuerreisen5aufregendeunterkunfte",
-  "name": "Abenteuerreisen: 5 aufregende Unterkünfte",
-  "title": "Abenteuerreisen: 5 aufregende Unterkünfte",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "AUSLAND",
-   "Afrika",
-   "Bern",
-   "Deutschland",
-   "EUROPA",
-   "GASTRO",
-   "Hotel",
-   "Italien",
-   "SCHWEIZ",
-   "Skandinavien",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen",
-   "WELT"
-  ],
-  "radar": false,
-  "notiz": "Höhle statt Zimmer, Eisblock statt Bett, Giraffen statt Hotelkatze – manche Betriebe sind alles andere als 08/15. Wir haben uns nach Gasthäusern umgesehen, in denen nicht das Bett die Hauptrolle spielt. Inspiration ­lieferten dabei die …",
-  "web": "http://vieuxmanoir.ch/",
-  "geaendert": "2024-08-22"
  },
  {
   "id": "47D0C0B8-06D0-404D-94CA-4033E5F67B15",
@@ -770,29 +570,6 @@
   "geaendert": "2025-07-31"
  },
  {
-  "id": "A871A8EF-9902-4F16-B965-C2569B57B52F",
-  "key": "appenzellerlebnisseamwochenende",
-  "name": "Appenzell: Erlebnisse am Wochenende",
-  "title": "Appenzell: Erlebnisse am Wochenende",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Appenzell",
-   "GASTRO",
-   "Hotel",
-   "Ostschweiz",
-   "Radar",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Winter"
-  ],
-  "radar": true,
-  "notiz": "Magische und verträumte Landschaft – das Appenzellerland lockt mit Idylle abseits der Hotspots.",
-  "web": "https://www.roger-doerig.ch/",
-  "geaendert": "2024-09-30"
- },
- {
   "id": "5EDDE165-81F4-4AF8-9525-D8693B18B8C3",
   "key": "appenzellresorthofweissbad",
   "name": "Appenzell: Resort Hof Weissbad",
@@ -857,32 +634,6 @@
   "notiz": "Ideale Verhältnisse auf dem Weg zum Schwellisee.",
   "web": "",
   "geaendert": "2024-08-22"
- },
- {
-  "id": "646EDFF0-7901-47C3-8B64-DD48D40E0919",
-  "key": "asconageheimtippshotelierlorenzostuderverratdieschonstenorte",
-  "name": "Ascona-Geheimtipps: Hotelier Lorenzo Studer verrät die schönsten Orte",
-  "title": "Ascona-Geheimtipps: Hotelier Lorenzo Studer verrät die schönsten Orte",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Grono",
-   "Locarnese",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Sopraceneri",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "amwasser"
-  ],
-  "radar": true,
-  "notiz": "Der Hotelier führt gemeinsam mit seiner Schwester Olivia Studer das «Art Hotel Riposo» mittlerweile in dritter Generation. Jedes Zimmer ist individuell gestaltet, so dass keines dem anderen gleicht.",
-  "web": "https://www.hotelriposo.ch/de/",
-  "geaendert": "2026-07-22"
  },
  {
   "id": "D0570997-1CCA-4128-99FD-754FF7BA7B2B",
@@ -1882,26 +1633,6 @@
   "geaendert": "2023-06-19"
  },
  {
-  "id": "BEDFE396-1C9A-4B51-95F8-ECFFAD8023A9",
-  "key": "barsinzurichhappyhours",
-  "name": "Bars in Zürich: Happy Hours!",
-  "title": "Bars in Zürich: Happy Hours!",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bar",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Was wäre ein Arbeitstag ohne den Apéro danach? Fünf Bars und deren Flirt- und Drinkpotenzial.",
-  "web": "http://contextImage&amp;&amp;30776450",
-  "geaendert": "2022-03-05"
- },
- {
   "id": "3717982F-EDCE-41E4-8739-C65474DFB4A4",
   "key": "barsinzurichsport",
   "name": "Bars in Zürich: Sport",
@@ -1922,27 +1653,6 @@
   "geaendert": "2022-03-05"
  },
  {
-  "id": "A88AD114-A8D7-44AB-8AF4-3A64146F2D9F",
-  "key": "baseldiezehnbestenrestaurants",
-  "name": "Basel: Die zehn besten Restaurants",
-  "title": "Basel: Die zehn besten Restaurants",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Basel",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Die Brasserie im Volkshaus Basel. (Bild: Robert Rieger)",
-  "web": "https://genussstadtbasel.ch/",
-  "geaendert": "2025-12-27"
- },
- {
   "id": "B0A079C5-5C5D-405D-9DDC-E2F2433FBDC4",
   "key": "baselhotelsilo",
   "name": "Basel: Hotel Silo",
@@ -1961,26 +1671,6 @@
   "notiz": "SILO by TALENT - soulfood. hostel. meetings.",
   "web": "https://www.silobasel.com/",
   "geaendert": "2024-07-30"
- },
- {
-  "id": "1094C2A5-32ED-4DB7-8ABE-B52241A88A17",
-  "key": "baseltippsfurdiestadt",
-  "name": "Basel: Tipps für die Stadt",
-  "title": "Basel: Tipps für die Stadt",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Basel",
-   "GASTRO",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "In der zweiten Folge der neuen Serie führt uns der Basler Weinhändler Yves Willimann auf eine kulinarische Tour durch Basel und verrät einige seiner Lieblinge.",
-  "web": "https://musikundwein.ch/startseite/",
-  "geaendert": "2026-07-26"
  },
  {
   "id": "077ACAE0-6FF3-4EAC-8043-F0537E8B392D",
@@ -2369,26 +2059,6 @@
   "geaendert": "2024-07-30"
  },
  {
-  "id": "AA01C7F2-CF2C-4DB9-A9CB-B5AE3D863393",
-  "key": "bernbesondererestaurantsamwasser",
-  "name": "Bern: Besondere Restaurants am Wasser",
-  "title": "Bern: Besondere Restaurants am Wasser",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Clip-Quelle:Von Pop-ups zu Hotels – Besondere Berner Restaurants am Wasser | Tages-Anzeiger",
-  "web": "http://www.parkhotel-gunten.swiss",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "74431FB0-C4E0-4F81-9844-18C99DECB404",
   "key": "bernlillyslibelle",
   "name": "Bern: Lilly’s Libelle",
@@ -2447,27 +2117,6 @@
   "notiz": "Zum Hauptinhalt springenestaurantkritik: Fischerstübli, Bern",
   "web": "",
   "geaendert": "2022-06-07"
- },
- {
-  "id": "6C74E650-0A7D-4F85-9871-F4E471192956",
-  "key": "berntippsfurdiestadt",
-  "name": "Bern: Tipps für die Stadt",
-  "title": "Bern: Tipps für die Stadt",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Pop-Up",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "In der ersten Folge der neuen Serie «Stadtspaziergänge» zeigt uns die Berner Interiordesignerin Stephanie Aebischer ihre Lieblingsorte.",
-  "web": "https://stephanieaebischer.com/",
-  "geaendert": "2026-10-20"
  },
  {
   "id": "028759DD-773F-4058-B407-EBB62A453B4C",
@@ -2552,85 +2201,6 @@
   "notiz": "Sara Lisa Schäubli | Geniessen | 6.11.2019",
   "web": "http://www.seeholz-beizli.ch/",
   "geaendert": "2022-03-05"
- },
- {
-  "id": "1ECAD300-8DD5-49A9-B1F5-3BAD596F4DA9",
-  "key": "bestehotelsnzzas5lieblingederredaktion",
-  "name": "Beste Hotels NZZaS: 5 Lieblinge der Redaktion",
-  "title": "Beste Hotels NZZaS: 5 Lieblinge der Redaktion",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Das grosse «NZZ am Sonntag» Hotel Rating",
-  "web": "http://passosangottardo.ch",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "6A5D46E0-86F9-4010-A75F-CA9FCD80E4AA",
-  "key": "bestehotelsnzzasdie5schonstenferienhotels",
-  "name": "Beste Hotels NZZaS: Die 5 schönsten Ferienhotels",
-  "title": "Beste Hotels NZZaS: Die 5 schönsten Ferienhotels",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "Locarnese",
-   "SCHWEIZ",
-   "Sopraceneri",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Redaktion Magazin Stil | Reisen | 19.11.2017",
-  "web": "https://www.thealpinagstaad.ch/",
-  "geaendert": "2024-09-16"
- },
- {
-  "id": "C979FD79-968E-4005-AE48-6156F32BB032",
-  "key": "bestehotelsnzzasdiebesten",
-  "name": "Beste Hotels NZZaS: Die besten",
-  "title": "Beste Hotels NZZaS: Die besten",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Redaktion Magazin Stil | Reisen | 19.11.2017",
-  "web": "http://thealpinagstaad.ch/",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "4C2668C5-5B22-4756-9196-B1D342DBEEA6",
-  "key": "bestehotelsnzzaskleinaberoho",
-  "name": "Beste Hotels NZZaS: Klein, aber oho",
-  "title": "Beste Hotels NZZaS: Klein, aber oho",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Engadin",
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Redaktion Magazin Stil | Reisen | 19.11.2017",
-  "web": "http://www.inlain.ch/",
-  "geaendert": "2024-07-30"
  },
  {
   "id": "5C21E297-BC08-4411-8790-6A0BC379280E",
@@ -3037,49 +2607,6 @@
   "geaendert": "2022-03-05"
  },
  {
-  "id": "63E8BCA3-BEFA-455A-AA20-13A67D9223A6",
-  "key": "brunchinzurich10adressen",
-  "name": "Brunch in Zürich: 10 Adressen",
-  "title": "Brunch in Zürich: 10 Adressen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Brunch",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "In dieser Phase der Pandemie kann man allmählich wieder über das gesellige erweiterte Frühstück nachdenken. Champagner à discrétion ist das willkommene i-Tüpfelchen.",
-  "web": "http://www.desamis.ch/",
-  "geaendert": "2026-03-15"
- },
- {
-  "id": "4248A007-E18F-484E-8701-5A5BBD5C20CC",
-  "key": "brunchguidevonronorp",
-  "name": "Brunch: Guide von Ron Orp",
-  "title": "Brunch: Guide von Ron Orp",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Brunch",
-   "Café",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Guess who’s back? Der Brunch-Guide is back. Noch ausführlicher und noch informativer als sein Vorgänger. Und mit nützlichen Infos bezüglich Art des Brunchs (à la carte oder à discrétion), Geldbeutelgrösse und Öffnungszeiten. Und das …",
-  "web": "https://atlantisbygiardino.ch/en/",
-  "geaendert": "2022-03-05"
- },
- {
   "id": "57D737CD-B16F-4098-AD52-A12AEAAFC509",
   "key": "bruncheninderbaraccazermatt",
   "name": "Brunchen in der Baracca Zermatt",
@@ -3140,27 +2667,6 @@
   "notiz": "Austern, Drinks, Poulet und Waffeln: So beginnt der Sonntag im Samigo.",
   "web": "https://twitter.com/zueritipp_",
   "geaendert": "2026-03-15"
- },
- {
-  "id": "741ACAE0-1D0B-4990-A938-F1310C014CEE",
-  "key": "brucke49invalsneueferienwohnungenfurmehrprivatsphare",
-  "name": "Brücke 49 in Vals: Neue Ferienwohnungen für mehr Privatsphäre",
-  "title": "Brücke 49 in Vals: Neue Ferienwohnungen für mehr Privatsphäre",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Apartment",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "Skandinavischer Chic und Entspannung fürs Auge bietet die «Brücke 49»-Herberge in Vals. (Bild: PD)",
-  "web": "https://brucke49.ch/",
-  "geaendert": "2023-01-23"
  },
  {
   "id": "42837B92-D5CC-45CE-ADDC-4F089173D7F1",
@@ -4284,29 +3790,6 @@
   "geaendert": "2026-10-20"
  },
  {
-  "id": "0EF0C153-39F0-4386-B984-2880548C99C5",
-  "key": "cinqueterrehotelswanderungen",
-  "name": "Cinque Terre: Hotels & Wanderungen",
-  "title": "Cinque Terre: Hotels & Wanderungen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "AUSLAND",
-   "EUROPA",
-   "GASTRO",
-   "Hotel",
-   "Italien",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "Ticino+"
-  ],
-  "radar": false,
-  "notiz": "|     |     |  La Riviera di Levante offre ancora una natura incontaminata e talvolta selvaggia. Deiva Marina, piccolo centro balneare della provincia di La Spezia, situato al centro di uno stupendo territorio che si estende da …",
-  "web": "http://www.deiva.com/ita/default.asp",
-  "geaendert": "2022-03-01"
- },
- {
   "id": "0B4073EB-FE57-4AD4-8789-8DCEBD1D8146",
   "key": "clouds",
   "name": "Clouds",
@@ -4413,29 +3896,6 @@
   "notiz": "Hinter dem Projekt steckt die Hoteliersfamilie De Santis, die nebst dem ikonischen Grand-Hotel Tremezzo nun ein zweites Zuhause für ihre Gäste geschaffen hat.",
   "web": "https://www.passalacqua.it/en/",
   "geaendert": "2023-06-14"
- },
- {
-  "id": "D92BE9D4-9AB0-4A3E-8F3C-22B473EE76A9",
-  "key": "comerseetipps",
-  "name": "Comersee: Tipps",
-  "title": "Comersee: Tipps",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bar",
-   "EUROPA",
-   "GASTRO",
-   "Hotel",
-   "Italien",
-   "Restaurant",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "Clip-Quelle:Tipps%20f%FCr%20Ferien%20am%20Comersee%3A%20Wo%20essen%3F%20Welche%20Bar%3F%20Wo%20shoppen%3F",
-  "web": "https://www.crottodeiplatani.it/",
-  "geaendert": "2022-08-17"
  },
  {
   "id": "DD05EBFD-7CC0-4B2B-AB69-F30FB4D198BA",
@@ -4649,74 +4109,6 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "A2CA2453-AD67-4C05-9B8E-08519E15DDBD",
-  "key": "die10schonstenferienorte",
-  "name": "Die 10 schönsten Ferienorte",
-  "title": "Die 10 schönsten Ferienorte",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "AUSLAND",
-   "Apartment",
-   "EUROPA",
-   "Engadin",
-   "GASTRO",
-   "Hotel",
-   "Iberien",
-   "Italien",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Jetzt, mitten im August, ist für einige Ferienhochsaison, andere kommen schon wieder zurück, und viele warten noch auf kommende Ferien. Ein Grund für mich, die auch grad mitten in den Ferien ist, auf die schönsten Ferienorte, die ich …",
-  "web": "http://www.snailtrail.co.uk/retro_rentals.htm",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "E67E9782-F6CE-4013-AA9F-356940838BB6",
-  "key": "die5bestenhotelsimtessinfurdenspatsommer",
-  "name": "Die 5 besten Hotels im Tessin für den Spätsommer",
-  "title": "Die 5 besten Hotels im Tessin für den Spätsommer",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "Locarnese",
-   "SCHWEIZ",
-   "Sopraceneri",
-   "Sottoceneri",
-   "Ticino+"
-  ],
-  "radar": false,
-  "notiz": "Die Lage ist kaum zu toppen: Das «Eden Roc» steht direkt am See und fast direkt an der Piazza des wohl bekanntesten Feriendorfs im Tessin. Zu Fuss ist man in wenigen Minuten im malerischen Ascona, zwischen Edelboutiquen, netten Cafés …",
-  "web": "https://tschuggencollection.ch/de/hotel/hotel-eden-roc",
-  "geaendert": "2025-09-04"
- },
- {
-  "id": "B7410A6F-6120-410F-8B94-A9B8578AA361",
-  "key": "die7schonstensommerrestaurants",
-  "name": "Die 7 schönsten Sommer-Restaurants",
-  "title": "Die 7 schönsten Sommer-Restaurants",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Schweikhof, Ebertswil: Ob Sie nun gemütlich durchs Sihltal Richtung Sihlbrugg radeln oder den beschwerlicheren Weg durch den Wald hoch über dem Fluss nehmen, am Ende müssen Sie noch einmal einen mehr oder weniger steilen Aufstieg …",
-  "web": "https://twitter.com/alexkuehnzh",
-  "geaendert": "2026-03-15"
- },
- {
   "id": "AC57281E-CB68-4608-A5E0-020BFE59BDEF",
   "key": "diebestenbadanstaltrestaurantsinundumzurich",
   "name": "Die besten Badanstalt-Restaurants in und um Zürich",
@@ -4739,50 +4131,6 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "8278B914-E5AA-4BB6-BC7F-70D1089275E9",
-  "key": "diebestenkleinenhotelsinderschweiz",
-  "name": "Die besten kleinen Hotels in der Schweiz",
-  "title": "Die besten kleinen Hotels in der Schweiz",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "Locarnese",
-   "SCHWEIZ",
-   "Sopraceneri",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Wir haben die 50 besten kleinen Hotels der Schweiz gekürt",
-  "web": "",
-  "geaendert": "2024-09-16"
- },
- {
-  "id": "EF5EA146-E23A-41AF-97E2-F70BA5053A47",
-  "key": "diebestenlandgasthofederschweiz",
-  "name": "Die besten Landgasthöfe der Schweiz",
-  "title": "Die besten Landgasthöfe der Schweiz",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Basel",
-   "GASTRO",
-   "Graubünden",
-   "Ostschweiz",
-   "Restaurant",
-   "Romandie",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Wolfgang Fassbender Nachgewürzt  23.11.2022",
-  "web": "https://www.landgasthof-wartegg.ch/",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "F05167EA-F3E8-42C3-B7B4-FAAB4CC9312A",
   "key": "dieconditoreiguerillakitchen",
   "name": "Die Conditorei (Guerilla Kitchen)",
@@ -4803,48 +4151,6 @@
   "notiz": "Die Conditorei, Uetlibergstrasse 65, 8045 Zürich, info@guerillakitchen.ch",
   "web": "https://www.guerillakitchen.ch/",
   "geaendert": "2026-03-15"
- },
- {
-  "id": "AF39F26F-11D4-4059-ACD7-ED422B036A79",
-  "key": "diefunfbestenkleinenlandundberghotelsderschweiz",
-  "name": "Die fünf besten kleinen Land- und Berghotels der Schweiz",
-  "title": "Die fünf besten kleinen Land- und Berghotels der Schweiz",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wallis"
-  ],
-  "radar": false,
-  "notiz": "https://bellevue.nzz.ch/reisen-entdecken/die-fuenf-besten-kleinen-land-und-berghotels-der-schweiz-ld.1545844#",
-  "web": "http://whitepod.com/",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "93C0CECF-0E08-4719-9182-979BE9AAA77F",
-  "key": "dieschonstensommerpopupbarsderstadt",
-  "name": "Die schönsten Sommer Pop-up-Bars der Stadt",
-  "title": "Die schönsten Sommer Pop-up-Bars der Stadt",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bar",
-   "GASTRO",
-   "Pop-Up",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Sie hat oberhalb der Limmat und vis-a-vis des Löwenbräu-Areals den perfekten Standort für eine urbane Pop-up-Bar: die Riva-Bar.",
-  "web": "https://www.rivazurigo.ch/",
-  "geaendert": "2026-10-20"
  },
  {
   "id": "49684EB4-E8FD-4ACD-81FA-1CBD3666BB41",
@@ -5296,32 +4602,6 @@
   "geaendert": "2025-10-06"
  },
  {
-  "id": "4A6C42E3-9F34-45A6-BF14-833D34EBA817",
-  "key": "engadin7tippsfurdenherbst",
-  "name": "Engadin: 7 Tipps für den Herbst",
-  "title": "Engadin: 7 Tipps für den Herbst",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Herbst",
-   "Hotel",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": true,
-  "notiz": "Ich heisse zwar nicht Ursli, und trotzdem fühle ich mich — wie du vielleicht schon weisst — im Engadin sehr zuhause. Denn irgendwie gibt es dort alles, was ich so mag. Einfach mit frischer Bergluft und einer Prise Bodenständigkeit on top.",
-  "web": "http://www.giardin.ch/",
-  "geaendert": "2026-10-20"
- },
- {
   "id": "1CC7B6D8-18E9-4D0F-8634-93479A457BF1",
   "key": "engadinalpenloftsinsentgr",
   "name": "Engadin: Alpenlofts in Sent (GR)",
@@ -5726,32 +5006,6 @@
   "notiz": "Inspired by Denmark’s puristic cuisine and hand-crafted in Zurich’s very own «Kreis 4». Fine fast food, experimental cocktails and a mellow vibe – that’s fedt.",
   "web": "",
   "geaendert": "2026-11-09"
- },
- {
-  "id": "D5576098-C0EE-461C-90CF-F910689226C7",
-  "key": "ferieninderschweiz10hotelsmitnaturundgrossengarten",
-  "name": "Ferien in der Schweiz: 10 Hotels mit Natur und grossen Gärten",
-  "title": "Ferien in der Schweiz: 10 Hotels mit Natur und grossen Gärten",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Ostschweiz",
-   "Romandie",
-   "SCHWEIZ",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "Erholsame Sommerferien in der Schweiz: 10 Hotels mit grossen Gärten",
-  "web": "https://www.castellodelsole.com/de?gclid=EAIaIQobChMIq8ydkIbZ6QIVDE8YCh2tyQEsEAAYAiAAEgJL_fD_BwE",
-  "geaendert": "2022-07-29"
  },
  {
   "id": "09015097-F8D8-4DE1-975D-C7DCA9CD618F",
@@ -6780,53 +6034,6 @@
   "geaendert": "2026-11-08"
  },
  {
-  "id": "15C937D3-617A-4C3D-85FF-17751524E635",
-  "key": "gotthardroutea2dieschonstenstoppsfurdieruckreise",
-  "name": "Gotthardroute A 2: Die schönsten Stopps für die Rückreise",
-  "title": "Gotthardroute A 2: Die schönsten Stopps für die Rückreise",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Auto",
-   "GASTRO",
-   "Grono",
-   "Restaurant",
-   "SCHWEIZ",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "Die Gotthardroute führt einmal quer durchs Tessin. Wer möchte, kann über den Gotthardpass statt durch den Tunnel fahren und selbst auf der Alpennordseite noch etwas Nettes entdecken. Zehn Tipps zwischen Chiasso und Altdorf.",
-  "web": "https://foxtown.com",
-  "geaendert": "2026-08-19"
- },
- {
-  "id": "8397899E-1492-4886-9B28-A999CE31057C",
-  "key": "grandhotelsamvierwaldstatterseeluxusseituber100jahren",
-  "name": "Grand-Hotels am Vierwaldstättersee: Luxus seit über 100 Jahren",
-  "title": "Grand-Hotels am Vierwaldstättersee: Luxus seit über 100 Jahren",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "Radar",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zentralschweiz"
-  ],
-  "radar": true,
-  "notiz": "Eine Dampfheizung, ein Telefonanschluss und sogar elektrisches Licht: Als der «Vitznauerhof» 1901 unter dem Namen «Hôtel und Pension Vitznauerhof» eröffnete, war die Infrastruktur auf dem neuesten Stand der damaligen Technik. Dank dem …",
-  "web": "https://www.vitznauerhof.ch/?gad_source=1&amp;gad_campaignid=23837555171&amp;gbraid=0AAAABDVG6zYwBViHoSnrP3tG7DrdLVWDC&amp;gclid=CjwKCAjw0LzWBhBOEiwAKQd0cPeR0iuUD2jjaB73yKpp8cARImbzTzJ2Og-7S-kXQVXiXkW5qunBPRoClBAQAvD_BwE",
-  "geaendert": "2026-10-25"
- },
- {
   "id": "58EF70B4-20BF-44F9-8B48-3F446F4FB915",
   "key": "graubundenberghuusradons",
   "name": "Graubünden: Berghuus Radons",
@@ -7275,32 +6482,6 @@
   "geaendert": "2026-11-08"
  },
  {
-  "id": "1E30A556-EE2C-4DBE-BC01-A7A6449636E6",
-  "key": "herbstindenalpenneuntippsvomallgaubisinsengadin",
-  "name": "Herbst in den Alpen: Neun Tipps vom Allgäu bis ins Engadin",
-  "title": "Herbst in den Alpen: Neun Tipps vom Allgäu bis ins Engadin",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "AUSLAND",
-   "Deutschland",
-   "EUROPA",
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Herbst",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Österreich"
-  ],
-  "radar": false,
-  "notiz": "Draussen: Mindestens acht Seen hat man vom 1730 Meter hohen Tegelberg aus im Blick. Dafür muss niemand stundenlang aufsteigen: Eine Gondelbahn fährt Besucher an Schloss Neuschwanstein vorbei bis zur Bergstation. Bewegungsfreudige …",
-  "web": "https://www.tegelbergbahn.de/de",
-  "geaendert": "2026-10-20"
- },
- {
   "id": "85A171B2-C703-49A5-981D-64FA2CFCEE14",
   "key": "herbstspaziergangefurfoodies",
   "name": "Herbstspaziergänge für Foodies",
@@ -7663,50 +6844,6 @@
   "geaendert": "2022-03-05"
  },
  {
-  "id": "3E008D1A-1576-4763-B213-A2F6C00392EF",
-  "key": "hotelrating2020die50bestenboutiquehotelsderschweiz",
-  "name": "Hotel-Rating 2020: die 50 besten Boutique-Hotels der Schweiz",
-  "title": "Hotel-Rating 2020: die 50 besten Boutique-Hotels der Schweiz",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Redaktion NZZ BellevueHotel-Rating14.3.2020",
-  "web": "",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "8ABBA51C-03D4-4174-8519-56822FCB0675",
-  "key": "hotelsanwanderrouten",
-  "name": "Hotels an Wanderrouten",
-  "title": "Hotels an Wanderrouten",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Ostschweiz",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "Ticino+",
-   "Wallis",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "Lea Hagmann und Jocelyne Iten | Reisen 23.09.2021",
-  "web": "http://www.casa-martinelli.ch/",
-  "geaendert": "2022-02-28"
- },
- {
   "id": "3C44FE97-3A1E-4D2F-A186-9574A18BC372",
   "key": "hotelsinhistorischengebauden",
   "name": "Hotels in historischen Gebäuden",
@@ -7731,103 +6868,6 @@
   "geaendert": "2024-07-30"
  },
  {
-  "id": "6B29AFA7-D36D-49CE-9103-52112935A982",
-  "key": "hotels10schonebiohotelsineuropa",
-  "name": "Hotels: 10 schöne Bio-Hotels in Europa",
-  "title": "Hotels: 10 schöne Bio-Hotels in Europa",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "AUSLAND",
-   "Basel",
-   "Deutschland",
-   "EUROPA",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wallis",
-   "Österreich"
-  ],
-  "radar": false,
-  "notiz": "Natürliche Baustoffe, harmonische Innenräume und regionale Qualität. Wer in einem Bio-Hotel übernachtet, gönnt sich ein besonders entschleunigendes und gesundes Ferienerlebnis.",
-  "web": "https://www.rupertus.at/",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "839103AE-3698-4E35-BCC0-6284525CE6C4",
-  "key": "hotels15tippsindenschweizerbergen",
-  "name": "Hotels: 15 Tipps in den Schweizer Bergen",
-  "title": "Hotels: 15 Tipps in den Schweizer Bergen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Ostschweiz",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wallis",
-   "Winter",
-   "Zentralschweiz",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Zusammengestellt von Redaktion NZZ Bellevue",
-  "web": "",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "A126AADA-05F0-4522-83F6-27C45923A90C",
-  "key": "hotelsganzschonabgelegen",
-  "name": "Hotels: Ganz schön abgelegen",
-  "title": "Hotels: Ganz schön abgelegen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "SCHWEIZ",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wallis",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "In der Idylle des Val Fex steht das Hotel Fex.",
-  "web": "https://www.bellatola.ch/de/residenzen-und-maiensaess#mayen",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "A8A80766-8802-472A-B530-719A05A290D0",
-  "key": "hotelshideoutsindenbergen",
-  "name": "Hotels: Hideouts in den Bergen",
-  "title": "Hotels: Hideouts in den Bergen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Engadin",
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Hideaways liegen meist im Niemandsland. Doch gerade deshalb sind diese Hotels so gefragt. Wie etwa die Montagne Alternative in Commeire oder der Hof Zuort oberhalb Vnà.",
-  "web": "http://www.montagne-alternative.com,",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "240D154F-6E79-4072-BCBE-2AABF9283154",
   "key": "hotelsklostermitgastezimmern",
   "name": "Hotels: Klöster mit Gästezimmern",
@@ -7848,31 +6888,6 @@
   "radar": false,
   "notiz": "Einmal weit weg vom Alltag zur Ruhe kommen? Eine Übernachtung im Kloster macht's möglich. Diese vier Schweizer Klöster nehmen Feriengäste auf.",
   "web": "https://www.fribourgregion.ch/de/Z9782/esprit-des-lieux",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "9975D45D-7EDF-4E21-8842-6060600641E0",
-  "key": "hotelsubernachtenamseeundamfluss",
-  "name": "Hotels: Übernachten am See und am Fluss",
-  "title": "Hotels: Übernachten am See und am Fluss",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Ostschweiz",
-   "SCHWEIZ",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "Das Hotel Villa Emden auf den Isole di Brissago im Lago Maggiore.",
-  "web": "https://www.waldhaus-am-see.ch/",
   "geaendert": "2024-07-30"
  },
  {
@@ -8123,28 +7138,6 @@
   "geaendert": "2024-10-29"
  },
  {
-  "id": "CF653CA8-AF68-46A8-95B3-5A4826C38D81",
-  "key": "italien10ausgewahlteluxusdesignhotelsortasangiulio",
-  "name": "Italien: 10 Ausgewählte Luxus- & Designhotels, Orta San Giulio",
-  "title": "Italien: 10 Ausgewählte Luxus- & Designhotels, Orta San Giulio",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "AUSLAND",
-   "EUROPA",
-   "GASTRO",
-   "Hotel",
-   "Italien",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "10 Ausgewählte Luxus- & Designhotels in Orta San Giulio und Umgebung",
-  "web": "http://www.splendia.com/de/hotel-villa-crespi-orta-san-giulio.html",
-  "geaendert": "2022-02-28"
- },
- {
   "id": "9E02371F-4C71-49BA-9819-31A435956568",
   "key": "italienalbergoleondoroorta",
   "name": "Italien: Albergo Leon d'Oro, Orta",
@@ -8187,28 +7180,6 @@
   "notiz": "La storia dell’Hotel San Roccocomincia più di 400 anni fa. Affacciato sulle sponde del magico Lago d’Orta, in Piemonte e delimitato dalle mura di un antico monastero, questo complesso, che per quasi 150 anni è stato un convento di …",
   "web": "http://www.hotelsanrocco.it/index.php?pg=chi_siamo",
   "geaendert": "2022-02-28"
- },
- {
-  "id": "49A97E1E-ADB4-4B09-B6C7-A5A2FDC0DC31",
-  "key": "italienligurischekustehotels",
-  "name": "Italien: Ligurische Küste (Hotels)",
-  "title": "Italien: Ligurische Küste (Hotels)",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "AUSLAND",
-   "EUROPA",
-   "GASTRO",
-   "Hotel",
-   "Italien",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "Grand Hotel Mediterranee - Via Roma, 63 • 17021 Alassio (Sv) - 0039 0182 642 564 • fax 0039 0182 470 845 • info@mediterraneehotel.it",
-  "web": "http://www.hotelmediterraneealassio.it/",
-  "geaendert": "2022-08-01"
  },
  {
   "id": "EF629690-A3C4-4F03-8112-40B585ED1552",
@@ -8957,29 +7928,6 @@
   "geaendert": "2024-09-30"
  },
  {
-  "id": "6F047145-692E-41CF-8B1B-E0A05DE49E33",
-  "key": "langlaufen5schweizerhotelsanloipen",
-  "name": "Langlaufen: 5 Schweizer Hotels an Loipen",
-  "title": "Langlaufen: 5 Schweizer Hotels an Loipen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "SCHWEIZ",
-   "SPORT/Langlauf",
-   "Sport",
-   "Winter"
-  ],
-  "radar": false,
-  "notiz": "Clip-Quelle:Langlaufen: Diese 5 Schweizer Hotels liegen direkt an der Loipe",
-  "web": "https://www.davosklostersmountains.ch/de/resorts/waldhuus-davos",
-  "geaendert": "2022-07-29"
- },
- {
   "id": "87B7706D-F1D6-4C69-81C1-06B0400895DD",
   "key": "langnauamalbisrestalbishaus",
   "name": "Langnau am Albis: Rest. Albishaus",
@@ -9658,26 +8606,6 @@
   "radar": false,
   "notiz": "Ristorante Pizzeria Weisses Kreuz | Furrengasse 19 | CH - 6004 Luzern | Telefono +41 41 418 82 20",
   "web": "",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "1B32C282-BEB5-449D-89AF-7ACA383BB945",
-  "key": "luzernrestaurantsmitgarten",
-  "name": "Luzern: Restaurants mit Garten",
-  "title": "Luzern: Restaurants mit Garten",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "http://www.rebstock-luzern.ch/rebstock10.php",
-  "web": "http://www.rebstock-luzern.ch/rebstock_10.php",
   "geaendert": "2024-07-30"
  },
  {
@@ -10760,27 +9688,6 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "D009B78F-3A15-4A51-B5D0-D58D184978B1",
-  "key": "oerlikonfoodguide",
-  "name": "Oerlikon: Food Guide",
-  "title": "Oerlikon: Food Guide",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Die Offene Rennbahn und der Markt, das waren immer zwei gute Gründe, um Oerlikon zu besuchen. Aber sonst? Nicht viel. Dachte ich. Falsch. Denn mittlerweile gibt es ein paar tolle Restaurants, für die ich den Weg über den Berg gerne auf …",
-  "web": "https://www.thaibogie.ch/kitchen/",
-  "geaendert": "2026-03-15"
- },
- {
   "id": "1492E7E7-2AF0-4665-A91D-A0E1E455C06F",
   "key": "oltenbargalicia",
   "name": "Olten: Bar Galicia",
@@ -11062,28 +9969,6 @@
   "radar": false,
   "notiz": "halten wir für Euch drei feine Menus, knusprige, frisch zubereitete Panini caldi, einen leckeren Salat an raffinierter Sauce und eine währschafte Suppe oder einen gluschtigen Eintopf bereit.",
   "web": "http://www.piccologiardino.ch/index.html",
-  "geaendert": "2022-03-05"
- },
- {
-  "id": "C57E8419-2223-4B1C-B301-2A21C4ECED0C",
-  "key": "pizzeriediebestenpizzasderschweiz",
-  "name": "Pizzerie: Die besten Pizzas der Schweiz",
-  "title": "Pizzerie: Die besten Pizzas der Schweiz",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Graubünden",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zentralschweiz",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "HiDirekt zum Inhalt!\\[\\](http://www.annabelle.ch/kochen/restaurant-tipps/besten-pizzerien-schweiz-47482?utmsource=Urbani+Z%C3%BCrich&utmcampaign=15d06d8d06-URBANIZH&utmmedium=email&utmterm=0f521ff59b9-15d06d8d06-26376485#main-content)",
-  "web": "http://www.annabelle.ch/kochen/restaurant-tipps/besten-pizzerien-schweiz-47482?utm_source=Urbani+Z%C3%BCrich&amp;utm_campaign=15d06d8d06-URBANIZH&amp;utm_medium=email&amp;utm_term=0_f521ff59b9-15d06d8d06-26376485#main-content",
   "geaendert": "2022-03-05"
  },
  {
@@ -11671,26 +10556,6 @@
   "radar": false,
   "notiz": "Man darf sich wieder bewirten lassen, zumindest draussen. Hier finden Sie zwölf Tipps für Trink- oder Tafelfreuden in Freien, sieben davon in der Stadt und fünf in der Region.",
   "web": "https://goo.gl/maps/uX8HiYnrGFfDk8bM6",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "D1917B39-CC9B-4C6A-B775-09866B01DADF",
-  "key": "restaurantsnachmitternacht",
-  "name": "Restaurants nach Mitternacht",
-  "title": "Restaurants nach Mitternacht",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Keine Angst, den hier müssen Sie nicht mehr essen, wenn Sie diesen Artikel gelesen haben.",
-  "web": "https://twitter.com/alexkuehnzh",
   "geaendert": "2024-07-30"
  },
  {
@@ -12444,27 +11309,6 @@
   "geaendert": "2026-02-08"
  },
  {
-  "id": "2C07F967-B269-43AB-92A7-CDE532CA5367",
-  "key": "saycheese10feinefonduestubli",
-  "name": "Say Cheese: 10 feine Fondue-Stübli",
-  "title": "Say Cheese: 10 feine Fondue-Stübli",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Winter",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Jetzt wo die Temperaturen sinken, steigt auch endlich die Lust auf Fondue. Seit Menschengedenken streiten sich Schweizer und Franzosen darum, wer das Fondue erfunden hat. Mir ist das eigentlich ziemlich Wurst. Nur auf zwei Dinge lege …",
-  "web": "https://www.fribourger-fondue-stuebli.ch/",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "89717E55-1C39-4B75-95A5-A5547B2E30A5",
   "key": "scalapizza",
   "name": "Scala (Pizza)",
@@ -12705,45 +11549,6 @@
   "notiz": "Moll, hier ist man wirklich mitten im Grünen.",
   "web": "https://berghotel-mettmen.ch/",
   "geaendert": "2026-06-07"
- },
- {
-  "id": "0CD8A811-BE12-4125-B4E4-EFD7DE747F74",
-  "key": "schweizdieschonstencafes",
-  "name": "Schweiz: Die schönsten Cafés",
-  "title": "Schweiz: Die schönsten Cafés",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Café",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Sitzplätze mit Suchtfaktor: 17 Schweizer Cafés, die du unbedingt besuchen musst",
-  "web": "http://www.watson.ch/u/zoom?url=http://www.watson.ch/imgdb/d49e/Qx,E,0,0,3264,2448,1360,1020,544,408/1109281472820370&amp;source=bild:%20unsplash&amp;caption=",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "D5399829-73AC-4976-AF4F-A9F49CA515EA",
-  "key": "schweizerpopuphotels",
-  "name": "Schweizer Pop-up Hotels",
-  "title": "Schweizer Pop-up Hotels",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "Pop-Up",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Feel like you're in a fairy tale in the Solothurn Krummturm, the city's oldest preserved structure.",
-  "web": "https://www.myswitzerland.com/en-ch/swiss-pop-up-hotels/hotel-pop-up-hotel-solothurn-by-hotel-an-der-aare.html",
-  "geaendert": "2026-10-20"
  },
  {
   "id": "667D543A-CF85-42DA-A2B0-F679BD6BB469",
@@ -13030,29 +11835,6 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "C3EA17DE-FEB0-4CE1-85A6-3D1365478C5A",
-  "key": "simplontippsfur3tage",
-  "name": "Simplon: Tipps für 3 Tage",
-  "title": "Simplon: Tipps für 3 Tage",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "Restaurant",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Wallis"
-  ],
-  "radar": false,
-  "notiz": "Wer die Schweizer TV-Serie «Tschugger» gesehen hat, kennt den mächtigen, in Stein gehauenen Adler auf dem Simplon. Ich war kürzlich dort, zum Auftakt einer Drei-Tage-Wanderung, die ich Ihnen für ein schönes Herbstwochenende empfehlen …",
-  "web": "",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "C89F0783-BB2E-4A08-83F7-458C93B1B6F8",
   "key": "sinaloa",
   "name": "Sinaloa",
@@ -13222,26 +12004,6 @@
   "notiz": "Direkt am Zusammenfluss der kleinen Emme und der Reuss kannst du seit Anfang Mai am Nordpol den Sommer geniessen. Die neueröffnete Sommerbar namens Nordpol lädt zu lauen Abenden direkt am Fluss ein. Hier verzichten die Gastronomen auf …",
   "web": "https://www.nordpol.lu",
   "geaendert": "2024-07-30"
- },
- {
-  "id": "792F4D4F-1D06-46AC-B70A-2AAE71C14E85",
-  "key": "sommerhitzehotelszumabkuhlen",
-  "name": "Sommerhitze: Hotels zum Abkühlen",
-  "title": "Sommerhitze: Hotels zum Abkühlen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "SCHWEIZ",
-   "Wallis"
-  ],
-  "radar": false,
-  "notiz": "Nur Banausen fahren mit dem Auto vor. Stilvoller und viel schöner ist der Weg über den Brienzersee. Sobald man an der historischen Schifflände das Schiff verlässt, beginnt das Erlebnis Giessbach beziehungsweise der Aufenthalt in einem …",
-  "web": "https://giessbach.ch/",
-  "geaendert": "2025-06-26"
  },
  {
   "id": "AA50AB2E-3082-42B8-9DA9-23133FCD33DE",
@@ -13567,26 +12329,6 @@
   "geaendert": "2022-03-05"
  },
  {
-  "id": "BB343ADD-05D4-4097-A04E-EA8A60C075CB",
-  "key": "stgallendie10bestenrestaurants",
-  "name": "St. Gallen: Die 10 besten Restaurants",
-  "title": "St. Gallen: Die 10 besten Restaurants",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Ostschweiz",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang"
-  ],
-  "radar": false,
-  "notiz": "Das Restaurant «Helvetia» in St. Gallen. (Bild: PD)",
-  "web": "https://www.einstein.ch/de/essen-trinken/einstein-gourmet",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "C89CB10A-6FA3-4097-8C76-CEB724A3D5DD",
   "key": "stadthallepopup",
   "name": "Stadthalle (Pop-Up)",
@@ -13780,34 +12522,6 @@
   "geaendert": "2022-02-28"
  },
  {
-  "id": "6B293942-C39A-4956-B302-0F6E8E3B044E",
-  "key": "swisshistorichotelshotelsmitgeschichte",
-  "name": "Swiss Historic Hotels: Hotels mit Geschichte",
-  "title": "Swiss Historic Hotels: Hotels mit Geschichte",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Locarnese",
-   "Ostschweiz",
-   "Romandie",
-   "SCHWEIZ",
-   "Sopraceneri",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wallis",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "Nach einer sanften und stilvollen Renovation erlebt das historische Hotel aus dem Jahr 1788 eine neue Blüte: Die gepflegten Zimmer, das gediegene Restaurant sowie die speziellen Seminarräume richten sich an Gäste, die Ruhe und Erholung …",
-  "web": "http://swiss-historic-hotels.ch/de/hotels/amsteg_post.php",
-  "geaendert": "2024-09-16"
- },
- {
   "id": "C39224FA-19B0-48E0-8234-02FA923C0A28",
   "key": "szenarioadliswil",
   "name": "Szenario, Adliswil",
@@ -13892,27 +12606,6 @@
   "notiz": "Wer trotz Regen nicht auf den Apéro oder den Kaffee im Restaurant verzichten möchte, findet auf diesen Zürcher Terrassen auch draussen ein trockenes Plätzchen.",
   "web": "https://spheres.cc/",
   "geaendert": "2025-10-19"
- },
- {
-  "id": "8ECFA189-01F2-4FBC-9C3C-E5EE94570A9A",
-  "key": "terrassenunsereliebstenortefureinaperodraussen",
-  "name": "Terrassen: Unsere liebsten Orte für ein Apéro draussen",
-  "title": "Terrassen: Unsere liebsten Orte für ein Apéro draussen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "Bar",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Redaktion NZZ Bellevue  | Geniessen  15.04.2021",
-  "web": "https://www.riozurich.ch/",
-  "geaendert": "2024-07-30"
  },
  {
   "id": "51CA88A9-E9EC-4E97-AA17-47A231FD021C",
@@ -14915,30 +13608,6 @@
   "geaendert": "2025-12-27"
  },
  {
-  "id": "AA405D5E-9F09-40F8-83FE-E13D961DFCFF",
-  "key": "vegetarischeundveganerestaurantsinderschweiz9tipps",
-  "name": "Vegetarische und vegane Restaurants in der Schweiz: 9 Tipps",
-  "title": "Vegetarische und vegane Restaurants in der Schweiz: 9 Tipps",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Basel",
-   "GASTRO",
-   "Graubünden",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zentralschweiz",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "Clip-Quelle:Vegetarische und vegane Restaurants in der Schweiz: 9 Tipps",
-  "web": "https://www.restaurantkle.com/",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "BADE300A-1EBA-4A54-8356-9E2E5D7775C7",
   "key": "venicebar",
   "name": "Venice Bar",
@@ -15223,27 +13892,6 @@
   "geaendert": "2024-07-30"
  },
  {
-  "id": "CB467030-BE7A-4656-922D-212B4AE666BE",
-  "key": "wandernhistorischerestaurants",
-  "name": "Wandern: Historische Restaurants",
-  "title": "Wandern: Historische Restaurants",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "In Oberstammheim wird einer der schönsten Dorfweiler der Schweiz für viel Geld aufgefrischt. Die Häusergruppe ist von beeindruckender historischer Substanz – wie ihr Besitzer.",
-  "web": "http://tagi.ch/12940326",
-  "geaendert": "2026-09-21"
- },
- {
   "id": "ED0D9354-34C2-4CDF-8633-23AA00E36B95",
   "key": "weinbarsinzurich",
   "name": "Weinbars in Zürich",
@@ -15425,30 +14073,6 @@
   "notiz": "[info@hecht-winkel.ch](https://www.hecht-winkel.ch/mailto:info@hecht-winkel.ch",
   "web": "https://www.hecht-winkel.ch/",
   "geaendert": "2026-11-09"
- },
- {
-  "id": "F97FFE67-514D-4CD1-90EC-85FB1C71BC41",
-  "key": "winterferieninderschweizschonehotelsmitcheminee",
-  "name": "Winterferien in der Schweiz: Schöne Hotels mit Cheminée",
-  "title": "Winterferien in der Schweiz: Schöne Hotels mit Cheminée",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Winter",
-   "Zentralschweiz",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Clip-Quelle:Winterferien%20in%20der%20Schweiz%3A%20Sch%F6ne%20Hotels%20mit%20Chemin%E9e",
-  "web": "https://bellevue-gstaad.ch/",
-  "geaendert": "2022-12-16"
  },
  {
   "id": "CEBD34A6-B149-4E50-BD75-C3D0CB81E25B",
@@ -16600,69 +15224,6 @@
   "radar": false,
   "notiz": "Es wuchert überall: der Rosi-Garten startet nach dem Lockdown in die dritte Saison.",
   "web": "https://marktdaten.fuw.ch/",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "2BD563A3-B847-4DCE-8C83-F9AC9C4E0C66",
-  "key": "zurichseedieschonstenlandgasthofeundbesenbeizen",
-  "name": "Zürichsee: Die schönsten Landgasthöfe und Besenbeizen",
-  "title": "Zürichsee: Die schönsten Landgasthöfe und Besenbeizen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "Luzia NyffelerPubliziert: 06.04.2025, 20:00",
-  "web": "https://www.landbeizli.ch/",
-  "geaendert": "2025-05-05"
- },
- {
-  "id": "260A0051-8898-416D-86CE-DD911CC88C94",
-  "key": "zurichseelandlicherestaurants",
-  "name": "Zürichsee: Ländliche Restaurants",
-  "title": "Zürichsee: Ländliche Restaurants",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "Wer die Grossstadt verlässt, muss nicht plötzlich schlecht essen. Auf dem Land und nah am Zürichsee existieren viele gute und ein paar herausragende Restaurants. Klassik wird auf sympathische Weise konserviert, und neben die alten Hasen …",
-  "web": "https://www.ricozandonella.ch",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "4AEB0E3C-EEE1-4D73-A397-E4E9CE1E28FC",
-  "key": "zuriseerestaurants",
-  "name": "Zürisee: Restaurants",
-  "title": "Zürisee: Restaurants",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Innovative Gastronomen haben das Angebot am städtischen Seeufer in den vergangenen Jahren komplett umgekrempelt. Neustes Beispiel: das Quai 61. Und vielleicht gibt es bald noch stattlichen Zuwachs am See.",
-  "web": "http://contextImage&amp;&amp;20803971",
   "geaendert": "2024-07-30"
  },
  {

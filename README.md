@@ -1,6 +1,6 @@
 # RestauranZ
 
-Restaurant-Karte aus Bear-Notizen: alle mit #GASTRO und einem Regionen-Tag oder #SCHWEIZ. #Radar markiert Favoriten. Statische Seite auf Vercel mit Passwortschutz.
+Restaurant-Karte aus Bear-Notizen: alle mit #GASTRO und einem Regionen-Tag oder #SCHWEIZ. #Radar markiert Favoriten, #GASTRO/Sammlung schliesst Sammelartikel aus. Statische Seite auf Vercel mit Passwortschutz.
 
 - `data/restaurants.json`: Einträge aus Bear. Wird von Claude per `scripts/sync_bear.py` aus Bear erzeugt.
 - `data/anpassungen.json`: aus dem alten Guide übernommene ausgeblendete Einträge und umbenannte Namen.

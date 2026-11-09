@@ -71,6 +71,8 @@ details.filters summary b { color: var(--accent) }
 .chip.more { border-style: dashed; color: var(--muted) }
 .bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 13px; color: var(--muted); min-height: 20px }
 .bar .reset { margin-left: auto; padding: 5px 9px; font-size: 13px }
+.bar .log { margin-left: auto; color: var(--muted); font-size: 13px }
+.bar .reset:not([hidden]) + .log { margin-left: 0 }
 ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-height: 0 }
 #list li { padding: 11px 16px; border-bottom: 1px solid var(--line); display: grid; gap: 3px }
 #list li.item { cursor: pointer }
@@ -128,7 +130,7 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
       <button type="button" data-v="nopin" aria-pressed="false">Nicht auf der Karte</button>
       <button type="button" data-v="all" aria-pressed="false">Alle</button>
     </div>
-    <div class="bar"><span id="info"></span><button class="reset" id="reset" type="button" hidden>Filter löschen</button></div>
+    <div class="bar"><span id="info"></span><button class="reset" id="reset" type="button" hidden>Filter löschen</button><a class="log" href="/aenderungen.html">Änderungen</a></div>
   </div>
   <ul id="list"></ul>
 </aside>

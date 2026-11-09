@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>RestauranZ – Änderungen</title>
+<link rel="icon" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+:root {
+  --bg: #f3f5f8; --surface: #fff; --fg: #16202c; --muted: #5b6878; --line: #d9dfe7; --accent: #0b5cad; --accent-soft: #e2edf8;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f151c; --surface: #17202a; --fg: #e6ebf1; --muted: #9aa7b6; --line: #2a3644; --accent: #5aa6f0; --accent-soft: #1b2d42; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #0f151c; --surface: #17202a; --fg: #e6ebf1; --muted: #9aa7b6; --line: #2a3644; --accent: #5aa6f0; --accent-soft: #1b2d42; color-scheme: dark }
+* { box-sizing: border-box }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 var(--font) }
+.wrap { max-width: 720px; margin: 0 auto; padding: calc(20px + env(safe-area-inset-top)) 16px 48px; display: grid; gap: 22px }
+header { display: flex; gap: 12px; align-items: center }
+header img { width: 44px; height: 44px; border-radius: 10px }
+h1 { margin: 0; font: 700 32px/1 var(--display); flex: 1 }
+a { color: var(--accent) }
+.back { font-weight: 600; text-decoration: none; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--fg) }
+.stand { margin: 0; color: var(--muted); font-size: 14px }
+h2 { margin: 0 0 6px; font: 700 22px/1.1 var(--display) }
+section { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px }
+ul { margin: 0; padding-left: 20px; display: grid; gap: 6px }
+.tag { font: 600 11px/1 var(--font); letter-spacing: .06em; text-transform: uppercase; padding: 3px 6px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); margin-right: 6px; vertical-align: 2px }
+code { font-size: 14px }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="/apple-touch-icon.png" alt="">
+    <h1>Änderungen</h1>
+    <a class="back" href="/">Zur Karte</a>
+  </header>
+  <p class="stand" id="stand">Was wann an RestauranZ geändert wurde, das Neueste zuerst.</p>
+
+  <!-- Neue Einträge oben einfügen. Datum, dann kurze Punkte in der Sprache der Oberfläche. -->
+
+  <section>
+    <h2>9. November 2026: RestauranZ geht online</h2>
+    <ul>
+      <li><span class="tag">Neu</span>Name <b>RestauranZ</b>, eigenes Icon, Schriften wie bei UnterweX (Barlow Condensed und Source Sans 3).</li>
+      <li><span class="tag">Neu</span>Regionen oben in der Liste: Alle, Zürich, Eglisau, Ticino, Grono, Locarnese (je ein Bear-Tag).</li>
+      <li><span class="tag">Neu</span>Knopf <b>«Im Kartenausschnitt suchen»</b> auf der Karte.</li>
+      <li><span class="tag">Neu</span>Modus <b>«Adressen»</b>: Einträge ohne Adresse oder ohne Ort auf der Karte anzeigen, Adresse prüfen und mit «In Bear speichern» als Zeile <code>📍 Adresse: …</code> direkt in die Notiz schreiben. Diese Zeile hat Vorrang vor Adressen im Notiztext.</li>
+      <li><span class="tag">Daten</span>Die von Hand korrigierten Adressen aus dem alten Guide wurden in 54 Bear-Notizen eingetragen. Insel Ufenau auf 8808 Freienbach korrigiert.</li>
+      <li><span class="tag">Neu</span>Passwortschutz wie bei UnterweX: einmal anmelden, das Gerät bleibt ein Jahr angemeldet.</li>
+      <li><span class="tag">Technik</span>Hosting auf Vercel aus dem privaten Repository <code>restauranz</code>. Koordinaten werden bei jedem Deployment über swisstopo gesucht (im Ausland über OpenStreetMap).</li>
+      <li><span class="tag">Neu</span>Diese Seite mit den Änderungen.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. November 2026: Vom Guide zur Web-App</h2>
+    <ul>
+      <li><span class="tag">Idee</span>Statt einer CSV für Google My Maps eine eigene Web-App mit Karte. Kartenmaterial von OpenStreetMap und swisstopo (Landeskarte, Luftbild).</li>
+      <li><span class="tag">Daten</span>Bear wird jetzt direkt auf dem Mac gelesen, kein Markdown-Export mehr. Grundlage sind alle Notizen mit <code>#GASTRO</code>, <code>#SCHWEIZ</code> und <code>#Radar</code> (224 Notizen).</li>
+      <li><span class="tag">Daten</span>Übernommen aus dem alten Guide: korrigierte Adressen, 17 umbenannte und 9 ausgeblendete Einträge.</li>
+      <li><span class="tag">Neu</span>Prototyp mit Suche, Tag-Filtern und eigener Gruppe «Küche» für Untertags wie <code>#GASTRO/Küche/Italienisch</code>. Knöpfe zu Bear, Apple Karten, Google Maps und zur Website.</li>
+      <li><span class="tag">Entscheid</span>Abgleich mit Bear zuerst auf Zuruf («Karte aktualisieren»), später automatisch.</li>
+      <li><span class="tag">Entscheid</span>Vercel statt GitHub Pages: Repository bleibt privat, die App ist passwortgeschützt.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Oktober 2026: Vorgeschichte</h2>
+    <ul>
+      <li>Artifact «Restaurant-Radar Zürich» (später «Guide»): Bear-Notizen einlesen, Adressen ergänzen, CSV für Google My Maps erzeugen.</li>
+      <li>Weiterleitung <code>bear-link</code> auf GitHub Pages, damit Notizlinks aus Google Maps Bear öffnen.</li>
+    </ul>
+  </section>
+</div>
+<script>
+// Datenstand aus der letzten Veröffentlichung anzeigen
+fetch("/restaurants.json", { cache: "no-cache" }).then(r => r.json()).then(j => {
+  if (!j.stand) return;
+  const n = (j.eintraege || []).length;
+  document.getElementById("stand").textContent += ` Datenstand: ${new Date(j.stand).toLocaleString("de-CH", { dateStyle: "long", timeStyle: "short" })}, ${n} Einträge.`;
+}).catch(() => {});
+</script>
+</body>
+</html>

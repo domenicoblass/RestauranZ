@@ -8,3 +8,5 @@ Restaurant-Karte aus Bear-Notizen (Tags #GASTRO #SCHWEIZ #Radar). Statische Seit
 - `middleware.js`: Login. Passwort in der Vercel-Umgebungsvariable `RESTAURANZ_PASSWORD`.
 
 Adressen: In Bear eine Zeile `📍 Adresse: Strasse Nr, PLZ Ort` hat Vorrang vor Adressen im Notiztext. Die App schreibt diese Zeile über den Knopf «In Bear speichern» selbst in die Notiz.
+
+Änderungen: `public/aenderungen.html` (in der App unter «Änderungen»). Bei jeder Änderung oben einen Eintrag ergänzen.

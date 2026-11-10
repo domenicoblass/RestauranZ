@@ -516,11 +516,15 @@ function addressForm(d, withExtras) {
   box.querySelector('[data-act="save"]').onclick = async () => {
     const a = tidy(inp.value);
     if (!a) { say("Bitte zuerst eine Adresse eintragen.", "bad"); return; }
-    const c = await check();
-    pending[d.id] = { adresse: a, lat: c ? c[0] : null, lon: c ? c[1] : null, am: new Date().toISOString() };
+    // Zuerst an Bear senden, noch im Klick: Browser auf dem Mac öffnen Bear nur direkt nach einem Klick,
+    // nicht erst nach dem Warten auf die Koordinaten.
+    pending[d.id] = { adresse: a, lat: null, lon: null, am: new Date().toISOString() };
     store.set("guide.pending", pending);
-    applyPending();
     location.href = bearAppend(d, a);
+    let c = null;
+    try { c = await check(); } catch {}
+    if (c) { pending[d.id].lat = c[0]; pending[d.id].lon = c[1]; store.set("guide.pending", pending); }
+    applyPending();
     say("An Bear gesendet. Die Notiz hat jetzt eine Zeile «📍 Adresse».", "ok");
     if (!withExtras) setTimeout(() => { map.closePopup(); probe && probe.remove(); probe = null; render(false); const m = markers.get(d.id); m && m.openPopup(); }, 900);
   };

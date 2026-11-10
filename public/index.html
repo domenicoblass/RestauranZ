@@ -73,6 +73,8 @@ button:focus-visible, input:focus { outline: 2px solid var(--accent); outline-of
 .seg button.sub { font-size: 15px; border-style: dashed }
 .seg button.radar { color: var(--pin); border-color: var(--pin); margin-right: 6px }
 .seg button.radar[aria-pressed="true"] { background: var(--pin); color: #fff; border-color: var(--pin) }
+.seg button.bucket { color: #6d3fc0; border-color: #6d3fc0; margin-right: 6px }
+.seg button.bucket[aria-pressed="true"] { background: #6d3fc0; color: #fff; border-color: #6d3fc0 }
 #list .star { color: var(--pin) }
 input[type=search], input.addr { width: 100%; min-width: 0; font: 16px var(--font); padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--fg) }
 details.filters summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--muted); list-style: none; display: flex; gap: 6px; align-items: center }
@@ -181,12 +183,13 @@ const REGIONS = [["Alle", null], ["Zürich", "Zürich+", "zuerich"], ["Tössried
 const REGION_TAGS = new Set(REGIONS.map(r => r[1]).filter(Boolean));
 // Tags, die (fast) alle tragen oder nur zur Ablage dienen: nicht als Filter zeigen
 const HIDDEN = new Set(["GASTRO", "SCHWEIZ", "Radar", "UNTERWEGS", "GASTRO/Küche", "Aktualisieren", "evernote",
-  "AUSLAND", "EUROPA", "WELT", "SPORT/Wandern", "UNTERWEGS/Reisen", "Sport", "UNTERWEGS/Ausflüge", "Event", "Party"]);
+  "AUSLAND", "EUROPA", "WELT", "SPORT/Wandern", "UNTERWEGS/Reisen", "Sport", "UNTERWEGS/Ausflüge", "Event", "Party",
+  "UNTERWEGS/Ausgang", "Stadt", "Favorit", "Route", "Bike", "SPORT/Velo", "Manual", "Apartment", "Ferien", "Herbst", "Tössriederen", "Bucket List"]);
 // Filtergruppen (Küche kommt aus den Untertags GASTRO/Küche/…)
 const TYP = ["Restaurant", "Café", "Bar", "Hotel", "Brunch", "Take Away", "Pop-Up", "Catering"];
-const REGION_FILTER = ["Tössriederen", "Winterthur", "Ostschweiz", "Appenzell", "Zentralschweiz", "Graubünden", "Engadin", "Bern", "Basel", "Mittelland", "Romandie", "Wallis",
+const REGION_FILTER = ["Winterthur", "Ostschweiz", "Appenzell", "Zentralschweiz", "Graubünden", "Engadin", "Bern", "Basel", "Mittelland", "Romandie", "Wallis",
   "Deutschland", "Frankreich", "Italien", "Iberien", "Grossbritannien", "Skandinavien", "USA"];
-const AUSSTATTUNG = ["Aussenraum", "amwasser", "Wellness"];
+const AUSSTATTUNG = ["Aussenraum", "amwasser", "Wellness", "Kurier"];
 const NICE = { amwasser: "Am Wasser", "UNTERWEGS/Ausgang": "Ausgang" };
 const KUECHE = "GASTRO/Küche/";
 const TOP_N = 14;
@@ -203,6 +206,7 @@ const store = {
 let DATA = [];
 let region = store.get("guide.region", null);
 let onlyRadar = store.get("guide.radar", false);
+let onlyBucket = store.get("guide.bucket", false);
 const selected = new Set(store.get("guide.tags", []).filter(t => !HIDDEN.has(t)));
 let showAllTags = false;
 let inArea = false;
@@ -294,6 +298,7 @@ const isRadar = d => d.radar || d.tags.includes("Radar");
 function matches(d) {
   if (!inRegion(d)) return false;
   if (onlyRadar && !editMode && !isRadar(d)) return false;
+  if (onlyBucket && !editMode && !d.tags.includes("Bucket List")) return false;
   if (!editMode) for (const t of selected) if (!d.tags.includes(t)) return false;
   const q = fold($("q").value.trim());
   if (q) {
@@ -325,6 +330,12 @@ function renderRegions() {
   fav.setAttribute("aria-pressed", onlyRadar);
   fav.onclick = () => { onlyRadar = !onlyRadar; store.set("guide.radar", onlyRadar); renderRegions(); render(true); };
   box.appendChild(fav);
+  const bucket = document.createElement("button");
+  bucket.type = "button"; bucket.className = "bucket"; bucket.textContent = "🎯 Bucket List";
+  bucket.title = "Nur Einträge mit dem Tag Bucket List";
+  bucket.setAttribute("aria-pressed", onlyBucket);
+  bucket.onclick = () => { onlyBucket = !onlyBucket; store.set("guide.bucket", onlyBucket); renderRegions(); render(true); };
+  box.appendChild(bucket);
   for (const [name, tag, wappen, sub] of REGIONS) {
     const b = document.createElement("button");
     b.type = "button"; b.textContent = name;

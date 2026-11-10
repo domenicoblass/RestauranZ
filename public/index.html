@@ -332,8 +332,8 @@ function renderRegions() {
   fav.onclick = () => { onlyRadar = !onlyRadar; store.set("guide.radar", onlyRadar); renderRegions(); render(true); };
   box.appendChild(fav);
   const bucket = document.createElement("button");
-  bucket.type = "button"; bucket.className = "bucket"; bucket.textContent = "🎯 Bucket List";
-  bucket.title = "Nur Einträge mit dem Tag Bucket List";
+  bucket.type = "button"; bucket.className = "bucket"; bucket.textContent = "🎯 Ziel";
+  bucket.title = "Nur Ziele (Tag Bucket List)";
   bucket.setAttribute("aria-pressed", onlyBucket);
   bucket.onclick = () => { onlyBucket = !onlyBucket; store.set("guide.bucket", onlyBucket); renderRegions(); render(true); };
   box.appendChild(bucket);

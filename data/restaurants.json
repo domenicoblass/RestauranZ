@@ -154,6 +154,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -195,6 +197,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -263,6 +267,8 @@
    "Bucket List",
    "Fokus",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Ostschweiz",
    "Radar",
    "Restaurant",
@@ -287,6 +293,8 @@
   "tags": [
    "Appenzell",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Ostschweiz",
    "Restaurant",
    "Route",
@@ -311,6 +319,8 @@
    "Aussenraum",
    "Eglisau+",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Ostschweiz",
    "Radar",
    "Restaurant",
@@ -424,6 +434,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Spanisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -487,6 +499,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Vegetarisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -667,6 +681,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "Sopraceneri",
@@ -688,6 +704,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "Sopraceneri",
@@ -709,6 +727,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "SCHWEIZ",
@@ -732,6 +752,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "Route",
@@ -757,6 +779,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "Sopraceneri",
@@ -778,6 +802,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "SCHWEIZ",
@@ -800,6 +826,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "Sopraceneri",
@@ -845,6 +873,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "Ticino+",
@@ -866,6 +896,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "Sopraceneri",
@@ -908,6 +940,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Türkisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -930,6 +964,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Amerikanisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -953,6 +989,8 @@
    "Aussenraum",
    "Eglisau+",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -1515,6 +1553,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -1557,6 +1597,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -1599,6 +1641,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Latino",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -1854,6 +1898,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Grono",
    "Radar",
    "Restaurant",
@@ -2170,6 +2216,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -2254,6 +2302,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Französisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -2275,6 +2325,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Grono",
    "Restaurant",
    "SCHWEIZ",
@@ -2318,6 +2370,8 @@
   "tags": [
    "Event",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -2339,6 +2393,8 @@
   "tags": [
    "Event",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -2359,6 +2415,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -2574,6 +2632,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -2679,6 +2739,8 @@
    "Aussenraum",
    "Eglisau+",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -2865,6 +2927,8 @@
   "tags": [
    "Eglisau+",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Asiatisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ"
@@ -2903,6 +2967,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -3386,6 +3452,8 @@
   "tags": [
    "Café",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -3557,6 +3625,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "Route",
    "SCHWEIZ",
@@ -3929,6 +3999,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -3950,6 +4022,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -3993,6 +4067,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -4186,6 +4262,8 @@
    "Eglisau+",
    "Event",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Party",
    "Restaurant",
    "UNTERWEGS",
@@ -4334,6 +4412,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Japanisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -4485,6 +4565,8 @@
    "Aussenraum",
    "Eglisau+",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Hotel",
    "Ostschweiz",
    "Radar",
@@ -4830,6 +4912,8 @@
   "tags": [
    "Engadin",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Asiatisch",
    "Graubünden",
    "Restaurant",
    "SCHWEIZ",
@@ -5018,6 +5102,8 @@
    "Aussenraum",
    "Bar",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -5041,6 +5127,8 @@
    "Aussenraum",
    "Eglisau+",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Ostschweiz",
    "Radar",
    "Restaurant",
@@ -5167,6 +5255,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -5210,6 +5300,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -5254,6 +5346,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Party",
    "Radar",
    "Restaurant",
@@ -5363,6 +5457,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Österreichisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -5384,6 +5480,8 @@
   "quelle": "bear",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -5516,6 +5614,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -5579,6 +5679,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -5731,6 +5833,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -5971,6 +6075,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "Route",
@@ -6102,6 +6208,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Vegetarisch",
    "Graubünden",
    "Restaurant",
    "SCHWEIZ",
@@ -6205,6 +6313,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -6248,6 +6358,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -6290,6 +6402,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Türkisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -6380,6 +6494,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -6401,6 +6517,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Amerikanisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -6444,6 +6562,8 @@
   "tags": [
    "Brunch",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Amerikanisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -6514,6 +6634,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -6666,6 +6788,8 @@
   "quelle": "bear",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -7010,6 +7134,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -7106,6 +7232,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -7353,6 +7481,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Orientalisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -7465,6 +7595,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Amerikanisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -7590,6 +7722,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -7611,6 +7745,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Latino",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -7658,6 +7794,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -7746,6 +7884,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -7813,6 +7953,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Graubünden",
    "Hotel",
    "Restaurant",
@@ -7833,6 +7975,8 @@
   "tags": [
    "Bern",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ"
   ],
@@ -7851,6 +7995,8 @@
   "tags": [
    "Bern",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ"
   ],
@@ -8069,6 +8215,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Ticino+",
@@ -8089,6 +8237,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Grono",
    "Radar",
    "Restaurant",
@@ -8159,6 +8309,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Grono",
    "Locarnese",
    "Radar",
@@ -8335,6 +8487,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "Route",
    "SCHWEIZ",
@@ -8357,6 +8511,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -8491,6 +8647,8 @@
   "quelle": "bear",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Französisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -8686,6 +8844,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -8792,6 +8952,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Vegetarisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -8971,6 +9133,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Grono",
    "Restaurant",
    "Ticino+",
@@ -9032,6 +9196,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Grono",
    "Restaurant",
    "SCHWEIZ",
@@ -9054,6 +9220,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -9119,6 +9287,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Französisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -9161,6 +9331,8 @@
   "tags": [
    "Bar",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Orientalisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -9204,6 +9376,8 @@
   "tags": [
    "Event",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Hotel",
    "Restaurant",
    "SCHWEIZ",
@@ -9335,6 +9509,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -9461,6 +9637,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -9569,6 +9747,8 @@
   "quelle": "bear",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Orientalisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -9655,6 +9835,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -9737,6 +9919,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -9783,6 +9967,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -9896,6 +10082,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -10000,6 +10188,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Orientalisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -10188,6 +10378,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -10252,6 +10444,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -10274,6 +10468,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Spanisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -10345,6 +10541,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -10669,6 +10867,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Japanisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -10688,6 +10888,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -10710,6 +10912,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Grono",
    "Restaurant",
    "SCHWEIZ",
@@ -10731,6 +10935,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Grono",
    "Restaurant",
    "SCHWEIZ",
@@ -10772,6 +10978,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Thai",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -10915,6 +11123,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -11214,6 +11424,8 @@
    "Brunch",
    "Event",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Party",
    "Restaurant",
    "SCHWEIZ",
@@ -11317,6 +11529,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -11623,6 +11837,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -11710,6 +11926,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Amerikanisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -11843,6 +12061,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Latino",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -12036,6 +12256,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "Route",
@@ -12083,6 +12305,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "SCHWEIZ",
@@ -12128,6 +12352,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "Sottoceneri",
    "Ticino+",
@@ -12148,6 +12374,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Sottoceneri",
@@ -12169,6 +12397,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Sottoceneri",
@@ -12191,6 +12421,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Sottoceneri",
@@ -12212,6 +12444,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Sottoceneri",
@@ -12403,6 +12637,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -12444,6 +12680,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -12573,6 +12811,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Radar",
    "Restaurant",
@@ -12637,6 +12877,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -12961,6 +13203,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -13025,6 +13269,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "Route",
    "SCHWEIZ",
@@ -13114,6 +13360,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -13178,6 +13426,8 @@
    "Aussenraum",
    "Eglisau+",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "Tössriederen"
@@ -13409,6 +13659,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Ticino+",
@@ -13448,6 +13700,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "Ticino+",
    "UNTERWEGS",
@@ -13467,6 +13721,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
    "Ticino+",
@@ -13508,6 +13764,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "SCHWEIZ",
@@ -13530,6 +13788,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "SCHWEIZ",
@@ -13550,6 +13810,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
    "Sopraceneri",
@@ -13571,6 +13833,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -14003,6 +14267,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Chinesisch",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -14024,6 +14290,8 @@
   "tags": [
    "Eglisau+",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Indisch",
    "Restaurant",
    "SCHWEIZ"
   ],
@@ -14063,6 +14331,8 @@
   "tags": [
    "Eglisau+",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -14105,6 +14375,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -14167,6 +14439,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -14322,6 +14596,8 @@
   "quelle": "bear",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Orientalisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -14366,6 +14642,8 @@
   "quelle": "",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Thai",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -14474,6 +14752,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -15257,6 +15537,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Asiatisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",

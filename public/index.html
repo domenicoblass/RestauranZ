@@ -179,7 +179,7 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 <script>
 // Regionen wie in Unterwegz: je ein Bear-Tag
 // [Name, Bear-Tag, Wappen, Unterregion]
-const REGIONS = [["Alle", null], ["Zürich", "Zürich+", "zuerich"], ["Tössriederen", "Eglisau+", "toessriederen"], ["Lachen", "Lachen+", "lachen"], ["Grono", "Grono", "grono"], ["Locarnese", "Locarnese", "locarno"], ["Ticino", "Ticino+", "ticino"], ["Sopraceneri", "Sopraceneri", "ticino", "sub"], ["Sottoceneri", "Sottoceneri", "ticino", "sub"]];
+const REGIONS = [["Alle", null, "schweiz"], ["Zürich", "Zürich+", "zuerich"], ["Tössriederen", "Eglisau+", "toessriederen"], ["Lachen", "Lachen+", "lachen"], ["Grono", "Grono", "grono"], ["Locarnese", "Locarnese", "locarno"], ["Ticino", "Ticino+", "ticino"], ["Sopraceneri", "Sopraceneri", "ticino", "sub"], ["Sottoceneri", "Sottoceneri", "ticino", "sub"]];
 const REGION_TAGS = new Set(REGIONS.map(r => r[1]).filter(Boolean));
 // Tags, die (fast) alle tragen oder nur zur Ablage dienen: nicht als Filter zeigen
 const HIDDEN = new Set(["GASTRO", "SCHWEIZ", "Radar", "UNTERWEGS", "GASTRO/Küche", "Aktualisieren", "evernote",

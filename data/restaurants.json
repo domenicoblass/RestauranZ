@@ -743,6 +743,29 @@
   "geaendert": "2026-10-12"
  },
  {
+  "id": "6E47670F-9CD1-409D-8D16-5C013F6A5B44",
+  "key": "asconagrottomadonnadellafontana",
+  "name": "Ascona: Grotto Madonna della Fontana",
+  "title": "Ascona: Grotto Madonna della Fontana",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
+   "Locarnese",
+   "Restaurant",
+   "Sopraceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Reisen"
+  ],
+  "radar": false,
+  "notiz": "In collina, in pieno bosco, sulla strada che da San Materno porta al Monte Verità,",
+  "web": "http://www.ticino-gastronomico.ch/locarnese/grotti/a_sheets_e/madonna_fe.htm",
+  "geaendert": "2024-09-16"
+ },
+ {
   "id": "17402504-B326-4598-BC24-35DB9B907B18",
   "key": "asconagrottomadonnadellafontana",
   "name": "Ascona: Grotto Madonna della Fontana",
@@ -769,29 +792,6 @@
   "notiz": "Im Sommer gibt es jeden Donnerstag Spanferkel.",
   "web": "",
   "geaendert": "2026-10-11"
- },
- {
-  "id": "6E47670F-9CD1-409D-8D16-5C013F6A5B44",
-  "key": "asconagrottomadonnadellafontana",
-  "name": "Ascona: Grotto Madonna della Fontana",
-  "title": "Ascona: Grotto Madonna della Fontana",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Italienisch",
-   "Locarnese",
-   "Restaurant",
-   "Sopraceneri",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "In collina, in pieno bosco, sulla strada che da San Materno porta al Monte Verità,",
-  "web": "http://www.ticino-gastronomico.ch/locarnese/grotti/a_sheets_e/madonna_fe.htm",
-  "geaendert": "2024-09-16"
  },
  {
   "id": "E7430267-4CE2-49D6-A5D2-9C8F6F2E2EFE",
@@ -4947,6 +4947,29 @@
   "geaendert": "2026-10-20"
  },
  {
+  "id": "3706CCC9-D166-47F1-AA7F-EDB9E59DA1E2",
+  "key": "ennetbadenbrasserieschwanen",
+  "name": "Ennetbaden: Brasserie Schwanen",
+  "title": "Ennetbaden: Brasserie Schwanen",
+  "adresse": "Badstrasse 16, 5408 Ennetbaden",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Französisch",
+   "Mittelland",
+   "Restaurant",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausflüge",
+   "Zürich+"
+  ],
+  "radar": false,
+  "notiz": "Die Brasserie Schwanen ist so schön, dass man vor lauter Schauen fast das Essen vergisst.",
+  "web": "http://www.brasserie-schwanen.ch",
+  "geaendert": "2024-07-30"
+ },
+ {
   "id": "C0CCAB3B-90E6-4609-8CC7-B2309DDF4382",
   "key": "epessesaubergeduvigneron",
   "name": "Epesses: Auberge du vigneron",
@@ -7761,6 +7784,29 @@
   "geaendert": "2025-10-19"
  },
  {
+  "id": "97F59BFB-6218-419F-A92E-BE3F13BF479B",
+  "key": "lafontana",
+  "name": "La Fontana",
+  "title": "Rest. La Fontana",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
+   "Restaurant",
+   "SCHWEIZ",
+   "Stadt",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": false,
+  "notiz": "Voller Überraschungen: Olivia (l.) und Patrizia Fontana in ihrem neuen Lokal an der Haldenbachstrasse.",
+  "web": "https://twitter.com/zueritipp_",
+  "geaendert": "2026-03-15"
+ },
+ {
   "id": "77E0B9C8-C2F2-4C2A-B04D-8DAFB135BB8C",
   "key": "lafontana",
   "name": "La Fontana",
@@ -7784,29 +7830,6 @@
   "notiz": "Ab 12 Uhr erwarten Sie bei uns täglich wechselnde Mittagsmenüs sowie leckere Focaccia, Pizza Slices und frische Salate. Genießen Sie eine abwechslungsreiche Mittagspause!",
   "web": "https://www.lafontana-shop.ch/",
   "geaendert": "2026-11-09"
- },
- {
-  "id": "97F59BFB-6218-419F-A92E-BE3F13BF479B",
-  "key": "lafontana",
-  "name": "La Fontana",
-  "title": "Rest. La Fontana",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Italienisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Voller Überraschungen: Olivia (l.) und Patrizia Fontana in ihrem neuen Lokal an der Haldenbachstrasse.",
-  "web": "https://twitter.com/zueritipp_",
-  "geaendert": "2026-03-15"
  },
  {
   "id": "FBA5EAD8-AC13-4F92-AF9E-5213FEF5967E",
@@ -9763,25 +9786,6 @@
   "geaendert": "2026-11-09"
  },
  {
-  "id": "F696F723-33A8-4EC1-B73C-447B46609750",
-  "key": "nussbaumenreststernen",
-  "name": "Nussbaumen: Rest. Sternen",
-  "title": "Nussbaumen: Rest. Sternen",
-  "adresse": "Dachslenbergstrasse 100, 8180 Bülach",
-  "quelle": "text",
-  "tags": [
-   "Eglisau+",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Tössriederen"
-  ],
-  "radar": false,
-  "notiz": "Im Herzen des Weilers Nussbaumen finden Besucherinnen und Besucher nicht nur den Dorfbrunnen, sondern vor allem auch urchige Gerichte im schmucken Sternen.",
-  "web": "http://sternen-nussbaumen.ch/",
-  "geaendert": "2024-08-25"
- },
- {
   "id": "5EBA994B-D9AC-47D8-9C50-720F5EDE7264",
   "key": "nussbaumenreststernen",
   "name": "Nussbaumen: Rest. Sternen",
@@ -9802,6 +9806,25 @@
   "notiz": "https://sternen-nussbaumen.ch/wp-content/uploads/2017/11/Restaurant-4.mit-Logo.jpg)Herzlich willkommen in der Schweiz. Bei uns essen Sie typische Schweizer Gerichte in einem gemütlichen, urchigen Ambiente. Der «Sternen» ist eingebunden …",
   "web": "https://sternen-nussbaumen.ch/",
   "geaendert": "2026-11-09"
+ },
+ {
+  "id": "F696F723-33A8-4EC1-B73C-447B46609750",
+  "key": "nussbaumenreststernen",
+  "name": "Nussbaumen: Rest. Sternen",
+  "title": "Nussbaumen: Rest. Sternen",
+  "adresse": "Dachslenbergstrasse 100, 8180 Bülach",
+  "quelle": "text",
+  "tags": [
+   "Eglisau+",
+   "GASTRO",
+   "Restaurant",
+   "SCHWEIZ",
+   "Tössriederen"
+  ],
+  "radar": false,
+  "notiz": "Im Herzen des Weilers Nussbaumen finden Besucherinnen und Besucher nicht nur den Dorfbrunnen, sondern vor allem auch urchige Gerichte im schmucken Sternen.",
+  "web": "http://sternen-nussbaumen.ch/",
+  "geaendert": "2024-08-25"
  },
  {
   "id": "DB946C59-B1F2-450B-BDBD-AFF736FF824F",
@@ -10757,25 +10780,6 @@
   "geaendert": "2024-07-30"
  },
  {
-  "id": "BA77114E-AEC4-4A54-892E-811B5CC7BE50",
-  "key": "rheinaurestaugarten",
-  "name": "Rheinau: Rest. Augarten",
-  "title": "Rheinau: Rest. Augarten",
-  "adresse": "Untere Steig 15, 8462 Rheinau",
-  "quelle": "bear",
-  "tags": [
-   "Eglisau+",
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ"
-  ],
-  "radar": true,
-  "notiz": "Die Schwestern Anica und Nicole Schmid setzen im Augarten in Rheinau auf regionale Zutaten. Eine Prise Appenzeller Gastfreundlichkeit und die Umgebung runden das Ganze ab.",
-  "web": "https://www.augarten-rheinau.ch/",
-  "geaendert": "2026-11-09"
- },
- {
   "id": "1748EFB2-BFF3-4937-9D3C-4451BFDC0F48",
   "key": "rheinaurestaugarten",
   "name": "Rheinau: Rest. Augarten",
@@ -10793,6 +10797,25 @@
   ],
   "radar": true,
   "notiz": "Vor etwas mehr als einem Jahr konnten wir, Anica & Nicole Schmid, das sorgfältig renovierte Gasthaus übernehmen, das sowohl über eine Brauerei für unser Hausbier als auch über drei Hotelzimmer verfügt. Der Augarten liegt gleich beim …",
+  "web": "https://www.augarten-rheinau.ch/",
+  "geaendert": "2026-11-09"
+ },
+ {
+  "id": "BA77114E-AEC4-4A54-892E-811B5CC7BE50",
+  "key": "rheinaurestaugarten",
+  "name": "Rheinau: Rest. Augarten",
+  "title": "Rheinau: Rest. Augarten",
+  "adresse": "Untere Steig 15, 8462 Rheinau",
+  "quelle": "bear",
+  "tags": [
+   "Eglisau+",
+   "GASTRO",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ"
+  ],
+  "radar": true,
+  "notiz": "Die Schwestern Anica und Nicole Schmid setzen im Augarten in Rheinau auf regionale Zutaten. Eine Prise Appenzeller Gastfreundlichkeit und die Umgebung runden das Ganze ab.",
   "web": "https://www.augarten-rheinau.ch/",
   "geaendert": "2026-11-09"
  },
@@ -12436,6 +12459,31 @@
   "geaendert": "2024-09-16"
  },
  {
+  "id": "E9749A8E-79F0-46E8-A6FA-FFB3FAF8B67F",
+  "key": "sottoceneriosteriamancianaundhotel",
+  "name": "Sottoceneri: Osteria Manciana (und Hotel)",
+  "title": "Sottoceneri: Osteria Manciana (und Hotel)",
+  "adresse": "Via Cantonale 95, 6838 Scudellate",
+  "quelle": "text",
+  "tags": [
+   "Bike",
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
+   "Hotel",
+   "Restaurant",
+   "SCHWEIZ",
+   "Sottoceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausflüge"
+  ],
+  "radar": false,
+  "notiz": "Clip-Quelle:Osteria%20Manciana%20%u2013%20La%20tua%20osteria%20in%20Valle%20di%20Muggio",
+  "web": "https://osteria-manciana.ch/de/homepage-deutsch/",
+  "geaendert": "2024-09-16"
+ },
+ {
   "id": "F50906E0-EC73-44CE-9657-28046C0CC580",
   "key": "sottoceneriosterianostranello",
   "name": "Sottoceneri: Osteria Nostranello",
@@ -13374,27 +13422,6 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "E4BD195B-38D3-41F5-863C-D53CA3FB812C",
-  "key": "turbinenhaus",
-  "name": "Turbinenhaus",
-  "title": "Rest. Turbinenhaus",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Im Restaurant-Turbinenhaus geniessen Sie eine Küche ohne grosses Trara und ohne Schnickschnack. Eine ehrliche, einfache Schweizer-Mediterrane Küche. Von Oktober bis Februar bieten wir Fondue. Dazu gehört der gepflegte Service ebenso wie …",
-  "web": "",
-  "geaendert": "2022-05-19"
- },
- {
   "id": "B9775945-4FDE-4B0B-9D8E-FF288D734506",
   "key": "turbinenhaus",
   "name": "Turbinenhaus",
@@ -13414,6 +13441,27 @@
   "notiz": "Oberer Letten: voll. Unterer Letten: voll. Werdinsel: voll. Wer in diesen heissen Tagen in Zürich ein ruhiges Plätzchen an der Limmat sucht, der hat es schwer. Die Badetücher liegen dicht an dicht, und die Schlangen vor Bars und …",
   "web": "",
   "geaendert": "2022-03-05"
+ },
+ {
+  "id": "E4BD195B-38D3-41F5-863C-D53CA3FB812C",
+  "key": "turbinenhaus",
+  "name": "Turbinenhaus",
+  "title": "Rest. Turbinenhaus",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "Aussenraum",
+   "GASTRO",
+   "Restaurant",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": false,
+  "notiz": "Im Restaurant-Turbinenhaus geniessen Sie eine Küche ohne grosses Trara und ohne Schnickschnack. Eine ehrliche, einfache Schweizer-Mediterrane Küche. Von Oktober bis Februar bieten wir Fondue. Dazu gehört der gepflegte Service ebenso wie …",
+  "web": "",
+  "geaendert": "2022-05-19"
  },
  {
   "id": "6A36ABEB-634F-452B-8E99-AFF6ACD72822",

@@ -180,13 +180,20 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 const REGIONS = [["Alle", null], ["Zürich", "Zürich+", "zuerich"], ["Tössriederen", "Eglisau+", "toessriederen"], ["Lachen", "Lachen+", "lachen"], ["Grono", "Grono", "grono"], ["Locarnese", "Locarnese", "locarno"], ["Ticino", "Ticino+", "ticino"], ["Sopraceneri", "Sopraceneri", "ticino", "sub"], ["Sottoceneri", "Sottoceneri", "ticino", "sub"]];
 const REGION_TAGS = new Set(REGIONS.map(r => r[1]).filter(Boolean));
 // Tags, die (fast) alle tragen oder nur zur Ablage dienen: nicht als Filter zeigen
-const HIDDEN = new Set(["GASTRO", "SCHWEIZ", "Radar", "UNTERWEGS", "GASTRO/Küche", "Aktualisieren", "evernote"]);
+const HIDDEN = new Set(["GASTRO", "SCHWEIZ", "Radar", "UNTERWEGS", "GASTRO/Küche", "Aktualisieren", "evernote",
+  "AUSLAND", "EUROPA", "WELT", "SPORT/Wandern", "UNTERWEGS/Reisen", "Sport", "UNTERWEGS/Ausflüge", "Event", "Party"]);
+// Filtergruppen (Küche kommt aus den Untertags GASTRO/Küche/…)
+const TYP = ["Restaurant", "Café", "Bar", "Hotel", "Brunch", "Take Away", "Pop-Up", "Catering"];
+const REGION_FILTER = ["Tössriederen", "Winterthur", "Ostschweiz", "Appenzell", "Zentralschweiz", "Graubünden", "Engadin", "Bern", "Basel", "Mittelland", "Romandie", "Wallis",
+  "Deutschland", "Frankreich", "Italien", "Iberien", "Grossbritannien", "Skandinavien", "USA"];
+const AUSSTATTUNG = ["Aussenraum", "amwasser", "Wellness"];
+const NICE = { amwasser: "Am Wasser", "UNTERWEGS/Ausgang": "Ausgang" };
 const KUECHE = "GASTRO/Küche/";
 const TOP_N = 14;
 
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const label = t => t.startsWith(KUECHE) ? t.slice(KUECHE.length) : t.replace(/^UNTERWEGS\//, "").replace(/\+$/, "");
+const label = t => NICE[t] || (t.startsWith(KUECHE) ? t.slice(KUECHE.length) : t.replace(/^(UNTERWEGS|SPORT)\//, "").replace(/\+$/, ""));
 const fold = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
@@ -196,7 +203,7 @@ const store = {
 let DATA = [];
 let region = store.get("guide.region", null);
 let onlyRadar = store.get("guide.radar", false);
-const selected = new Set(store.get("guide.tags", []));
+const selected = new Set(store.get("guide.tags", []).filter(t => !HIDDEN.has(t)));
 let showAllTags = false;
 let inArea = false;
 let editMode = false, editView = "missing";
@@ -344,15 +351,21 @@ function renderGroups(filtered) {
     div.appendChild(c); g.appendChild(div);
   };
   add("Küche", kitchen);
-  const shown = showAllTags ? other : other.slice(0, TOP_N);
-  for (const t of selected) if (!t.startsWith(KUECHE) && !shown.includes(t)) shown.push(t);
+  const inList = list => list.filter(t => all.has(t) || selected.has(t));
+  add("Typ", inList(TYP));
+  add("Region", inList(REGION_FILTER).sort((a, b) => (all.get(b) || 0) - (all.get(a) || 0)));
+  add("Ausstattung", inList(AUSSTATTUNG));
+  const grouped = new Set([...TYP, ...REGION_FILTER, ...AUSSTATTUNG]);
+  const rest = other.filter(t => !grouped.has(t));
+  const shown = showAllTags ? rest : rest.slice(0, TOP_N);
+  for (const t of selected) if (!t.startsWith(KUECHE) && !grouped.has(t) && !shown.includes(t)) shown.push(t);
   let more = null;
-  if (other.length > TOP_N) {
+  if (rest.length > TOP_N) {
     more = document.createElement("button"); more.type = "button"; more.className = "chip more";
-    more.textContent = showAllTags ? "Weniger" : `Alle ${other.length} Tags`;
+    more.textContent = showAllTags ? "Weniger" : `Alle ${rest.length} Tags`;
     more.onclick = () => { showAllTags = !showAllTags; render(false); };
   }
-  add("Tags", shown, more);
+  add("Weitere", shown, more);
   $("tagSum").textContent = selected.size ? [...selected].map(label).join(", ") : "";
 }
 

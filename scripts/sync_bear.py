@@ -50,6 +50,7 @@ out, seen = [], set()
 for n in notes:
     md, raw = n["metadata"], n["content"]
     if md["id"] in seen: continue
+    if md.get("location", "notes") != "notes": continue   # Papierkorb und Archiv nicht übernehmen
     if "GASTRO/Sammlung" in md["tags"]: continue   # Sammelartikel, keine einzelnen Lokale
     if "GASTRO" not in md["tags"] or not (REGIONS & set(md["tags"]) or "SCHWEIZ" in md["tags"]): continue
     seen.add(md["id"])

@@ -212,27 +212,6 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "DE18A16C-3102-4C33-872D-75908381F0C4",
-  "key": "alpenblickarosa",
-  "name": "Alpenblick – Arosa",
-  "title": "Alpenblick – Arosa",
-  "adresse": "Poststrasse 142, 7050 Arosa",
-  "quelle": "bear",
-  "tags": [
-   "GASTRO",
-   "Graubünden",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang"
-  ],
-  "radar": true,
-  "notiz": "Öffnungszeiten: 27. Juni 2026 bis zum 2. April 2027",
-  "web": "https://alpenblickarosa.ch/restaurants/",
-  "geaendert": "2026-11-11"
- },
- {
   "id": "8CF9B071-34F3-4BE5-88FC-4ED94771EBF5",
   "key": "alpsteinberggasthausaescher",
   "name": "Alpstein: Berggasthaus Aescher",
@@ -576,6 +555,27 @@
   "notiz": "Das schmucke Dorf Stein im Appenzeller Hinterland.",
   "web": "https://cdn.unitycms.io/images/4lwL839jKVTAR-iQqciM9o.jpg?op=ocroped&amp;val=400,400,1000,1000,0,0&amp;sum=6UFF2kDjMS4",
   "geaendert": "2024-09-30"
+ },
+ {
+  "id": "DE18A16C-3102-4C33-872D-75908381F0C4",
+  "key": "arosarestalpenblick",
+  "name": "Arosa: Rest. Alpenblick",
+  "title": "Arosa: Rest. Alpenblick",
+  "adresse": "Poststrasse 142, 7050 Arosa",
+  "quelle": "bear",
+  "tags": [
+   "GASTRO",
+   "Graubünden",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang"
+  ],
+  "radar": true,
+  "notiz": "Öffnungszeiten: 27. Juni 2026 bis zum 2. April 2027",
+  "web": "https://alpenblickarosa.ch/restaurants/",
+  "geaendert": "2026-11-11"
  },
  {
   "id": "D0570997-1CCA-4128-99FD-754FF7BA7B2B",
@@ -2143,8 +2143,8 @@
   "key": "bistrotaparis",
   "name": "Bistrot à Paris",
   "title": "Rest. Bistrot à Paris",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Asylstrasse 70, 8032 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -2159,7 +2159,7 @@
   "radar": false,
   "notiz": "Führen nun jenes Restaurant, das sie in Zürich vermissten: Marlis Bieri Manz (l.) und Luc Manz mit Mitarbeiterin Diana Giacometti.",
   "web": "",
-  "geaendert": "2025-03-29"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "872A2692-46A1-4DD9-AA3E-9EA448F5EB43",
@@ -2516,8 +2516,8 @@
   "key": "bruncheninderbaraccazermatt",
   "name": "Brunchen in der Baracca Zermatt",
   "title": "Brunchen in der Baracca Zermatt",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Kirchgasse 16, 8302 Kloten",
+  "quelle": "bear",
   "tags": [
    "Brunch",
    "GASTRO",
@@ -2530,7 +2530,7 @@
   "radar": false,
   "notiz": "> | | |## Geniessen Sie den Sommer-Sonntag im Garten der Baracca Zermatt> <br> Entdecken Sie einen Brunch unter freiem Himmel, bei uns in der Baracca Zermatt. Bei solch schönen Aussichten in den kommenden Wochen haben wir für Sie ein …",
   "web": "http://baracca-zermatt.us13.list-manage.com/track/click?u=521512257d67a76d616c2de68&amp;id=631f3da099&amp;e=617b62bbfb",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E0D95A2F-D442-4E22-8EDD-63A51249EC12",
@@ -2647,8 +2647,8 @@
   "key": "bu",
   "name": "Bü",
   "title": "Rest. Bü",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hopfenstrasse 19, 8045 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -2662,7 +2662,7 @@
   "radar": false,
   "notiz": "Zeitgemässe Bistroküche im Bankenviertel",
   "web": "http://contextImage&amp;&amp;14774986",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "41F8CE07-15ED-4E10-AF89-6BF03CF3A056",
@@ -2879,8 +2879,8 @@
   "key": "cafebarvagabundo",
   "name": "Café Bar Vagabundo",
   "title": "Café Bar Vagabundo",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Badenerstrasse 156, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "Café",
@@ -2893,7 +2893,7 @@
   "radar": false,
   "notiz": "",
   "web": "",
-  "geaendert": "2024-09-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "FB879D3E-E324-4793-B495-F8E1A85453DD",
@@ -3193,8 +3193,8 @@
   "key": "cafemame",
   "name": "Café Mame",
   "title": "Café Mame",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 19, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3206,7 +3206,7 @@
   "radar": false,
   "notiz": "Kaffee ist nicht gleich Kaffee. Das beweisen die zwei Barista Schweizermeister Mathieu Theis und Emi Fukahori im neueröffneten MAME an der Seefeldstrasse. Unter dem Motto «The best coffee is the coffee you like», helfen die beiden ihren …",
   "web": "http://www.zurichkreis8.ch/gastro/mame-seefeld-coffeeshop.html",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "29ABC0EC-9EAB-44E1-8D00-9916592F5D56",
@@ -3227,26 +3227,6 @@
   "radar": false,
   "notiz": "Donnerstag, 22.01.2015 - Zürich: Zwischennutzung, Suspekt & Gipsy Swing",
   "web": "http://www.ronorp.net/zuerich",
-  "geaendert": "2022-03-05"
- },
- {
-  "id": "27E7DB1A-2041-453C-8FCE-D04F4F837DAB",
-  "key": "caferostgold",
-  "name": "Café Rost & Gold",
-  "title": "Café Rost & Gold",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Café",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "|---|---|---|---|---|---|---|---|---|---|---|---|",
-  "web": "http://www.rostundgold.ch/Resources/background-hauptsa.gif",
   "geaendert": "2022-03-05"
  },
  {
@@ -3299,8 +3279,8 @@
   "key": "cafeapotheke",
   "name": "Café: apoTHEKE",
   "title": "Café: apoTHEKE",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zürichbergstrasse 17, 8032 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3314,7 +3294,7 @@
   "radar": false,
   "notiz": "Nach einer langen Umbauphase wurde aus der alten Apotheke die apoTHEKE – der neue Treffpunkt im Uniquartier. Ob für ein Power-Frühstück mit selbstgemachtem Müesli und frisch gepressten Säften, die Lernpause mit Schoggibrötli und …",
   "web": "http://www.apotheke-zh.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F51B1EF0-45B0-4561-9640-1C3D144076B6",
@@ -3342,8 +3322,8 @@
   "key": "cantinablassweingutmitgastezimmern",
   "name": "Cantina Blass: Weingut mit Gästezimmern",
   "title": "Cantina Blass: Weingut mit Gästezimmern",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Eugenio Schmidhauser 4, 6999 Lema",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -3355,7 +3335,7 @@
   "radar": false,
   "notiz": "Cantina Blass, Convento Vecchio, 6999 Astano",
   "web": "https://www.airbnb.ch/rooms/23571657?location=Astano%2C%20Paese%2C%20Astano%2C%20Schweiz&amp;adults=1&amp;guests=1&amp;s=rKaB_pG0",
-  "geaendert": "2026-05-14"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "05C60332-9C72-40D6-8BE2-EB1BEB0F0784",
@@ -3406,8 +3386,8 @@
   "key": "careddanapoli",
   "name": "Caredda Napoli",
   "title": "Rest. Caredda Napoli",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Münstergasse 30, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -3420,7 +3400,7 @@
   "radar": false,
   "notiz": "Herzlich willkommen bei \"La Terra del Gusto\".",
   "web": "http://www.caredda-napoli.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "5299A692-6640-41E3-B60F-EB4C1493F904",
@@ -3475,8 +3455,8 @@
   "key": "centroerlenbach",
   "name": "Centro Erlenbach",
   "title": "Rest. Centro Erlenbach",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Kappelistrasse, 8703 Erlenbach",
+  "quelle": "bear",
   "tags": [
    "Event",
    "GASTRO",
@@ -3489,7 +3469,7 @@
   "radar": false,
   "notiz": "image1.pdf<!-- {\"embed\":\"true\", \"preview\":\"true\"} -->",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "097B4F5C-5F2B-447A-A6F1-373C52893CFE",
@@ -3673,8 +3653,8 @@
   "key": "clouds",
   "name": "Clouds",
   "title": "Rest. Clouds",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Maagplatz 5, 8005 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "Café",
@@ -3689,7 +3669,7 @@
   "radar": false,
   "notiz": "Abschalten, geniessen und zur Ruhe kommen. Wir freuen uns, Sie in unserem eleganten Restaurant verwöhnen zu dürfen. Das feine Essen aus der Küche mundet bei der einmaligen Panoramasicht über Zürich noch besser.",
   "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "1B1CDD25-0D00-458D-8C3D-E26AB59B9C2D",
@@ -3716,8 +3696,8 @@
   "key": "cocogrillbar",
   "name": "Coco Grill & Bar",
   "title": "Rest. Coco Grill & Bar",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Bleicherweg 1a, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -3731,7 +3711,7 @@
   "radar": false,
   "notiz": "Bei uns essen Sie nicht einfach, sondern machen Ferien über Mittag. Im Cheminée lodert ein Feuer, Sie nehmen Platz, lehnen sich auf dem Stuhl zurück und geniessen.",
   "web": "http://www.restaurant-coco.ch/grill.html",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "C8554A40-7A9C-4664-B53D-6289A2F7B894",
@@ -4348,8 +4328,8 @@
   "key": "emmentalhotellandgasthofkemmeribodenbad",
   "name": "Emmental: Hotel Landgasthof Kemmeriboden-Bad",
   "title": "Emmental: Hotel Landgasthof Kemmeriboden-Bad",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Kemmeribodenbad 181, 6197 Schangnau",
+  "quelle": "bear",
   "tags": [
    "Bern",
    "GASTRO",
@@ -4363,7 +4343,7 @@
   "radar": false,
   "notiz": "\"Gast sein ist gut, heimkommen ist besser\" in diesem Sinne heissen wir Sie herzlich willkommen im Kemmeriboden Bad!",
   "web": "https://www.kemmeriboden.ch/ueber-uns/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "92320C45-F1BC-4E3C-B90F-986265A88F75",
@@ -7041,7 +7021,7 @@
   ],
   "radar": false,
   "notiz": "<p>Your browser does not support iframes.</p>",
-  "web": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/31305/998230_530979.png",
+  "web": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/5693895/524446_730686.png",
   "geaendert": "2026-11-11"
  },
  {

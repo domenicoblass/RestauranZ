@@ -151,7 +151,16 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
   #regions button.sub img.wappen { height: 34px }
   #topbar { gap: 10px; padding-top: calc(10px + env(safe-area-inset-top)) }
   .groups { max-height: 24vh }
+  /* Adressen bearbeiten: kompakter Kopf, kleine Karte, Platz für die Liste */
+  body.editing { grid-template-rows: auto 22% minmax(0, 1fr) }
+  body.editing #regions, body.editing #info { display: none }
+  body.editing h1 { font-size: 0; gap: 0 } body.editing .logo { width: 38px; height: 38px; border-radius: 9px }
+  body.editing #topbar { gap: 0; padding-bottom: 8px }
+  body.editing .top { padding: 8px 16px; gap: 8px }
+  body.editing .area-btn { display: none }
+  body.editing .head { flex-wrap: nowrap } body.editing .tool { padding: 6px 10px }
 }
+body.editing ul#list { padding-bottom: 90px }
 #outbox { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(14px + env(safe-area-inset-bottom)); z-index: 1200; display: flex; align-items: center; gap: 12px; padding: 8px 8px 8px 16px; border-radius: 999px; background: var(--fg); color: var(--bg); box-shadow: 0 6px 20px rgba(0,0,0,.25); font: 600 15px var(--font); white-space: nowrap }
 #outbox[hidden] { display: none }
 #outbox button { border-radius: 999px; padding: 8px 14px; font: 700 15px var(--font); background: var(--accent); color: var(--accent-ink); border: 0 }
@@ -649,6 +658,8 @@ function setMode(on) {
   $("mode").textContent = on ? "Fertig" : "Adressen";
   $("browseOnly").hidden = on;
   $("editTabs").hidden = !on;
+  document.body.classList.toggle("editing", on);
+  setTimeout(() => map.invalidateSize(), 50);
   if (!on && probe) { probe.remove(); probe = null; }
   render(!on);
 }

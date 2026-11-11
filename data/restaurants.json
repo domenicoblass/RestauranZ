@@ -672,35 +672,12 @@
   "geaendert": "2026-10-12"
  },
  {
-  "id": "6E47670F-9CD1-409D-8D16-5C013F6A5B44",
+  "id": "A1225DB6-F781-4EB9-ADA2-B8F48BD01C72",
   "key": "asconagrottomadonnadellafontana",
   "name": "Ascona: Grotto Madonna della Fontana",
   "title": "Ascona: Grotto Madonna della Fontana",
   "adresse": "Str. Madonna della Fontana, 6616 Losone",
   "quelle": "bear",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Italienisch",
-   "Locarnese",
-   "Restaurant",
-   "Sopraceneri",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "In collina, in pieno bosco, sulla strada che da San Materno porta al Monte Verità,",
-  "web": "http://www.ticino-gastronomico.ch/locarnese/grotti/a_sheets_e/madonna_fe.htm",
-  "geaendert": "2026-11-11"
- },
- {
-  "id": "17402504-B326-4598-BC24-35DB9B907B18",
-  "key": "asconagrottomadonnadellafontana",
-  "name": "Ascona: Grotto Madonna della Fontana",
-  "title": "Ascona: Grotto Madonna della Fontana",
-  "adresse": "Strada Madonna della Fontana 15, 6612 Ascona",
-  "quelle": "text",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -719,8 +696,8 @@
   ],
   "radar": false,
   "notiz": "Im Sommer gibt es jeden Donnerstag Spanferkel.",
-  "web": "",
-  "geaendert": "2026-10-11"
+  "web": "http://www.ticino-gastronomico.ch/locarnese/grotti/a_sheets_e/madonna_fe.htm",
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E7430267-4CE2-49D6-A5D2-9C8F6F2E2EFE",
@@ -2019,10 +1996,12 @@
   "adresse": "Kleine Schanze, 3011 Bern",
   "quelle": "bear",
   "tags": [
+   "Aussenraum",
    "Bar",
    "Bern",
    "GASTRO",
    "SCHWEIZ",
+   "Stadt",
    "UNTERWEGS",
    "UNTERWEGS/Ausgang"
   ],
@@ -2320,8 +2299,8 @@
   "key": "bohemia",
   "name": "Bohemia",
   "title": "Rest. Bohemia",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Klosbachstrasse 2, 8032 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Bar",
@@ -2338,7 +2317,7 @@
   "radar": false,
   "notiz": "Da wir im Bohemia grossen Wert auf Qualität, Einzigartigkeit und Design legen, haben wir unsere Produkte ganz bewusst aus dem In- und nahen Ausland ausgewählt.",
   "web": "http://www.bohemia.ch/merchandise/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "A7D8D4FF-22BF-482F-AEC1-A8AFAFE88892",
@@ -2409,8 +2388,8 @@
   "key": "brasserieimhotelwidder",
   "name": "Brasserie im Hotel Widder",
   "title": "Rest. Brasserie im Hotel Widder",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Widdergasse 6, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -2423,7 +2402,7 @@
   "radar": false,
   "notiz": "Die neue Brasserie im Widder-Hotel hat die Herzen der Zürcher im Sturm erobert. Und wir verstehen sehr gut, warum.",
   "web": "http://tagi.ch/23278132",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "6F1F3B09-1D02-4A67-A2C1-A5A12F318462",
@@ -2494,8 +2473,8 @@
   "key": "brera",
   "name": "Brera",
   "title": "Rest. Brera",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Kanzleistrasse 126, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -2509,7 +2488,7 @@
   "radar": false,
   "notiz": "Aufgeraute Wände, ein bisschen Brocki-Style, Pflanzen und Sofas in Altrosa: Der Essensbereich.",
   "web": "https://www.brera.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "A6DA0A41-61F2-4887-BB4B-95707EEEAA55",
@@ -2771,8 +2750,8 @@
   "key": "burgenstock",
   "name": "Bürgenstock",
   "title": "Bürgenstock",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Bürgenstock Resort Lake Lucerne, 6363 Obbürgen",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -2784,15 +2763,15 @@
   "radar": false,
   "notiz": "Die legendäre Hotelstadt auf dem Bürgenstock ist wiedereröffnet – sie bleibt ein magischer Ort, den man unbedingt besuchen sollte.",
   "web": "",
-  "geaendert": "2022-02-28"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "51772A7F-2309-4154-B116-27C61F78DD91",
   "key": "burgenstockgasthaustrogen",
   "name": "Bürgenstock: Gasthaus Trogen",
   "title": "Bürgenstock: Gasthaus Trogen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Trogen, 6363 Stansstad",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -2806,7 +2785,7 @@
   "radar": false,
   "notiz": "AM BERGWer «Bürgenstock» hört, denkt unweigerlich an mondäne Hotels, edle Restaurants und unerschwingliche Residenzen. Die echte Oase befindet sich in Wirklichkeit etwas unterhalb des Resorts. Das Gasthaus Trogen ist eine rustikale Beiz …",
   "web": "http://www.gasthaustrogen.ch/lage/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "07D19543-455B-42B5-A324-2EB67166F1DC",
@@ -2877,8 +2856,8 @@
   "key": "cafebarnordbrucke",
   "name": "Café Bar Nordbrücke",
   "title": "Rest. Café Bar Nordbrücke",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Dammstrasse 58, 8037 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "Café",
@@ -2893,7 +2872,7 @@
   "radar": false,
   "notiz": "Im Restaurant Nordbrücke werden seit kurzem liebevolle Mittagsmenüs serviert. Sie sind ihren Preis wert.",
   "web": "http://www.nordbruecke.ch",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F9EC6F04-805F-4DC5-8FAE-25A97AE72BEE",
@@ -2963,12 +2942,13 @@
   "key": "cafecoffeeshack",
   "name": "Café Coffee Shack",
   "title": "Café Coffee Shack",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Müllerstrasse 31, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
    "SCHWEIZ",
+   "Stadt",
    "UNTERWEGS",
    "UNTERWEGS/Ausgang",
    "Zürich+"
@@ -2976,15 +2956,15 @@
   "radar": false,
   "notiz": "Müllerstrasse 31, Coffee Shack, 8004 Zürich",
   "web": "http://coffeeshack.ch",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "1BFB3783-EB5F-4F7F-A5C6-4695555E85EE",
   "key": "cafedesamis",
   "name": "Café Des Amis",
   "title": "Café Des Amis",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Nordstrasse 88, 8037 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -2996,7 +2976,7 @@
   "radar": false,
   "notiz": "",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "1E24D086-DECD-4671-986B-220C74D08457",
@@ -3111,8 +3091,8 @@
   "key": "cafekafiduziszurich",
   "name": "Café Kafi Duzis, Zürich",
   "title": "Café Kafi Duzis, Zürich",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Werdstrasse 70, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "Brunch",
    "Café",
@@ -3125,7 +3105,7 @@
   "radar": false,
   "notiz": "",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "D03E8668-C4FE-4DF8-9EBE-5387D4BBC59C",
@@ -3192,8 +3172,8 @@
   "key": "cafekraftwerkcoworking",
   "name": "Café Kraftwerk: Co-Working",
   "title": "Café Kraftwerk: Co-Working",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Selnaustrasse 25, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "Event",
@@ -3206,7 +3186,7 @@
   "radar": false,
   "notiz": "Monday to Friday, 8 am until 8 pm – come and pay us a visit!",
   "web": "https://huble.impacthub.ch/book/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F1951F6D-6012-44C0-84CE-24703A927BA2",
@@ -5014,25 +4994,6 @@
   "notiz": "|## Mitten in Zürich...## ... und doch in den Alpen.<br> Das Fondue Chalet bringt viel Charme und Ambiente in die schöne Stadt an der Sihl. Kommen Sie auf den Kalanderplatz in Sihlcity und geniessen Sie bestes Gletscherfondue und feine …",
   "web": "http://www.fondue-chalet.ch/index.php",
   "geaendert": "2026-03-15"
- },
- {
-  "id": "98A9CFED-75E5-4F02-B96F-D1CE27589D51",
-  "key": "fonduesaisoneroffnetvonkuscheligbisexklusivdassinddiefonduepopupsamzurichsee",
-  "name": "Fondue-Saison eröffnet: Von kuschelig bis exklusiv: Das sind die Fondue-Pop-Ups am Zürichsee",
-  "title": "Fondue-Saison eröffnet: Von kuschelig bis exklusiv: Das sind die Fondue-Pop-Ups am Zürichsee",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "Stadt",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "Im Winter verwandeln sich Badeplätze, Aussichtsterrassen und Verkehrsmittel rund um den Zürichsee in Fondue-Stuben. Unsere Auswahl zeigt sieben Lokalitäten für Abende mit heissem Käse.",
-  "web": "",
-  "geaendert": "2026-11-11"
  },
  {
   "id": "D98BA85B-1425-4A85-BDED-0CDB5C46C207",
@@ -12281,28 +12242,6 @@
  },
  {
   "id": "7055CD72-7D14-41E3-A39F-C127F3C803CC",
-  "key": "toggenburghausimgluckbedandbreakfast",
-  "name": "Toggenburg: Haus im Glück, Bed and Breakfast",
-  "title": "Toggenburg: Haus im Glück, Bed and Breakfast",
-  "adresse": "St. Peterzellerstrasse 1, 9633 Hemberg",
-  "quelle": "bear",
-  "tags": [
-   "Bucket List",
-   "GASTRO",
-   "Hotel",
-   "Ostschweiz",
-   "Radar",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": true,
-  "notiz": "Die Engadinger Innenarchitektin Madlaina Feuerstein hat ein etwa 200 Jahre altes Landhaus in ein charmantes Gästehaus verwandelt.",
-  "web": "http://www.haus-im-glueck.ch",
-  "geaendert": "2026-11-11"
- },
- {
-  "id": "5381A085-0E43-43AF-A487-731BEB591000",
   "key": "toggenburghausimgluckbedandbreakfast",
   "name": "Toggenburg: Haus im Glück, Bed and Breakfast",
   "title": "Toggenburg: Haus im Glück, Bed and Breakfast",

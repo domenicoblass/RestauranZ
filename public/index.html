@@ -113,6 +113,8 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 .pop h3 { margin: 0; font: 700 19px/1.15 var(--display) }
 .pop .addr { color: var(--muted); font-size: 13px }
 .pop .note { font-size: 13px; margin: 0 }
+.pop details.notewrap summary { cursor: pointer; font-size: 13px; color: var(--muted) }
+.pop details.notewrap .note { margin-top: 4px }
 .pop .tags { display: flex; flex-wrap: wrap; gap: 4px }
 .pop .tags span { font-size: 11px; padding: 3px 6px; border-radius: 5px; background: var(--accent-soft); color: var(--fg) }
 .pop .acts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px }
@@ -388,13 +390,16 @@ function popupEl(d) {
   const google = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(d.name + (d.adresse ? ", " + d.adresse : ""));
   const tags = d.tags.filter(t => !HIDDEN.has(t)).map(t => `<span>${esc(label(t))}</span>`).join("");
   const el = document.createElement("div"); el.className = "pop";
+  const fix = `<details class="fix"${d.adresse ? "" : " open"}><summary>${d.adresse ? "Adresse ändern" : "Adresse suchen und eintragen"}</summary></details>`;
+  // Ohne Adresse: Suchformular direkt unter dem Titel, Notiz eingeklappt
+  const note = d.notiz ? (d.adresse ? `<p class="note">${esc(d.notiz)}</p>` : `<details class="notewrap"><summary>Notiz anzeigen</summary><p class="note">${esc(d.notiz)}</p></details>`) : "";
   el.innerHTML = `${isRadar(d) ? '<span class="fav">★ Radar</span>' : ""}<h3>${esc(d.name)}</h3>` +
-    `<div class="addr">${esc(d.adresse || "Keine Adresse")}</div>` +
-    (d.notiz ? `<p class="note">${esc(d.notiz)}</p>` : "") +
+    (d.adresse ? `<div class="addr">${esc(d.adresse)}</div>` : fix) +
+    note +
     (tags ? `<div class="tags">${tags}</div>` : "") +
     `<div class="acts"><a class="bear" href="${esc(bearOpen(d))}">In Bear öffnen</a><a href="${esc(apple)}" target="_blank" rel="noopener">Apple Karten</a><a href="${esc(google)}" target="_blank" rel="noopener">Google Maps</a>` +
     (d.web ? `<a href="${esc(d.web)}" target="_blank" rel="noopener">Website</a>` : "") + `</div>` +
-    `<details class="fix"${d.adresse ? "" : " open"}><summary>${d.adresse ? "Adresse ändern" : "Adresse suchen und eintragen"}</summary></details>` +
+    (d.adresse ? fix : "") +
     `<div class="more"><button type="button" class="coll" title="Sammelartikel aus der App nehmen (Tag #GASTRO/Sammlung)">Ist eine Sammlung</button><button type="button" class="del">Löschen</button></div>`;
   el.querySelector("details.fix").appendChild(addressForm(d, false));
   el.querySelector(".del").onclick = () => trashNote(d);

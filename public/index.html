@@ -124,6 +124,11 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 .pop details.fix .edit-row { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px }
 .pop details.fix input { width: 100%; font: 15px var(--font); padding: 7px 9px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--fg) }
 .pop details.fix button { padding: 6px 9px; font-size: 13px }
+.sug { display: grid; gap: 4px; flex-basis: 100%; margin: 2px 0 4px }
+.sug[hidden] { display: none }
+.sug .hint { font-size: 12px; color: var(--muted) }
+.sug button.pick { text-align: left; font-size: 13px; padding: 7px 9px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); line-height: 1.3 }
+.sug button.pick.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) }
 .pop .msg { display: block; font-size: 12px; color: var(--muted); margin-top: 3px }
 .pop .msg.ok { color: var(--ok) } .pop .msg.bad { color: var(--warn) }
 .pop .more { display: flex; gap: 16px; flex-wrap: wrap }
@@ -284,6 +289,37 @@ async function geocode(addr) {
   geoCache[addr] = hit;
   store.set("guide.geo", geoCache);
   return hit;
+}
+// Ort anhand des Namens finden (Photon, sonst Nominatim). Titel «Ort: Name» wird zu «Name Ort».
+const placeCache = {};
+async function findPlaces(title) {
+  const m = title.match(/^([^:]{1,40}):\s*(.+)$/);
+  const q = (m ? m[2] + " " + m[1] : title).replace(/^(Rest\.|Restaurant)\s+/i, "").replace(/[–—()]/g, " ").replace(/\s+/g, " ").trim();
+  if (placeCache[q]) return placeCache[q];
+  const ok = new Set(["CH", "DE", "IT", "FR", "AT", "LI"]);
+  const fmt = (street, nr, plz, city) => [[street, nr].filter(Boolean).join(" "), [plz, city].filter(Boolean).join(" ")].filter(Boolean).join(", ");
+  let out = [];
+  try {
+    const r = await (await fetch("https://photon.komoot.io/api/?lang=de&limit=8&q=" + encodeURIComponent(q))).json();
+    for (const f of r.features || []) {
+      const p = f.properties || {};
+      if (p.countrycode && !ok.has(p.countrycode.toUpperCase())) continue;
+      if (!p.city && !p.postcode) continue;
+      out.push({ name: p.name, adresse: fmt(p.street, p.housenumber, p.postcode, p.city || p.town || p.village), lat: f.geometry.coordinates[1], lon: f.geometry.coordinates[0] });
+    }
+  } catch {}
+  if (!out.length) {
+    try {
+      const r = await (await fetch("https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=5&countrycodes=ch,de,it,fr,at,li&q=" + encodeURIComponent(q), { headers: { "Accept-Language": "de" } })).json();
+      for (const h of r) {
+        const a = h.address || {};
+        out.push({ name: h.name, adresse: fmt(a.road || a.pedestrian || a.hamlet, a.house_number, a.postcode, a.city || a.town || a.village || a.municipality), lat: +h.lat, lon: +h.lon });
+      }
+    } catch {}
+  }
+  const seen = new Set();
+  out = out.filter(r => r.adresse && !seen.has(r.adresse) && seen.add(r.adresse)).slice(0, 4);
+  return (placeCache[q] = out);
 }
 async function locateMissing() {
   const todo = DATA.filter(d => d.adresse && d.lat == null && geoCache[d.adresse] === undefined);
@@ -487,8 +523,8 @@ function editItem(d) {
 // Formular zum Eintragen einer Adresse; wird in der Liste («Adressen») und im Kartenfenster verwendet
 function addressForm(d, withExtras) {
   const box = document.createElement("div");
-  box.innerHTML = `<div class="edit-row"><input class="addr" type="text" placeholder="Strasse Nr, PLZ Ort" autocomplete="street-address" aria-label="Adresse von ${esc(d.name)}">` +
-    `<button type="button" data-act="search" title="Bei Google nach der Adresse suchen">Suchen</button><button type="button" data-act="check">Prüfen</button><button type="button" class="primary" data-act="save">In Bear speichern</button>` +
+  box.innerHTML = `<div class="edit-row"><input class="addr" type="text" placeholder="Strasse Nr, PLZ Ort" autocomplete="street-address" aria-label="Adresse von ${esc(d.name)}"><div class="sug" hidden></div>` +
+    `<button type="button" data-act="suggest" title="Adressvorschläge aus OpenStreetMap">Vorschläge</button><button type="button" data-act="search" title="In Google Maps nach dem Restaurant suchen">Suchen</button><button type="button" data-act="check">Prüfen</button><button type="button" class="primary" data-act="save">In Bear speichern</button>` +
     (withExtras ? `<button type="button" data-act="note">Notiz</button><button type="button" data-act="coll" title="Sammelartikel aus der App nehmen (Tag #GASTRO/Sammlung)">Ist eine Sammlung</button>` : "") +
     `</div><span class="msg" role="status"></span>`;
   const inp = box.querySelector("input"), msg = box.querySelector(".msg");
@@ -510,8 +546,27 @@ function addressForm(d, withExtras) {
     return c;
   }
   box.querySelector('[data-act="check"]').onclick = check;
-  // Websuche statt Google-Maps-Link: Dieser springt auf dem iPhone in die Google-Maps-App und hinterlässt in der Home-Bildschirm-App ein leeres Fenster
-  box.querySelector('[data-act="search"]').onclick = () => window.open("https://www.google.com/search?q=" + encodeURIComponent(d.name.replace(/^[^:]{1,40}:\s*/, "") + " " + (d.name.match(/^([^:]{1,40}):/)?.[1] || "") + " Adresse"), "_blank", "noopener");
+  box.querySelector('[data-act="search"]').onclick = () => window.open("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(d.name + (d.adresse ? ", " + d.adresse : "")), "_blank", "noopener");
+  // Vorschläge aus OpenStreetMap: antippen übernimmt die Adresse ins Feld
+  const sug = box.querySelector(".sug");
+  async function suggest() {
+    sug.hidden = false; sug.innerHTML = '<span class="hint">Suche Vorschläge …</span>';
+    const list = await findPlaces(d.name);
+    if (!list.length) { sug.innerHTML = '<span class="hint">Keine Vorschläge gefunden. Mit «Suchen» in Google Maps nachschauen.</span>'; return; }
+    sug.innerHTML = '<span class="hint">Vorschläge, antippen zum Übernehmen:</span>';
+    for (const r of list) {
+      const b = document.createElement("button"); b.type = "button"; b.className = "pick";
+      b.innerHTML = `<b>${esc(r.name || "")}</b> ${esc(r.adresse)}`;
+      b.onclick = () => {
+        inp.value = r.adresse; geoCache[r.adresse] = [r.lat, r.lon]; store.set("guide.geo", geoCache);
+        sug.querySelectorAll(".pick").forEach(x => x.classList.toggle("on", x === b));
+        check().then(c => c && say("Übernommen. Jetzt «In Bear speichern» tippen.", "ok"));
+      };
+      sug.appendChild(b);
+    }
+  }
+  box.querySelector('[data-act="suggest"]').onclick = suggest;
+  if (!d.adresse && !withExtras) setTimeout(suggest, 0);
   if (withExtras) {
     box.querySelector('[data-act="note"]').onclick = () => { location.href = bearOpen(d); };
     box.querySelector('[data-act="coll"]').onclick = () => {

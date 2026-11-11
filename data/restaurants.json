@@ -282,31 +282,6 @@
   "geaendert": "2026-11-10"
  },
  {
-  "id": "1C55059F-E88A-4C20-9D88-43B25ED822CD",
-  "key": "alpsteinwasserauenberggasthausascher",
-  "name": "Alpstein: Wasserauen-Berggasthaus Äscher",
-  "title": "Alpstein: Wasserauen-Berggasthaus Äscher",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Appenzell",
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Gutbürgerlich",
-   "Ostschweiz",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Nirgends sonst in der Schweiz vollzieht sich der Wechsel von mittelländischer Hügellandschaft in die von Felsen dominierte Alpenwelt so rasch und beeindruckend wie im Alpsteingebiet. Wie aus dem Nichts ragen mächtige, bis über 2500 …",
-  "web": "https://www.myswitzerland.com/de-ch/erlebnisse/",
-  "geaendert": "2026-11-11"
- },
- {
   "id": "4767B856-5680-4452-974F-FBEBC1331D58",
   "key": "turbenthalalpwirtschaftschnurrberg",
   "name": "Alpwirtschaft Schnurrberg",
@@ -680,32 +655,11 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
-   "Locarnese",
-   "Restaurant",
-   "SCHWEIZ",
-   "Sopraceneri",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "Das Ristorante da Enzo ist der beste Ort für Feinschmacker und Naturliebhaber.",
-  "web": "",
-  "geaendert": "2026-11-09"
- },
- {
-  "id": "3B899E8E-EE30-46E0-99C2-7F9F10B4A0D1",
-  "key": "asconagrottodaenzopontebrolla",
-  "name": "Ascona: Grotto da Enzo, Ponte Brolla",
-  "title": "Ascona: Grotto da Enzo, Ponte Brolla",
-  "adresse": "Via ai Grotti 49, 6652 Tegna",
-  "quelle": "text",
-  "tags": [
-   "GASTRO",
    "GASTRO/Küche",
    "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
+   "SCHWEIZ",
    "Sopraceneri",
    "Ticino+",
    "UNTERWEGS",
@@ -4991,29 +4945,6 @@
   "notiz": "Die Brasserie Schwanen ist so schön, dass man vor lauter Schauen fast das Essen vergisst.",
   "web": "http://www.brasserie-schwanen.ch",
   "geaendert": "2026-11-10"
- },
- {
-  "id": "28FC913E-8D35-41D0-BC50-B5708BC46A2F",
-  "key": "ennetbadenbrasserieschwanen",
-  "name": "Ennetbaden: Brasserie Schwanen",
-  "title": "Ennetbaden: Brasserie Schwanen",
-  "adresse": "Badstrasse 16, 5408 Ennetbaden",
-  "quelle": "text",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Französisch",
-   "Mittelland",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Die Brasserie Schwanen ist so schön, dass man vor lauter Schauen fast das Essen vergisst.",
-  "web": "http://www.brasserie-schwanen.ch",
-  "geaendert": "2026-11-11"
  },
  {
   "id": "C0CCAB3B-90E6-4609-8CC7-B2309DDF4382",
@@ -12552,31 +12483,6 @@
   "geaendert": "2026-11-10"
  },
  {
-  "id": "390E2C16-FAB0-4512-99EF-6CA63F34F0C4",
-  "key": "sottoceneriosteriamancianaundhotel",
-  "name": "Sottoceneri: Osteria Manciana (und Hotel)",
-  "title": "Sottoceneri: Osteria Manciana (und Hotel)",
-  "adresse": "Via Cantonale 95, 6838 Scudellate",
-  "quelle": "text",
-  "tags": [
-   "Bike",
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Italienisch",
-   "Hotel",
-   "Restaurant",
-   "SCHWEIZ",
-   "Sottoceneri",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Clip-Quelle:Osteria%20Manciana%20%u2013%20La%20tua%20osteria%20in%20Valle%20di%20Muggio",
-  "web": "https://osteria-manciana.ch/de/homepage-deutsch/",
-  "geaendert": "2026-11-11"
- },
- {
   "id": "F50906E0-EC73-44CE-9657-28046C0CC580",
   "key": "sottoceneriosterianostranello",
   "name": "Sottoceneri: Osteria Nostranello",
@@ -12950,26 +12856,6 @@
   "title": "Tegna: Ristorante Alla Cantina",
   "adresse": "Piazza Gottardo Zurini 1, 6652 Tegna",
   "quelle": "bear",
-  "tags": [
-   "GASTRO",
-   "Locarnese",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Ticino+"
-  ],
-  "radar": true,
-  "notiz": "Il Ristorante / Alloggi La Cantina si trova nella piazza del paese di Tegna, sulla strada che porta in Valle Maggia a pochi passi dalla stazione ferroviaria e dall’omonimo fiume.",
-  "web": "https://www.ristoranteallacantina.com/",
-  "geaendert": "2026-11-09"
- },
- {
-  "id": "8365AC06-CEE0-451E-9314-85F558FB0521",
-  "key": "tegnaristoranteallacantina",
-  "name": "Tegna: Ristorante Alla Cantina",
-  "title": "Tegna: Ristorante Alla Cantina",
-  "adresse": "",
-  "quelle": "",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",

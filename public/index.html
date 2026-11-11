@@ -155,6 +155,8 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 #outbox { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(14px + env(safe-area-inset-bottom)); z-index: 1200; display: flex; align-items: center; gap: 12px; padding: 8px 8px 8px 16px; border-radius: 999px; background: var(--fg); color: var(--bg); box-shadow: 0 6px 20px rgba(0,0,0,.25); font: 600 15px var(--font); white-space: nowrap }
 #outbox[hidden] { display: none }
 #outbox button { border-radius: 999px; padding: 8px 14px; font: 700 15px var(--font); background: var(--accent); color: var(--accent-ink); border: 0 }
+.edit-row a.btn { display: inline-flex; align-items: center; padding: 6px 9px; font-size: 13px; font-weight: 600; border-radius: 8px; border: 1px solid var(--line); color: var(--fg); text-decoration: none; background: var(--bg) }
+.notebox { flex-basis: 100%; margin: 6px 0 0; font-size: 13px; line-height: 1.4; color: var(--fg); background: var(--accent-soft); border-radius: 8px; padding: 8px 10px }
 </style>
 </head>
 <body>
@@ -432,7 +434,7 @@ function popupEl(d) {
   const el = document.createElement("div"); el.className = "pop";
   const fix = `<details class="fix"${d.adresse ? "" : " open"}><summary>${d.adresse ? "Adresse ändern" : "Adresse suchen und eintragen"}</summary></details>`;
   // Ohne Adresse: Suchformular direkt unter dem Titel, Notiz eingeklappt
-  const note = d.notiz ? (d.adresse ? `<p class="note">${esc(d.notiz)}</p>` : `<details class="notewrap"><summary>Notiz anzeigen</summary><p class="note">${esc(d.notiz)}</p></details>`) : "";
+  const note = d.notiz ? (d.adresse ? `<p class="note">${esc(d.notiz)}</p>` : "") : "";
   el.innerHTML = `${isRadar(d) ? '<span class="fav">★ Radar</span>' : ""}<h3>${esc(d.name)}</h3>` +
     (d.adresse ? `<div class="addr">${esc(d.adresse)}</div>` : fix) +
     note +
@@ -529,8 +531,9 @@ function addressForm(d, withExtras) {
   const box = document.createElement("div");
   box.innerHTML = `<div class="edit-row"><input class="addr" type="text" placeholder="Strasse Nr, PLZ Ort" autocomplete="street-address" aria-label="Adresse von ${esc(d.name)}"><div class="sug" hidden></div>` +
     `<button type="button" data-act="suggest" title="Adressvorschläge aus OpenStreetMap">Vorschläge</button><button type="button" data-act="search" title="In Google Maps nach dem Restaurant suchen">Suchen</button><button type="button" data-act="check">Prüfen</button><button type="button" class="primary" data-act="save">Übernehmen</button>` +
-    (withExtras ? `<button type="button" data-act="note">Notiz</button><button type="button" data-act="coll" title="Sammelartikel aus der App nehmen (Tag #GASTRO/Sammlung)">Ist eine Sammlung</button>` : "") +
-    `</div><span class="msg" role="status"></span>`;
+    (d.notiz ? `<button type="button" data-act="shownote" aria-expanded="false">Notiz anzeigen</button>` : "") + `<a class="btn" data-act="bear" href="${esc(bearOpen(d))}">In Bear öffnen</a>` +
+    (withExtras ? `<button type="button" data-act="coll" title="Sammelartikel aus der App nehmen (Tag #GASTRO/Sammlung)">Ist eine Sammlung</button>` : "") +
+    `</div><p class="notebox" hidden>${esc(d.notiz || "")}</p><span class="msg" role="status"></span>`;
   const inp = box.querySelector("input"), msg = box.querySelector(".msg");
   inp.value = pending[d.id]?.adresse || d.adresse || "";
   inp.addEventListener("paste", e => { const t = e.clipboardData?.getData("text"); if (t) { e.preventDefault(); inp.value = tidy(t); } });
@@ -550,6 +553,8 @@ function addressForm(d, withExtras) {
     return c;
   }
   box.querySelector('[data-act="check"]').onclick = check;
+  const nb = box.querySelector('[data-act="shownote"]');
+  if (nb) nb.onclick = () => { const p = box.querySelector(".notebox"); p.hidden = !p.hidden; nb.textContent = p.hidden ? "Notiz anzeigen" : "Notiz ausblenden"; nb.setAttribute("aria-expanded", !p.hidden); };
   box.querySelector('[data-act="search"]').onclick = () => window.open("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(d.name + (d.adresse ? ", " + d.adresse : "")), "_blank", "noopener");
   // Vorschläge aus OpenStreetMap: antippen übernimmt die Adresse ins Feld
   const sug = box.querySelector(".sug");
@@ -572,7 +577,6 @@ function addressForm(d, withExtras) {
   box.querySelector('[data-act="suggest"]').onclick = suggest;
   if (!d.adresse && !withExtras) setTimeout(suggest, 0);
   if (withExtras) {
-    box.querySelector('[data-act="note"]').onclick = () => { location.href = bearOpen(d); };
     box.querySelector('[data-act="coll"]').onclick = () => {
       hideLocally(d, "sammlung");
       location.href = bearAddTag(d, "GASTRO/Sammlung");

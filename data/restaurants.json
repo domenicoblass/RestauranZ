@@ -24,8 +24,8 @@
   "key": "50zu5",
   "name": "50 zu 5",
   "title": "Rest. 50 zu 5",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zollikerstrasse 6, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -38,7 +38,7 @@
   "radar": false,
   "notiz": "Atelier Caminada  | 24. Oktober 2018Langustinen-RavioliLust auf selbstgemachte Ravioli à la Caminada? Silvio Germann («Igniv») steht am Herd und zeigt wie’s geht.",
   "web": "https://www.gaultmillau.ch/zuri-isst/50-zu-5-von-zurich-nach-berlin-und-zuruck#toggleNavigationAction",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "8703CD43-9A0E-4CCA-82D8-D1FECCA15BB5",
@@ -89,8 +89,8 @@
   "key": "aaraucafesevilla",
   "name": "Aarau: Café Sevilla",
   "title": "Aarau: Café Sevilla",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Kirchgasse 4, 5000 Aarau",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Mittelland",
@@ -100,15 +100,15 @@
   "radar": false,
   "notiz": "Aarau gilt nicht gerade als ein Hotspot auf der kulinarischen Landkarte. Wem aber zum Beispiel nach dem Besuch der Ausstellung über das aktuelle Kunstschaffen im Kanton Aargau im Kunsthaus der Magen knurrt, muss sich dennoch keine …",
   "web": "",
-  "geaendert": "2024-11-15"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "47D0C0B8-06D0-404D-94CA-4033E5F67B15",
   "key": "accademiadelgusto",
   "name": "Accademia del Gusto",
   "title": "Rest. Accademia del Gusto",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Rotwandstrasse 48, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -121,7 +121,7 @@
   "radar": false,
   "notiz": "- François de la Rochefoucauld. Italienische Küche der Extraklasse in der Accademia del Gusto in Zürich.",
   "web": "http://www.accademiadelgusto.ch/de",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "DCFC9303-34C5-4E4D-9FAC-A55088ADCF15",
@@ -233,42 +233,40 @@
   "geaendert": "2025-08-10"
  },
  {
-  "id": "75494B9D-2F84-4641-8187-885BDA7A7903",
+  "id": "DE18A16C-3102-4C33-872D-75908381F0C4",
+  "key": "alpenblickarosa",
+  "name": "Alpenblick – Arosa",
+  "title": "Alpenblick – Arosa",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "GASTRO",
+   "Graubünden",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang"
+  ],
+  "radar": true,
+  "notiz": "Öffnungszeiten: 27. Juni 2026 bis zum 2. April 2027",
+  "web": "https://alpenblickarosa.ch/restaurants/",
+  "geaendert": "2026-11-10"
+ },
+ {
+  "id": "8CF9B071-34F3-4BE5-88FC-4ED94771EBF5",
   "key": "alpsteinberggasthausaescher",
   "name": "Alpstein: Berggasthaus Aescher",
   "title": "Alpstein: Berggasthaus Aescher",
   "adresse": "",
   "quelle": "",
   "tags": [
+   "Appenzell",
+   "Aussenraum",
    "Bucket List",
    "Fokus",
    "GASTRO",
    "Hotel",
-   "Ostschweiz",
-   "Radar",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": true,
-  "notiz": "Das Berggasthaus Aescher öffnet per Oktober wieder seine Zimmer.",
-  "web": "",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "1C018617-81D5-4F75-A4B7-F99119960F33",
-  "key": "alpsteinbergrestaurantascher",
-  "name": "Alpstein: Bergrestaurant Äscher",
-  "title": "Alpstein: Bergrestaurant Äscher",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Appenzell",
-   "Bucket List",
-   "Fokus",
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Gutbürgerlich",
    "Ostschweiz",
    "Radar",
    "Restaurant",
@@ -279,12 +277,12 @@
    "UNTERWEGS/Ausflüge"
   ],
   "radar": true,
-  "notiz": "Wir heissen Sie herzlich willkommen im schönen Alpsteingebiet:",
-  "web": "http://www.aescher-ai.ch/aescher.html",
-  "geaendert": "2025-07-31"
+  "notiz": "Das Berggasthaus Aescher öffnet per Oktober wieder seine Zimmer.",
+  "web": "http://www.aescher-ai.ch/impressum.html",
+  "geaendert": "2026-11-10"
  },
  {
-  "id": "779E523D-E274-4A74-B500-5F2B77E2DF02",
+  "id": "1C55059F-E88A-4C20-9D88-43B25ED822CD",
   "key": "alpsteinwasserauenberggasthausascher",
   "name": "Alpstein: Wasserauen-Berggasthaus Äscher",
   "title": "Alpstein: Wasserauen-Berggasthaus Äscher",
@@ -306,7 +304,7 @@
   "radar": false,
   "notiz": "Nirgends sonst in der Schweiz vollzieht sich der Wechsel von mittelländischer Hügellandschaft in die von Felsen dominierte Alpenwelt so rasch und beeindruckend wie im Alpsteingebiet. Wie aus dem Nichts ragen mächtige, bis über 2500 …",
   "web": "https://www.myswitzerland.com/de-ch/erlebnisse/",
-  "geaendert": "2026-03-08"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "4767B856-5680-4452-974F-FBEBC1331D58",
@@ -588,8 +586,8 @@
   "key": "appenzellresorthofweissbad",
   "name": "Appenzell: Resort Hof Weissbad",
   "title": "Appenzell: Resort Hof Weissbad",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Im Park 1, 9057 Weissbad",
+  "quelle": "bear",
   "tags": [
    "Appenzell",
    "GASTRO",
@@ -604,7 +602,7 @@
   "radar": true,
   "notiz": "Im schönen Appenzellerland erwartet Sie das Resort Hof Weissbad. Ein Ort der Ruhe und Erholung mit Wellness, exzellenter Küche und herzlicher Gastfreundschaft – das ganze Jahr über.",
   "web": "https://www.hofweissbad.ch/",
-  "geaendert": "2025-08-10"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "49CD30E8-DAA2-4D43-A66F-74005B5E135B",
@@ -628,32 +626,10 @@
   "geaendert": "2024-09-30"
  },
  {
-  "id": "99D5C5DB-5A16-477F-B95A-5BFB77BA9355",
-  "key": "arosaschwellisee",
-  "name": "Arosa-Schwellisee",
-  "title": "Arosa-Schwellisee",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Graubünden",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "Winter"
-  ],
-  "radar": false,
-  "notiz": "Ideale Verhältnisse auf dem Weg zum Schwellisee.",
-  "web": "",
-  "geaendert": "2024-08-22"
- },
- {
   "id": "D0570997-1CCA-4128-99FD-754FF7BA7B2B",
-  "key": "asconadasarthotelriposoeinrefugiumfurruhesuchende",
-  "name": "Ascona: Das Art Hotel Riposo, ein Refugium für Ruhesuchende",
-  "title": "Ascona: Das Art Hotel Riposo, ein Refugium für Ruhesuchende",
+  "key": "asconaarthotelriposo",
+  "name": "Ascona: Art Hotel Riposo",
+  "title": "Ascona: Art Hotel Riposo",
   "adresse": "",
   "quelle": "",
   "tags": [
@@ -669,7 +645,7 @@
   "radar": false,
   "notiz": "Das familiengeführte 4-Sterne-Haus Art Hotel Riposo ist ein Rückzugsort der besonderen Art. Es schafft den Spagat zwischen modern, persönlich und gekonnt traditionell.",
   "web": "https://www.hotelriposo.ch/",
-  "geaendert": "2024-09-16"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "1929FC0C-642F-461C-BBCE-ACCAAA11E1FF",
@@ -704,6 +680,28 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "Locarnese",
+   "Restaurant",
+   "SCHWEIZ",
+   "Sopraceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Reisen"
+  ],
+  "radar": false,
+  "notiz": "Das Ristorante da Enzo ist der beste Ort für Feinschmacker und Naturliebhaber.",
+  "web": "",
+  "geaendert": "2026-11-09"
+ },
+ {
+  "id": "3B899E8E-EE30-46E0-99C2-7F9F10B4A0D1",
+  "key": "asconagrottodaenzopontebrolla",
+  "name": "Ascona: Grotto da Enzo, Ponte Brolla",
+  "title": "Ascona: Grotto da Enzo, Ponte Brolla",
+  "adresse": "Via ai Grotti 49, 6652 Tegna",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
    "GASTRO/Küche",
    "GASTRO/Küche/Italienisch",
    "Locarnese",
@@ -716,7 +714,7 @@
   "radar": false,
   "notiz": "Das Ristorante da Enzo ist der beste Ort für Feinschmacker und Naturliebhaber.",
   "web": "",
-  "geaendert": "2026-10-12"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "0682B0A9-1952-4F42-81BA-428D93588DE3",
@@ -1482,8 +1480,8 @@
   "key": "barvillazampano",
   "name": "Bar Villa Zampano",
   "title": "Bar Villa Zampano",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Neumünsterallee 21, 8008, Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1497,7 +1495,7 @@
   "radar": true,
   "notiz": "Ab 12. November jeden Donnerstag ab 19 h:",
   "web": "",
-  "geaendert": "2026-10-25"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "0C0BBFDD-5681-4DC1-BF95-E8BDA6A74CC2",
@@ -1934,6 +1932,75 @@
   "geaendert": "2026-10-11"
  },
  {
+  "id": "60CC2655-01D5-475B-A341-3FEE6487191F",
+  "key": "bellinzonaristcantinindalgatt",
+  "name": "Bellinzona: Rist. Cantinin dal Gatt",
+  "title": "Bellinzona: Rist. Cantinin dal Gatt",
+  "adresse": "Vicolo al Sasso 4, 6500 Bellinzona",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
+   "Grono",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Sopraceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang"
+  ],
+  "radar": true,
+  "notiz": "Cantinin dal Gatt, Vicolo al Sasso 4, 6500 Bellinzona, +41 91 825 27 71",
+  "web": "http://www.cantinindalgatt.ch/",
+  "geaendert": "2026-11-09"
+ },
+ {
+  "id": "4708E393-F43E-4F59-BBFD-7A08B346F29D",
+  "key": "bellinzonaristcorona",
+  "name": "Bellinzona: Rist. Corona",
+  "title": "Bellinzona: Rist. Corona",
+  "adresse": "Via Camminata 5, 6500 Bellinzona",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
+   "Grono",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Sopraceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang"
+  ],
+  "radar": true,
+  "notiz": "Corona, Via Camminata 5, 6500 Bellinzona, +41 91 825 28 44, http://www.ristorantecorona.ch",
+  "web": "http://www.ristorantecorona.ch/",
+  "geaendert": "2026-11-09"
+ },
+ {
+  "id": "41314BC3-6EAD-4950-9C2D-793551AAB941",
+  "key": "bellinzonaristportici",
+  "name": "Bellinzona: Rist. Portici",
+  "title": "Bellinzona: Rist. Portici",
+  "adresse": "Vicolo Muggiasca 4, 6500 Bellinzona",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
+   "Grono",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Sopraceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang"
+  ],
+  "radar": true,
+  "notiz": "Ristorante Portici, Vicolo Muggiasca 4, 6500 Bellinzona, +41 91 825 47 31",
+  "web": "http://www.ristoranteportici.ch/",
+  "geaendert": "2026-11-09"
+ },
+ {
   "id": "4F076902-2263-4ECF-9622-9AFFAAE8946D",
   "key": "bellinzonaristromitaggiomontecarasso",
   "name": "Bellinzona: Rist. Romitaggio, Monte Carasso",
@@ -1955,11 +2022,11 @@
   "geaendert": "2026-10-11"
  },
  {
-  "id": "60CC2655-01D5-475B-A341-3FEE6487191F",
-  "key": "bellinzonaristoranti",
-  "name": "Bellinzona: Ristoranti",
-  "title": "Bellinzona: Ristoranti",
-  "adresse": "Via Camminata 5, 6500 Bellinzona",
+  "id": "BB698B86-CDB6-426B-B422-19CE4BBBEBDE",
+  "key": "bellinzonaristzanzibar",
+  "name": "Bellinzona: Rist. Zanzibar",
+  "title": "Bellinzona: Rist. Zanzibar",
+  "adresse": "Via Lugano 11, 6500 Bellinzona",
   "quelle": "text",
   "tags": [
    "GASTRO",
@@ -1973,9 +2040,9 @@
    "UNTERWEGS/Ausgang"
   ],
   "radar": true,
-  "notiz": "Corona, Via Camminata 5, 6500 Bellinzona, +41 91 825 28 44, http://www.ristorantecorona.ch",
-  "web": "http://www.ristorantecorona.ch/",
-  "geaendert": "2026-05-14"
+  "notiz": "Ristorante Zanzibar, Via Lugano 11, 6500 Bellinzona, +41 91 825 96 07",
+  "web": "",
+  "geaendert": "2026-11-09"
  },
  {
   "id": "D50B5CF6-317E-48DE-B6A3-E42C3D8AE880",
@@ -3010,10 +3077,9 @@
   "adresse": "",
   "quelle": "",
   "tags": [
-   "Aktualisieren",
+   "Café",
    "GASTRO",
    "Radar",
-   "Restaurant",
    "SCHWEIZ",
    "Stadt",
    "UNTERWEGS",
@@ -3021,9 +3087,9 @@
    "Zürich+"
   ],
   "radar": true,
-  "notiz": "",
-  "web": "https://www.cafe1842.ch/",
-  "geaendert": "2026-11-05"
+  "notiz": "Unsere Spezialitäten sind vor allem Patisserien, Torten und Kuchen. Zu jeder Süssigkeit haben wir auch einen passenden Tee oder den idealen Kaffee.",
+  "web": "https://www.cafe1842.ch/conditorei",
+  "geaendert": "2026-11-09"
  },
  {
   "id": "FF34C947-27EE-400F-9681-70C7FD704103",
@@ -4491,49 +4557,6 @@
   "geaendert": "2026-07-17"
  },
  {
-  "id": "F55BB909-A705-4CE5-A00B-B1527F20531B",
-  "key": "eglisauvivikolabar",
-  "name": "Eglisau: Vivi Kola Bar",
-  "title": "Eglisau: Vivi Kola Bar",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "Bar",
-   "Café",
-   "Eglisau+",
-   "GASTRO",
-   "Radar",
-   "SCHWEIZ",
-   "Tössriederen"
-  ],
-  "radar": true,
-  "notiz": "Speisen vor Ort · Zum Mitnehmen · Kein Lieferdienst",
-  "web": "https://vivikolabar.ch",
-  "geaendert": "2023-06-04"
- },
- {
-  "id": "2BFFE026-4686-4255-8286-66CDE76665BD",
-  "key": "eglisauvivikolabar",
-  "name": "Eglisau: Vivikola-Bar",
-  "title": "Eglisau: Vivikola-Bar",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "Bar",
-   "GASTRO",
-   "Ostschweiz",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Bei der Kombination feines Essen, Alkohol und ein Platz am Wasser schalten die Synapsen irgendwie automatisch auf Feriengefühle – besonders, wenn es sich um einen so lauschigen Platz wie die Vivi Kola Bar in Eglisau handelt. Die kleine …",
-  "web": "https://vivikola.ch/",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "7A299564-192C-4053-AC98-A6373CD028A4",
   "key": "eichhornli",
   "name": "Eichhörnli",
@@ -4967,7 +4990,30 @@
   "radar": false,
   "notiz": "Die Brasserie Schwanen ist so schön, dass man vor lauter Schauen fast das Essen vergisst.",
   "web": "http://www.brasserie-schwanen.ch",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-10"
+ },
+ {
+  "id": "28FC913E-8D35-41D0-BC50-B5708BC46A2F",
+  "key": "ennetbadenbrasserieschwanen",
+  "name": "Ennetbaden: Brasserie Schwanen",
+  "title": "Ennetbaden: Brasserie Schwanen",
+  "adresse": "Badstrasse 16, 5408 Ennetbaden",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Französisch",
+   "Mittelland",
+   "Restaurant",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausflüge",
+   "Zürich+"
+  ],
+  "radar": false,
+  "notiz": "Die Brasserie Schwanen ist so schön, dass man vor lauter Schauen fast das Essen vergisst.",
+  "web": "http://www.brasserie-schwanen.ch",
+  "geaendert": "2026-11-11"
  },
  {
   "id": "C0CCAB3B-90E6-4609-8CC7-B2309DDF4382",
@@ -8217,7 +8263,6 @@
   "quelle": "",
   "tags": [
    "Bucket List",
-   "Fokus",
    "GASTRO",
    "Graubünden",
    "Hotel",
@@ -8227,7 +8272,7 @@
   "radar": true,
   "notiz": "Unser Guarda Val ist Ihr einzigartiges Maiensässhotel, das sich auf elf bis zu 300 Jahre alte Hütten und Ställe verteilt. Im Weiler Sporz, direkt oberhalb der Lenzerheide auf 1600 Meter über Meer, verbindet es die Faszination …",
   "web": "http://www.guardaval.ch/essen-trinken/crap-naros.html",
-  "geaendert": "2024-08-22"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "F3CFA111-0010-4D3A-B266-FD8F949E0842",
@@ -8376,8 +8421,8 @@
   "key": "locarnoristorantevallemaggia",
   "name": "Locarno: Ristorante Vallemaggia",
   "title": "Locarno: Ristorante Vallemaggia",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Bartolomeo Varenna 1, 6600 Locarno",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -8390,7 +8435,7 @@
   "radar": true,
   "notiz": "Im Restaurant Pro Infirmis Vallemaggia begrüßen wir Sie herzlich und mit einem hochwertigen Service. Die Küche ist gesund und ausgewogen. Ein Team von Fachleuten arbeitet mit Mitarbeitern zusammen, die eine Invalidenrente beziehen und …",
   "web": "https://www.ristorantevallemaggia.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-09"
  },
  {
   "id": "2F445293-07B2-434E-A06D-8C1A00CDE051",
@@ -8715,7 +8760,6 @@
   "quelle": "",
   "tags": [
    "Bucket List",
-   "Fokus",
    "GASTRO",
    "Hotel",
    "Radar",
@@ -8727,7 +8771,7 @@
   "radar": true,
   "notiz": "Rezeption ist 24 Stunden täglich besetzt",
   "web": "http://www.hotel-restaurant-anker.ch/lageplan-anfahrt/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "F63EA11A-0BCB-42AA-B32B-0EAD4569BDF1",
@@ -8767,7 +8811,7 @@
   "radar": false,
   "notiz": "Ristorante Barbatti, Töpferstrasse 10, Luzern, +41 41 410 13 41, ristorante.barbatti@bindella.ch",
   "web": "",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "7BF4351A-B9BD-4EF2-8D0E-98AC457B0D01",
@@ -11525,6 +11569,30 @@
   "geaendert": "2026-11-09"
  },
  {
+  "id": "4083DD96-CB51-49C9-BF2E-8C976CF59D98",
+  "key": "sapacanteen",
+  "name": "Sapa Canteen",
+  "title": "Rest. Sapa Canteen",
+  "adresse": "Walchestrasse 11, 8006 Zürich",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Asiatisch",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Stadt",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": true,
+  "notiz": "Bunt, frisch und vietnamesisch: Die vegetarische Apéro-Platte und die zwei Hauptgänge im Restaurant Sapa Canteen.",
+  "web": "https://www.sapacanteen.ch/",
+  "geaendert": "2026-11-10"
+ },
+ {
   "id": "197DD87B-0906-4A1F-9DD6-ADC28D089487",
   "key": "satt",
   "name": "Satt",
@@ -12481,7 +12549,32 @@
   "radar": false,
   "notiz": "Clip-Quelle:Osteria%20Manciana%20%u2013%20La%20tua%20osteria%20in%20Valle%20di%20Muggio",
   "web": "https://osteria-manciana.ch/de/homepage-deutsch/",
-  "geaendert": "2024-09-16"
+  "geaendert": "2026-11-10"
+ },
+ {
+  "id": "390E2C16-FAB0-4512-99EF-6CA63F34F0C4",
+  "key": "sottoceneriosteriamancianaundhotel",
+  "name": "Sottoceneri: Osteria Manciana (und Hotel)",
+  "title": "Sottoceneri: Osteria Manciana (und Hotel)",
+  "adresse": "Via Cantonale 95, 6838 Scudellate",
+  "quelle": "text",
+  "tags": [
+   "Bike",
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
+   "Hotel",
+   "Restaurant",
+   "SCHWEIZ",
+   "Sottoceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausflüge"
+  ],
+  "radar": false,
+  "notiz": "Clip-Quelle:Osteria%20Manciana%20%u2013%20La%20tua%20osteria%20in%20Valle%20di%20Muggio",
+  "web": "https://osteria-manciana.ch/de/homepage-deutsch/",
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F50906E0-EC73-44CE-9657-28046C0CC580",
@@ -12855,6 +12948,26 @@
   "key": "tegnaristoranteallacantina",
   "name": "Tegna: Ristorante Alla Cantina",
   "title": "Tegna: Ristorante Alla Cantina",
+  "adresse": "Piazza Gottardo Zurini 1, 6652 Tegna",
+  "quelle": "bear",
+  "tags": [
+   "GASTRO",
+   "Locarnese",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Ticino+"
+  ],
+  "radar": true,
+  "notiz": "Il Ristorante / Alloggi La Cantina si trova nella piazza del paese di Tegna, sulla strada che porta in Valle Maggia a pochi passi dalla stazione ferroviaria e dall’omonimo fiume.",
+  "web": "https://www.ristoranteallacantina.com/",
+  "geaendert": "2026-11-09"
+ },
+ {
+  "id": "8365AC06-CEE0-451E-9314-85F558FB0521",
+  "key": "tegnaristoranteallacantina",
+  "name": "Tegna: Ristorante Alla Cantina",
+  "title": "Tegna: Ristorante Alla Cantina",
   "adresse": "",
   "quelle": "",
   "tags": [
@@ -12870,7 +12983,7 @@
   "radar": true,
   "notiz": "Il Ristorante / Alloggi La Cantina si trova nella piazza del paese di Tegna, sulla strada che porta in Valle Maggia a pochi passi dalla stazione ferroviaria e dall’omonimo fiume.",
   "web": "https://www.ristoranteallacantina.com/",
-  "geaendert": "2025-08-09"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F578E8AA-731A-46E3-BF0C-9580E639546E",
@@ -13228,7 +13341,6 @@
   "quelle": "",
   "tags": [
    "Bucket List",
-   "Fokus",
    "GASTRO",
    "Hotel",
    "Ostschweiz",
@@ -13240,7 +13352,7 @@
   "radar": true,
   "notiz": "Die Engadinger Innenarchitektin Madlaina Feuerstein hat ein etwa 200 Jahre altes Landhaus in ein charmantes Gästehaus verwandelt.",
   "web": "http://www.haus-im-glueck.ch",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "EA0E3B3E-BD2F-4A39-AB5A-E3D96BAC1D90",
@@ -14165,7 +14277,6 @@
   "quelle": "",
   "tags": [
    "Bucket List",
-   "Fokus",
    "GASTRO",
    "Hotel",
    "Radar",
@@ -14178,7 +14289,7 @@
   "radar": true,
   "notiz": "Jeder Pod und Suite-Chalet sind für sich allein, die Pods befinden sich auf einem privaten und sehr weitläufigen Gelände",
   "web": "https://www.whitepod.com/de/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "741E83DF-5D5D-4B07-B711-E343BD6B3549",
@@ -14189,7 +14300,6 @@
   "quelle": "",
   "tags": [
    "Bucket List",
-   "Fokus",
    "GASTRO",
    "Hotel",
    "Radar",
@@ -14201,7 +14311,7 @@
   "radar": true,
   "notiz": "Allein unter Millionen von Sternen mit Panoramasicht auf den Aletschgletscher, das erlebt man im Holzkubus auf dem Eggishorn – sofern das Wetter mitspielt. Wie es sich im Million Stars Hotel schläft.",
   "web": "https://www.myswitzerland.com/de-ch/unterkuenfte/hotels/million-stars-hotel",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "ED0D9354-34C2-4CDF-8633-23AA00E36B95",
@@ -14713,7 +14823,6 @@
   "quelle": "",
   "tags": [
    "Bucket List",
-   "Fokus",
    "GASTRO",
    "Hotel",
    "Radar",
@@ -14725,7 +14834,7 @@
   "radar": true,
   "notiz": "Der weltbekannte Walliser Ort Zermatt ist reich an Hotels. Wer ein stilvolles Design, das mit viel Holz und Charme eingerichtet ist, vorzieht, ist im kürzlich eröffneten Familienbetrieb «22 Summits» bestens aufgehoben.",
   "web": "http://www.22summits.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "E5047024-9D58-4A25-8678-94F71592877E",
@@ -14776,7 +14885,6 @@
   "quelle": "",
   "tags": [
    "Bucket List",
-   "Fokus",
    "GASTRO",
    "Hotel",
    "Radar",
@@ -14788,7 +14896,7 @@
   "radar": true,
   "notiz": "Das Parkhotel Beau Site in Zermatt gönnte sich ein Makeover – und strahlt in neuem, bemerkenswert einladendem Stil.",
   "web": "https://www.atelierzuerich.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-10"
  },
  {
   "id": "F4D16EBF-5F9C-4B65-8CF8-ACB906986F22",

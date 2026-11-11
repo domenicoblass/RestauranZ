@@ -488,7 +488,7 @@ function editItem(d) {
 function addressForm(d, withExtras) {
   const box = document.createElement("div");
   box.innerHTML = `<div class="edit-row"><input class="addr" type="text" placeholder="Strasse Nr, PLZ Ort" autocomplete="street-address" aria-label="Adresse von ${esc(d.name)}">` +
-    `<button type="button" data-act="search" title="In Google Maps nach dem Restaurant suchen">Suchen</button><button type="button" data-act="check">Prüfen</button><button type="button" class="primary" data-act="save">In Bear speichern</button>` +
+    `<button type="button" data-act="search" title="Bei Google nach der Adresse suchen">Suchen</button><button type="button" data-act="check">Prüfen</button><button type="button" class="primary" data-act="save">In Bear speichern</button>` +
     (withExtras ? `<button type="button" data-act="note">Notiz</button><button type="button" data-act="coll" title="Sammelartikel aus der App nehmen (Tag #GASTRO/Sammlung)">Ist eine Sammlung</button>` : "") +
     `</div><span class="msg" role="status"></span>`;
   const inp = box.querySelector("input"), msg = box.querySelector(".msg");
@@ -510,7 +510,8 @@ function addressForm(d, withExtras) {
     return c;
   }
   box.querySelector('[data-act="check"]').onclick = check;
-  box.querySelector('[data-act="search"]').onclick = () => window.open("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(d.name + (d.adresse ? ", " + d.adresse : "")), "_blank", "noopener");
+  // Websuche statt Google-Maps-Link: Dieser springt auf dem iPhone in die Google-Maps-App und hinterlässt in der Home-Bildschirm-App ein leeres Fenster
+  box.querySelector('[data-act="search"]').onclick = () => window.open("https://www.google.com/search?q=" + encodeURIComponent(d.name.replace(/^[^:]{1,40}:\s*/, "") + " " + (d.name.match(/^([^:]{1,40}):/)?.[1] || "") + " Adresse"), "_blank", "noopener");
   if (withExtras) {
     box.querySelector('[data-act="note"]').onclick = () => { location.href = bearOpen(d); };
     box.querySelector('[data-act="coll"]').onclick = () => {

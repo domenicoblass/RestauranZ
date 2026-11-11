@@ -152,6 +152,9 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
   #topbar { gap: 10px; padding-top: calc(10px + env(safe-area-inset-top)) }
   .groups { max-height: 24vh }
 }
+#outbox { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(14px + env(safe-area-inset-bottom)); z-index: 1200; display: flex; align-items: center; gap: 12px; padding: 8px 8px 8px 16px; border-radius: 999px; background: var(--fg); color: var(--bg); box-shadow: 0 6px 20px rgba(0,0,0,.25); font: 600 15px var(--font); white-space: nowrap }
+#outbox[hidden] { display: none }
+#outbox button { border-radius: 999px; padding: 8px 14px; font: 700 15px var(--font); background: var(--accent); color: var(--accent-ink); border: 0 }
 </style>
 </head>
 <body>
@@ -180,6 +183,7 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
   </div>
   <ul id="list"></ul>
 </aside>
+<div id="outbox" hidden><span id="outboxText"></span><button type="button" id="outboxSend" class="primary">An Bear senden</button></div>
 <div id="map" role="region" aria-label="Karte"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -486,7 +490,7 @@ function renderList() {
   const noPin = items.filter(d => d.lat == null).length;
   $("count").textContent = editMode ? `${items.length} Einträge` : `${items.length} von ${total}`;
   $("info").textContent = editMode
-    ? "Adresse eintragen, prüfen und in Bear speichern."
+    ? "Adressen übernehmen, dann unten gesammelt an Bear senden."
     : (noPin && !inArea ? `${noPin} davon ohne Ort auf der Karte` : "");
   const ul = $("list"); ul.textContent = "";
   if (!items.length) {
@@ -516,7 +520,7 @@ function tidy(v) {
 function editItem(d) {
   const li = document.createElement("li"); li.dataset.id = d.id;
   const p = pending[d.id];
-  li.innerHTML = `<span class="n">${esc(d.name)}${p ? '<span class="badge pending">an Bear gesendet</span>' : (d.adresse ? "" : '<span class="badge">fehlt</span>')}</span>`;
+  li.innerHTML = `<span class="n">${esc(d.name)}${p ? (p.sent === false ? '<span class="badge pending">gemerkt</span>' : '<span class="badge pending">an Bear gesendet</span>') : (d.adresse ? "" : '<span class="badge">fehlt</span>')}</span>`;
   li.appendChild(addressForm(d, true));
   return li;
 }
@@ -524,7 +528,7 @@ function editItem(d) {
 function addressForm(d, withExtras) {
   const box = document.createElement("div");
   box.innerHTML = `<div class="edit-row"><input class="addr" type="text" placeholder="Strasse Nr, PLZ Ort" autocomplete="street-address" aria-label="Adresse von ${esc(d.name)}"><div class="sug" hidden></div>` +
-    `<button type="button" data-act="suggest" title="Adressvorschläge aus OpenStreetMap">Vorschläge</button><button type="button" data-act="search" title="In Google Maps nach dem Restaurant suchen">Suchen</button><button type="button" data-act="check">Prüfen</button><button type="button" class="primary" data-act="save">In Bear speichern</button>` +
+    `<button type="button" data-act="suggest" title="Adressvorschläge aus OpenStreetMap">Vorschläge</button><button type="button" data-act="search" title="In Google Maps nach dem Restaurant suchen">Suchen</button><button type="button" data-act="check">Prüfen</button><button type="button" class="primary" data-act="save">Übernehmen</button>` +
     (withExtras ? `<button type="button" data-act="note">Notiz</button><button type="button" data-act="coll" title="Sammelartikel aus der App nehmen (Tag #GASTRO/Sammlung)">Ist eine Sammlung</button>` : "") +
     `</div><span class="msg" role="status"></span>`;
   const inp = box.querySelector("input"), msg = box.querySelector(".msg");
@@ -574,22 +578,40 @@ function addressForm(d, withExtras) {
       location.href = bearAddTag(d, "GASTRO/Sammlung");
     };
   }
+  // Übernehmen: Adresse nur merken; alle gemerkten gehen später mit einem Tipp gesammelt an Bear (siehe sendOutbox)
   box.querySelector('[data-act="save"]').onclick = async () => {
     const a = tidy(inp.value);
     if (!a) { say("Bitte zuerst eine Adresse eintragen.", "bad"); return; }
-    // Zuerst an Bear senden, noch im Klick: Browser auf dem Mac öffnen Bear nur direkt nach einem Klick,
-    // nicht erst nach dem Warten auf die Koordinaten.
-    pending[d.id] = { adresse: a, lat: null, lon: null, am: new Date().toISOString() };
+    pending[d.id] = { adresse: a, lat: null, lon: null, am: new Date().toISOString(), name: d.name, sent: false };
     store.set("guide.pending", pending);
-    location.href = bearAppend(d, a);
     let c = null;
     try { c = await check(); } catch {}
     if (c) { pending[d.id].lat = c[0]; pending[d.id].lon = c[1]; store.set("guide.pending", pending); }
-    applyPending();
-    say("An Bear gesendet. Die Notiz hat jetzt eine Zeile «📍 Adresse».", "ok");
+    applyPending(); renderOutbox();
+    say("Übernommen. Unten «An Bear senden» schickt alle gemerkten Adressen auf einmal.", "ok");
     if (!withExtras) setTimeout(() => { map.closePopup(); probe && probe.remove(); probe = null; render(false); const m = markers.get(d.id); m && m.openPopup(); }, 900);
+    else renderList();
   };
   return box;
+}
+// Gemerkte Adressen als eine neue Bear-Notiz (#RestauranZ/Eingang) senden; beim nächsten Abgleich
+// werden sie in die einzelnen Notizen übertragen und die Eingangsnotiz kommt in den Papierkorb.
+function unsent() { return Object.entries(pending).filter(([, p]) => p.sent === false); }
+function renderOutbox() {
+  const n = unsent().length, el = $("outbox");
+  el.hidden = !n;
+  if (n) $("outboxText").textContent = n === 1 ? "1 Adresse bereit" : `${n} Adressen bereit`;
+}
+function sendOutbox() {
+  const list = unsent();
+  if (!list.length) return;
+  const now = new Date(), stamp = now.toLocaleString("de-CH", { dateStyle: "short", timeStyle: "short" });
+  const lines = list.map(([id, p]) => `- ${id} | ${p.adresse} | ${(p.name || "").replace(/\|/g, "/")}`);
+  const text = "Von der App gesammelte Adressen. Claude überträgt sie beim nächsten «RestauranZ aktualisieren» in die einzelnen Notizen.\n\n" + lines.join("\n");
+  location.href = "bear://x-callback-url/create?" + new URLSearchParams({ title: "RestauranZ Adressen " + stamp, text, tags: "RestauranZ/Eingang", open_note: "no", show_window: "no" }).toString().replace(/\+/g, "%20");
+  for (const [id] of list) pending[id].sent = true;
+  store.set("guide.pending", pending);
+  renderOutbox(); renderList();
 }
 // Bis zum nächsten Abgleich lokal ausblenden (Sammlung markiert oder in Bear gelöscht)
 function hideLocally(d, why) {
@@ -627,6 +649,7 @@ function setMode(on) {
   render(!on);
 }
 $("mode").onclick = () => setMode(!editMode);
+$("outboxSend").onclick = sendOutbox;
 $("editTabs").querySelectorAll("button").forEach(b => b.onclick = () => {
   editView = b.dataset.v;
   $("editTabs").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
@@ -652,7 +675,7 @@ $("reset").onclick = () => { selected.clear(); store.set("guide.tags", []); $("q
   for (const id of Object.keys(collections)) if (!DATA.some(x => x.id === id)) delete collections[id];
   store.set("guide.sammlung", collections);
   DATA = DATA.filter(x => !collections[x.id]);
-  applyPending();
+  applyPending(); renderOutbox();
   render(true);
   locateMissing();
 })();

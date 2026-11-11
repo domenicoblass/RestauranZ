@@ -42,6 +42,10 @@ def website(raw):
         if not re.search(r"tamedia|click\.|mailto|google\.|instagram|facebook|nzz\.ch|tagesanzeiger|bear\.app|apple\.com|\.pdf$", u): return u
     return ""
 
+def normTag(t):
+    # Bear-Tags sind ohne Rücksicht auf Gross/Klein: "Gastro/Küche/Brunch" gehört zu GASTRO/Küche
+    return "GASTRO" + t[6:] if t.lower().startswith("gastro") and (len(t) == 6 or t[6] == "/") else t
+
 notes = []
 for f in sys.argv[1:]:
     d = json.load(open(f))
@@ -49,6 +53,7 @@ for f in sys.argv[1:]:
 out, seen = [], set()
 for n in notes:
     md, raw = n["metadata"], n["content"]
+    md["tags"] = sorted(set(normTag(t) for t in md["tags"]))
     if md["id"] in seen: continue
     if md.get("location", "notes") != "notes": continue   # Papierkorb und Archiv nicht übernehmen
     if "GASTRO/Sammlung" in md["tags"]: continue   # Sammelartikel, keine einzelnen Lokale

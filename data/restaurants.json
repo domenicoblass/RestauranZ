@@ -243,9 +243,7 @@
    "Appenzell",
    "Aussenraum",
    "Bucket List",
-   "Fokus",
    "GASTRO",
-   "Hotel",
    "Ostschweiz",
    "Radar",
    "Restaurant",
@@ -406,8 +404,8 @@
   "key": "andermattrestteufelsbrucke",
   "name": "Andermatt: Rest. Teufelsbrücke",
   "title": "Andermatt: Rest. Teufelsbrücke",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Gotthardstrasse, 6490 Andermatt",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Radar",
@@ -420,7 +418,7 @@
   "radar": true,
   "notiz": "Clip-Quelle:Andermatt: Rest. Teufelsbrücke",
   "web": "https://t16aa5dcb.emailsys1a.net/mailing/65/6739143/11836189/2204/2cbd90b785/index.html",
-  "geaendert": "2023-08-02"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "5BB93A06-E536-4C4A-93FB-6E1A5A803320",
@@ -438,8 +436,8 @@
    "Zentralschweiz"
   ],
   "radar": false,
-  "notiz": "image28.octet-stream<!-- {\"embed\":\"true\"} -->image40.octet-stream<!-- {\"embed\":\"true\"} -->image63.octet-stream<!-- {\"embed\":\"true\"} -->",
-  "web": "https://thechedi.grandluxuryhotels.com/en/",
+  "notiz": "The Exigenz Collection boasts the most original and soulful luxury hotels in the world.",
+  "web": "https://thechedi.grandluxuryhotels.com/en/hotel/the-chedi-andermatt/pictures/55736/1",
   "geaendert": "2026-11-11"
  },
  {
@@ -647,7 +645,7 @@
   "radar": false,
   "notiz": "Das Ristorante da Enzo ist der beste Ort für Feinschmacker und Naturliebhaber.",
   "web": "",
-  "geaendert": "2026-11-11"
+  "geaendert": "2026-11-09"
  },
  {
   "id": "0682B0A9-1952-4F42-81BA-428D93588DE3",
@@ -753,8 +751,8 @@
   "key": "asconaosteriadellenotecalosone",
   "name": "Ascona: Osteria dell'Enoteca, Losone",
   "title": "Ascona: Osteria dell'Enoteca, Losone",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Contrada Maggiore 24, 6616 Losone",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -769,7 +767,7 @@
   "radar": false,
   "notiz": "",
   "web": "",
-  "geaendert": "2024-09-16"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "02AA72C0-60D3-4D19-8A7C-D060B3A8238D",
@@ -800,8 +798,8 @@
   "key": "asconaristvelabianca",
   "name": "Ascona: Rist. Vela Bianca",
   "title": "Ascona: Rist. Vela Bianca",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Strada del Segnale 26, 6612 Ascona",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -815,7 +813,7 @@
   "radar": false,
   "notiz": "Porto Patriziale di Ascona - Via segnale - Ascona",
   "web": "http://www.ristorantevelabianca.ch/ristorante/menu-a-la-carte",
-  "geaendert": "2024-08-25"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "AF24C9BC-78C2-4BA7-B1D3-46B574735CF9",
@@ -840,29 +838,6 @@
   "notiz": "RESTAURANT - Ristorante Centrale Losone - Nur 5 minuten von Ascona",
   "web": "https://www.ristorantecentrale-losone.ch/de/punti/",
   "geaendert": "2024-09-16"
- },
- {
-  "id": "ECFEF10D-6826-4B33-AC3F-5DDB1CCFD3A3",
-  "key": "bgoodburgers",
-  "name": "b.good Burgers",
-  "title": "Rest. b.good Burgers",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Amerikanisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "",
-  "web": "http://www.bgoodrestaurants.ch/",
-  "geaendert": "2026-03-15"
  },
  {
   "id": "90A07194-201D-452D-A070-9E14C1862D55",
@@ -976,8 +951,8 @@
   "key": "baramegge",
   "name": "Bar am Egge",
   "title": "Bar am Egge",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Asylstrasse 11, 8032 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -989,7 +964,7 @@
   "radar": false,
   "notiz": "Der Begegnungsort in Zürich-Hottingen, Kreis 7",
   "web": "https://www.amegge.ch",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "3716F787-7581-481E-B47E-25EF88AB23B7",
@@ -1016,8 +991,8 @@
   "key": "baratelierbar",
   "name": "Bar Atelier-Bar",
   "title": "Bar Atelier-Bar",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Talacker 16, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1031,7 +1006,7 @@
   "radar": false,
   "notiz": "|  Adresse: |  Talacker 16<br> 8001 Zürich |",
   "web": "http://www.atelierbar.ch",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "38FAF231-27CB-4D98-89E2-E260FD3491A9",
@@ -1058,8 +1033,8 @@
   "key": "barbasso",
   "name": "Bar Basso",
   "title": "Bar Basso",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sihlstrasse 59, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1073,7 +1048,7 @@
   "radar": false,
   "notiz": "Es ist die echte unverfälschte alpine Küche, auf die wir uns besinnen. Alpin, da wir gerne auch Traditionen, selbstverständlich und wunderbar wie sie sind, mit dem Charakter unserer Zeit mischen. Saisonale, sowie regionale Produkte von …",
   "web": "http://barbasso.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "20E9E9E6-208A-4D97-ACB6-24DD321A71ED",
@@ -1221,8 +1196,8 @@
   "key": "barhotelrivingtonsons",
   "name": "Bar Hotel Rivington & Sons",
   "title": "Bar Hotel Rivington & Sons",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hardstrasse 201, 8005 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1234,7 +1209,7 @@
   "radar": false,
   "notiz": "|  Adresse: |  Hardstrasse 201<br> 8005 Zürich |",
   "web": "http://hotelrivingtonandsons.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "A6EA2337-AA92-49F9-B322-EBFD17BAF4B3",
@@ -1317,6 +1292,27 @@
   "notiz": "Diesen Sommer haben wir eine Sommerbar im Planet5. Mit der einzigartigen Lage direkt an der Limmat, kann man den Sommer ausgiebig geniessen, mit Freunden und Freundinnen. Man kann Grillieren, Musizieren und wenn man will auch einfach …",
   "web": "",
   "geaendert": "2022-03-05"
+ },
+ {
+  "id": "F8BC29D7-DEAB-4A01-929F-7A8D24A67ADE",
+  "key": "barrudolphs",
+  "name": "Bar Rudolphs",
+  "title": "Bar Rudolphs",
+  "adresse": "Seefeldstrasse 40, 8008 Zürich",
+  "quelle": "bear",
+  "tags": [
+   "Bar",
+   "GASTRO",
+   "Pop-Up",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": false,
+  "notiz": "In Zusammenarbeit mit Swiss Life wird am 23. November 2017 - im Rahmen einer Zwischennutzung - an der Seefeldstrasse 40 die erste und wohl schrillste Weihnachtsbar der Stadt Zürich eröffnet: Das Rudolph’s Holy Moly. Während 30 Tagen …",
+  "web": "",
+  "geaendert": "2026-11-11"
  },
  {
   "id": "58EA60CD-CBF1-4F7F-8549-63DB1AB079A5",
@@ -1691,8 +1687,8 @@
   "key": "bellagioaptmiralago",
   "name": "Bellagio: Apt. Miralago",
   "title": "Bellagio: Apt. Miralago",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Pescallo 19, 22021 Bellagio CO, Italien",
+  "quelle": "bear",
   "tags": [
    "AUSLAND",
    "EUROPA",
@@ -1706,15 +1702,15 @@
   "radar": false,
   "notiz": "Bed and Breakfast & Apartments a Bellagio",
   "web": "http://www.bellagiomiralago.it/images/appartamenti.jpg",
-  "geaendert": "2022-02-28"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "D3799EAD-5E4F-4ABC-8CE7-50F36E8544CB",
   "key": "bellagioaptnuovamiralago",
   "name": "Bellagio: Apt. Nuova Miralago",
   "title": "Bellagio: Apt. Nuova Miralago",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Pescallo 19, 22021 Bellagio CO, Italien",
+  "quelle": "bear",
   "tags": [
    "AUSLAND",
    "EUROPA",
@@ -1728,7 +1724,7 @@
   "radar": false,
   "notiz": "© 2008 - 2014 Miralago - Info line: +39.031.951.294",
   "web": "http://www.bellagiomiralago.it/images/logo-miralago.png",
-  "geaendert": "2022-02-28"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "550522BC-2A7E-4A1E-A5F4-D28964DFF96C",
@@ -1977,8 +1973,8 @@
   "key": "bergunkurhausco",
   "name": "Bergün: Kurhaus & Co.",
   "title": "Bergün: Kurhaus & Co.",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Veja Grusaida 9, 7482 Bergün/Bravuogn",
+  "quelle": "bear",
   "tags": [
    "Engadin",
    "GASTRO",
@@ -1993,27 +1989,7 @@
   "radar": true,
   "notiz": "Après-Ski und Glamour? Nicht in Bergün. Stattdessen: Engadiner Häuser mit Sgraffiti, verschneite Berge und der Bernina-Express vor der Tür.",
   "web": "https://ferienimbaudenkmal.ch/chesa-viglia/",
-  "geaendert": "2026-08-02"
- },
- {
-  "id": "5457493B-A811-4CA1-B7A6-085DEBF217A0",
-  "key": "bernimelement",
-  "name": "Bern im Element",
-  "title": "Bern im Element",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "Ich verrate dir jetzt einen Trick: Wenn du etwas genauer hinschaust, offenbart dir Bern, die charmante Bundesstadt der Schweiz, eine Welt, in der die Elemente auf magische Weise zum Leben erwachen. Glaubst du mir nicht? Dann lass dich …",
-  "web": "https://www.bern.com/de/aktuelles/stories-und-tipps/aare",
-  "geaendert": "2024-07-28"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "203ED5B2-8F51-4DD7-BCF9-9FB92CEA40B7",
@@ -2040,8 +2016,8 @@
   "key": "bernlillyslibelle",
   "name": "Bern: Lilly’s Libelle",
   "title": "Bern: Lilly’s Libelle",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Kleine Schanze, 3011 Bern",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "Bern",
@@ -2053,7 +2029,7 @@
   "radar": false,
   "notiz": "Mitten im Herzen der Stadt Bern beim Pavillon auf der kleinen Schanze lädt während den Sommermonaten Lilly’s Libelle ein auf ein Apéro très riche: Erfrischende Spritzgetränke, eigens konzipierte Cocktails, lokale Bierkunst wie auch eine …",
   "web": "https://maps.app.goo.gl/FFQwHb2ycN2prTKe8",
-  "geaendert": "2025-06-26"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "51A7DDAC-B29A-4862-ACE1-63308D37500C",
@@ -2100,8 +2076,8 @@
   "key": "besenbeizaufdemzurichsee",
   "name": "Besenbeiz auf dem Zürichsee",
   "title": "Rest. Besenbeiz auf dem Zürichsee",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Ufenau 1, 8808 Pfäffikon",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -2116,9 +2092,9 @@
    "Zürich+"
   ],
   "radar": false,
-  "notiz": "Willkommen auf der MS Meos: Die Besenbeiz im oberen Seebecken hat derzeit Hochbetrieb. Bild: Emanuel Ammon / tamedia (4 Bilder)",
-  "web": "",
-  "geaendert": "2026-03-15"
+  "notiz": "Willkommen auf der MS Meos: Die Besenbeiz im oberen Seebecken hat derzeit Hochbetrieb.",
+  "web": "https://ms-meos.ch/",
+  "geaendert": "2026-11-11"
  },
  {
   "id": "4E63ABAE-8AB1-43C5-8BF0-3D6CD0D9A339",
@@ -5040,6 +5016,25 @@
   "geaendert": "2026-03-15"
  },
  {
+  "id": "98A9CFED-75E5-4F02-B96F-D1CE27589D51",
+  "key": "fonduesaisoneroffnetvonkuscheligbisexklusivdassinddiefonduepopupsamzurichsee",
+  "name": "Fondue-Saison eröffnet: Von kuschelig bis exklusiv: Das sind die Fondue-Pop-Ups am Zürichsee",
+  "title": "Fondue-Saison eröffnet: Von kuschelig bis exklusiv: Das sind die Fondue-Pop-Ups am Zürichsee",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "GASTRO",
+   "Radar",
+   "Restaurant",
+   "Stadt",
+   "Zürich+"
+  ],
+  "radar": true,
+  "notiz": "Im Winter verwandeln sich Badeplätze, Aussichtsterrassen und Verkehrsmittel rund um den Zürichsee in Fondue-Stuben. Unsere Auswahl zeigt sieben Lokalitäten für Abende mit heissem Käse.",
+  "web": "",
+  "geaendert": "2026-11-11"
+ },
+ {
   "id": "D98BA85B-1425-4A85-BDED-0CDB5C46C207",
   "key": "forchrestzurchaltehose",
   "name": "Forch: Rest. Zur chalte Hose",
@@ -6701,28 +6696,6 @@
   "notiz": "T: 044 201 16 13 E: [reservations\\[at\\]iltartufozurich.com](mailto:reservation@iltartufozurich.com)",
   "web": "https://www.iltartufo-zurich.com/the-champagne-table-marie-demets-edition/",
   "geaendert": "2026-11-09"
- },
- {
-  "id": "8D8BD495-9E90-46FC-AE3D-BBCEDF88B548",
-  "key": "inselufenaufischknusperliundlokalenweinimgartenrestaurant",
-  "name": "Insel Ufenau: Fischknusperli und lokalen Wein im Gartenrestaurant",
-  "title": "Insel Ufenau: Fischknusperli und lokalen Wein im Gartenrestaurant",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Fisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Fischnknusperli aus dem Zürichsee gibt es in der Inselwirtschaft Ufnau. (Bild: Wolfgang Fassbender)",
-  "web": "https://www.inselufnau.ch/",
-  "geaendert": "2026-03-15"
  },
  {
   "id": "C79115D8-840C-4369-BC45-2EEA44326C63",
@@ -9518,9 +9491,9 @@
  },
  {
   "id": "8D5AF5BE-EAF8-4C24-AC99-0F2C6F2D685A",
-  "key": "pyramidstafelnwieamnil",
-  "name": "Pyramids: Tafeln wie am Nil",
-  "title": "Rest. Pyramids: Tafeln wie am Nil",
+  "key": "pyramids",
+  "name": "Pyramids",
+  "title": "Rest. Pyramids",
   "adresse": "Werdstrasse 99, 8004 Zürich",
   "quelle": "bear",
   "tags": [
@@ -9988,7 +9961,7 @@
   "radar": true,
   "notiz": "Raclette mit Aussicht: Schöner als auf der Widder-Dachterrasse tafelt man nirgends.",
   "web": "http://www.widderhotel.ch",
-  "geaendert": "2026-11-09"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "EB9649BB-1EC0-4D41-BF24-B1D074D9F7C4",
@@ -10413,27 +10386,6 @@
   "notiz": "Für diesen Abend kommt nicht jedes Lokal infrage. Wir haben uns über ein Jahr nicht mehr gesehen und dementsprechend viel zu erzählen. Es muss vorab ein ruhiges Ambiente sein, wo wir beide unerkannt und ungestört tratschen können. Also …",
   "web": "http://contextImage&amp;&amp;11959018",
   "geaendert": "2022-03-05"
- },
- {
-  "id": "F8BC29D7-DEAB-4A01-929F-7A8D24A67ADE",
-  "key": "rudolphsneuepopupweihnachtsbarimseefeld",
-  "name": "Rudolphs: Neue Pop-Up Weihnachtsbar im Seefeld",
-  "title": "Rudolphs: Neue Pop-Up Weihnachtsbar im Seefeld",
-  "adresse": "Seefeldstrasse 40, 8008 Zürich",
-  "quelle": "bear",
-  "tags": [
-   "Bar",
-   "GASTRO",
-   "Pop-Up",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "«Der Kreis 8 hat vieles zu bieten - überzeugen Sie sich selbst!»",
-  "web": "",
-  "geaendert": "2026-11-11"
  },
  {
   "id": "740D0671-8C53-4B2F-858A-A38277D2838D",
@@ -11086,28 +11038,6 @@
   "notiz": "Wenn junge Gastronomen, in die Jahre gekommene urchige Gasthöfe übernehmen, entstehen dabei sehr oft charakterlose trendige Restaurants. Nicht so geschehen beim Restaurant Schützengasse. Trotz Renovation haben die Betreiber das …",
   "web": "http://www.schuetzengasse.com/",
   "geaendert": "2022-03-05"
- },
- {
-  "id": "53CCB03D-52B1-427E-812F-BDD4BF78C4B4",
-  "key": "schutzenhausstafadieallerbestenknusperli",
-  "name": "Schützenhaus, Stäfa: Die «allerbesten Knusperli»",
-  "title": "Schützenhaus, Stäfa: Die «allerbesten Knusperli»",
-  "adresse": "Seestrasse 48, 8712 Stäfa",
-  "quelle": "bear",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Fisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Die Reservation im Restaurant wurde zwar verpennt. Aber die Laune besserte sich rasch – von Biss zu Biss.",
-  "web": "http://www.schuetzenhaus-staefa.ch/",
-  "geaendert": "2026-11-11"
  },
  {
   "id": "6A1F43CC-5A57-4C91-B1A9-18D32AB44CF7",
@@ -11891,6 +11821,28 @@
   "geaendert": "2024-07-30"
  },
  {
+  "id": "53CCB03D-52B1-427E-812F-BDD4BF78C4B4",
+  "key": "stafaschutzenhaus",
+  "name": "Stäfa: Schützenhaus",
+  "title": "Stäfa: Schützenhaus",
+  "adresse": "Seestrasse 48, 8712 Stäfa",
+  "quelle": "bear",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fisch",
+   "Restaurant",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": false,
+  "notiz": "Die Reservation im Restaurant wurde zwar verpennt. Aber die Laune besserte sich rasch – von Biss zu Biss.",
+  "web": "http://www.schuetzenhaus-staefa.ch/",
+  "geaendert": "2026-11-11"
+ },
+ {
   "id": "091883A7-FFEC-47ED-9E00-52D7871967B8",
   "key": "stafatavolata",
   "name": "Stäfa: Tavolata",
@@ -12019,7 +11971,7 @@
   "radar": true,
   "notiz": "Il Ristorante / Alloggi La Cantina si trova nella piazza del paese di Tegna, sulla strada che porta in Valle Maggia a pochi passi dalla stazione ferroviaria e dall’omonimo fiume.",
   "web": "https://www.ristoranteallacantina.com/",
-  "geaendert": "2026-11-11"
+  "geaendert": "2026-11-09"
  },
  {
   "id": "51CA88A9-E9EC-4E97-AA17-47A231FD021C",
@@ -12350,6 +12302,28 @@
   "geaendert": "2026-11-11"
  },
  {
+  "id": "5381A085-0E43-43AF-A487-731BEB591000",
+  "key": "toggenburghausimgluckbedandbreakfast",
+  "name": "Toggenburg: Haus im Glück, Bed and Breakfast",
+  "title": "Toggenburg: Haus im Glück, Bed and Breakfast",
+  "adresse": "St. Peterzellerstrasse 1, 9633 Hemberg",
+  "quelle": "bear",
+  "tags": [
+   "Bucket List",
+   "GASTRO",
+   "Hotel",
+   "Ostschweiz",
+   "Radar",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausflüge"
+  ],
+  "radar": true,
+  "notiz": "Die Engadinger Innenarchitektin Madlaina Feuerstein hat ein etwa 200 Jahre altes Landhaus in ein charmantes Gästehaus verwandelt.",
+  "web": "http://www.haus-im-glueck.ch",
+  "geaendert": "2026-11-11"
+ },
+ {
   "id": "EA0E3B3E-BD2F-4A39-AB5A-E3D96BAC1D90",
   "key": "trattoriasempretavolataimniederdorf",
   "name": "Trattoria Sempre: Tavolata im Niederdorf",
@@ -12657,6 +12631,28 @@
   "notiz": "Von April bis Oktober legt das Kursschiff an der Ufenau an. Ein Inselrundgang dauert eine halbe Stunde. Danach kehren fast alle bei «Rösli» ein.",
   "web": "http://tagi.ch/12213416",
   "geaendert": "2022-03-05"
+ },
+ {
+  "id": "8D8BD495-9E90-46FC-AE3D-BBCEDF88B548",
+  "key": "ufenauinselwirtschaftufnau",
+  "name": "Ufenau: Inselwirtschaft Ufnau",
+  "title": "Ufenau: Inselwirtschaft Ufnau",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fisch",
+   "Restaurant",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": false,
+  "notiz": "Fischnknusperli aus dem Zürichsee gibt es in der Inselwirtschaft Ufnau. (Bild: Wolfgang Fassbender)",
+  "web": "https://www.inselufnau.ch/",
+  "geaendert": "2026-11-11"
  },
  {
   "id": "0C30543D-4D8A-42F6-82AF-E7425C63A345",
@@ -13226,28 +13222,6 @@
   "geaendert": "2026-11-11"
  },
  {
-  "id": "741E83DF-5D5D-4B07-B711-E343BD6B3549",
-  "key": "wallisubernachtenbeimaletschgletscher",
-  "name": "Wallis: Übernachten beim Aletschgletscher",
-  "title": "Wallis: Übernachten beim Aletschgletscher",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bucket List",
-   "GASTRO",
-   "Hotel",
-   "Radar",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wallis"
-  ],
-  "radar": true,
-  "notiz": "Allein unter Millionen von Sternen mit Panoramasicht auf den Aletschgletscher, das erlebt man im Holzkubus auf dem Eggishorn – sofern das Wetter mitspielt. Wie es sich im Million Stars Hotel schläft.",
-  "web": "https://www.myswitzerland.com/de-ch/unterkuenfte/hotels/million-stars-hotel",
-  "geaendert": "2026-11-10"
- },
- {
   "id": "ED0D9354-34C2-4CDF-8633-23AA00E36B95",
   "key": "weinbarsinzurich",
   "name": "Weinbars in Zürich",
@@ -13733,8 +13707,8 @@
   "key": "zermattboutiquehotel22summit",
   "name": "Zermatt: Boutique-Hotel 22 Summit",
   "title": "Zermatt: Boutique-Hotel 22 Summit",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zen Steckenstrasse 4, 3920 Zermatt",
+  "quelle": "bear",
   "tags": [
    "Bucket List",
    "GASTRO",
@@ -13748,7 +13722,7 @@
   "radar": true,
   "notiz": "Der weltbekannte Walliser Ort Zermatt ist reich an Hotels. Wer ein stilvolles Design, das mit viel Holz und Charme eingerichtet ist, vorzieht, ist im kürzlich eröffneten Familienbetrieb «22 Summits» bestens aufgehoben.",
   "web": "http://www.22summits.ch/",
-  "geaendert": "2026-11-10"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E5047024-9D58-4A25-8678-94F71592877E",

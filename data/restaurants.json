@@ -128,8 +128,8 @@
   "key": "adlisberg",
   "name": "Adlisberg",
   "title": "Rest. Adlisberg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Adlisbergstrasse 75, 8044 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -143,7 +143,7 @@
   "radar": false,
   "notiz": "In den authentischen Räumlichkeiten, der einladenden Terrasse und natürlich der Wiesenbeiz ist die Stimmung des Adlisbergs greifbar.",
   "web": "http://www.adlisberg.ch/uploads/pics/Stall_1_klein.jpg",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E6931191-7399-4DBC-8085-118A3F757380",
@@ -212,33 +212,12 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "10F9148B-BAD7-4161-9C26-9F204C49E481",
-  "key": "albergolosonetippstricks",
-  "name": "Albergo Losone: Tipps & Tricks",
-  "title": "Albergo Losone: Tipps & Tricks",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "Manual",
-   "SCHWEIZ",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Reception anfragen! Steht in abgeschlossenem Nebenraum, links beim Kellereingang.",
-  "web": "",
-  "geaendert": "2025-08-10"
- },
- {
   "id": "DE18A16C-3102-4C33-872D-75908381F0C4",
   "key": "alpenblickarosa",
   "name": "Alpenblick – Arosa",
   "title": "Alpenblick – Arosa",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Poststrasse 142, 7050 Arosa",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -251,15 +230,15 @@
   "radar": true,
   "notiz": "Öffnungszeiten: 27. Juni 2026 bis zum 2. April 2027",
   "web": "https://alpenblickarosa.ch/restaurants/",
-  "geaendert": "2026-11-10"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "8CF9B071-34F3-4BE5-88FC-4ED94771EBF5",
   "key": "alpsteinberggasthausaescher",
   "name": "Alpstein: Berggasthaus Aescher",
   "title": "Alpstein: Berggasthaus Aescher",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Aescher, 9057 Weissbad",
+  "quelle": "bear",
   "tags": [
    "Appenzell",
    "Aussenraum",
@@ -279,7 +258,7 @@
   "radar": true,
   "notiz": "Das Berggasthaus Aescher öffnet per Oktober wieder seine Zimmer.",
   "web": "http://www.aescher-ai.ch/impressum.html",
-  "geaendert": "2026-11-10"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "4767B856-5680-4452-974F-FBEBC1331D58",
@@ -313,8 +292,8 @@
   "key": "altendorfrestjohannisburg",
   "name": "Altendorf: Rest. Johannisburg",
   "title": "Altendorf: Rest. Johannisburg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Burgweg 22, 8852 Altendorf",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -328,7 +307,7 @@
   "radar": false,
   "notiz": "Mittwoch bis Samstag 11.00 bis 14.00 / 18.00 bis 23.00",
   "web": "https://www.johannisburg.ch",
-  "geaendert": "2026-10-11"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "0E8FA619-BE79-40BD-ACEE-3EB930E19EA7",
@@ -863,51 +842,6 @@
   "geaendert": "2024-09-16"
  },
  {
-  "id": "E7F69470-69BB-4350-8A02-7C2E245D6917",
-  "key": "aureuseschluchtabchambrelien",
-  "name": "Aureuseschlucht ab Chambrelien",
-  "title": "Aureuseschlucht ab Chambrelien",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "Romandie",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport"
-  ],
-  "radar": false,
-  "notiz": "SCHLUCHTTOUR  Schön, hoch über der Areuse zu wandern. Eben drehten ich und meine Begleiterin eine Runde vom Bahnhof von Chambrelien NE aus. Gehzeit zweieinhalb Stunden, je 340 Höhenmeter auf- und abwärts. Wir stiegen ab zur Areuse, dem …",
-  "web": "",
-  "geaendert": "2025-05-26"
- },
- {
-  "id": "0131D77A-531F-41F8-8613-DF3DC84AE7D5",
-  "key": "ayverdiskebabmitherz",
-  "name": "Ayverdi’s (Kebab mit Herz)",
-  "title": "Rest. Ayverdi’s (Kebab mit Herz)",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Türkisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "Take Away",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Bald bekommen wir einen neuen Look, damit Ihr im Netz genauso verwöhnt werdet, wie in unseren Restaurants.",
-  "web": "",
-  "geaendert": "2026-03-15"
- },
- {
   "id": "ECFEF10D-6826-4B33-AC3F-5DDB1CCFD3A3",
   "key": "bgoodburgers",
   "name": "b.good Burgers",
@@ -954,31 +888,6 @@
   "geaendert": "2024-08-25"
  },
  {
-  "id": "CFB8758F-30FE-44FD-83FF-292D64A9DBBB",
-  "key": "badragaz",
-  "name": "Bad Ragaz",
-  "title": "Bad Ragaz",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wellness"
-  ],
-  "radar": false,
-  "notiz": "Hotel Schloss Ragaz mit riesigem Park, darin ein Teich und Glamping-Lodges mit sensationellem Bergpanorama.",
-  "web": "",
-  "geaendert": "2025-08-28"
- },
- {
   "id": "AAF1B323-6A35-4084-86F8-3C0E9F6F2F4B",
   "key": "badenresthotelblume",
   "name": "Baden: Rest./Hotel Blume",
@@ -1006,8 +915,8 @@
   "key": "badeseedavosmuntsvattizvallumnezia",
   "name": "Badesee Davos Munts, Vattiz, Val Lumnezia",
   "title": "Badesee Davos Munts, Vattiz, Val Lumnezia",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Lag Davos Munts 190A, 7146 Vattiz",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -1020,15 +929,15 @@
   "radar": false,
   "notiz": "Der Badesee ist ein idyllischer Ort, der sowohl Kinder als auch Erwachsene anlockt. Für die Kleinen bietet ein grosses Planschbecken genau das, was sich die Kinder im Sommer so sehnlichst wünschen: spritzen, schwappen, waten und Bötli …",
   "web": "http://www.davosmunts.ch/#home",
-  "geaendert": "2022-02-28"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "AE43D3AD-B46F-49B6-A5BD-04FC0A4CD418",
   "key": "barskybarhoteledenaulac",
   "name": "Bar \"Skybar\" @ Hotel Eden au Lac",
   "title": "Bar \"Skybar\" @ Hotel Eden au Lac",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Utoquai 45, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1040,15 +949,15 @@
   "radar": false,
   "notiz": "Das ist die spektakulärste Rooftop Bar Zürichs. Hier können Sie über den Dächern von Zürich eine grandiose Aussicht auf den Zürichsee, die Alpen und die Stadt geniessen. Feine Köstlichkeiten aus unserer mediterranen SKY BAR Karte, …",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "2224AC96-D86E-4251-A88A-9082976D7FBE",
   "key": "bartheviewhotelambassador",
   "name": "Bar \"The View\" @ Hotel Ambassador",
   "title": "Bar \"The View\" @ Hotel Ambassador",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Falkenstrasse 6, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1060,7 +969,7 @@
   "radar": false,
   "notiz": "Montags, ab 10. Juli 17, 18.00—19.15 Uhr",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "9ACCAE72-6DE2-44F8-AFEF-F801FFF7D32D",
@@ -1129,8 +1038,8 @@
   "key": "barbarflyz",
   "name": "Bar barfly'z",
   "title": "Bar barfly'z",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Gotthardstrasse 21, 8002 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1142,7 +1051,7 @@
   "radar": false,
   "notiz": "barfly’z Kaffee- & Cocktailbar – Gotthardstrasse 21 – 8002 Zürich",
   "web": "http://barflyz.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "3AF36325-4D4A-4FE2-81DF-979BB69EEB8E",
@@ -1171,8 +1080,8 @@
   "key": "barcafexylo",
   "name": "Bar Café Xylo",
   "title": "Bar Café Xylo",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Neugasse 58, 8005 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "Café",
@@ -1185,7 +1094,7 @@
   "radar": false,
   "notiz": "| E-Mail-Adresse oder Handynummer | Passwort | <br> |",
   "web": "https://external.fzrh3-1.fna.fbcdn.net/static_map.php?v=1021&amp;osm_provider=2&amp;size=306x98&amp;zoom=15&amp;markers=47.38292000,8.52932000&amp;language=de_DE",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "ECF0A0B7-9205-45C6-8E2E-E9AD709008E0",
@@ -1230,8 +1139,8 @@
   "key": "bardante",
   "name": "Bar Dante",
   "title": "Bar Dante",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zwinglistrasse 22, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1243,7 +1152,7 @@
   "radar": false,
   "notiz": "Ja, nun ist es also passiert. Das Dante ist neu eine meiner Lieblingsbars in Zürich. Nach meinem letzten Besuch am Mittwoch gebe ich ihnen die volle Punktzahl.",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "B9093F78-83EA-4333-AF63-76429CC3FA84",
@@ -1332,8 +1241,8 @@
   "key": "barladyhamiltonspubrooftopbar",
   "name": "Bar Lady Hamilton's Pub: Rooftop Bar",
   "title": "Bar Lady Hamilton's Pub: Rooftop Bar",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Beatengasse 11, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1346,15 +1255,15 @@
   "radar": false,
   "notiz": "Die Dachterrasse bietet die perfekte Kulisse um am Feierabend die letzten Sonnenstrahlen des Tages aufzusaugen, den Apéro mit Freunden zu geniessen, sich dazu an einigen Snacks aus der Küche zu erfreuen und Firmenevents an einer …",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "CFAB3C52-D1BF-4227-817A-5A3168B68354",
   "key": "barmilieuzurich",
   "name": "Bar Milieu Zürich",
   "title": "Bar Milieu Zürich",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Brauerstrasse 30A, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1366,15 +1275,15 @@
   "radar": false,
   "notiz": "",
   "web": "https://www.milieuzuerich.ch/",
-  "geaendert": "2024-08-23"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "1F2185B8-28FE-4446-9D4C-E5076C2B693D",
   "key": "barmunster",
   "name": "Bar Münster",
   "title": "Bar Münster",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Münstergasse 30, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -1387,7 +1296,7 @@
   "radar": false,
   "notiz": "Zürichs Nachtleben ist flatterhaft wie manches Insekt: Manchenorts wechselt die Pächterschaft fast mit den Jahreszeiten. In der Münstergasse, diesem Inbegriff des Wandels, hatte einst jahrzehntelang die Casa-Bar den New-Orleans-Jazz …",
   "web": "http://barmuenster.ch/#",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "667A1ADB-2668-4841-99AC-1D8B3CA61F44",
@@ -1545,11 +1454,12 @@
   "key": "baraccazermattklotenraclette",
   "name": "Baracca Zermatt, Kloten (Raclette)",
   "title": "Rest. Baracca Zermatt, Kloten (Raclette)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Marktgasse 1, 8302 Kloten",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
@@ -1560,15 +1470,15 @@
   "radar": false,
   "notiz": "|  DER MENSCH LEBT NICHT VOM SPORT ALLEINE... |",
   "web": "http://www.baracca-zermatt.ch/zh",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "818279EB-AC88-40E2-A17D-1857810C09D2",
   "key": "barfussbarmiete",
   "name": "barfussbar: Miete",
   "title": "barfussbar: Miete",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Oberdorfstrasse 16e, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "Event",
@@ -1582,15 +1492,15 @@
   "radar": false,
   "notiz": "Kontakt Badekiosk/barfussbar & Job Anfragen:",
   "web": "http://barfussbar.ch/index.php/index.php/termine.html",
-  "geaendert": "2023-08-27"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F366FE72-C167-43F7-87FD-C1C4F4F82A8F",
   "key": "barrancoperuanisch",
   "name": "Barranco (peruanisch)",
   "title": "Rest. Barranco (peruanisch)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sihlfeldstrasse 141, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -1605,7 +1515,7 @@
   "radar": false,
   "notiz": "Im wunderschönen Eckgebäude am wunderschönen Bullingerplatz hat sich das wunderschöne peruanische Restaurant Barranco eingenistet. Ein gemütliches aber elegantes Lokal, dass sich genauso gut für ein romatisches Date wie für eine grosse …",
   "web": "https://www.barranco.ch/",
-  "geaendert": "2025-03-29"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "864B10BB-B101-4E6F-8456-C80BF96B0B8D",
@@ -1653,8 +1563,8 @@
   "key": "baselhotelsilo",
   "name": "Basel: Hotel Silo",
   "title": "Basel: Hotel Silo",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Signalstrasse 37, 4058 Basel",
+  "quelle": "bear",
   "tags": [
    "Basel",
    "GASTRO",
@@ -1666,15 +1576,15 @@
   "radar": false,
   "notiz": "SILO by TALENT - soulfood. hostel. meetings.",
   "web": "https://www.silobasel.com/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "077ACAE0-6FF3-4EAC-8043-F0537E8B392D",
   "key": "bauernschanke",
   "name": "Bauernschänke",
   "title": "Rest. Bauernschänke",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Rindermarkt 24, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -1688,15 +1598,15 @@
   "radar": false,
   "notiz": "Vor- und Hauptspeise? Gibts nicht. Alles wird geteilt.",
   "web": "http://www.bauernschaenke.ch",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "4D0A519A-E7AE-4014-BF66-A685518B9E5F",
   "key": "baumhauslesnidswanderungenausfluge",
   "name": "Baumhaus Les Nids: Wanderungen & Ausflüge",
   "title": "Baumhaus Les Nids: Wanderungen & Ausflüge",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Montpugin 8, 2400 Le Locle",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -1708,7 +1618,7 @@
   "radar": false,
   "notiz": "Der Stille lauschen, den Eichhörnchen zuschauen und langsam dem Alltag entschweben: Ein Wochenende in den Baumhäusern Les Nids macht Kinderträume wahr.",
   "web": "https://www.schweizerfamilie.ch/wanderungen-ausfluege/weekendtipp/naechtigen-im-baumhaus-les-nids/#",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "09792F71-8A47-4A95-91F9-F58F8DE83546",
@@ -2110,8 +2020,8 @@
   "key": "bernbergweltgrindelwald",
   "name": "Bern: Bergwelt Grindelwald",
   "title": "Bern: Bergwelt Grindelwald",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Bergwelt 4, 3818 Grindelwald",
+  "quelle": "bear",
   "tags": [
    "Bern",
    "GASTRO",
@@ -2123,7 +2033,7 @@
   "radar": false,
   "notiz": "Wir rufen die Entdecker, Träumer, Wagemutigen. Hier ist das Tal, wo Legenden in den Himmel wachsen und Mythen die Natur umranken. Im Schutz der Berge spendet das neue Schweizer Premium Alpine Design Resort Bergwelt Grindelwald Kraft und …",
   "web": "https://www.simplebooking.it/ibe/hotelbooking/search?hid=6808&amp;lang=DE",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "74431FB0-C4E0-4F81-9844-18C99DECB404",
@@ -2150,8 +2060,8 @@
   "key": "bernrestaltestramdepot",
   "name": "Bern: Rest. Altes Tramdepot",
   "title": "Bern: Rest. Altes Tramdepot",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Grosser Muristalden 6, 3006 Bern",
+  "quelle": "bear",
   "tags": [
    "Bern",
    "GASTRO",
@@ -2163,7 +2073,7 @@
   "radar": false,
   "notiz": "Unter unserem Dach vereinen wir das Restaurant Altes Tramdepot mit dazugehöriger Brauerei, die Eiswerkstatt und das Zollhaus. Unser oberstes Ziel ist, unseren Gästen ein unvergessliches Erlebnis zu bieten.",
   "web": "https://altestramdepot.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "195A7723-1716-409A-A7F4-490120F30D88",
@@ -2186,48 +2096,6 @@
   "geaendert": "2022-06-07"
  },
  {
-  "id": "028759DD-773F-4058-B407-EBB62A453B4C",
-  "key": "berneroberlandaeschiriedpochtenfall",
-  "name": "Berner Oberland: Aeschiried-Pochtenfall",
-  "title": "Berner Oberland: Aeschiried-Pochtenfall",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport"
-  ],
-  "radar": false,
-  "notiz": "WIRTSHAUS IM SULDTAL Ich war kürzlich mit meinem Wandergspänli im Suldtal im Berner Oberland, wir waren angetan vom Restaurant Pochtenfall ganz hinten im Tal: diese Abgelegenheit, diese Holzfassade, dieses urchige Essen– ich hatte eine …",
-  "web": "",
-  "geaendert": "2023-10-07"
- },
- {
-  "id": "704E0131-2574-41A9-8735-95B860009E4D",
-  "key": "berneroberlandsuldtalbeispiez",
-  "name": "Berner Oberland: Suldtal bei Spiez",
-  "title": "Berner Oberland: Suldtal bei Spiez",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport"
-  ],
-  "radar": false,
-  "notiz": "ABKÜHLEN  Heute nehme ich Sie dorthin mit, wo das Berner Oberland wahrscheinlich am kühlsten ist. Versteckt hinter dem sonnigen Rücken von Aeschiried bei Spiez liegt das Suldtal – ein Naturschutzgebiet mit schattigen Wäldern, einem …",
-  "web": "",
-  "geaendert": "2026-06-12"
- },
- {
   "id": "78E0406A-3CBD-489C-BD05-349FECDE6CAE",
   "key": "besenbeizaufdemzurichsee",
   "name": "Besenbeiz auf dem Zürichsee",
@@ -2238,6 +2106,7 @@
    "Aussenraum",
    "GASTRO",
    "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
@@ -2297,8 +2166,8 @@
   "key": "binzkunz",
   "name": "Binz & Kunz",
   "title": "Rest. Binz & Kunz",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Räffelstrasse 17, 8045 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -2312,7 +2181,7 @@
   "radar": false,
   "notiz": "",
   "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "4E04E269-D8F8-436A-A963-E052A25343ED",
@@ -2386,8 +2255,8 @@
   "key": "bocciabocciodromwinterthur",
   "name": "Boccia: Bocciodrom Winterthur",
   "title": "Boccia: Bocciodrom Winterthur",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Flüelistrasse 9, 8408 Winterthur",
+  "quelle": "bear",
   "tags": [
    "Event",
    "GASTRO",
@@ -2402,15 +2271,15 @@
   "radar": false,
   "notiz": "| Home  | Pizzeria+Bar  | Pétanque  | Boccia |   |",
   "web": "http://bocciodromo.ch/index.html",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "62AF6205-BBE4-44B2-96F8-3C5E76BC75D1",
   "key": "bocciaristorantedacono",
   "name": "Boccia: Ristorante Da Cono",
   "title": "Boccia: Ristorante Da Cono",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Badenerstrasse 526, 8048 Zürich",
+  "quelle": "bear",
   "tags": [
    "Event",
    "GASTRO",
@@ -2425,7 +2294,7 @@
   "radar": false,
   "notiz": "Für das Bocciaspiel benötigt man nur drei Dinge: Bocciakugeln, Bocciabahnen",
   "web": "http://www.dacono.ch/#",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "A1C8C7E3-D620-4484-A202-3BA22BC95967",
@@ -2709,25 +2578,6 @@
   "geaendert": "2022-03-05"
  },
  {
-  "id": "C7E28A8C-3D1E-4920-B3DE-63579BA66262",
-  "key": "brunchfahrtenimrotendoppelpfeil",
-  "name": "Brunchfahrten im Roten Doppelpfeil",
-  "title": "Brunchfahrten im Roten Doppelpfeil",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Brunch",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "http://www.ticketcorner.ch/tickets.html?fun=erdetail&affiliate=tcs&doc=erdetaila&erid=1073565&xtor=AL-6071",
-  "web": "",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "E0D95A2F-D442-4E22-8EDD-63A51249EC12",
   "key": "brunchlokaleinzurichdiebesten",
   "name": "Brunchlokale in Zürich: Die besten",
@@ -2793,31 +2643,12 @@
   "geaendert": "2026-10-12"
  },
  {
-  "id": "04A5FA27-9A9B-4BE7-BCEE-C08FA526AE74",
-  "key": "buchtippwunderschonereiseinstessin",
-  "name": "Buchtipp: Wunderschöne Reise ins Tessin",
-  "title": "Buchtipp: Wunderschöne Reise ins Tessin",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "Es ist gerade eine wunderschöne Zeit, um ins Tessin zu fahren. Fotografin Juliette Chrétien und Autor Pepe Regazzi verraten in ihrem neuen Buch «Famiglia Nostrana» ihre geheimen Tipps zum Geniessen, Entdecken und Sein.",
-  "web": "http://www.famiglianostrana.com/shop/",
-  "geaendert": "2022-03-22"
- },
- {
   "id": "14A092F6-0A25-4842-98E5-456D08447B95",
   "key": "burgaschisee",
   "name": "Burgäschisee",
   "title": "Burgäschisee",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hauptstrasse 26, 4556 Burgäschi",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Bern",
@@ -2832,7 +2663,7 @@
   "radar": true,
   "notiz": "Anfang Juli habe ich ein echtes Bijou entdeckt: den Burgäschisee bei Herzogenbuchsee BE. Umgeben von Wald und Schilf, bietet der kleine See alles, was der Mensch zum Glück braucht. Ich habe mich erst einmal in der Badi eingerichtet. Den …",
   "web": "https://www.solothurn-city.ch/de/solothurn-erleben/ausflugsziele/burgaeschisee",
-  "geaendert": "2026-08-02"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "C3735D3C-4FEC-4A30-951A-0A541A10D871",
@@ -3028,8 +2859,8 @@
   "key": "cafeconditorei1842",
   "name": "Café & Conditorei 1842",
   "title": "Café & Conditorei 1842",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Napfgasse 4, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3043,15 +2874,15 @@
   "radar": true,
   "notiz": "Unsere Spezialitäten sind vor allem Patisserien, Torten und Kuchen. Zu jeder Süssigkeit haben wir auch einen passenden Tee oder den idealen Kaffee.",
   "web": "https://www.cafe1842.ch/conditorei",
-  "geaendert": "2026-11-09"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "FF34C947-27EE-400F-9681-70C7FD704103",
   "key": "cafeauerco",
   "name": "Café Auer & Co.",
   "title": "Café Auer & Co.",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sihlquai 131, 8005 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3063,7 +2894,7 @@
   "radar": false,
   "notiz": "Montag - Mittwoch: 08:00 Uhr bis 18:00 Uhr",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "425D7433-2E2B-413C-812B-397EAEF140D4",
@@ -3243,8 +3074,8 @@
   "key": "cafeflavourcoffeeplants",
   "name": "Café flavour coffee & plants",
   "title": "Café flavour coffee & plants",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Langstrasse 200, 8005 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3255,15 +3086,15 @@
   "radar": true,
   "notiz": "Monday to Friday 7 a.m. — 2 p.m. Saturday 9 a.m. — 5 p.m.",
   "web": "https://www.flavourcoffee.ch/",
-  "geaendert": "2025-09-04"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "0EB6E60C-5FEC-4934-8C2F-275593031EB1",
   "key": "cafeirma",
   "name": "Café Irma",
   "title": "Café Irma",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zweierstrasse 55, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3277,15 +3108,15 @@
   "radar": true,
   "notiz": "Montags ein gutes Café zu finden, ist in Zürich gar nicht so einfach. Das Café Irma an der Zweierstrasse schafft Abhilfe und hat seit den Sommerferien auch zum Wochenstart geöffnet. Im Mittelpunkt steht das selbst gebackene …",
   "web": "https://maps.app.goo.gl/wkH5kqLYQ8Evaujb8",
-  "geaendert": "2026-10-04"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "40658BAC-6325-451E-B7BD-336F4A0CA289",
   "key": "cafejustcoffee",
   "name": "Café Just Coffee",
   "title": "Café Just Coffee",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hornergasse 15, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3297,7 +3128,7 @@
   "radar": false,
   "notiz": "We are an independent coffee shop in the middle of Zürich, that I (David Lewis) founded in January 2018. My passion for real, speciality coffee began in the late 1990s as a student when Monmouth Coffee In London sent me coffee beans to …",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "01D3AE55-DAD1-4275-9CDF-1E1A1B2147E8",
@@ -3325,8 +3156,8 @@
   "key": "cafekafifreud",
   "name": "Café Kafi Freud",
   "title": "Café Kafi Freud",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Schaffhauserstrasse 118, 8057 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3338,15 +3169,15 @@
   "radar": false,
   "notiz": "Einmal tief durchatmen. Frischer Kaffee, selbstgebackener Kuchen oder feine Quiche. Das riecht heimelig. Das Smartphone weggelegt. Zeitung oder Buch? In die Sonne blinzeln und den letzten Krümel Gipfeli vom Frühstücksteller aufpicken. …",
   "web": "https://kafifreud.ch/#content",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "34FE6669-644A-48C7-BE47-8999DE00A7C3",
   "key": "cafekafihardi",
   "name": "Café Kafi Hardi",
   "title": "Café Kafi Hardi",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hohlstrasse 355, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3358,15 +3189,15 @@
   "radar": false,
   "notiz": "Freie Tischwahl an Wochenenden und Feiertagen – keine Reservation möglich.",
   "web": "",
-  "geaendert": "2023-04-13"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "ACDA15DE-E05D-47B5-8594-F3A448F5CDCE",
   "key": "cafekornsilo",
   "name": "Café Kornsilo",
   "title": "Café Kornsilo",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 231, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3378,7 +3209,7 @@
   "radar": false,
   "notiz": "Das modern urbane «Café Kornsilo» hat die Mühle Tiefenbrunnen neu belebt und kulinarisch bereichert. Das seit April eröffnete Lokal erstrahlt im einzigartig schlichten Raum mit rohem Beton und grossen Fenstern. Hier heisst die Devise …",
   "web": "http://www.kornsilo.ch",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "33DCA4D9-F8E4-4B83-B4D8-76677C671E4F",
@@ -3467,8 +3298,8 @@
   "key": "cafeserge",
   "name": "Café Serge",
   "title": "Café Serge",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 202, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -3484,7 +3315,7 @@
   "radar": false,
   "notiz": "Neu an der Seefeldstrasse 202: Bar, Café, Ristorante",
   "web": "http://www.zurichkreis8.ch/kreis-8/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "2BB19BBD-F59A-404C-972D-2577FE7E539E",
@@ -3709,8 +3540,8 @@
   "key": "chaat",
   "name": "Chaat",
   "title": "Rest. Chaat",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 96, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -3726,17 +3557,19 @@
   "radar": true,
   "notiz": "Manchmal beginnt die Geschichte eines Restaurants mit einem Spaziergang: Als Zuri Min und Alessio Feser im vergangenen Winter an einem Pizzalokal im Zürcher Seefeld vorbeiliefen, gefielen ihnen die Räume auf Anhieb. Wenig später standen …",
   "web": "",
-  "geaendert": "2026-11-08"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "5CC56B74-8C17-4AE2-9182-32765D315C14",
   "key": "chaletgipfeltreff",
   "name": "Chalet Gipfeltreff",
   "title": "Rest. Chalet Gipfeltreff",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zollikerstrasse 6, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -3747,7 +3580,7 @@
   "radar": false,
   "notiz": "Restaurant Gipfeltreff | Zollikerstrasse 6 | 8008 Zürich | Tel: 079 374 09 93 | eMail: info@chalet-gipfeltreff.ch",
   "web": "https://www.chalet-gipfeltreff.ch/speisen",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "30374186-1B07-4991-8DB2-3E2BD3298B30",
@@ -3797,8 +3630,8 @@
   "key": "chezdonati",
   "name": "Chez Donati",
   "title": "Rest. Chez Donati",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "St. Johanns-Vorstadt 48, 4056 Basel",
+  "quelle": "bear",
   "tags": [
    "Basel",
    "GASTRO",
@@ -3811,7 +3644,7 @@
   "radar": false,
   "notiz": "Das Chez Donati, an allerbester Lage bei der Johanniterbrücke, ist eine Institution. 1950 von Manilo Donati als eines der ersten italienischen Restaurants in Basel eröffnet, gilt das Lokal noch heute als erste Adresse für italienische …",
   "web": "https://www.bindella.ch/gastronomie/chez-donati?utm_source=sfmc&amp;utm_medium=email&amp;utm_campaign=SF_ED_9_ENG_EM_NL_XX_REDAKTION_XX_2023-06-01&amp;utm_term=2023-05-31&amp;utm_content=3729331_#",
-  "geaendert": "2023-06-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "C48BAAB5-CFBB-4552-A91F-03224C60EF10",
@@ -4014,8 +3847,8 @@
   "key": "daamici",
   "name": "Da Amici",
   "title": "Rest. Da Amici",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Schaffhauserstrasse 113, 8057 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -4031,7 +3864,7 @@
   "radar": false,
   "notiz": "Montag - Freitag 11.30 - 14.00 / 18.00 - 24.00",
   "web": "http://www.da-amici.ch/2-uncategorised/1-da-amici-restaurant-pizzeria",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "B3F49769-B64F-40F4-BA79-CB191913EDB9",
@@ -4083,8 +3916,8 @@
   "key": "dalnastro",
   "name": "Dal Nastro",
   "title": "Rest. Dal Nastro",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sihlporte 3, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -4099,7 +3932,7 @@
   "radar": false,
   "notiz": "Sihlporte 3 | 8001 Zürich | Tel. 044 301 41 41 | info@dalnastro.ch",
   "web": "http://dalnastro.ch/en/home",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F0EA11EF-6023-43C1-B343-DA65641A4F62",
@@ -4168,8 +4001,8 @@
   "key": "dettighofendehofgutalbfuhren",
   "name": "Dettighofen DE: Hofgut Albführen",
   "title": "Dettighofen DE: Hofgut Albführen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Albführen 1, 79802 Dettighofen",
+  "quelle": "bear",
   "tags": [
    "Deutschland",
    "Eglisau+",
@@ -4180,15 +4013,15 @@
   "radar": false,
   "notiz": "Hotel & Restaurant Tel. +49 (0) 77 42 / 92 96 0 Fax +49 (0) 77 42 / 92 96 149",
   "web": "",
-  "geaendert": "2026-10-12"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "71186B45-3AD5-4885-8773-84486864D037",
   "key": "didisfrieden",
   "name": "Didi’s Frieden",
   "title": "Rest. Didi’s Frieden",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Stampfenbachstrasse 32, 8006 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -4202,7 +4035,7 @@
   "radar": false,
   "notiz": "Wir freuen uns schon sehr, wenn Sie wieder einen Besuch bei uns im Frieden planen. Am Mittag führen wir eine täglich wechselnde Mittagskarte, sei es für den Business Lunch, den ausgedehnten Z’Mittag oder sogar als Take away.",
   "web": "https://mytools.aleno.me/reservations/v2.0/reservations.html?k=eyJrIjoid2l2dTVrM2lsNm15cnBiOWlwdzZ4bmViajhycnVkaWRpZ280bGZwODBsbzlhNGlweTEiLCJyIjoiRWNtWEZyUzJmV0NHa0hTc0giLCJzIjoiaHR0cHM6Ly9teXRvb2xzLmFsZW5vLm1lLyJ9",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "AC57281E-CB68-4608-A5E0-020BFE59BDEF",
@@ -4276,8 +4109,8 @@
   "key": "diessenhofengasthausschupfen",
   "name": "Diessenhofen: Gasthaus Schupfen",
   "title": "Diessenhofen: Gasthaus Schupfen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Steinerstrasse 501, 8253 Diessenhofen",
+  "quelle": "bear",
   "tags": [
    "Eglisau+",
    "Event",
@@ -4292,33 +4125,7 @@
   "radar": false,
   "notiz": "Seit 1455 verwöhnt das Gasthaus Schupfen seine Gäste",
   "web": "https://schupfen.ch/restaurant/speisekarte/",
-  "geaendert": "2026-10-12"
- },
- {
-  "id": "B6AB5B20-C140-45F2-A72F-A5761CFDC4AE",
-  "key": "digitaldetoxzurruhekommenimkloster",
-  "name": "Digital Detox: Zur Ruhe kommen im Kloster",
-  "title": "Digital Detox: Zur Ruhe kommen im Kloster",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "AUSLAND",
-   "EUROPA",
-   "Frankreich",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Iberien",
-   "Italien",
-   "Ostschweiz",
-   "SCHWEIZ",
-   "Wellness",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Digital Detox, Entschleunigung, Achtsamkeit: Diese Trendbegriffe sind keine Erfindung der Moderne. In",
-  "web": "http://www.eremito.com/de/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "6FB4349F-B350-4C2E-A17F-DC05540DE76F",
@@ -4329,6 +4136,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Graubünden",
    "Restaurant",
    "SCHWEIZ"
@@ -4364,8 +4173,8 @@
   "key": "dreistuben",
   "name": "Drei Stuben",
   "title": "Rest. Drei Stuben",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Beckenhofstrasse 5, 8006 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -4378,7 +4187,7 @@
   "radar": false,
   "notiz": "Ihr Gastgeber Marco Però freut sich, Sie als Gast im Restaurant DREI STUBEN begrüssen zu dürfen. Geniessen Sie eine frische, saisonal abgestimmte Marktküche mit Tessiner Einflüssen sowie raffinierte und ausgefallene Neukreationen …",
   "web": "http://www.dreistuben.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E4B83FC0-563A-459B-BF57-B0996916AC3B",
@@ -4448,27 +4257,6 @@
   "geaendert": "2025-10-19"
  },
  {
-  "id": "161F729F-E648-4422-A621-30F576DF45FD",
-  "key": "effretikonkyburg",
-  "name": "Effretikon-Kyburg",
-  "title": "Effretikon-Kyburg",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "RUHIGES ZÜRIBIET Unter einem Himmel, dessen Wolken Regen androhten, zogen wir unlängst von Effretikon durch die Dörfer Ottikon bei Kemptthal und Ettenhusen zur Kyburg hinauf. Und wurden bereichert. Die Gegend nordöstlich unseres …",
-  "web": "",
-  "geaendert": "2025-06-20"
- },
- {
   "id": "4DE61536-9313-4911-B15B-44EDB145E663",
   "key": "eglisaurestnachtwachter",
   "name": "Eglisau: Rest. Nachtwächter",
@@ -4515,8 +4303,8 @@
   "key": "eichhornli",
   "name": "Eichhörnli",
   "title": "Rest. Eichhörnli",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Nietengasse 16, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -4529,7 +4317,7 @@
   "radar": false,
   "notiz": "E-Mail: kontakt@restaurant-eichhoernli.ch",
   "web": "http://www.restaurant-eichhoernli.ch",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "9750788E-0B3F-4A59-9616-8C2A07EAF6FD",
@@ -4561,8 +4349,8 @@
   "key": "ellikonrhygarte",
   "name": "Ellikon: Rhygarte",
   "title": "Ellikon: Rhygarte",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Dorfstrasse 22, 8464 Ellikon am Rhein",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Eglisau+",
@@ -4575,7 +4363,7 @@
   "radar": false,
   "notiz": "Das Rhygarte-Team begrüsst Sie auf unserer Website. Idyllisch am Schweizer Ufer des Rheins gelegen, präsentiert sich das Restaurant Rhygarte in neuem Glanz. Das Familienrestaurant mit Augenmerk auf das Detail bietet Erholung und Genuss …",
   "web": "https://www.rhygarte.ch/#contact",
-  "geaendert": "2026-10-12"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "6B04272A-49A1-4D68-B496-286521DB7969",
@@ -4609,6 +4397,8 @@
   "tags": [
    "Bern",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Hotel",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -4640,33 +4430,12 @@
   "geaendert": "2024-07-30"
  },
  {
-  "id": "98C6DD2A-740E-4652-8E72-2ED6DCEBDDFC",
-  "key": "emmentalwasendurrenroth",
-  "name": "Emmental: Wasen-Dürrenroth",
-  "title": "Emmental: Wasen-Dürrenroth",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport"
-  ],
-  "radar": false,
-  "notiz": "SCHMAUS Meine Begleiterin und ich waren begeistert. Der «Bären» in Dürrenroth ist eines jener hablichen alten Gasthäuser, wie es sie im Emmental gehäuft gibt. Unwirklich ausladend ist der blumengeschmückte Bau, zeigt sich inwendig …",
-  "web": "",
-  "geaendert": "2025-10-06"
- },
- {
   "id": "1CC7B6D8-18E9-4D0F-8634-93479A457BF1",
   "key": "engadinalpenloftsinsentgr",
   "name": "Engadin: Alpenlofts in Sent (GR)",
   "title": "Engadin: Alpenlofts in Sent (GR)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Avant Baselgia 82, 7554 Sent",
+  "quelle": "bear",
   "tags": [
    "Apartment",
    "Engadin",
@@ -4680,31 +4449,7 @@
   "radar": false,
   "notiz": "Ein Übernachtungs-Geheimtipp im Unterengadin",
   "web": "https://alpenloft.com/",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "5E0B3865-2CFB-4F36-BB3A-E98E2C3DE42F",
-  "key": "engadingeheimtipps",
-  "name": "Engadin: Geheimtipps",
-  "title": "Engadin: Geheimtipps",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Café",
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Radar",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport"
-  ],
-  "radar": true,
-  "notiz": "Der gelernte Bauzeichner ist einer der drei Gründer des Restaurants «La Scarpetta» in St. Moritz. Das Pastalokal hat sich seit seiner Eröffnung als Pop-up im Jahr 2017 zum so gut wie immer ausgebuchten Lieblingsrestaurant der …",
-  "web": "https://la-scarpetta.ch/de",
-  "geaendert": "2026-07-18"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "A7A3A2BA-8FDE-44F2-B86E-676DD2641736",
@@ -4755,8 +4500,8 @@
   "key": "engadinhotelinlainbrail",
   "name": "Engadin: Hotel In Lain, Brail",
   "title": "Engadin: Hotel In Lain, Brail",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Crusch Plantaun 217, 7527 Brail",
+  "quelle": "bear",
   "tags": [
    "Engadin",
    "GASTRO",
@@ -4769,15 +4514,15 @@
   "radar": false,
   "notiz": "Dario führt das Hotel, zusammen mit seiner Frau Tamara, die ebenfalls einige Jahre Hotelerfahrung mit sich bringt. Als Küchenchef und Inhaber träumt er seinen grossen Traum nicht nur, sondern lebt ihn auch. Nach der Kochlehre im …",
   "web": "http://www.inlain.ch",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "04A12E6C-E670-4E47-8BA6-43D56BF4755B",
   "key": "engadinhotelwaltherpontresina",
   "name": "Engadin: Hotel Walther, ­Pontresina",
   "title": "Engadin: Hotel Walther, ­Pontresina",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Maistra 215, 7504 Pontresina",
+  "quelle": "bear",
   "tags": [
    "Engadin",
    "GASTRO",
@@ -4791,7 +4536,7 @@
   "radar": false,
   "notiz": "Der Komplex Walther/Steinbock bietet mit 102 Zimmern, vier Restaurants, Hallenbad, Wellnessoase und Tennisplätzen eine erstklassige Infrastruktur.",
   "web": "https://www.hotelwalther.ch/service/kontakt/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "151F772F-6B94-4BD8-89CB-BF7C6B294A00",
@@ -4820,8 +4565,8 @@
   "key": "engadinkulinarikundkulturrundumshotelkrone",
   "name": "Engadin: Kulinarik und Kultur rund ums Hotel Krone",
   "title": "Engadin: Kulinarik und Kultur rund ums Hotel Krone",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Cumünela 2, 7522 La Punt Chamues-ch",
+  "quelle": "bear",
   "tags": [
    "Engadin",
    "GASTRO",
@@ -4834,15 +4579,15 @@
   "radar": false,
   "notiz": "Es gibt Hotels, die laufen wie eine gut geölte Maschine. Zu ihnen zählt die «Krone», am Kopf der Brücke über den Inn im Engadiner Dorf La Punt-Chamues-ch gelegen.",
   "web": "http://www.krone-la-punt.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F14B6DE9-3543-4A68-ADCF-1824250A0FEA",
   "key": "engadinrosamammutstmoritz",
   "name": "Engadin: Rosa Mammut, St. Moritz",
   "title": "Engadin: Rosa Mammut, St. Moritz",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Arona 34, 7500 St. Moritz",
+  "quelle": "bear",
   "tags": [
    "Café",
    "Engadin",
@@ -4856,36 +4601,15 @@
   "radar": true,
   "notiz": "ROSA MAMMUT ist aus der Idee entstanden, Kaffee neu zu denken: hochwertig, modern und mit einem starken Gefühl für Ästhetik, Genuss und Atmosphäre.",
   "web": "https://rosamammut.ch/",
-  "geaendert": "2026-07-17"
- },
- {
-  "id": "2DAFC8C0-818D-459C-95F4-B64286E57D5E",
-  "key": "engadinschlummernzwischenskipisteundbergspitze",
-  "name": "Engadin: Schlummern zwischen Skipiste und Bergspitze",
-  "title": "Engadin: Schlummern zwischen Skipiste und Bergspitze",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Hast du deine Ski oder dein Snowboard schon aus dem Keller geholt? Falls nicht, wird es höchste Zeit. Denn was gibt es Schöneres als im Winter einen Tag in den Bergen zu verbringen? Vielleicht über Nacht zu bleiben. Gerade im Engadin …",
-  "web": "https://www.engadin.ch/de/snow-deal/?utm_source=ronorp&amp;utm_medium=nl&amp;utm_campaign=snowdeal",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "01649AE0-7539-4CDD-8EE4-C06A631EA69F",
   "key": "engadingresthatofineasiancuisinestmoritz",
   "name": "Engading: Rest. Hato Fine Asian Cuisine, St. Moritz",
   "title": "Engading: Rest. Hato Fine Asian Cuisine, St. Moritz",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via da Vout 3, 7500 St. Moritz",
+  "quelle": "bear",
   "tags": [
    "Engadin",
    "GASTRO",
@@ -4900,7 +4624,7 @@
   "radar": false,
   "notiz": "",
   "web": "https://hato-restaurants.com/st-moritz/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "53F31145-E666-4E2E-AAC2-A13E5612F4D9",
@@ -4951,8 +4675,8 @@
   "key": "epessesaubergeduvigneron",
   "name": "Epesses: Auberge du vigneron",
   "title": "Epesses: Auberge du vigneron",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Route de la Corniche 16, 1098 Epesses",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -4964,15 +4688,15 @@
   "radar": false,
   "notiz": "",
   "web": "https://www.aubergeduvigneron.ch/contacts",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "1C3D6F6E-5991-4351-8194-F7A4DD07EDDA",
   "key": "erlenbachrestfischstubli",
   "name": "Erlenbach: Rest. Fischstübli",
   "title": "Erlenbach: Rest. Fischstübli",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Schiffländestrasse 15, 8703 Erlenbach",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -4984,7 +4708,7 @@
   "radar": true,
   "notiz": "Sibylle SaxerPubliziert: 30.04.2025, 17:00",
   "web": "https://www.gaultmillau.ch/zuri-isst/fischstubli-raclette-vom-holzfeuer-760098",
-  "geaendert": "2025-05-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "609069D5-CE28-4483-9056-8F85CA05B5D8",
@@ -5011,8 +4735,8 @@
   "key": "ernenvsmichelhauszumieten",
   "name": "Ernen VS: Michelhaus zu mieten",
   "title": "Ernen VS: Michelhaus zu mieten",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Michligschrota 2, 3995 Ernen",
+  "quelle": "bear",
   "tags": [
    "Apartment",
    "GASTRO",
@@ -5023,7 +4747,7 @@
   "radar": true,
   "notiz": "Reto Holzer erfüllte sich in Ernen einen Traum: den behutsamen Umbau eines Walliser Chalets. Es ist ein Rückzugsort voller Geschichte.",
   "web": "https://michelhaus.ch/",
-  "geaendert": "2025-12-10"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "547609BE-41AC-4E95-9B8C-18AEF33E3642",
@@ -5231,8 +4955,8 @@
   "key": "flueliranftjugendstilhotelpaxmontana",
   "name": "Flüeli-Ranft: Jugendstil-Hotel Paxmontana",
   "title": "Flüeli-Ranft: Jugendstil-Hotel Paxmontana",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Dossen 1, 6073 Flüeli-Ranft",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -5244,7 +4968,7 @@
   "radar": false,
   "notiz": "image6.svg+xml<!-- {\"embed\":\"true\"} -->http://www.paxmontana.ch/de/Startseite",
   "web": "http://www.paxmontana.ch/de/Startseite",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "2A7FE174-4CCD-4B93-BD18-F19307AF4B8C",
@@ -5301,6 +5025,7 @@
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "GASTRO/Küche/Gutbürgerlich",
    "Restaurant",
    "SCHWEIZ",
@@ -5312,28 +5037,6 @@
   "radar": false,
   "notiz": "|## Mitten in Zürich...## ... und doch in den Alpen.<br> Das Fondue Chalet bringt viel Charme und Ambiente in die schöne Stadt an der Sihl. Kommen Sie auf den Kalanderplatz in Sihlcity und geniessen Sie bestes Gletscherfondue und feine …",
   "web": "http://www.fondue-chalet.ch/index.php",
-  "geaendert": "2026-03-15"
- },
- {
-  "id": "7B3050C3-DB45-4634-8B07-F7C347AB8986",
-  "key": "foodtrucksfurdenfruhling",
-  "name": "Foodtrucks für den Frühling",
-  "title": "Foodtrucks für den Frühling",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "Take Away",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Hurra endlich Frühling! Nach diesem harten Winter können wir endlich wieder Ping-Pong spielen, draussen Kafi trinken und den Vögeli beim Zwitschern zu hören. Auch die Mittagspause kann wieder draussen an der schönen Sonne verbracht …",
-  "web": "http://www.rhystorante.ch/",
   "geaendert": "2026-03-15"
  },
  {
@@ -5496,50 +5199,6 @@
   "geaendert": "2026-11-09"
  },
  {
-  "id": "FBC711CF-7D2E-4D16-8190-736D290C6CDF",
-  "key": "fruhstuckinzurich",
-  "name": "Frühstück in Zürich",
-  "title": "Frühstück in Zürich",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Brunch",
-   "Café",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Da ist sie also: Die langersehnte, ziemlich informative und völlig überraschende Liste meiner Lieblingsfrüstücksorte in alphabetischer Reihenfolge. Mehr leckere Lokale hat's in der Liste mit dem naheliegenden Titel Frühstückstipps.",
-  "web": "http://www.ronorp.net/zuerich/essen-trinken/fruehstuecktipps-zuerich.157",
-  "geaendert": "2022-03-05"
- },
- {
-  "id": "B3524569-21FF-4535-849C-FC5CBAF16C17",
-  "key": "fruhstuckeninzurich",
-  "name": "Frühstücken in Zürich",
-  "title": "Frühstücken in Zürich",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Brunch",
-   "Café",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Da ist sie also: Die langersehnte, ziemlich informative und völlig überraschende Liste meiner Lieblingsfrüstücksorte in alphabetischer Reihenfolge. Mehr leckere Lokale hat's in der Liste mit dem naheliegenden Titel Frühstückstipps.",
-  "web": "http://www.ronorp.net/zuerich/essen-trinken/fruehstuecktipps-zuerich.157/rons-alphabetisch-sortierte-fruehstuecksliste-des-gluecks.652718?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=zuerich#",
-  "geaendert": "2026-03-15"
- },
- {
   "id": "A75A83A0-7354-4DD6-B01F-201EBB7E6125",
   "key": "fruhstucktippsinzurich",
   "name": "Frühstücktipps in Zürich",
@@ -5582,28 +5241,6 @@
   "notiz": "Sara Lisa Schäubli | Entdecken | 19.1.2019",
   "web": "http://www.sulzfluh.ch/",
   "geaendert": "2022-02-28"
- },
- {
-  "id": "DED99B02-70E7-424B-88EF-8F2766157C7E",
-  "key": "funfschweizerferienideen",
-  "name": "Fünf Schweizer Ferienideen",
-  "title": "Fünf Schweizer Ferienideen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Ostschweiz",
-   "SCHWEIZ",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Die schönsten Ferienorte sind ganz nah. Man kann in den Zug steigen und kurze Zeit später in einer ganz anderen Welt aussteigen und abschalten.",
-  "web": "https://chesagrischuna.ch/",
-  "geaendert": "2024-07-30"
  },
  {
   "id": "CC14B29D-0BC1-47EA-9A9D-6E681FA6EFD5",
@@ -5756,34 +5393,12 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "B71112A2-2E79-48E1-9F66-A4DA06FB98CA",
-  "key": "gartenrestaurantskulinarischegarteninzurich",
-  "name": "Gartenrestaurants: Kulinarische Gärten in Zürich",
-  "title": "Gartenrestaurants: Kulinarische Gärten in Zürich",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Sommer, Sonne, Essen gehn – und das natürlich am liebsten draussen in einem lauschigen Garten. Für ein paar Stunden dem Alltag entfliehen und sich dabei kulinatisch verwöhnen lassen.",
-  "web": "https://www.zueriplausch.ch/media/filer_public_thumbnails/filer_public/39/2a/392a91c3-8d97-404d-bcdb-da1c7ded6cc7/restaurant-zurich-burgli-garten.jpg__1600x0_q85_subject_location-700,463_subsampling-2.jpg",
-  "geaendert": "2026-03-15"
- },
- {
   "id": "99DF02FE-F350-42BB-8F55-850165A3EAEC",
   "key": "gasthoffalkenwiedikon",
   "name": "Gasthof Falken, Wiedikon",
   "title": "Rest. Gasthof Falken, Wiedikon",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Birmensdorferstrasse 150, 8003 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -5797,39 +5412,15 @@
   "radar": false,
   "notiz": "Auf unserer grossen Terrasse mitten in Wiedikon unter wunderschönen Kastanien- und Lindenbäumen lässt es sich bei Glace und Apéro bestens verweilen.",
   "web": "https://www.falken-wiedikon.ch/",
-  "geaendert": "2026-03-15"
- },
- {
-  "id": "D3425675-6223-423E-ACDB-7BD297D6C5DF",
-  "key": "gasthauserfurwandersleute",
-  "name": "Gasthäuser für Wandersleute",
-  "title": "Gasthäuser für Wandersleute",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Graubünden",
-   "Ostschweiz",
-   "Restaurant",
-   "Romandie",
-   "SCHWEIZ",
-   "Sport",
-   "Ticino+",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "Schöne Lage, gutes Essen: Zum Beispiel im Alpen-Café auf der Rigi-Scheidegg.",
-  "web": "http://www.mongerons.ch/",
-  "geaendert": "2022-09-07"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "B8A5F576-5AC9-4A08-9C3C-D8959890DE83",
   "key": "gattikonrestsihlhalde",
   "name": "Gattikon: Rest. Sihlhalde",
   "title": "Gattikon: Rest. Sihlhalde",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sihlhaldenstrasse 70, 8136 Gattikon",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -5845,7 +5436,7 @@
   "radar": true,
   "notiz": "Auf der «Sihlhalde» in Gattikon bei Thalwil wirtet seit einem halben Jahrhundert die gleiche Familie. Wie wohltuend können solche Horte der Beständigkeit sein!",
   "web": "",
-  "geaendert": "2024-03-03"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "18DF4E87-A1B0-4974-AFAA-FB49DAC6B4E8",
@@ -5897,8 +5488,8 @@
   "key": "geisingendhistorischeshotel",
   "name": "Geisingen (D): Historisches Hotel",
   "title": "Geisingen (D): Historisches Hotel",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hauptstrasse 33, 78187 Geisingen",
+  "quelle": "bear",
   "tags": [
    "AUSLAND",
    "Deutschland",
@@ -5913,15 +5504,15 @@
   "radar": true,
   "notiz": "Eine Zimmertüre aus Glas? Im Hotel? Es ist nicht das einzige Ungewöhnliche im Hotel «1280 Krone». Das Hotel im deutschen Städtchen Geisingen, eine halbe Stunde Autofahrt vom Bodensee entfernt, wurde während viereinhalb Jahren renoviert. …",
   "web": "https://www.1280krone.com/en/",
-  "geaendert": "2025-12-24"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "493CDE9A-F154-4458-AD93-72BA2ACED817",
   "key": "gelateriadiberna",
   "name": "Gelateria di Berna",
   "title": "Gelateria di Berna",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Weststrasse 196, 8003 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -5933,15 +5524,15 @@
   "radar": false,
   "notiz": "Rhabarber, Himbeer-Ingwer oder Matcha-Bergamotte. Nur drei von 30 Sorten.",
   "web": "http://www.gelateriadiberna.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "26F2B685-5648-4075-BCFB-B8AFA5A54B20",
   "key": "gelateriadiberna",
   "name": "Gelateria di Berna",
   "title": "Gelateria di Berna",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Weststrasse 196, 8003 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -5953,15 +5544,15 @@
   "radar": false,
   "notiz": "Rhabarber, Himbeer-Ingwer oder Matcha-Bergamotte. Nur drei von 30 Sorten.",
   "web": "http://www.gelateriadiberna.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "676D7F6E-03D6-4D5F-BFF7-FF3ECE1647A5",
   "key": "gelatitellhofzurich",
   "name": "Gelati Tellhof, Zürich",
   "title": "Gelati Tellhof, Zürich",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Tellstrasse 20, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -5973,7 +5564,7 @@
   "radar": false,
   "notiz": "Den Glacewagen am See gibts nun als Laden im Langstrassen-Quartier. 30 Sorten führt das Gelati Tellhof im Sortiment.",
   "web": "http://www.gelati-tellhof.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "B127B957-CDCD-4AD2-B827-1E4207EC60AB",
@@ -6023,8 +5614,8 @@
   "key": "gertrudhof",
   "name": "Gertrudhof",
   "title": "Rest. Gertrudhof",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Gertrudstrasse 26, 8003 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -6040,7 +5631,7 @@
   "radar": true,
   "notiz": "Cordon Bleu nach Herzenslust: Im Gertrudhof gibts über 30 Variationen.",
   "web": "https://www.gertrudhof.ch/?utm_source=sfmc&utm_medium=email&utm_campaign=SF_ED_9_ENG_EM_NL_XX_UNSEREFREIZEITTIPPS_XX_2026-10-29&utm_term=2026-10-28&utm_content=6931001_",
-  "geaendert": "2026-11-08"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "7ED5574E-C5BE-478D-ABA3-C4356F567A0F",
@@ -6126,6 +5717,8 @@
   "quelle": "text",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -6184,8 +5777,8 @@
   "key": "graubundenjurtenhotelaufderalpflix",
   "name": "Graubünden: Jurtenhotel auf der Alp Flix",
   "title": "Graubünden: Jurtenhotel auf der Alp Flix",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Tgalucas 138, 7456 Sur",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -6197,7 +5790,7 @@
   "radar": false,
   "notiz": "https://www.facebook.com/COTTIagricultura/photos/a.825448950886127.1073741827.150777198353309/825451790885843/?type=1",
   "web": "http://agrotour.ch/allegra.html",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "6E0017BD-03AD-4991-BD25-B752C01A03AC",
@@ -6285,25 +5878,6 @@
   "geaendert": "2025-07-30"
  },
  {
-  "id": "49F333FF-0594-41FE-B0E3-99D505572397",
-  "key": "grottiticinesi",
-  "name": "Grotti Ticinesi",
-  "title": "Grotti Ticinesi",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "http://www.grotticino.ch/index.php/mappa",
-  "web": "",
-  "geaendert": "2022-02-28"
- },
- {
   "id": "8FEE1D36-437D-4AD1-9573-45CC4FE6A330",
   "key": "grottotessinwaidberg",
   "name": "Grotto Tessin, Waidberg",
@@ -6314,6 +5888,7 @@
    "Aussenraum",
    "GASTRO",
    "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "GASTRO/Küche/Italienisch",
    "Restaurant",
    "SCHWEIZ",
@@ -6354,8 +5929,8 @@
   "key": "gurtnellenrestimfeld",
   "name": "Gurtnellen: Rest. Im Feld",
   "title": "Gurtnellen: Rest. Im Feld",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Dorfstrasse 56, 6482 Gurtnellen",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -6369,15 +5944,15 @@
   "radar": false,
   "notiz": "Das schöne Urner Gasthaus liegt mitten in Gurtnellen Dorf, umgeben von Wiesen, Wäldern und Bergen. In dieser idyllischen Umgebung empfängt Sie Beat Walker und sein Team bereits in der 5. Generation – 144 Jahre Gastfreundschaft im Feld. …",
   "web": "https://www.feld.ch/?utm_source=sfmc&amp;utm_medium=email&amp;utm_campaign=SF_ED_9_ENG_EM_NL_XX_REDAKTION_XX_2023-03-16&amp;utm_term=2023-03-15&amp;utm_content=3498878_#content",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F5CD2AE3-47C4-4257-880C-E62FC13DEFD5",
   "key": "gartnerei",
   "name": "Gärtnerei",
   "title": "Rest. Gärtnerei",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Stockerstrasse 55, 8002 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -6391,7 +5966,7 @@
   "radar": false,
   "notiz": "In aller Früh mit viel Liebe gekocht....",
   "web": "http://www.gartnerei.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E2AF4623-A0F2-4A6E-8751-08E369731866",
@@ -6421,8 +5996,8 @@
   "key": "hallwilerseeseeroseresortspa",
   "name": "Hallwilersee: Seerose Resort & Spa",
   "title": "Hallwilersee: Seerose Resort & Spa",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seerosenstrasse 1, 5616 Meisterschwanden",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -6435,31 +6010,7 @@
   "radar": false,
   "notiz": "Im Seerose Resort & Spa lassen Sie den Alltag hinter sich und tauchen ein in eine Welt der Genüsse, Entspannung und Begegnung. Ob ein romantisches Wellness-Weekend, ein Bankett oder eine Hochzeit, ein Firmenseminar oder Geschäftsessen - …",
   "web": "",
-  "geaendert": "2022-03-05"
- },
- {
-  "id": "C4E4CB35-2DFC-4A99-9E03-E5915BE061CA",
-  "key": "hardwaldaussichtsturmdoktorhausschlossmuseum",
-  "name": "Hardwald: Aussichtsturm, Doktorhaus, Schlossmuseum",
-  "title": "Hardwald: Aussichtsturm, Doktorhaus, Schlossmuseum",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "> |   |  |  |   | <br> AUSSICHTSTURM Wie eine riesige Skulptur sehe er aus, schrieb die NZZ. Tatsächlich ist der im Sommer eröffnete Turm im Hardwald nördlich von Wallisellen Kunst. Nutzbare, erlebbare, besteigbare Kunst. Das macht ihn …",
-  "web": "",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "5A9BEC2B-4E47-4048-B13F-75EB65FEB0F9",
@@ -6513,8 +6064,8 @@
   "key": "heiditell",
   "name": "Heidi & Tell",
   "title": "Rest. Heidi & Tell",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 16, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -6529,7 +6080,7 @@
   "radar": false,
   "notiz": "Grosse Berge verlangen nach grossen Burgern. Und damit meinen wir nicht prinzipiell die Grösse des Burgers, sondern vielmehr die Qualität. Burger müssen kein ungesundes Massenprodukt sein, sondern können auch reich an Nährwerten und …",
   "web": "http://www.heiditell.com/#",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "A6CC5B4E-A12D-4C92-A813-07A32FDC48EC",
@@ -6557,8 +6108,8 @@
   "key": "helvtidinerbellevue",
   "name": "Helvti Diner Bellevue",
   "title": "Rest. Helvti Diner Bellevue",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "St. Urbangasse 4, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Brunch",
    "GASTRO",
@@ -6574,7 +6125,7 @@
   "radar": false,
   "notiz": "Das Design ist von den Fifties inspiriert, das Essen zum Glück neuzeitlich.",
   "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "5CF2CD5E-586E-46AF-82CD-0FE349FFCAF0",
@@ -6586,6 +6137,7 @@
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "GASTRO/Küche/Gutbürgerlich",
    "Pop-Up",
    "Radar",
@@ -6600,29 +6152,6 @@
   "notiz": "Vom 27. Oktober 2026 bis 30. Januar 2027 ist unser kunstvolles Pop-up Fondue Châlet «Helvti-Chäschtli» zurück.",
   "web": "https://ronorp.net/market/posts/pop-up-fondue-chalet",
   "geaendert": "2026-11-08"
- },
- {
-  "id": "85A171B2-C703-49A5-981D-64FA2CFCEE14",
-  "key": "herbstspaziergangefurfoodies",
-  "name": "Herbstspaziergänge für Foodies",
-  "title": "Herbstspaziergänge für Foodies",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Herbst",
-   "Restaurant",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Für alle Foodies: diese Herbstspaziergänge sind ein Muss. Denn sie kommen nicht ohne einen kulinarischen Stopp aus. Solange es noch nicht zu kalt ist, probiert einen (oder alle) unserer vier Tipps aus und geniesst die prächtigen Farben …",
-  "web": "https://insider.lunchgate.ch/im-fork-and-bottle-gibts-burger-inklusive-ferien-feeling/",
-  "geaendert": "2026-10-20"
  },
  {
   "id": "BEC05432-DFA3-4068-B54E-27963E0D5AC7",
@@ -6698,8 +6227,8 @@
   "key": "hofkuche",
   "name": "Hofküche",
   "title": "Rest. Hofküche",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Manessestrasse 170, 8045 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -6712,15 +6241,15 @@
   "radar": false,
   "notiz": "Restaurant Hofküche – Da ging (leider) etwas richtig schief.",
   "web": "http://www.hof-kueche.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "CE85EEBB-7967-4B52-ADCB-BC106625AE85",
   "key": "hombissalonschwamendingen",
   "name": "Hombis Salon, Schwamendingen",
   "title": "Rest. Hombis Salon, Schwamendingen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Dialogweg 11, 8050 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -6733,7 +6262,7 @@
   "radar": false,
   "notiz": "Gäste für die Tavolata sind herzlich gebeten spätestens bis 19 Uhr einzutreffen.",
   "web": "http://hombissalon.ch/hombi.php#",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "A0458FF0-FBD9-41C1-AE3F-7FFC856DA39D",
@@ -7015,30 +6544,6 @@
   "geaendert": "2024-07-30"
  },
  {
-  "id": "E583061B-4DDB-4795-AB75-BAE55CCC629F",
-  "key": "hotelsuchehotelportale",
-  "name": "Hotelsuche: Hotel-Portale",
-  "title": "Hotelsuche: Hotel-Portale",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "AUSLAND",
-   "EUROPA",
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "USA",
-   "WELT",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Hotels gibt es wie Sand am Meer – mit Pool, Golfplatz, Kinderbetreuung oder hauseigenem Restaurant. Wie aber finden Sie nun die perfekte Unterkunft für Ihre Bedürfnisse? Wir verraten Ihnen, mit welchen Reiseportalen Ihre Ferienreise zur …",
-  "web": "https://www.designhotels.com/",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "8838AB32-2F0E-4751-B345-99ED622F7477",
   "key": "hugosbiergarten",
   "name": "Hugo’s Biergarten",
@@ -7198,32 +6703,6 @@
   "geaendert": "2026-11-09"
  },
  {
-  "id": "8C2B786A-BAD1-4FBA-A530-A7E70741C309",
-  "key": "inmittenderstadtdieseoasenbieteneineauszeitvomalltag",
-  "name": "Inmitten der Stadt: Diese Oasen bieten eine Auszeit vom Alltag",
-  "title": "Inmitten der Stadt: Diese Oasen bieten eine Auszeit vom Alltag",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "Bar",
-   "Basel",
-   "Bern",
-   "GASTRO",
-   "Mittelland",
-   "Romandie",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zentralschweiz",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Redaktion NZZ Bellevue  | Geniessen  12.05.2021",
-  "web": "https://freiruum.ch/",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "8D8BD495-9E90-46FC-AE3D-BBCEDF88B548",
   "key": "inselufenaufischknusperliundlokalenweinimgartenrestaurant",
   "name": "Insel Ufenau: Fischknusperli und lokalen Wein im Gartenrestaurant",
@@ -7379,6 +6858,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -7501,8 +6982,8 @@
   "key": "kinkhaothai",
   "name": "Kinkhao (Thai)",
   "title": "Rest. Kinkhao (Thai)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zwinglistrasse 12, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -7517,7 +6998,7 @@
   "radar": false,
   "notiz": "In Thailand ist das Essen und Beisammensein ein wichtiger Teil der Kultur. Man sitzt im Kreis, es werden viele, unterschiedliche Gerichte aufgetischt, die dann untereinander gereicht und geteilt werden.",
   "web": "https://www.kinkhao.ch/",
-  "geaendert": "2026-11-08"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "462A4175-5FE8-475C-8834-71630CF0D01C",
@@ -7614,8 +7095,8 @@
   "key": "kraftwerkcaferestaurant",
   "name": "Kraftwerk Café & Restaurant",
   "title": "Kraftwerk Café & Restaurant",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Selnaustrasse 25, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -7627,7 +7108,7 @@
   "radar": false,
   "notiz": "<p>Your browser does not support iframes.</p>",
   "web": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/31305/998230_530979.png",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "FDB42B8E-E9B9-4CD4-88AE-0A413546DCBC",
@@ -7677,8 +7158,8 @@
   "key": "kulturlokalrank",
   "name": "Kultur Lokal Rank",
   "title": "Rest. Kultur Lokal Rank",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Niederdorfstrasse 60, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -7691,35 +7172,15 @@
   "radar": false,
   "notiz": "Am Rank lebt der Genuss an sieben Tage die Woche. Lokale Produkte in modernem Gewand. Eine zeitgenössische Zürcher Küche, seinen Wurzeln verbunden und doch weltgewandt. Herzhaft, spannend und wohlwollend.",
   "web": "https://amrank.ch",
-  "geaendert": "2026-03-15"
- },
- {
-  "id": "DFE22BF6-057A-48A6-AC92-F52CD4714A87",
-  "key": "kurierhausgemachtecurrybags",
-  "name": "Kurier: Hausgemachte Currybags",
-  "title": "Kurier: Hausgemachte Currybags",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Kurier",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Stell dir vor, du hast Hunger und dein Essen ist bereits bei dir zu Hause im Kühlschrank!",
-  "web": "https://currybag.ch/de-CH/kottubox",
-  "geaendert": "2022-05-11"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E04D3AF1-4F6F-4374-8363-2E02E29F5B5D",
   "key": "labaracca",
   "name": "La Baracca",
   "title": "Rest. La Baracca",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Kanzleistrasse 103, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -7734,7 +7195,7 @@
   "radar": false,
   "notiz": "DIENSTAG – FREITAG 11:30 – 13:30 17:30 – 22:00",
   "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "9031A2DB-3A40-4CE0-998A-E3A249EE9167",
@@ -7765,8 +7226,8 @@
   "key": "lafontana",
   "name": "La Fontana",
   "title": "Rest. La Fontana",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Haldenbachstrasse 2, 8006 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -7781,7 +7242,7 @@
   "radar": false,
   "notiz": "Voller Überraschungen: Olivia (l.) und Patrizia Fontana in ihrem neuen Lokal an der Haldenbachstrasse.",
   "web": "https://twitter.com/zueritipp_",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "77E0B9C8-C2F2-4C2A-B04D-8DAFB135BB8C",
@@ -7807,27 +7268,6 @@
   "notiz": "Ab 12 Uhr erwarten Sie bei uns täglich wechselnde Mittagsmenüs sowie leckere Focaccia, Pizza Slices und frische Salate. Genießen Sie eine abwechslungsreiche Mittagspause!",
   "web": "https://www.lafontana-shop.ch/",
   "geaendert": "2026-11-09"
- },
- {
-  "id": "FBA5EAD8-AC13-4F92-AF9E-5213FEF5967E",
-  "key": "laneuvevillelelanderon",
-  "name": "La Neuveville-Le Landeron",
-  "title": "La Neuveville-Le Landeron",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "Romandie",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport"
-  ],
-  "radar": false,
-  "notiz": "GORGE DU PILOUVI La Neuveville BE und Le Landeron NE liegen nur zweieinhalb Kilometer auseinander. Kürzlich verband ich die reizenden historischen Städtchen in einer Wanderung. Aber nicht in der Direttissima dem Bielersee-Ufer entlang – …",
-  "web": "",
-  "geaendert": "2025-07-22"
  },
  {
   "id": "15AE6212-997C-407E-8A2F-5022DA4421A9",
@@ -7880,8 +7320,8 @@
   "key": "latrattoria",
   "name": "La Trattoria",
   "title": "Rest. La Trattoria",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 269, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -7896,15 +7336,15 @@
   "radar": false,
   "notiz": "Wir sind eine kleine, schmucke Trattoria im Tiefenbrunnen, nahe des Bahnhofs.",
   "web": "https://twitter.com/sbusz",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "2CFB62BF-1E11-423D-83BC-32400ED43A4F",
   "key": "lachenmarinagastro",
   "name": "Lachen: Marina Gastro",
   "title": "Lachen: Marina Gastro",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hafenstrasse 4, 8853 Lachen",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -7919,7 +7359,7 @@
   "radar": false,
   "notiz": "",
   "web": "",
-  "geaendert": "2026-10-11"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "37CA3C5B-A984-46BF-BC38-78AA3DA0B416",
@@ -7949,11 +7389,12 @@
   "key": "landgasthofhotelhirschen",
   "name": "Landgasthof & Hotel Hirschen",
   "title": "Landgasthof & Hotel Hirschen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Lü 46, 7534 Lü",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "GASTRO/Küche/Gutbürgerlich",
    "Graubünden",
    "Hotel",
@@ -7963,15 +7404,15 @@
   "radar": false,
   "notiz": "Kleines, älteres Bündnerhaus mit 4 Zimmern (10 Betten), einfach eingerichtet, gemütliches Arvenholzrestaurant mit gedeckter Terrasse. Gutbürgerliche Küche, Apfelstrudel, Käsefondue; Bündner Spezialitäten auf Bestellung. Idealer …",
   "web": "https://www.myswitzerland.com/de-ch/unterkuenfte/gasthof-hirschen-1/",
-  "geaendert": "2025-03-24"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "785B9FF6-E89A-4319-AC2A-17C8B6AA329A",
   "key": "landgasthofbarenutzenstorf",
   "name": "Landgasthof Bären Utzenstorf",
   "title": "Landgasthof Bären Utzenstorf",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hauptstrasse 18, 3427 Utzenstorf",
+  "quelle": "bear",
   "tags": [
    "Bern",
    "GASTRO",
@@ -7983,15 +7424,15 @@
   "radar": false,
   "notiz": "Geniessen Sie bei uns echte Gastfreundschaft und eine ausgezeichnete Küche in einem traditionsreichen Haus. In der heutigen Zeit ist Kochen auch eng mit Verantwortung und Vertrauen verbunden.",
   "web": "https://www.myswitzerland.com/de-ch/erlebnisse/essen-trinken/restaurant/landgasthof-baeren-4/",
-  "geaendert": "2025-03-24"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "6B017A43-D314-4F7A-A5B9-ACE2FF2F50CC",
   "key": "landgasthofgasthof",
   "name": "Landgasthof gast&hof",
   "title": "Landgasthof gast&hof",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Bärfischenhaus 15, 3204 Rosshäusern",
+  "quelle": "bear",
   "tags": [
    "Bern",
    "GASTRO",
@@ -8003,15 +7444,15 @@
   "radar": false,
   "notiz": "Erleben Sie herzliche Gastfreundschaft im idyllisch gelegenen Weiler bei Laupen, nahe der Städte Bern, Freiburg und Murten. Im stilvoll renovierten, über 250-jährigen Bauernhaus und dem angrenzenden Wohnhaus befinden sich sechs …",
   "web": "https://www.stv-fst.ch/de/qualitaets-labels/ferienwohnungs-klassifikation/bed-and-breakfast-switzerland/kategorien",
-  "geaendert": "2025-03-24"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "DABEA7C0-E998-4A2D-BEE2-2B731AB0FB59",
   "key": "landgasthofgasthauszumgupf",
   "name": "Landgasthof Gasthaus zum Gupf",
   "title": "Landgasthof Gasthaus zum Gupf",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Gupf 21, 9038 Rehetobel",
+  "quelle": "bear",
   "tags": [
    "Appenzell",
    "GASTRO",
@@ -8022,7 +7463,7 @@
   "radar": false,
   "notiz": "Das \"Gasthaus zum Gupf\" ist eine Welt, in der man das Beste liebt. Was aus meiner Küche kommt, ist mit Sorgfalt ausgesucht und mit Passion zubereitet - bis ins kleinste Detail.",
   "web": "http://www.gupf.ch/",
-  "geaendert": "2025-03-24"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "CB5BF214-7FD4-4C1D-8F78-DB0292FD02F2",
@@ -8078,8 +7519,8 @@
   "key": "langnauamalbisrestalbishaus",
   "name": "Langnau am Albis: Rest. Albishaus",
   "title": "Langnau am Albis: Rest. Albishaus",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Naturfreundeweg 8, 8135 Langnau am Albis",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Event",
@@ -8094,7 +7535,7 @@
   "radar": true,
   "notiz": "ALBISHAUS | Die Dachterrasse des Kantons",
   "web": "http://www.albishaus.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "D0B8D285-E836-4286-9DD2-C9790E7F71BD",
@@ -8190,11 +7631,13 @@
   "key": "lenzerheidehotelguardaval",
   "name": "Lenzerheide: Hotel Guarda Val",
   "title": "Lenzerheide: Hotel Guarda Val",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sporz, 7078 Lenzerheide",
+  "quelle": "bear",
   "tags": [
    "Bucket List",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Graubünden",
    "Hotel",
    "Radar",
@@ -8203,7 +7646,7 @@
   "radar": true,
   "notiz": "Unser Guarda Val ist Ihr einzigartiges Maiensässhotel, das sich auf elf bis zu 300 Jahre alte Hütten und Ställe verteilt. Im Weiler Sporz, direkt oberhalb der Lenzerheide auf 1600 Meter über Meer, verbindet es die Faszination …",
   "web": "http://www.guardaval.ch/essen-trinken/crap-naros.html",
-  "geaendert": "2026-11-10"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F3CFA111-0010-4D3A-B266-FD8F949E0842",
@@ -8331,8 +7774,8 @@
   "key": "locarnoristgiardinoallago",
   "name": "Locarno: Rist. Giardino al Lago",
   "title": "Locarno: Rist. Giardino al Lago",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via alla Riva 83a, 6648 Minusio",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Locarnese",
@@ -8345,7 +7788,7 @@
   "radar": false,
   "notiz": "The creations of the Lago restaurant are as fresh and light as the hotel itself and its surroundings. They are influenced by the close proximity to Italy but are nevertheless entirely in tune with modern trends. Andreas Marquardt, …",
   "web": "http://www.giardino-lago.ch",
-  "geaendert": "2024-09-16"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "32DE615E-C4E1-4328-8FEF-EF72E6A2872F",
@@ -8531,8 +7974,8 @@
   "key": "luganohotelrelaiscastellodimorcote",
   "name": "Lugano: Hotel Relais Castello di Morcote",
   "title": "Lugano: Hotel Relais Castello di Morcote",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Portich da Sura 18, 6921 Vico Morcote",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -8546,7 +7989,7 @@
   "radar": false,
   "notiz": "Clip-Quelle:Lugano: Hotel Relais Castello di Morcote",
   "web": "https://relaiscastellodimorcote.ch/?gclid=EAIaIQobChMIiaHx5-av-gIVyfZRCh3FeQgkEAAYASAAEgKT2fD_BwE",
-  "geaendert": "2026-05-14"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "949B99CD-420C-4B0B-A081-792ED4ADB483",
@@ -8575,8 +8018,8 @@
   "key": "luganohotelvillaprincipeleopoldo",
   "name": "Lugano: Hotel Villa Principe Leopoldo",
   "title": "Lugano: Hotel Villa Principe Leopoldo",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Montalbano 5, 6900 Lugano",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -8590,7 +8033,7 @@
   "radar": false,
   "notiz": "Clip-Quelle:Villa Principe Leopoldo | Schweiz Tourismus",
   "web": "https://www.myswitzerland.com/de-ch/unterkuenfte/villa-principe-leopoldo/",
-  "geaendert": "2026-05-14"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "A09F69ED-BB8C-4DA8-BDB9-F4701079D3D6",
@@ -8666,8 +8109,8 @@
   "key": "luvdrinkdine",
   "name": "Luv Drink & Dine",
   "title": "Rest. Luv Drink & Dine",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Münzplatz 3, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -8680,15 +8123,15 @@
   "radar": false,
   "notiz": "Im Zentrum von Zürich, inmitten des pulsierenden Banken- und Geschäftsviertels, wird Italienisches",
   "web": "http://www.luvrestaurant.ch/kontakt/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "9046DDC9-ADD1-48CF-AFCC-403D864BD75C",
   "key": "luzernhotelankerturmsuite",
   "name": "Luzern: Hotel Anker (Turmsuite)",
   "title": "Luzern: Hotel Anker (Turmsuite)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Pilatusstrasse 36, 6003 Luzern",
+  "quelle": "bear",
   "tags": [
    "Bucket List",
    "GASTRO",
@@ -8702,7 +8145,7 @@
   "radar": true,
   "notiz": "Rezeption ist 24 Stunden täglich besetzt",
   "web": "http://www.hotel-restaurant-anker.ch/lageplan-anfahrt/",
-  "geaendert": "2026-11-10"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F63EA11A-0BCB-42AA-B32B-0EAD4569BDF1",
@@ -8816,8 +8259,8 @@
   "key": "loweneckimhotelcity",
   "name": "Löweneck im Hotel City",
   "title": "Rest. Löweneck im Hotel City",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Löwenstrasse 34, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -8831,7 +8274,7 @@
   "radar": false,
   "notiz": "Von Esther Kern. Aktualisiert am 26.02.2014",
   "web": "http://www.loeweneck.com/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "94FC3AAF-2B15-47C7-ADE1-644CBD5CCA0F",
@@ -8856,27 +8299,6 @@
   "notiz": "Wie auch immer sich die Andersartigkeit manifestiert, die ihm sein Name attestieren soll: Dieser edle Italiener im Zürcher Engequartier hat seinen Preis, aber das Angebot stimmt.",
   "web": "https://www.l-altro.ch",
   "geaendert": "2024-10-12"
- },
- {
-  "id": "431DAA02-C83B-474B-9EB8-3B08A8D298FA",
-  "key": "maderanertal",
-  "name": "Maderanertal",
-  "title": "Maderanertal",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "Fürs kommende Wochenende empfehle ich Ihnen einen Ausflug ins Urner Maderanertal. Von der Talstation Bristen auf Golzern, von dort zur Windgällenhütte und via Golzernsee zurück ins Tal. Die moderate Route ab Golzern Bergstation über …",
-  "web": "",
-  "geaendert": "2026-10-04"
  },
  {
   "id": "41ADAE17-92B5-4A15-8C47-E41DCCACF040",
@@ -8994,8 +8416,8 @@
   "key": "marcelinopaneevino",
   "name": "Marcelino Pane e Vino",
   "title": "Rest. Marcelino Pane e Vino",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Forchstrasse 168, 8032 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -9009,7 +8431,7 @@
   "radar": false,
   "notiz": "Das Marcellino Pane e Vino befindet sich im Zürcher Kreis 7. Das italienische Restaurant pflegt eine hochstehende, marktfrische Küche. Zu den Spezialitäten des Hauses zählen hausgemachte Teigwaren und verschiedene mediterran zubereitete …",
   "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F18A01DC-06FF-46F9-A46B-9DB891D15790",
@@ -9059,8 +8481,8 @@
   "key": "menzingenrestsihlmatt",
   "name": "Menzingen: Rest. Sihlmatt",
   "title": "Menzingen: Rest. Sihlmatt",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sihlmatt, 6313 Menzingen",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Favorit",
@@ -9077,15 +8499,15 @@
   "radar": true,
   "notiz": "Die Küche ist durchgehend geöffnet und das Restaurant schliesst wenn keine Gäste mehr da sind und keine Reservationen anstehen. Daher bitten wir Euch an schönen Tagen wie auch bei schlechtem Wetter und zu Randzeiten immer zu reservieren.",
   "web": "https://sihlmatt.ch",
-  "geaendert": "2026-09-21"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F35F8AF1-6733-4D91-AA2C-5D09F8D92AE0",
   "key": "merlischachenschlosshotel",
   "name": "Merlischachen: Schloss-Hotel",
   "title": "Merlischachen: Schloss-Hotel",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Luzernerstrasse 204, 6402 Merlischachen",
+  "quelle": "bear",
   "tags": [
    "Event",
    "GASTRO",
@@ -9099,28 +8521,7 @@
   "radar": false,
   "notiz": "Direkt am Ufer des Vierwaldstättersees können Sie in den 35 Hotelzimmern ein unverwechselbares Ambiente geniessen. Die Sauna, die Dachterrasse sowie der Schloss-Park am See mit eigenem Badestrand laden zum gemütlichen Verweilen ein. In …",
   "web": "http://swiss-chalet.ch/protel/#/hotelbooking",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "0D303048-8A9A-46AB-9651-8CC365BC2F2A",
-  "key": "mesolcinagrotti",
-  "name": "Mesolcina: Grotti",
-  "title": "Mesolcina: Grotti",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Grono",
-   "Restaurant",
-   "SCHWEIZ",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang"
-  ],
-  "radar": false,
-  "notiz": "In Bassa, Bassa di Fuori, 6533 Lumino, +41 91 829 34 36, Mobil +41 76 520 50 78 (März bis Oktober, täglich offen, 10-24h, Montag geschlossen)",
-  "web": "",
-  "geaendert": "2025-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "7BC94EEA-3FAA-4356-BC67-A3137BBAD242",
@@ -9255,28 +8656,6 @@
   "geaendert": "2026-10-06"
  },
  {
-  "id": "452AF3B3-774E-42CC-840B-85A7B9F3A91B",
-  "key": "mobilerkaffeeservice",
-  "name": "Mobiler Kaffee-Service",
-  "title": "Mobiler Kaffee-Service",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Café",
-   "Catering",
-   "GASTRO",
-   "Party",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Die Brüder Minutillo bieten als Barista Corado Caffè-Catering an. Dafür haben sie eine alte italienische Espressomaschine restauriert und auch die Wagen dazu selbst gebaut.",
-  "web": "http://www.corado.ch",
-  "geaendert": "2022-03-05"
- },
- {
   "id": "2D1E05DB-04A3-452C-A860-0BA51BC24F78",
   "key": "montmartre",
   "name": "Montmartre",
@@ -9375,6 +8754,7 @@
    "Event",
    "GASTRO",
    "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "GASTRO/Küche/Gutbürgerlich",
    "Hotel",
    "Restaurant",
@@ -9393,8 +8773,8 @@
   "key": "merecatherine",
   "name": "Mère Catherine",
   "title": "Rest. Mère Catherine",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Nägelihof 3, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -9408,7 +8788,7 @@
   "radar": false,
   "notiz": "Das Restaurant Mère Catherine liegt an idyllischer Lage im Nägelihof, der mit seinem Innenhof und der architektonischen Schönheit an sich bereits mediterran anmutet. Im Sommer lässt es sich im verwunschenen Innenhof stundenlang …",
   "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "68F80F1C-5D83-4D61-B3F2-549253CF0C6C",
@@ -9436,8 +8816,8 @@
   "key": "monchhof",
   "name": "Mönchhof",
   "title": "Rest. Mönchhof",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seestrasse 30, 8802 Kilchberg",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -9451,15 +8831,15 @@
   "radar": false,
   "notiz": "Der perfekte Ort für ein Glas Rosé – oder eine ganze Flasche davon.",
   "web": "https://twitter.com/alexkuehnzh",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "3E97E015-E8A2-4A68-B318-CB25AA0BFD60",
   "key": "munsterhof",
   "name": "Münsterhof",
   "title": "Rest. Münsterhof",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Münsterhof 6, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -9473,15 +8853,15 @@
   "radar": false,
   "notiz": "„Als Heimat von Schlemmereien und Sauereien aus der Feder von Françoise Wicki und René Blaser hat sich die alt-ehrwürdige Gaststätte gänzlich der Lebensfreude und Lebenslust verschrieben.“",
   "web": "http://foratable.com/book/restaurant/76e9800cde2abb80a096fa781cd13632",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "D14A431D-22C2-4496-9C7D-745CA7468171",
   "key": "munzasiatisch",
   "name": "Münz (Asiatisch)",
   "title": "Rest. Münz (Asiatisch)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Münzplatz 3, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -9496,7 +8876,7 @@
   "radar": false,
   "notiz": "Das Restaurant Münz befindet sich im Herzen der Stadt Zürich, nur wenige Schritte vom Paradeplatz und der Bahnhofstrasse entfernt, gleich neben der Augustinerkirche. In einem modernen, schlichten Gebäude der traditionsreichen Bank …",
   "web": "http://www.muenz.ch/change_skin.php?lng=de&amp;skin=text",
-  "geaendert": "2026-11-08"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E0338294-BE6F-4B4C-A613-134BCE8329E5",
@@ -9543,31 +8923,12 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "583CB5D2-608D-4677-AE3F-96EEFC00D445",
-  "key": "naturfreundehauser",
-  "name": "Naturfreunde Häuser",
-  "title": "Naturfreunde Häuser",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport"
-  ],
-  "radar": false,
-  "notiz": "Naturfreundehäuser sind Orte der Begegnung. Es sind keine 5-Stern-Paläste, vielmehr sind es schlichte, aber gastliche Oasen. Und sie liegen meist an privilegierter Lage: an einem Waldrand, auf einer Anhöhe, in einem Skigebiet, einem …",
-  "web": "http://www.naturfreunde.ch/typo3temp/_processed_/csm_Titelbild_Haeuser_Tannhuette_web_d79ba4363e.jpg",
-  "geaendert": "2022-02-28"
- },
- {
   "id": "1665B174-D52C-4002-8007-21150499C660",
   "key": "naturparkschaffhausenbergtrotteosterfingen",
   "name": "Naturpark Schaffhausen: Bergtrotte Osterfingen",
   "title": "Naturpark Schaffhausen: Bergtrotte Osterfingen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Trottenweg 38, 8218 Osterfingen",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Eglisau+",
@@ -9581,7 +8942,7 @@
   "radar": true,
   "notiz": "Die Berg­trotte Oster­fin­gen vereint regio­nale Küche mit der einzig­ar­ti­gen Trotte aus dem Jahr 1584 und einem moder­nen Neubau. Über die Kantons­gren­zen hinweg ist die Berg­trotte bekannt als Loca­tion für Hoch­zei­ten und …",
   "web": "https://www.bergtrotte.ch/restaurant-feiern-tagen/restaurant/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "044F6508-3C89-41D5-8EC0-78B83AADB43A",
@@ -9631,8 +8992,8 @@
   "key": "neropizzeria",
   "name": "Nero (Pizzeria)",
   "title": "Rest. Nero (Pizzeria)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Witikonerstrasse 15, 8032 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -9647,7 +9008,7 @@
   "radar": false,
   "notiz": "Krustig und mit Grünzeug: Pizzas im Nero.",
   "web": "https://files.newsnetz.ch/upload//2/7/271075.jpg",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "01C33BC2-9D9A-4282-A7F3-24416765F590",
@@ -9802,28 +9163,6 @@
   "geaendert": "2024-08-25"
  },
  {
-  "id": "DB946C59-B1F2-450B-BDBD-AFF736FF824F",
-  "key": "oberengadinvoneinemhotelzumnachsten",
-  "name": "Oberengadin: Von einem Hotel zum nächsten",
-  "title": "Oberengadin: Von einem Hotel zum nächsten",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport"
-  ],
-  "radar": false,
-  "notiz": "David Streiff Corti | Reisen | 31.8.2019",
-  "web": "https://www.privateselection.ch/",
-  "geaendert": "2022-07-29"
- },
- {
   "id": "3A0DCC70-9568-4374-B47E-7F12D6AC4868",
   "key": "oberriedenrestfroheaussicht",
   "name": "Oberrieden: Rest. Frohe Aussicht",
@@ -9851,8 +9190,8 @@
   "key": "oberriedenrestkeywest",
   "name": "Oberrieden: Rest. Keywest",
   "title": "Oberrieden: Rest. Keywest",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seestrasse 31, 8942 Oberrieden",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -9865,15 +9204,15 @@
   "radar": false,
   "notiz": "Herzlich willkommen im Seerestaurant Key West",
   "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "1492E7E7-2AF0-4665-A91D-A0E1E455C06F",
   "key": "oltenbargalicia",
   "name": "Olten: Bar Galicia",
   "title": "Olten: Bar Galicia",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Unterführungsstrasse 20, 4600 Olten",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -9884,7 +9223,7 @@
   "radar": false,
   "notiz": "GASTFREUNDSCHAFT Als unlängst das Frölein Da Capo eine Lesung aus ihren «Schweizer Familie»-Kolumnen in der Bar Galicia in Olten abhielt, nutzte ich die Gelegenheit, um dem Lokal einen Besuch abzustatten. Geführt wird es von Alex Capus. …",
   "web": "",
-  "geaendert": "2025-09-11"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F4A2DDF2-47E8-4F8C-810C-FBCA5EDF246E",
@@ -9961,8 +9300,8 @@
   "key": "osteriasantobevitore",
   "name": "Osteria Santo Bevitore",
   "title": "Rest. Osteria Santo Bevitore",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Rotwandstrasse 49, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -9977,7 +9316,7 @@
   "radar": false,
   "notiz": "Allein die Aperitivi sind einen Besuch wert: Mit Lasagne gefüllte Arancini (l.), Carpaccio.",
   "web": "https://twitter.com/zueritipp_",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "B2242527-1DFD-4DEC-9E80-155BBAD243A9",
@@ -10076,8 +9415,8 @@
   "key": "passione",
   "name": "Passione",
   "title": "Rest. Passione",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Quellenstrasse 49, 8005 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -10092,7 +9431,7 @@
   "radar": false,
   "notiz": "Mo–Fr 11–14 Uhr und 17.30–23 Uhr, Sa 17.30–23 Uhr",
   "web": "http://www.passione-ristorante.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "9DCE3092-3345-4915-86D1-DD5364DF33B1",
@@ -10182,8 +9521,8 @@
   "key": "pyramidstafelnwieamnil",
   "name": "Pyramids: Tafeln wie am Nil",
   "title": "Rest. Pyramids: Tafeln wie am Nil",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Werdstrasse 99, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -10197,7 +9536,7 @@
   "radar": false,
   "notiz": "Essen ist auch ein Stück Heimat: Ashraf Soliman in seinem Restaurant.",
   "web": "https://twitter.com/sbusz",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "ADA13BF3-0B3D-4197-B97E-E3506CD247F7",
@@ -10310,8 +9649,8 @@
   "key": "razzia",
   "name": "Razzia",
   "title": "Rest. Razzia",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 82, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Bar",
@@ -10325,7 +9664,7 @@
   "radar": false,
   "notiz": "Internationale Chefs unter der Leitung von Rino Cariglia kreieren Gerichte aus aller Welt, die wir für Sie ausprobiert und die uns begeistert haben. Auf der Speisekarte finden sich Klassiker ebenso wie neue Kreationen, vegetarische …",
   "web": "http://www.razzia-zuerich.ch/#restaurant-bar-garten",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "4A493AAC-A857-4A40-A18E-FD4305D225E9",
@@ -10345,27 +9684,6 @@
   "notiz": "Im Lokal an der Chorgasse haben Mira Luisa Labusch und Flavia Carina Niederer die Küche übernommen. So sieht ihre kulinarische Handschrift aus.",
   "web": "https://rechberg1837.com/",
   "geaendert": "2025-11-24"
- },
- {
-  "id": "1DFB1246-884A-4797-B03C-F970B7C091C2",
-  "key": "refugienimschnee",
-  "name": "Refugien im Schnee",
-  "title": "Refugien im Schnee",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wallis"
-  ],
-  "radar": false,
-  "notiz": "Vor einem Jahr ist der begnadete Koch Fadri Arpagaus ins Oberhalbstein zurückgekehrt und eröffnet kurz vor Weihnachten das Berghuus Radons neu. Das Refugium in einem Maiensäss-Dorf auf 2000 Metern über Meer, im Skigebiet von Savognin, …",
-  "web": "https://cdn.unitycms.io/image/ocroped/1200,1200,1000,1000,0,0/Fb5Whd6mTrY/5bvAuFjT4TeBg-u3jAW4Ko.jpg",
-  "geaendert": "2024-07-30"
  },
  {
   "id": "904F5C7F-73EE-42D2-9B5E-453A977609A8",
@@ -10392,32 +9710,12 @@
   "geaendert": "2026-10-08"
  },
  {
-  "id": "A7978624-8A26-443E-8636-D9E1BA83DA80",
-  "key": "reservationvonkatzentisch",
-  "name": "Reservation von Katzentisch",
-  "title": "Rest. Reservation von Katzentisch",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Bist du noch unentschlossen, wo du heute Abend spontan essen gehen sollst? Weißt du ein Glas Champagner aufs Haus zu schätzen oder möchtest du dein Date mit einem unglaublichen Dinner überraschen?",
-  "web": "http://katzentisch.ch/",
-  "geaendert": "2022-03-05"
- },
- {
   "id": "6DCA8DA9-7008-4FD2-A49B-FAFEC9F15791",
   "key": "residentzurich",
   "name": "Resident Zürich",
   "title": "Resident Zürich",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Kreuzstrasse 24, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -10431,7 +9729,7 @@
   "radar": false,
   "notiz": "Kreuzstrasse 24 | 8008 Zürich | booking@residentzurich.com | 044 545 22 33",
   "web": "https://residentzurich.com/de/resident-bar-lounge/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "60C9F19B-8E0B-44A5-9B62-80018D54A43F",
@@ -10676,6 +9974,8 @@
   "quelle": "bear",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Hotel",
    "Radar",
    "Restaurant",
@@ -10712,26 +10012,6 @@
   "notiz": "Ob Sie im Restaurant oder auf der Terrasse feiern möchten, die ausser-gewöhnliche Lage vom Etzliberg wird Sie und Ihre Gäste beeindrucken.",
   "web": "http://www.foratable.com/reserve/restaurant/d25ff395f02c49b7acbcfedc2f4830f4#/table",
   "geaendert": "2026-11-09"
- },
- {
-  "id": "1571C0B0-469D-4C31-8AF0-154664A661DD",
-  "key": "restaurantessenpervelokurierauchalspicknick",
-  "name": "Restaurant-Essen per Velo-Kurier (auch als Picknick).",
-  "title": "Restaurant-Essen per Velo-Kurier (auch als Picknick).",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Kurier",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Bestelle noch heute Essen von den besten Restaurants in Zürich und lasse es dir schnell, unkompliziert und ökologisch per Velokurier nach Hause liefern. Oder nach draussen.",
-  "web": "https://www.dabbavelo.ch/de-CH/",
-  "geaendert": "2024-07-30"
  },
  {
   "id": "78075B2A-6BBC-4065-AB9E-4B2FB6653111",
@@ -10952,8 +10232,8 @@
   "key": "robachresturwaldhaus",
   "name": "Robach: Rest. Urwaldhaus",
   "title": "Robach: Rest. Urwaldhaus",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Robach 25, 9038 Rehetobel",
+  "quelle": "bear",
   "tags": [
    "Appenzell",
    "GASTRO",
@@ -10965,7 +10245,7 @@
   "radar": true,
   "notiz": "Vor Jahren zeigte mir der legendäre Journalist, Schriftsteller und Verleger Werner Bucher das Urwaldhaus. Die Geschichte, wie der Bären zu seinem Namen kam, ist schon allein abendfüllend. Es lohnt sich, die Website der Gastgeber Kasia …",
   "web": "https://www.urwaldhaus.ch/de/",
-  "geaendert": "2026-03-09"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E3BCBF02-D2C0-4A1F-A875-BBCF2E9DD2D6",
@@ -10990,32 +10270,12 @@
   "geaendert": "2022-03-05"
  },
  {
-  "id": "8E39407D-CACC-4578-8907-96F742D1DF9E",
-  "key": "romantischeruckzugsortechaletsfurjedesbudget",
-  "name": "Romantische Rückzugsorte: Chalets für jedes Budget",
-  "title": "Romantische Rückzugsorte: Chalets für jedes Budget",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Ferien",
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Ein Rückzug in die Berge lohnt sich immer, auch wenn zur Zeit noch wenig Schnee liegt. Erstens kann sich dies schnell ändern, zweitens kann man nirgends so gut abschalten wie über der Nebelgrenze. In der Sonne spazieren, in der …",
-  "web": "http://www.stylenotes.ch/2014/12/22/romantische-rueckzugsorte-chalets-fuer-jedes-budget/",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "3DADB047-0188-41B8-A326-89E8237B7AA1",
   "key": "rooftopthenesthotelstorchenzurich",
   "name": "Rooftop: The Nest, Hotel Storchen Zürich",
   "title": "Rooftop: The Nest, Hotel Storchen Zürich",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Weinplatz 2, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Bar",
@@ -11028,7 +10288,7 @@
   "radar": false,
   "notiz": "From April to the end of October you may enjoy the breathtaking view of the most beautiful city. - Zurich from a different perspective!",
   "web": "https://storchen.ch/en/eat-drink/the-nest/menu",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E9FAC09B-D009-4813-8794-97ECB1DA816C",
@@ -11117,8 +10377,8 @@
   "key": "rossiniluzern",
   "name": "Rossini, Luzern",
   "title": "Rest. Rossini, Luzern",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Bahnhofstrasse 7, 6003 Luzern",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -11132,7 +10392,7 @@
   "radar": false,
   "notiz": "Ristorante & Bar Rossini - Ihr Treffpunkt in Luzern",
   "web": "",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "132F63C1-BD9D-46D3-BA57-15DF4B3CC4E7",
@@ -11159,8 +10419,8 @@
   "key": "rudolphsneuepopupweihnachtsbarimseefeld",
   "name": "Rudolphs: Neue Pop-Up Weihnachtsbar im Seefeld",
   "title": "Rudolphs: Neue Pop-Up Weihnachtsbar im Seefeld",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 40, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -11173,7 +10433,7 @@
   "radar": false,
   "notiz": "«Der Kreis 8 hat vieles zu bieten - überzeugen Sie sich selbst!»",
   "web": "",
-  "geaendert": "2026-10-20"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "740D0671-8C53-4B2F-858A-A38277D2838D",
@@ -11394,8 +10654,8 @@
   "key": "sachselnhotelrestkreuzsachseln",
   "name": "Sachseln: Hotel/Rest. Kreuz Sachseln",
   "title": "Sachseln: Hotel/Rest. Kreuz Sachseln",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Bruder-Klausen-Weg 1, 6072 Sachseln",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -11408,7 +10668,7 @@
   "radar": false,
   "notiz": "Home | Anfahrt | Stellen | Sitemap | Newsletter | Impressum | Gästebewertung | Facebook | Suche",
   "web": "http://www.kreuz-sachseln.ch/fileadmin/templates/images/logo.gif",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "DB26195E-FC90-4BE7-B28D-24141BB57723",
@@ -11547,8 +10807,8 @@
   "key": "scalapizza",
   "name": "Scala (Pizza)",
   "title": "Rest. Scala (Pizza)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Rotbuchstrasse 1, 8006 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -11562,15 +10822,15 @@
   "radar": false,
   "notiz": "Zwiebeln, Speck, Pilze: Die Pizza Scala.",
   "web": "https://twitter.com/zueritipp_",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "71FB7F92-35D9-4076-B313-FD799A8F04A6",
   "key": "schiffstationmannedorf",
   "name": "Schiffstation, Männedorf",
   "title": "Rest. Schiffstation, Männedorf",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seestrasse 206, 8708 Männedorf",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Café",
@@ -11584,7 +10844,7 @@
   "radar": false,
   "notiz": "Von Frühling bis Herbst, nur bei Regen nicht geöffnet.",
   "web": "https://www.schiffstation.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "97C5ADE2-8A7D-4CDC-842D-CE73EEE19516",
@@ -11629,35 +10889,12 @@
   "geaendert": "2022-03-05"
  },
  {
-  "id": "3B62FA7E-A124-4CFB-9397-6190087C8FD5",
-  "key": "schlosshotelinderschweiz",
-  "name": "Schlosshotel in der Schweiz",
-  "title": "Schlosshotel in der Schweiz",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "Engadin",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Romandie",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Die Schweiz ist bekannt als das Land der Burgen und Schlösser. Viele davon dienen nicht nur zu Museumszwecken, sondern bieten auch die Möglichkeit, zwischen geschichtsträchtigen Mauern zu übernachten.",
-  "web": "https://www.schloss-muenchenwiler.ch/",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "D9C12003-6228-4DAF-B1C6-90AE942107A2",
   "key": "schlussel",
   "name": "Schlüssel",
   "title": "Rest. Schlüssel",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 177, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -11670,7 +10907,7 @@
   "radar": false,
   "notiz": "http://www.restaurant-schluessel-zuerich.ch/de/home.shtml",
   "web": "http://www.restaurant-schluessel-zuerich.ch/de/home.shtml",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "D30E233C-162C-45E4-B7BE-358F644B8412",
@@ -11747,8 +10984,8 @@
   "key": "schnupf",
   "name": "Schnupf",
   "title": "Rest. Schnupf",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Neufrankengasse 29, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -11761,15 +10998,15 @@
   "radar": false,
   "notiz": "",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "4CCB2845-73E5-4184-95EA-B8E79FF6A8DA",
   "key": "schwandenglberghotelmettmen",
   "name": "Schwanden GL: Berghotel Mettmen",
   "title": "Schwanden GL: Berghotel Mettmen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Mettmen 2, 8762 Schwanden",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -11784,7 +11021,7 @@
   "radar": true,
   "notiz": "Moll, hier ist man wirklich mitten im Grünen.",
   "web": "https://berghotel-mettmen.ch/",
-  "geaendert": "2026-06-07"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "667D543A-CF85-42DA-A2B0-F679BD6BB469",
@@ -11855,8 +11092,8 @@
   "key": "schutzenhausstafadieallerbestenknusperli",
   "name": "Schützenhaus, Stäfa: Die «allerbesten Knusperli»",
   "title": "Schützenhaus, Stäfa: Die «allerbesten Knusperli»",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seestrasse 48, 8712 Stäfa",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -11870,7 +11107,7 @@
   "radar": false,
   "notiz": "Die Reservation im Restaurant wurde zwar verpennt. Aber die Laune besserte sich rasch – von Biss zu Biss.",
   "web": "http://www.schuetzenhaus-staefa.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "6A1F43CC-5A57-4C91-B1A9-18D32AB44CF7",
@@ -11923,8 +11160,8 @@
   "key": "selberkochenmiseenplace",
   "name": "Selber kochen: Mise en Place",
   "title": "Selber kochen: Mise en Place",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 12, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Ernährung",
    "GASTRO",
@@ -11937,7 +11174,7 @@
   "radar": false,
   "notiz": "Kochen mit Bio Zutaten, unkompliziertes einkaufen im Seefeld</font>",
   "web": "http://eepurl.com/Uv1tL",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "3AFBBE60-3B9F-474E-AD84-E29FB57091A1",
@@ -11968,8 +11205,8 @@
   "key": "sibni",
   "name": "Sibni",
   "title": "Rest. Sibni",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Asylstrasse 81, 8032 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -11981,32 +11218,7 @@
   "radar": false,
   "notiz": "|  <br> <br> Asylstrasse 81 | CH-8032 Zürich | Tel. 044 / 252 03 53 | Fax 044 / 252 03 62 | kontakt@restaurant-sibni.ch |",
   "web": "http://www.restaurant-sibni.ch/sibni/img/lageplan_sibni_big.jpg",
-  "geaendert": "2022-03-05"
- },
- {
-  "id": "86E3004E-589B-43E3-B1E5-81311B06E1B2",
-  "key": "siebenwellnesshotelsfurgrauetage",
-  "name": "Sieben Wellnesshotels für graue Tage",
-  "title": "Sieben Wellnesshotels für graue Tage",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bern",
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "Mittelland",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wallis",
-   "Wellness",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Sieben Wellnesshotels, in denen wir jetzt gerne wären",
-  "web": "https://www.guardaval.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "5D607AC6-B237-4012-8E66-9305E359AC95",
@@ -12100,10 +11312,12 @@
   "key": "skiclubzurich",
   "name": "Ski Club Zürich",
   "title": "Rest. Ski Club Zürich",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Mühlegasse 3, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Pop-Up",
    "Radar",
    "Restaurant",
@@ -12116,30 +11330,7 @@
   "radar": true,
   "notiz": "Skiclub Zürich: Bergfeeling im Niederdorf",
   "web": "https://4qh63krk.r.eu-north-1.awstrack.me/L0/https:%2F%2Fronorp.net%2Frons-tips%2Fskiclub-zurich-bergfeeling-im-niederdorf%3Futm_source=newsletter%26utm_medium=email/2/011001a13d965379-b2cdb95e-9739-4044-9fa7-b680dd6ec1b9-000000/NHMKIt8NabG1YaB04ZLx5XeDJS0=258",
-  "geaendert": "2026-10-20"
- },
- {
-  "id": "BB50DA2D-4CEF-4827-BC64-73741AC0627A",
-  "key": "skiferienfunfmalanders",
-  "name": "Skiferien - fünfmal anders",
-  "title": "Skiferien - fünfmal anders",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Graubünden",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Wallis",
-   "Wellness",
-   "Winter"
-  ],
-  "radar": false,
-  "notiz": "Wuchtig, und trotzdem in die Landschaft eingepasst: Die Frutt Family Lodge in Melchsee-Frutt. Foto: PD",
-  "web": "http://www.ameron-hotel-davos.ch",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "EE5A8620-9BED-468D-90A7-9619828C2CA5",
@@ -12168,8 +11359,8 @@
   "key": "smithdeluma",
   "name": "Smith & De Luma",
   "title": "Rest. Smith & De Luma",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Grubenstrasse 27, 8045 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -12182,7 +11373,7 @@
   "radar": false,
   "notiz": "Im neuen Lieblingslokal der Zürcher Szene kann man nicht nur sehen und gesehen werden, sondern auch sehr gut essen. Wenn auch zu ziemlich happigen Preisen.",
   "web": "http://www.smithanddeluma.ch",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "535FFEE6-25DD-485F-AC9B-E4321E840C65",
@@ -12227,25 +11418,6 @@
   "notiz": "|    |    |    |    |  EINE NACHRICHT AUS DER SOMMER REPUBLIK HECHTPLATZ |",
   "web": "http://us7.campaign-archive2.com/?u=991616ef5826f7fc3453d8a30&amp;id=111b36b344&amp;e=4f0f462d30",
   "geaendert": "2022-03-05"
- },
- {
-  "id": "2637CE3A-213B-4B19-838C-019E1FD0AA2A",
-  "key": "sommerbars",
-  "name": "Sommerbars",
-  "title": "Sommerbars",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bar",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Direkt am Zusammenfluss der kleinen Emme und der Reuss kannst du seit Anfang Mai am Nordpol den Sommer geniessen. Die neueröffnete Sommerbar namens Nordpol lädt zu lauen Abenden direkt am Fluss ein. Hier verzichten die Gastronomen auf …",
-  "web": "https://www.nordpol.lu",
-  "geaendert": "2024-07-30"
  },
  {
   "id": "AA50AB2E-3082-42B8-9DA9-23133FCD33DE",
@@ -12295,28 +11467,6 @@
   "notiz": "Mitten im Grünen ge­legen, wird im Grotto Efra seit über 70 Jahren die traditionelle Tessiner ­Küche ­gepflegt.",
   "web": "https://www.grottoefra.ch/",
   "geaendert": "2026-10-11"
- },
- {
-  "id": "AA16AC20-BD2B-4D7C-A0D6-867ABC5B9CCC",
-  "key": "sopraceneriborromaischeinseln",
-  "name": "Sopraceneri: Borromäische Inseln",
-  "title": "Sopraceneri: Borromäische Inseln",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Locarnese",
-   "Restaurant",
-   "SCHWEIZ",
-   "Sopraceneri",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Patricia Engelhorn | Naherholung  | 19.6.2021",
-  "web": "https://www.isoleborromee.it/de/experience/restaurant-la-piratera",
-  "geaendert": "2024-09-16"
  },
  {
   "id": "0F924E5D-6D74-45F9-B3A5-78DA1A293419",
@@ -12392,8 +11542,8 @@
   "key": "sottocenerigrottodellasalute",
   "name": "Sottoceneri: Grotto della Salute",
   "title": "Sottoceneri: Grotto della Salute",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Madonna della Salute 10, 6900 Massagno",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -12408,7 +11558,7 @@
   "radar": false,
   "notiz": "Clip-Quelle:Restaurant Grotto della Salute - | GaultMillau - Channel",
   "web": "https://www.gaultmillau.ch/restaurants/grotto-della-salute-18364",
-  "geaendert": "2026-10-12"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "06EC4197-0EAE-41F6-BC15-9307164F6529",
@@ -12438,8 +11588,8 @@
   "key": "sottocenerigrottomorchinonahecarona",
   "name": "Sottoceneri: Grotto Morchino nahe Carona",
   "title": "Sottoceneri: Grotto Morchino nahe Carona",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Carona 1, 6912 Pazzallo",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -12455,7 +11605,7 @@
   "radar": false,
   "notiz": "Ecco qui sotto alcune caratteristiche architettoniche che contraddistinguono il grotto Morchino.",
   "web": "",
-  "geaendert": "2024-09-16"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E9749A8E-79F0-46E8-A6FA-FFB3FAF8B67F",
@@ -12635,8 +11785,8 @@
   "key": "stallstubemaur",
   "name": "Stallstube Maur",
   "title": "Rest. Stallstube Maur",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Rellikonstrasse 53, 8124 Maur",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -12649,15 +11799,15 @@
   "radar": false,
   "notiz": "Clip-Quelle:Gutbürgerliche, traditionelle Küche im Restaurant Stallstube Maur",
   "web": "https://www.stallstube-maur.ch/",
-  "geaendert": "2023-08-27"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "56C6513A-B235-4D7D-9865-8D6C6012E35F",
   "key": "stammheimresthirschen",
   "name": "Stammheim: Rest. Hirschen",
   "title": "Stammheim: Rest. Hirschen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Steigstrasse 4, 8477 Oberstammheim",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -12672,7 +11822,7 @@
   "radar": true,
   "notiz": "Mit Lavendel aus dem Garten: Rehrücken vom Sommerbock.",
   "web": "https://www.hirschenstammheim.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "E4220C33-32EC-4622-A8D4-9C0FCB8A1EF8",
@@ -12835,8 +11985,8 @@
   "key": "takeawayzenwich",
   "name": "Take Away: Zenwich",
   "title": "Take Away: Zenwich",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sihlfeldstrasse 89, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Radar",
@@ -12847,7 +11997,7 @@
   "radar": true,
   "notiz": "ZENWICH comes from the same crew behind BUNZAI — yeah, the smash burger joint that took Zurich by storm. If you’ve had our burgers, you know we don’t cut corners.",
   "web": "https://bunzai.ch",
-  "geaendert": "2025-10-29"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "3DF864BD-69A8-4BAF-98F6-195CF582EDF9",
@@ -12870,29 +12020,6 @@
   "notiz": "Il Ristorante / Alloggi La Cantina si trova nella piazza del paese di Tegna, sulla strada che porta in Valle Maggia a pochi passi dalla stazione ferroviaria e dall’omonimo fiume.",
   "web": "https://www.ristoranteallacantina.com/",
   "geaendert": "2026-11-11"
- },
- {
-  "id": "F578E8AA-731A-46E3-BF0C-9580E639546E",
-  "key": "terrassenbeiregenwetter",
-  "name": "Terrassen bei Regenwetter",
-  "title": "Terrassen bei Regenwetter",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Café",
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "Wer trotz Regen nicht auf den Apéro oder den Kaffee im Restaurant verzichten möchte, findet auf diesen Zürcher Terrassen auch draussen ein trockenes Plätzchen.",
-  "web": "https://spheres.cc/",
-  "geaendert": "2025-10-19"
  },
  {
   "id": "51CA88A9-E9EC-4E97-AA17-47A231FD021C",
@@ -12925,6 +12052,7 @@
    "Aussenraum",
    "GASTRO",
    "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "GASTRO/Küche/Italienisch",
    "Radar",
    "Restaurant",
@@ -12983,12 +12111,14 @@
   "key": "teufenrestwirtshuszumwyberg",
   "name": "Teufen: Rest. Wirtshus zum Wyberg",
   "title": "Teufen: Rest. Wirtshus zum Wyberg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Oberteufenerstrasse 1, 8428 Teufen",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Eglisau+",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -12999,7 +12129,7 @@
   "radar": true,
   "notiz": "Wirtshus zum Wyberg in Teufen ZH – das Restaurant mit Herz!",
   "web": "https://wyberg.ch/angebot/speisekarten/",
-  "geaendert": "2026-10-11"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "D95A2B30-7B2D-4F4D-9D71-BC67EDD6148B",
@@ -13136,8 +12266,8 @@
   "key": "thunerseespaparkhotelgunten",
   "name": "Thunersee: SPA, Parkhotel Gunten",
   "title": "Thunersee: SPA, Parkhotel Gunten",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seestrasse 90, 3654 Gunten",
+  "quelle": "bear",
   "tags": [
    "Bern",
    "GASTRO",
@@ -13150,28 +12280,7 @@
   "radar": false,
   "notiz": "${filterInfo.title} (${filterInfo.count})",
   "web": "https://www.interlaken.ch/reiseziele/interlaken",
-  "geaendert": "2022-02-28"
- },
- {
-  "id": "A1F40871-1ECE-463D-B7E7-A666FEB589A1",
-  "key": "tinyhouseindernatur",
-  "name": "Tiny House in der Natur",
-  "title": "Tiny House in der Natur",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge",
-   "Zentralschweiz",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Clip-Quelle:MONDHOLZ%20TINY%20HOUSE%2C%20in%20purer%20Natur%20-%20CHF%A096.00%20%7C%20Nomady",
-  "web": "https://nomady.ch/l/mondholz-tiny-house-in-purer-natur/60f90bb1-994a-4f2f-8036-797d327b38b4",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "2DD542F0-54DD-4C07-B93B-2CA1DE9EBD03",
@@ -13223,8 +12332,8 @@
   "key": "toggenburghausimgluckbedandbreakfast",
   "name": "Toggenburg: Haus im Glück, Bed and Breakfast",
   "title": "Toggenburg: Haus im Glück, Bed and Breakfast",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "St. Peterzellerstrasse 1, 9633 Hemberg",
+  "quelle": "bear",
   "tags": [
    "Bucket List",
    "GASTRO",
@@ -13238,7 +12347,7 @@
   "radar": true,
   "notiz": "Die Engadinger Innenarchitektin Madlaina Feuerstein hat ein etwa 200 Jahre altes Landhaus in ein charmantes Gästehaus verwandelt.",
   "web": "http://www.haus-im-glueck.ch",
-  "geaendert": "2026-11-10"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "EA0E3B3E-BD2F-4A39-AB5A-E3D96BAC1D90",
@@ -13357,8 +12466,8 @@
   "key": "trubezollikon",
   "name": "Trube, Zollikon",
   "title": "Rest. Trube, Zollikon",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Alte Landstrasse 94, 8702 Zollikon",
+  "quelle": "bear",
   "tags": [
    "Brunch",
    "GASTRO",
@@ -13372,7 +12481,7 @@
   "radar": true,
   "notiz": "Das Essen in der Trube ist modern, die Atmosphäre behaglich.",
   "web": "http://www.trubezollikon.ch",
-  "geaendert": "2024-12-17"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "89671694-AFE0-44B9-BC24-0621EF249582",
@@ -13401,8 +12510,8 @@
   "key": "turbenthalgasthofgyrenbad",
   "name": "Turbenthal: Gasthof Gyrenbad",
   "title": "Turbenthal: Gasthof Gyrenbad",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Girenbadstrasse 133, 8488 Turbenthal",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -13417,7 +12526,7 @@
   "radar": false,
   "notiz": "Gasthof Gyrenbad AG · Girenbadstrasse 133 · 8488 Gyrenbad ob Turbenthal",
   "web": "http://www.gyrenbad.ch",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "B9775945-4FDE-4B0B-9D8E-FF288D734506",
@@ -13450,6 +12559,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -13488,8 +12599,8 @@
   "key": "tufi",
   "name": "Tüfi",
   "title": "Rest. Tüfi",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Dufourstrasse 154, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -13502,15 +12613,15 @@
   "radar": false,
   "notiz": "Aktuell: Zürisee Felchenfilets&Frische Eierschwämmli",
   "web": "http://www.tuefi.ch/restaurant.html",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "0B753A27-BF78-4225-A638-75828774818C",
   "key": "uetikonamseerestbarsichtbar",
   "name": "Uetikon am See: Rest./Bar Sichtbar",
   "title": "Uetikon am See: Rest./Bar Sichtbar",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seestrasse 102, 8707 Uetikon am See",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -13524,7 +12635,7 @@
   "radar": true,
   "notiz": "Infolge Chalet Aufbau, Donnerstag, 12.10. - Sonntag, 15.10.2023 geschlossen!",
   "web": "https://www.sichtbar8707.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F8912D5D-1A7B-4DE7-9C95-FAB1ED23A90E",
@@ -13572,27 +12683,6 @@
   "notiz": "Die Inselwirtschaft ist mehr als nur ein Restaurant. Sie ist ein Bekenntnis zu diesem einmaligen Flecken Erde mitten im Wasser und damit auch zur Region. Eingebettet in die Ufnau, bildet die Wirtschaft mit den anderen Gebäuden und der …",
   "web": "https://www.inselufnau.ch/de/wirtschaft/",
   "geaendert": "2026-11-09"
- },
- {
-  "id": "97BEB6FF-9BCF-4E65-8951-820F7812A9ED",
-  "key": "uriurnerseesudspitze",
-  "name": "Uri: Urnersee-Südspitze",
-  "title": "Uri: Urnersee-Südspitze",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "GENIESSENWer mich kennt, weiss nur allzu gut, dass mir für ein gutes Essen kein Weg zu weit ist. Also fuhr ich unlängst die engen Kehren nach Gurtnellen-Dorf hoch, um im Gasthaus zum Feld einzukehren. Hier wirtet Beat Walker, dessen …",
-  "web": "",
-  "geaendert": "2023-12-15"
  },
  {
   "id": "6B61A165-25AE-4EE5-89DA-AFF2CD7401F8",
@@ -13681,8 +12771,8 @@
   "key": "valmustairloftimstall",
   "name": "Val Müstair: Loft im Stall",
   "title": "Val Müstair: Loft im Stall",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Plaz Dora 17, 7536 Sta. Maria",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -13694,15 +12784,15 @@
   "radar": false,
   "notiz": "Clip-Quelle:Val Müstair: Ein ehemaliger Stall ist nun ein schickes Loft",
   "web": "https://www.chasa-parli.ch/stalla-dimmez/",
-  "geaendert": "2023-02-19"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "ECD7FEA0-ED45-4028-A831-F9790D29B811",
   "key": "vallianticaosteriadelghiridone",
   "name": "Valli: Antica Osteria del Ghiridone",
   "title": "Valli: Antica Osteria del Ghiridone",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Piazza 1, 6657 Palagnedra",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -13716,26 +12806,7 @@
   "radar": false,
   "notiz": "L'Antica Osteria del Ghiridone, situata nel nucleo di Palagnedra, nell'autunno 2017 cambia gestione e viene",
   "web": "https://www.osteriadelghiridone.ch/",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "1F77EAA1-2403-4743-A83E-DECE7104FFB5",
-  "key": "valligrotti",
-  "name": "Valli: Grotti",
-  "title": "Valli: Grotti",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen"
-  ],
-  "radar": false,
-  "notiz": "Milani, 6721 Ludiano, +41 91 870 21 97, http://www.grottomilani.altervista.org/contattoorari.htm",
-  "web": "",
-  "geaendert": "2022-03-22"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "626D4695-3FE7-4CA0-8685-C416328BD265",
@@ -13835,6 +12906,7 @@
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "GASTRO/Küche/Italienisch",
    "Locarnese",
    "Restaurant",
@@ -13875,8 +12947,8 @@
   "key": "valliristlafrodaforogliovalbavona",
   "name": "Valli: Rist. La Froda, Foroglio, Val Bavona",
   "title": "Valli: Rist. La Froda, Foroglio, Val Bavona",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Foroglio, 6690 Cavergno",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -13891,7 +12963,7 @@
   "radar": true,
   "notiz": "Wir sind von April bis Ende Oktober geöffnet (für das genaue Datum, die Homepage konsultieren). Während der Woche haben wir keinen Ruhetag; bei schlechtem Wetter und vor allem in der Vor- und Nachsaison ist es aber besser, sich …",
   "web": "https://www.lafroda.ch/de/",
-  "geaendert": "2024-08-25"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "508C515B-53BA-4239-87B4-342AD1C5ECCA",
@@ -13942,8 +13014,8 @@
   "key": "veveyrestlesateliers",
   "name": "Vevey: Rest. Les Ateliers",
   "title": "Vevey: Rest. Les Ateliers",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Rue des Deux-Gares 6A, 1800 Vevey",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -13955,33 +13027,7 @@
   "radar": false,
   "notiz": "https://maps.google.com/maps?ll=46.464301,6.842321&z=12&t=m&hl=fr&gl=CH&mapclient=apiv3",
   "web": "https://lesateliersvevey.ch/reservation",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "3E96F4D8-64EF-4C59-8F3D-6148B0309162",
-  "key": "vierlieblingshotels",
-  "name": "Vier Lieblingshotels",
-  "title": "Vier Lieblingshotels",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "AUSLAND",
-   "EUROPA",
-   "Engadin",
-   "Frankreich",
-   "GASTRO",
-   "Graubünden",
-   "Grossbritannien",
-   "Hotel",
-   "Italien",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "> In den nächsten paar Wochen werden wir immer wieder einen Blick zurück auf die Highlights des vergangenen Jahres werfen. Im heutigen Best-of-Blog lesen Sie alles über vier wunderschöne Hotels.",
-  "web": "http://www.hotel-villasanmichele.it/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "20BCF99D-55B9-4C55-AAAF-370948AA679D",
@@ -14010,8 +13056,8 @@
   "key": "vitznauhotelterrasseamsee",
   "name": "Vitznau: Hotel Terrasse am See",
   "title": "Vitznau: Hotel Terrasse am See",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Bahnhofstrasse 2, 6354 Vitznau",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -14025,7 +13071,7 @@
   "radar": false,
   "notiz": "Die Superior-Zimmer, egal ob mit oder ohne Balkon, präsentieren eine unmittelbare Aussicht auf den bezaubernden Vierwaldstättersee. Diese unvergleichliche Panoramaansicht macht sie zu den beliebtesten Zimmer.",
   "web": "https://www.hotel-terrasse.ch/restaurant",
-  "geaendert": "2024-07-31"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "9FDCEA6F-CA29-42F5-A013-AA704507DF2D",
@@ -14052,8 +13098,8 @@
   "key": "waldzhbleicheresort",
   "name": "Wald ZH: Bleiche Resort",
   "title": "Wald ZH: Bleiche Resort",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Jonastrasse 11, 8636 Wald",
+  "quelle": "bear",
   "tags": [
    "EUROPA",
    "GASTRO",
@@ -14068,7 +13114,7 @@
   "radar": true,
   "notiz": "Stilvoll und unkompliziert empfangen wir Sie im Bleiche Hotel.",
   "web": "https://bleiche.ch/bad/#oeffnungszeiten",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "78135F66-6993-4802-B73F-05FBA0115190",
@@ -14095,8 +13141,8 @@
   "key": "waldmannsburg",
   "name": "Waldmannsburg",
   "title": "Rest. Waldmannsburg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Schloss-Strasse 86, 8600 Dübendorf",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -14109,7 +13155,7 @@
   "radar": false,
   "notiz": "Die Waldmannsburg mit ihrer wundervollen Aussicht aufs Glatttal liegt im Weiler Dübelstein gleich oberhalb von Dübendorf. Dieser nostalgische Ort – mit dem vielen Grün und seiner Ruhe – ist prägend für die Gastronomie in der …",
   "web": "http://www.waldmannsburg.ch/#carousel-restaurant_",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "CAA79484-AAE9-4373-B791-790FA07B61E0",
@@ -14121,6 +13167,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "Restaurant",
    "SCHWEIZ",
    "SPORT/Wandern",
@@ -14159,8 +13207,8 @@
   "key": "wallishotelwhitepodecoluxuryhotel",
   "name": "Wallis: Hotel Whitepod Eco-Luxury Hotel",
   "title": "Wallis: Hotel Whitepod Eco-Luxury Hotel",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Les Giettes, 1871 Monthey",
+  "quelle": "bear",
   "tags": [
    "Bucket List",
    "GASTRO",
@@ -14175,7 +13223,7 @@
   "radar": true,
   "notiz": "Jeder Pod und Suite-Chalet sind für sich allein, die Pods befinden sich auf einem privaten und sehr weitläufigen Gelände",
   "web": "https://www.whitepod.com/de/",
-  "geaendert": "2026-11-10"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "741E83DF-5D5D-4B07-B711-E343BD6B3549",
@@ -14218,27 +13266,6 @@
   "notiz": "Das Beste aus dem Wallis: Die neue: Provins-Weinbar in der Europaallee.",
   "web": "https://twitter.com/zueritipp_",
   "geaendert": "2024-07-30"
- },
- {
-  "id": "57934816-EC5C-4143-9618-2910AAF0AD18",
-  "key": "weiningenaltbergotelfingen",
-  "name": "Weiningen-Altberg-Otelfingen",
-  "title": "Weiningen-Altberg-Otelfingen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Der Turm auf dem Altberg. Der Lägernkamm, gesehen vom Turm. Die «Waldschenke». Wandersnack mit Kafi für Entkräftete.",
-  "web": "",
-  "geaendert": "2025-06-20"
  },
  {
   "id": "B5639998-ADC6-4419-B388-CD01DBEA5DED",
@@ -14376,6 +13403,7 @@
    "Eglisau+",
    "GASTRO",
    "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
    "GASTRO/Küche/Gutbürgerlich",
    "Radar",
    "Restaurant",
@@ -14437,8 +13465,8 @@
   "key": "wirtschaftimfranz",
   "name": "Wirtschaft im Franz",
   "title": "Rest. Wirtschaft im Franz",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Bremgartnerstrasse 18, 8003 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -14450,15 +13478,15 @@
   "radar": false,
   "notiz": "Von Esther Kern. Aktualisiert am 16.10.2013",
   "web": "http://foodwaste.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "CFC3D365-72FA-4F2B-A0AB-1FB40751F7EB",
   "key": "wirtschaftzurau",
   "name": "Wirtschaft zur Au",
   "title": "Rest. Wirtschaft zur Au",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Manessestrasse 208, 8045 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -14471,15 +13499,15 @@
   "radar": false,
   "notiz": "Wir bieten am Mittag ein hochwertiges, marktfrisches Menu welches jeden Donnerstag wechselt. Sie haben die Wahl zwischen sechs Gerichten.",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "1BC52568-62EA-42A4-816D-7E13AEB09872",
   "key": "wirtschaftzurkittenmuhle",
   "name": "Wirtschaft zur Kittenmühle",
   "title": "Rest. Wirtschaft zur Kittenmühle",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Kappelistrasse 40, 8704 Herrliberg",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -14494,7 +13522,7 @@
   "radar": false,
   "notiz": "Die frisch renovierte Mühle aus dem frühen 17. Jahrhundert ist ein Juwel. Der leidenschaftliche Gastgeber René Forster und die Küchencrew unternehmen alles, um dem wunderbaren Rahmen gerecht zu werden.",
   "web": "http://www.kittenmuehle.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "212558B8-E15B-4473-B876-163A8D182CF1",
@@ -14612,8 +13640,8 @@
   "key": "xavisdinnerservice",
   "name": "Xavis Dinner Service",
   "title": "Xavis Dinner Service",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zollikerstrasse 105, 8702 Zollikon",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Catering",
@@ -14629,7 +13657,7 @@
   "radar": false,
   "notiz": "Waren Sie den ganzen Tag beschäftigt und hatten keine Zeit zu kochen? Und müssen dennoch schnell, schnell ein Abendessen hervorzaubern, oder reisen in Ihr Ferienhaus. Hier kommt die Rettung!",
   "web": "http://www.xavis-dinner-service.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "57E1B9B0-D76C-477E-878C-F205CCE5ED5E",
@@ -14661,8 +13689,8 @@
   "key": "yumastreetfood",
   "name": "Yuma (Street Food)",
   "title": "Rest. Yuma (Street Food)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Badenerstrasse 120, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "Brunch",
    "GASTRO",
@@ -14675,15 +13703,15 @@
   "radar": false,
   "notiz": "Urban Vintage Streetfood: Das Yuma schickt seine Gäste mit Hummus, Buns oder Teigtaschen auf Weltreise.",
   "web": "https://www.yuma-zurich.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "456FFECB-F08D-4E65-8118-6BE27B7CAC5B",
   "key": "zawan",
   "name": "Zawan",
   "title": "Rest. Zawan",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Rigiplatz 1, 8006 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -14698,7 +13726,7 @@
   "radar": false,
   "notiz": "Thailändisches Tradition am Rigiplatz: Chicken Curry.",
   "web": "https://twitter.com/zueritipp_",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "522DD693-C3B1-43FA-A80C-7CBF363FEB58",
@@ -14767,8 +13795,8 @@
   "key": "zermattparkhotelbeausite",
   "name": "Zermatt: Parkhotel Beau Site",
   "title": "Zermatt: Parkhotel Beau Site",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Brunnmattgasse 9, 3920 Zermatt",
+  "quelle": "bear",
   "tags": [
    "Bucket List",
    "GASTRO",
@@ -14782,7 +13810,7 @@
   "radar": true,
   "notiz": "Das Parkhotel Beau Site in Zermatt gönnte sich ein Makeover – und strahlt in neuem, bemerkenswert einladendem Stil.",
   "web": "https://www.atelierzuerich.ch/",
-  "geaendert": "2026-11-10"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "F4D16EBF-5F9C-4B65-8CF8-ACB906986F22",
@@ -14846,28 +13874,6 @@
   "notiz": "Das Seehotel Rigi-Royal führt eine ausgezeichnete Fischküche. Die Spezialitätenkarte ist auf Marktfrische und Abwechslung ausgerichtet und lässt keine Wünsche offen.",
   "web": "http://www.hotel-rigi.ch/",
   "geaendert": "2024-07-30"
- },
- {
-  "id": "ADA6A253-B935-45D3-A03D-ABB9DD2F44F0",
-  "key": "zugstadtbummelfurfeinschmecker",
-  "name": "Zug: Stadt-Bummel für Feinschmecker",
-  "title": "Zug: Stadt-Bummel für Feinschmecker",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Reisen",
-   "Zentralschweiz"
-  ],
-  "radar": false,
-  "notiz": "Schmuck zeigt sich die Stadt Zug mit dem Kapuzinerturm aus dem Jahr 1526 (Mitte).",
-  "web": "https://www.zug.ch/de/",
-  "geaendert": "2022-08-24"
  },
  {
   "id": "BC5953C8-024D-4648-977B-64D89C6560EE",
@@ -14962,8 +13968,8 @@
   "key": "zumgrobeernst",
   "name": "Zum grobe Ernst",
   "title": "Rest. Zum grobe Ernst",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Stüssihofstatt 16, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -14976,15 +13982,15 @@
   "radar": false,
   "notiz": "Patron Giovanni serviert solche Köstlichkeiten. Auf dem Bild fehlt allerdings der Star des Abends: Das luftige Tiramisu.",
   "web": "http://www.zumgrobeernst.com/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "2BC93BAC-BE3A-46B4-A96D-B94E5094F7AE",
   "key": "zumgutengluck",
   "name": "Zum guten Glück",
   "title": "Rest. Zum guten Glück",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Stationsstrasse 7, 8003 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -14997,15 +14003,15 @@
   "radar": false,
   "notiz": "Das Gasthaus ZUM GUTEN GLÜCK ist täglich geöffnet und bietet Reisenden wie Quartierbewohner ein exquisites Angebot an süssen und salzigen Pfannkuchen, leckeren Waffeln und frisch zubereitetem Glacé (Eis), für Eilige auch zum Mitnehmen. …",
   "web": "http://www.zumgutenglueck.ch",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "53675F62-0CB5-47BE-AC0F-289CE5205452",
   "key": "zumletztenfass",
   "name": "Zum letzten Fass",
   "title": "Rest. Zum letzten Fass",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zwinglistrasse 7, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Pop-Up",
@@ -15019,7 +14025,7 @@
   "radar": false,
   "notiz": "Im temporären Restaurant Zum letzten Fass werden vergessene Schweizer Gerichte wieder belebt.",
   "web": "https://www.zumletztenfass.ch/",
-  "geaendert": "2026-10-20"
+  "geaendert": "2026-11-11"
  },
  {
   "id": "CC49486F-D67F-48BE-A62D-D7133E6F7347",
@@ -15105,73 +14111,6 @@
   "radar": false,
   "notiz": "\\[image7.svg+xml\\<!-- {\"embed\":\"true\"} -->](https://www.provins.ch/de/)\\[image6.svg+xml\\<!-- {\"embed\":\"true\"} -->](https://www.provins.ch/de/)\\[image7.svg+xml\\<!-- {\"embed\":\"true\"} -->](https://www.provins.ch/de/)\\[image6.svg+xml\\<!-- …",
   "web": "https://www.provins.ch/de/seiten/empfangen/zurich-2088#top-body",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "3DC37AF9-8850-4896-9088-26B39DFD7F77",
-  "key": "zurichausflugebeifruhlingswetter",
-  "name": "Zürich: Ausflüge bei Frühlingswetter",
-  "title": "Zürich: Ausflüge bei Frühlingswetter",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "Bar",
-   "Café",
-   "GASTRO",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Clip-Quelle:Fr%FChlingswetter%3A%20Tipps%20f%FCr%20das%20Wochenende%20in%20Z%FCrich",
-  "web": "https://www.freewalk.ch/zurich/street-art-tour-zurich.php?type=free",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "47664964-1FAD-420A-A5F5-45BC829DB57C",
-  "key": "zurichbrunchfruhstuck2008",
-  "name": "Zürich: Brunch & Frühstück 2008",
-  "title": "Zürich: Brunch & Frühstück 2008",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Brunch",
-   "Café",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "0811 Frühstück in Zürich.pdf<!-- {\"embed\":\"true\", \"preview\":\"true\"} -->",
-  "web": "",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "0BFAE527-5D68-49C8-9673-5A5154CF696D",
-  "key": "zurichbrunchfruhstuck2013",
-  "name": "Zürich: Brunch & Frühstück 2013",
-  "title": "Zürich: Brunch & Frühstück 2013",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Brunch",
-   "Café",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Zahlreiche Hotels, Cafés und Restaurants in Zürich und Region bieten Brunchs an. Hier eine kleine aber feine Auswahl von Brunch-Tipps.",
-  "web": "http://www.zuerich.com/de/besucher/gastronomie/restaurants/brunch-in-zurich/restaurant-adlisberg.html#details",
   "geaendert": "2024-07-30"
  },
  {
@@ -15298,27 +14237,6 @@
   "geaendert": "2024-07-30"
  },
  {
-  "id": "94FD0575-F135-48DD-8883-5E8D7DB30EA7",
-  "key": "zurichgartenbeizen",
-  "name": "Zürich: Gartenbeizen",
-  "title": "Zürich: Gartenbeizen",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Endlich laue Sommerabende. Endlich Ferien in der Stadt. Geniessen können Sie den Sommer 2012 in einer unserer zehn Lieblings-Gartenbeizen.",
-  "web": "",
-  "geaendert": "2024-07-30"
- },
- {
   "id": "6806758C-4335-45C0-AFD2-E29BC87F8F7D",
   "key": "zurichkoreanischerestaurants",
   "name": "Zürich: Koreanische Restaurants",
@@ -15341,26 +14259,6 @@
   "notiz": "Das Misoga am Hegibachplatz überzeugte mit fairen Preisen.",
   "web": "https://www.akaraka.ch/",
   "geaendert": "2026-11-08"
- },
- {
-  "id": "B82EF69F-BCAA-46BB-BCAC-88DA51ED8F15",
-  "key": "zurichlieblingsbarsderannabelle",
-  "name": "Zürich: Lieblingsbars der Annabelle",
-  "title": "Zürich: Lieblingsbars der Annabelle",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bar",
-   "GASTRO",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Text: Frank Heer; Foto: zVg, Hotel Rivington & Sons",
-  "web": "http://www.annabelle.ch/tags/ausgehen",
-  "geaendert": "2024-07-30"
  },
  {
   "id": "63BA9F85-4751-4571-A5C2-F6BB436F2F5A",
@@ -15593,27 +14491,5 @@
   "notiz": "Das Team hinter Co Chin Chin und Saigon hat im Kreis 1 ein neues Lokal eröffnet. Hier gibt es gehobene vietnamesische Küche – und eine traditionelle Suppe, die neu interpretiert wird.",
   "web": "https://www.anan.ch/",
   "geaendert": "2026-03-15"
- },
- {
-  "id": "B37B3991-8DD2-41F7-BDCF-2D9610CBFE1E",
-  "key": "gernewieder",
-  "name": "🍽️ Gerne wieder",
-  "title": "🍽️ Gerne wieder",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "",
-  "web": "https://www.muehle-tiefenbrunnen.ch/blaue-ente",
-  "geaendert": "2026-10-08"
  }
 ]

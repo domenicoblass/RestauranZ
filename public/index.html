@@ -161,6 +161,12 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
   body.editing .head { flex-wrap: nowrap } body.editing .tool { padding: 6px 10px }
 }
 body.editing ul#list { padding-bottom: 90px }
+/* Gleiche aufgeräumte Bearbeiten-Ansicht auf allen iOS-Geräten (auch iPad, egal wie breit) */
+html.ios body.editing #regions, html.ios body.editing #info, html.ios body.editing .area-btn { display: none }
+html.ios body.editing h1 { font-size: 0; gap: 0 } html.ios body.editing .logo { width: 38px; height: 38px; border-radius: 9px }
+html.ios body.editing #topbar { gap: 0; padding-top: calc(8px + env(safe-area-inset-top)); padding-bottom: 8px }
+html.ios body.editing .top { padding: 8px 16px; gap: 8px }
+html.ios body.editing .head { flex-wrap: nowrap } html.ios body.editing .tool { padding: 6px 10px }
 #outbox { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(14px + env(safe-area-inset-bottom)); z-index: 1200; display: flex; align-items: center; gap: 12px; padding: 8px 8px 8px 16px; border-radius: 999px; background: var(--fg); color: var(--bg); box-shadow: 0 6px 20px rgba(0,0,0,.25); font: 600 15px var(--font); white-space: nowrap }
 #outbox[hidden] { display: none }
 #outbox button { border-radius: 999px; padding: 8px 14px; font: 700 15px var(--font); background: var(--accent); color: var(--accent-ink); border: 0 }
@@ -169,6 +175,7 @@ body.editing ul#list { padding-bottom: 90px }
 </style>
 </head>
 <body>
+<script>if (/iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) document.documentElement.classList.add("ios");</script>
 <header id="topbar">
   <div class="head">
     <h1><img class="logo" src="/icon-192.png" alt="" width="66" height="66">RestauranZ</h1>

@@ -3787,6 +3787,30 @@
   "geaendert": "2026-11-15"
  },
  {
+  "id": "974CE14C-5E33-4290-9B5A-08D004EFF568",
+  "key": "comohotelcasabianca",
+  "name": "Como: Hotel Casabianca",
+  "title": "Como: Hotel Casabianca",
+  "adresse": "Lungo Lario Trento, 47, 22100 Como CO, Italien",
+  "quelle": "bear",
+  "tags": [
+   "AUSLAND",
+   "EUROPA",
+   "GASTRO",
+   "Hotel",
+   "Italien",
+   "Radar",
+   "Sottoceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang"
+  ],
+  "radar": true,
+  "notiz": "Man könnte achtlos daran vorbeigehen. Aus dem Augenwinkel die zurückhaltende Eleganz der weissen Villa wahrnehmen. Vielleicht über die klobigen schwarzen Granitplatten im Garten staunen. Wer neugierig ist, bleibt stehen. «Dove le stelle …",
+  "web": "",
+  "geaendert": "2026-11-15"
+ },
+ {
   "id": "DCD597A9-4764-43A7-B263-15558F978B0E",
   "key": "daamici",
   "name": "Da Amici",
@@ -4920,7 +4944,7 @@
   "radar": true,
   "notiz": "«Von der Geburt bis auf den Teller - ein in sich geschlossener Kreislauf»",
   "web": "http://www.hohrueti.ch/default-cms.aspx?sel=0",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "D515D540-F429-4834-985F-0B1FD8E2E5E8",
@@ -5545,6 +5569,28 @@
   "notiz": "Ausgecheckt am 06.05.24 mit Esther: Originelle Location, gutes Essen im Kesselhaus, tolles Frühstücksbuffet, Bowling-Anlage (Di-So), Open-Air-Fitness-Studio, Räume zum Vermieten. Eher teure, aber schöne Zimmer.",
   "web": "https://www.riverside.ch/de/",
   "geaendert": "2026-11-09"
+ },
+ {
+  "id": "77F5EDBF-EBB1-4D6A-910A-E6DEE8CE4B4B",
+  "key": "goldenerherbstundetwaswinter",
+  "name": "Goldener Herbst (und etwas Winter)",
+  "title": "Goldener Herbst (und etwas Winter)",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "Appenzell",
+   "GASTRO",
+   "Ostschweiz",
+   "Restaurant",
+   "Route",
+   "SCHWEIZ",
+   "SPORT/Wandern",
+   "Sport"
+  ],
+  "radar": false,
+  "notiz": "Gestern Mittag in Schwellbrunn, gegen den Alpstein zu hats noch Nebel.",
+  "web": "https://www.schwellbrunn.ch/restaurants/132299",
+  "geaendert": "2026-11-15"
  },
  {
   "id": "810C38A9-95DE-4C1A-AA20-9A61238C3686",
@@ -6189,29 +6235,6 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "974CE14C-5E33-4290-9B5A-08D004EFF568",
-  "key": "hotelcasabiancaincomoschonesboutiquehoteldirektamlagodicomo",
-  "name": "Hotel Casabianca in Como: Schönes Boutique-Hotel direkt am Lago di Como",
-  "title": "Hotel Casabianca in Como: Schönes Boutique-Hotel direkt am Lago di Como",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aktualisieren",
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Sottoceneri",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang"
-  ],
-  "radar": true,
-  "notiz": "Man könnte achtlos daran vorbeigehen. Aus dem Augenwinkel die zurückhaltende Eleganz der weissen Villa wahrnehmen. Vielleicht über die klobigen schwarzen Granitplatten im Garten staunen. Wer neugierig ist, bleibt stehen. «Dove le stelle …",
-  "web": "",
-  "geaendert": "2026-11-13"
- },
- {
   "id": "6086A88B-0CB5-4BBA-A920-DCAA0F7EB58C",
   "key": "hotelpontisellastampaimbergellrefugiumfurdesignliebhaber",
   "name": "Hotel Pontisella Stampa im Bergell: Refugium für Designliebhaber",
@@ -6513,7 +6536,7 @@
   "radar": false,
   "notiz": "Das Hotel \"Leon d’Oro\" bietet nicht nur eine Ideallage zwischen dem ruhigen See und der Altstadt von Orta San Giulio mit ihren alten Steinhäusern, sondern auch eine ganze, sowohl zeitgemäße als auch flexible Reihe an Dienstleistungen.",
   "web": "",
-  "geaendert": "2022-02-28"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "D6E31645-F37E-49EA-968F-7CEE115E82E5",
@@ -7890,7 +7913,7 @@
   "radar": false,
   "notiz": "Ristorante Barbatti, Töpferstrasse 10, Luzern, +41 41 410 13 41, ristorante.barbatti@bindella.ch",
   "web": "",
-  "geaendert": "2026-11-10"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "7BF4351A-B9BD-4EF2-8D0E-98AC457B0D01",
@@ -7910,7 +7933,7 @@
   "radar": false,
   "notiz": "Ristorante Pizzeria Weisses Kreuz | Furrengasse 19 | CH - 6004 Luzern | Telefono +41 41 418 82 20",
   "web": "",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "58C1B659-A21A-4F85-B802-994EEFF66031",
@@ -7930,7 +7953,7 @@
   "radar": false,
   "notiz": "Hotel Honegg AG, Honegg, 6373 Ennetbürgen, Schweiz",
   "web": "http://villa-honegg.ch/de/booking/?culture=de",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "E0CCF1A1-3F42-483F-BC33-E8FBCE5A87CF",
@@ -8045,7 +8068,7 @@
   "radar": false,
   "notiz": "Im Greyerzbezirk wartet in Charmey dieses Schmuckstück für bis zu fünf Personen. Kurzferien kannst du hier aber nicht machen, Anreisetag ist grundsätzlich der Samstag.",
   "web": "",
-  "geaendert": "2023-02-22"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "F7BF316C-8B27-47A7-8CD9-D5A66FA06DF4",
@@ -8248,7 +8271,7 @@
   "radar": false,
   "notiz": "https://www.facebook.com/Grotto-Centena-721268671315451#=",
   "web": "",
-  "geaendert": "2025-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "4D4C7E8D-488F-4397-9763-A87363CCBBE9",
@@ -8401,7 +8424,7 @@
   "radar": false,
   "notiz": "Das Kinderhotel für paradiesische Familienferien in der Schweiz",
   "web": "http://www.swissholidaypark.ch/de/kinder-willkommen/toms-kids-club/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "AC56EBB1-AFD1-4765-BF80-FB4DCAEF1377",
@@ -8446,7 +8469,7 @@
   "radar": false,
   "notiz": "Die Eingangshalle erhielt durch den Abbruch der alten Küche mehr Licht. Das Ockergelb zitiert Reste der historischen Bemalung, die vereinzelt festgestellt werden konnte. Böden und Decken sind original erhalten.",
   "web": "http://www.origen.ch/hotels",
-  "geaendert": "2024-07-20"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "32A69380-7987-49CC-8A60-81344E98E365",
@@ -8471,7 +8494,7 @@
   "radar": false,
   "notiz": "Das Restaurant sagibeiz in der ehemaligen Sägerei direkt am Walensee lädt mit der Seeterrasse, der gemütlichen Beiz und dem Barstübli zum Geniessen ein. Die Küche überrascht mit fantasievollen Gerichten aus lokalen Produkten. Der …",
   "web": "http://www.sagibeiz.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "6BE984B9-0831-4B82-8BFA-B2C9C4D00287",
@@ -8604,7 +8627,7 @@
   "radar": false,
   "notiz": "Leute, die hier bloss Salat bestellen, sind selber schuld: Kalorienschlacht im NA081.",
   "web": "https://www.na081.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "B5923734-0726-4D77-A939-46281F0CFFFD",
@@ -8929,7 +8952,7 @@
   "radar": false,
   "notiz": "Clip-Quelle:Hotel%20La%20Darbia%3A%20Ein%20Refugium%20oberhalb%20des%20Ortasees",
   "web": "https://www.ladarbia.com/",
-  "geaendert": "2023-03-31"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "2AA047E3-1FF5-4995-89DF-669EBD15F452",

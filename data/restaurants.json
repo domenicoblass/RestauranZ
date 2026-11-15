@@ -3787,29 +3787,6 @@
   "geaendert": "2026-11-15"
  },
  {
-  "id": "AFD2B252-9EBD-49C1-A821-C99BDC59D638",
-  "key": "comoentdeckendolcevitatippsfurpalazzirestaurantsundkunst",
-  "name": "Como entdecken: Dolce Vita, Tipps für Palazzi, Restaurants und Kunst",
-  "title": "Como entdecken: Dolce Vita, Tipps für Palazzi, Restaurants und Kunst",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aktualisieren",
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Sottoceneri",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang"
-  ],
-  "radar": true,
-  "notiz": "Es ist noch nicht einmal 18 Uhr, doch der Aperitivo ist schon in vollem Gange. Zumindest am Wochenende. Zumindest auf der Piazza Volta, die nur wenige Meter von den trubeligen Altstadtgassen und dem Seeufer entfernt liegt. Der Platz …",
-  "web": "https://www.martesanamilano.com/",
-  "geaendert": "2026-11-13"
- },
- {
   "id": "DCD597A9-4764-43A7-B263-15558F978B0E",
   "key": "daamici",
   "name": "Da Amici",
@@ -4925,8 +4902,8 @@
   "key": "forchrestzurchaltehose",
   "name": "Forch: Rest. Zur chalte Hose",
   "title": "Forch: Rest. Zur chalte Hose",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hohrütistrasse 12, 8127 Küsnacht",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -6521,8 +6498,8 @@
   "key": "italienalbergoleondoroorta",
   "name": "Italien: Albergo Leon d'Oro, Orta",
   "title": "Italien: Albergo Leon d'Oro, Orta",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Piazza Mario Motta, 42, 28016 Orta San Giulio NO, Italien",
+  "quelle": "bear",
   "tags": [
    "AUSLAND",
    "EUROPA",
@@ -7900,8 +7877,8 @@
   "key": "luzernrestbarbatti",
   "name": "Luzern: Rest. Barbatti",
   "title": "Luzern: Rest. Barbatti",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Töpferstrasse 10, 6004 Luzern",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -7920,8 +7897,8 @@
   "key": "luzernrestweisseskreuzluzern",
   "name": "Luzern: Rest. Weisses Kreuz, Luzern",
   "title": "Luzern: Rest. Weisses Kreuz, Luzern",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Furrengasse, 6002 Luzern",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -7940,8 +7917,8 @@
   "key": "luzernvillahoneggennetburgen",
   "name": "Luzern: Villa Honegg, Ennetbürgen",
   "title": "Luzern: Villa Honegg, Ennetbürgen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Bürgenstockstrasse, 6373 Ennetbürgen",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -8055,8 +8032,8 @@
   "key": "maisondesfeescharmeyfr",
   "name": "Maison des Fées, Charmey FR",
   "title": "Maison des Fées, Charmey FR",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Riau-de-la Maula 35, 1637 Val-de-Charmey",
+  "quelle": "bear",
   "tags": [
    "Apartment",
    "GASTRO",
@@ -8256,8 +8233,8 @@
   "key": "mesolcinagrottocentenalostallo",
   "name": "Mesolcina: Grotto Centena, Lostallo",
   "title": "Mesolcina: Grotto Centena, Lostallo",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "ai Grott 1, 6558 Lostallo",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -8411,8 +8388,8 @@
   "key": "morschachfamilienhotelswissholidaypark",
   "name": "Morschach: Familienhotel Swiss Holiday Park",
   "title": "Morschach: Familienhotel Swiss Holiday Park",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Dorfstrasse 10, 6443 Morschach",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -8456,8 +8433,8 @@
   "key": "mulegnsgrhotellowe",
   "name": "Mulegns GR: Hotel Löwe",
   "title": "Mulegns GR: Hotel Löwe",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Veia Gelgia 89, 7455 Mulegns",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -8476,8 +8453,8 @@
   "key": "murgsagibeizsagistegsennastubelofthotel",
   "name": "Murg: sagibeiz, sagisteg, sennästube & lofthotel",
   "title": "Murg: sagibeiz, sagisteg, sennästube & lofthotel",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Alte Staatsstrasse 6, 8877 Murg",
+  "quelle": "bear",
   "tags": [
    "Event",
    "GASTRO",
@@ -8611,8 +8588,8 @@
   "key": "na081",
   "name": "NA081",
   "title": "Rest. NA081",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Konradstrasse 71, 8005 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -8695,27 +8672,6 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "12EA7D29-83BD-4840-A96B-70A4ED17CEE3",
-  "key": "negronipopupbarimzurcherkreis4",
-  "name": "Negroni Pop-up Bar im Zürcher Kreis 4",
-  "title": "Negroni Pop-up Bar im Zürcher Kreis 4",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bar",
-   "GASTRO",
-   "Pop-Up",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Neu eröffnet: Negroni Pop-up Bar Im Zürcher Kreis 4 gibt es einen neuen Hotspot für gute Drinks",
-  "web": "",
-  "geaendert": "2026-10-20"
- },
- {
   "id": "28CC83C1-7209-42A5-9DA7-9CA72B2DDDFB",
   "key": "neropizzeria",
   "name": "Nero (Pizzeria)",
@@ -8743,8 +8699,8 @@
   "key": "neumunster",
   "name": "Neumünster",
   "title": "Rest. Neumünster",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hammerstrasse 10, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -8758,7 +8714,7 @@
   "radar": false,
   "notiz": "Am Mittag bedienen wir Sie gerne mit einer",
   "web": "http://www.restaurant-neumuenster.ch/lage.php",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "5D6C194D-4DDD-4B7D-BA91-B76C7311A72F",
@@ -8958,8 +8914,8 @@
   "key": "ortaseehotelladarbia",
   "name": "Ortasee: Hotel La Darbia",
   "title": "Ortasee: Hotel La Darbia",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via per Miasino, 28016 Orta San Giulio NO, Italien",
+  "quelle": "bear",
   "tags": [
    "EUROPA",
    "GASTRO",
@@ -9863,28 +9819,6 @@
   "notiz": "Die Welt des Genusses und der Eleganz im Ristorante Ornellaia – eine einzigartige Zusammenarbeit zwischen dem renommierten Weingut Ornellaia aus Bolgheri und der Familie Bindella.  Im Herzen der Stadt Zürich gelegen, vereint dieses …",
   "web": "https://www.ristorante-ornellaia.ch/de",
   "geaendert": "2026-03-15"
- },
- {
-  "id": "4214DA62-3E3D-4055-82D2-3CB321AC6CD1",
-  "key": "ristoranteepizzerianapoletanaalugano",
-  "name": "Ristorante e Pizzeria Napoletana a Lugano",
-  "title": "Ristorante e Pizzeria Napoletana a Lugano",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Sottoceneri",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang"
-  ],
-  "radar": true,
-  "notiz": "Il calore di un piatto di pasta, di un tegame di polpette, di una pizza fumante. Il nostro scopo è farvi riscoprire la felicità di una cucina semplice, senza troppi fronzoli. Piatti amati da grandi e piccini e tramandati di generazione …",
-  "web": "https://spaghettipomodoro.ch/",
-  "geaendert": "2026-11-15"
  },
  {
   "id": "AB1C20E1-2768-4950-A59D-0BB20B384D39",
@@ -11003,27 +10937,6 @@
   "geaendert": "2026-11-08"
  },
  {
-  "id": "CCDE0209-9D68-40D7-8A2E-9C48BBBD3248",
-  "key": "sommerrepublikhechtplatz",
-  "name": "Sommer Republik Hechtplatz",
-  "title": "Rest. Sommer Republik Hechtplatz",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "|    |    |    |    |  EINE NACHRICHT AUS DER SOMMER REPUBLIK HECHTPLATZ |",
-  "web": "http://us7.campaign-archive2.com/?u=991616ef5826f7fc3453d8a30&amp;id=111b36b344&amp;e=4f0f462d30",
-  "geaendert": "2022-03-05"
- },
- {
   "id": "AA50AB2E-3082-42B8-9DA9-23133FCD33DE",
   "key": "sonnenterrassenamwasser",
   "name": "Sonnenterrassen am Wasser",
@@ -11361,7 +11274,7 @@
   "radar": false,
   "notiz": "Die drei von der Stadthalle: Organisator Valentin Diem, Küchenchef Nenad Mlinarevic, Host und Sommelier Patrick Schindler (v.l.). Bild: Sabina Bobst (5 Bilder)",
   "web": "",
-  "geaendert": "2026-10-20"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "C387BD65-C20A-4158-A9E6-3D635BCF4A73",
@@ -11560,29 +11473,6 @@
   "notiz": "Sie hätten gerne ein Zimmer mit Aussicht? Bitte sehr...Unsere eigens für Sie angefertigten Outdoor Schlafzimmer bieten ein Naturerlebnis der Sonderklasse mit Sicht auf eine faszinierende Bergwelt und auf den Sternenhimmel. Sie werden …",
   "web": "https://www.surselva.info/Media/Gastronomie/Alm-Berggasthof-Vrin-Albiert-Greina#images",
   "geaendert": "2026-11-15"
- },
- {
-  "id": "23E55CFF-43E9-4EFD-87A6-74FCC398ABC2",
-  "key": "sweethomekochensiemiteinerprisepoesie",
-  "name": "Sweet Home: Kochen Sie mit einer Prise Poesie",
-  "title": "Sweet Home: Kochen Sie mit einer Prise Poesie",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aktualisieren",
-   "GASTRO",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "Am letzten Donnerstagabend spazierte ich mit meinem Hündchen Daisy Richtung Helvetiaplatz in das neue Restaurant «Schweizer Weinstube». Inspiriert dazu hat mich ein Instagrambild einer Kollegin. Zudem war es wieder an der Zeit, mich ein …",
-  "web": "",
-  "geaendert": "2026-11-12"
  },
  {
   "id": "B2B11089-7C3C-4E95-B2EF-F3BB118CDED5",
@@ -12094,28 +11984,7 @@
   "geaendert": "2026-11-11"
  },
  {
-  "id": "B9775945-4FDE-4B0B-9D8E-FF288D734506",
-  "key": "turbinenhaus",
-  "name": "Turbinenhaus",
-  "title": "Rest. Turbinenhaus",
-  "adresse": "Am Wasser 55, 8049 Zürich",
-  "quelle": "bear",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Oberer Letten: voll. Unterer Letten: voll. Werdinsel: voll. Wer in diesen heissen Tagen in Zürich ein ruhiges Plätzchen an der Limmat sucht, der hat es schwer. Die Badetücher liegen dicht an dicht, und die Schlangen vor Bars und …",
-  "web": "",
-  "geaendert": "2026-11-15"
- },
- {
-  "id": "E4BD195B-38D3-41F5-863C-D53CA3FB812C",
+  "id": "75A5DDB6-45B5-4196-A1A0-D877EF8B0189",
   "key": "turbinenhaus",
   "name": "Turbinenhaus",
   "title": "Rest. Turbinenhaus",
@@ -12203,53 +12072,10 @@
   "geaendert": "2026-11-11"
  },
  {
-  "id": "F8912D5D-1A7B-4DE7-9C95-FAB1ED23A90E",
-  "key": "ufenau",
-  "name": "Ufenau",
-  "title": "Rest. Ufenau",
-  "adresse": "Insel Ufenau, 8008 Ufnau",
-  "quelle": "bear",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Von April bis Oktober legt das Kursschiff an der Ufenau an. Ein Inselrundgang dauert eine halbe Stunde. Danach kehren fast alle bei «Rösli» ein.",
-  "web": "http://tagi.ch/12213416",
-  "geaendert": "2026-11-15"
- },
- {
-  "id": "8D8BD495-9E90-46FC-AE3D-BBCEDF88B548",
+  "id": "E707E8F2-2356-4AE5-BF99-7EB58B663E54",
   "key": "ufenauinselwirtschaftufnau",
   "name": "Ufenau: Inselwirtschaft Ufnau",
   "title": "Ufenau: Inselwirtschaft Ufnau",
-  "adresse": "Insel Ufenau, 8008 Ufnau",
-  "quelle": "bear",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Fisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Fischnknusperli aus dem Zürichsee gibt es in der Inselwirtschaft Ufnau. (Bild: Wolfgang Fassbender)",
-  "web": "https://www.inselufnau.ch/",
-  "geaendert": "2026-11-15"
- },
- {
-  "id": "0C30543D-4D8A-42F6-82AF-E7425C63A345",
-  "key": "ufenauwirtschaftufnau",
-  "name": "Ufenau: Wirtschaft Ufnau",
-  "title": "Ufenau: Wirtschaft Ufnau",
   "adresse": "Insel Ufenau, 8808 Freienbach",
   "quelle": "bear",
   "tags": [
@@ -12267,9 +12093,9 @@
    "amwasser"
   ],
   "radar": true,
-  "notiz": "Die Inselwirtschaft ist mehr als nur ein Restaurant. Sie ist ein Bekenntnis zu diesem einmaligen Flecken Erde mitten im Wasser und damit auch zur Region. Eingebettet in die Ufnau, bildet die Wirtschaft mit den anderen Gebäuden und der …",
-  "web": "https://www.inselufnau.ch/de/wirtschaft/",
-  "geaendert": "2026-11-09"
+  "notiz": "Fischnknusperli aus dem Zürichsee gibt es in der Inselwirtschaft Ufnau. (Bild: Wolfgang Fassbender)",
+  "web": "https://www.inselufnau.ch/",
+  "geaendert": "2026-11-15"
  },
  {
   "id": "6B61A165-25AE-4EE5-89DA-AFF2CD7401F8",
@@ -12587,6 +12413,7 @@
    "Bar",
    "GASTRO",
    "SCHWEIZ",
+   "Stadt",
    "UNTERWEGS",
    "UNTERWEGS/Ausgang",
    "Zürich+"
@@ -12681,31 +12508,6 @@
   "geaendert": "2026-11-15"
  },
  {
-  "id": "D6DDEC6C-40ED-4274-9C7E-A686EE1410A2",
-  "key": "waadtlandchaletlabreguettaz",
-  "name": "Waadtland: Chalet La Breguettaz.",
-  "title": "Waadtland: Chalet La Breguettaz.",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aktualisieren",
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Fondue",
-   "GASTRO/Küche/Gutbürgerlich",
-   "Radar",
-   "Restaurant",
-   "Romandie",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang"
-  ],
-  "radar": true,
-  "notiz": "EINKEHR IN DER NATUR Etwa zehn Autominuten vom Lac de Joux entfernt, mitten in den Waldweiden des Waadtländer Jura, steht einsam das Chalet La Breguettaz. So abgeschieden die Beiz auch liegt, an Gästen mangelt es nie. Auf der Karte …",
-  "web": "https://www.labreguettaz.ch/?utm_source=sfmc&utm_medium=email&utm_campaign=SF_ED_9_ENG_EM_NL_XX_UNSEREFREIZEITTIPPS_XX_2026-11-12&utm_term=2026-11-11&utm_content=6957534_",
-  "geaendert": "2026-11-12"
- },
- {
   "id": "A723D176-91A2-43EE-B432-9DD2C68B0FD6",
   "key": "waldzhbleicheresort",
   "name": "Wald ZH: Bleiche Resort",
@@ -12768,31 +12570,6 @@
   "notiz": "Die Waldmannsburg mit ihrer wundervollen Aussicht aufs Glatttal liegt im Weiler Dübelstein gleich oberhalb von Dübendorf. Dieser nostalgische Ort – mit dem vielen Grün und seiner Ruhe – ist prägend für die Gastronomie in der …",
   "web": "http://www.waldmannsburg.ch/#carousel-restaurant_",
   "geaendert": "2026-11-11"
- },
- {
-  "id": "CAA79484-AAE9-4373-B791-790FA07B61E0",
-  "key": "waldschenkealtbergdanikonuetliberg",
-  "name": "Waldschenke Altberg, Dänikon (Üetliberg)",
-  "title": "Waldschenke Altberg, Dänikon (Üetliberg)",
-  "adresse": "Altberg 1, 8114 Dänikon ZH",
-  "quelle": "bear",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Fondue",
-   "Restaurant",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Kein Rummel und schon gar keine Touristen: Die Waldschenke Altberg ist ein Ort, wie man ihn nur noch selten antrifft.",
-  "web": "http://www.waldschenke-altberg.ch/",
-  "geaendert": "2026-11-15"
  },
  {
   "id": "554449D7-46E0-4160-8345-072AE81F9B43",
@@ -14014,6 +13791,31 @@
   "radar": false,
   "notiz": "Clip-Quelle:SBB Pop-up-Restaurant «Churchill» | SBB",
   "web": "https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/tagesausflug/pop-up-restaurant?sap-outbound-id=E5CA110FEC9523416DF5E825B18F41D65B909D88",
+  "geaendert": "2026-11-15"
+ },
+ {
+  "id": "CAA79484-AAE9-4373-B791-790FA07B61E0",
+  "key": "uetlibergwaldschenkealtbergdanikon",
+  "name": "Üetliberg: Waldschenke Altberg, Dänikon",
+  "title": "Üetliberg: Waldschenke Altberg, Dänikon",
+  "adresse": "Altberg 1, 8114 Dänikon ZH",
+  "quelle": "bear",
+  "tags": [
+   "Aussenraum",
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
+   "Restaurant",
+   "SCHWEIZ",
+   "SPORT/Wandern",
+   "Sport",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": false,
+  "notiz": "Kein Rummel und schon gar keine Touristen: Die Waldschenke Altberg ist ein Ort, wie man ihn nur noch selten antrifft.",
+  "web": "http://www.waldschenke-altberg.ch/",
   "geaendert": "2026-11-15"
  },
  {

@@ -818,31 +818,6 @@
   "geaendert": "2024-09-16"
  },
  {
-  "id": "DF529700-4C2F-4893-8BCC-4DA1284CA735",
-  "key": "australieninlugano",
-  "name": "Australien in Lugano",
-  "title": "Australien in Lugano",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aktualisieren",
-   "GASTRO",
-   "Grono",
-   "Locarnese",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Sopraceneri",
-   "Ticino+",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang"
-  ],
-  "radar": true,
-  "notiz": "An einem derart monumentalen Tisch ass ich noch nie zuvor.",
-  "web": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGJURc_UkdGKeh0_qx2mx9cpoSMFgm52KV2_w_5tWUsbsocIT3uOeYE9EB9QqXqn5b_8b9T4aI4TEUQtGCgfdo5c2qFc1ifp1zPadHy3-P-6ThBKq7pdYbYtzCfAU7JJGwq3BEaAP87cRZ25KhSHgbifIrV7uUeVgAF6Q_i5ZBttcXf_l3UREnIScYuN4/w492-h369/55643981462_889b6a2b54_c.jpg",
-  "geaendert": "2026-11-12"
- },
- {
   "id": "90A07194-201D-452D-A070-9E14C1862D55",
   "key": "bachsbesenbeizeichhof",
   "name": "Bachs: Besenbeiz Eichhof",
@@ -5178,8 +5153,8 @@
   "key": "gandria",
   "name": "Gandria",
   "title": "Rest. Gandria",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Rudolfstrasse 6, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -5194,7 +5169,7 @@
   "radar": false,
   "notiz": "Teresa Wenger, die früher Onkel Toms Hütte hinter dem Stauffacher führte, hat das gediegene Gandria im Seefeld übernommen. Zusammen mit Adriano Peroncini, einem Meister der klassischen Küche.",
   "web": "http://www.restaurant-gandria.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "E8C724E2-AB4E-4978-8ED5-3938D9F57D5B",
@@ -5504,8 +5479,8 @@
   "key": "giessereioerlikon",
   "name": "Giesserei Oerlikon",
   "title": "Rest. Giesserei Oerlikon",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Birchstrasse 108, 8050 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -5520,7 +5495,7 @@
   "radar": false,
   "notiz": "T +41 (0)43 205 10 1043%20205%2010%2010)  info@diegiesserei.ch",
   "web": "http://www.diegiesserei.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "EF10ED7F-14C4-4343-812E-222DAA886592",
@@ -5603,8 +5578,8 @@
   "key": "graubundenberghuusradons",
   "name": "Graubünden: Berghuus Radons",
   "title": "Graubünden: Berghuus Radons",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Veia Val Nandro, Surses",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -5616,15 +5591,15 @@
   "radar": false,
   "notiz": "Berghuus Radons: Das Hotel besticht mit unaufgeregtem Luxus",
   "web": "https://www.berghuus.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "799172A6-A708-433B-B2ED-78D25CF4AE1E",
   "key": "graubundenhotelguardavallenzerheide",
   "name": "Graubünden: Hotel Guarda Val, Lenzerheide",
   "title": "Graubünden: Hotel Guarda Val, Lenzerheide",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Voa Sporz 85, 7078 Sporz / Lenzerheide",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -5636,7 +5611,7 @@
   "radar": false,
   "notiz": "Unser Guarda Val ist Ihr einzigartiges Maiensässhotel, das sich auf elf bis zu 300 Jahre alte Hütten und Ställe verteilt. Im Weiler Sporz, direkt oberhalb der Lenzerheide auf 1600 Meter über Meer, verbindet es die Faszination …",
   "web": "http://www.guardaval.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "95302067-9CBC-4CEA-A40E-17F1CFF5F803",
@@ -5685,8 +5660,8 @@
   "key": "graubundentinyhousepensiunlaresch",
   "name": "Graubünden: Tiny House Pensiun Laresch",
   "title": "Graubünden: Tiny House Pensiun Laresch",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Laresch 12, 7433 Mathon",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -5698,15 +5673,15 @@
   "radar": false,
   "notiz": "Ein unkonventionelles und umweltfreundlich gebautes Holzhäuschen ist seit seiner Eröffnung im Herbst 2020 ein Publikumsliebling. Hier schiebt man allfällige Sorgen für einen Moment beiseite.",
   "web": "https://www.laresch.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "AAFA54E1-C861-42D2-BEDC-2484A25A2220",
   "key": "greulich",
   "name": "Greulich",
   "title": "Rest. Greulich",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Herman-Greulich-Strasse 56, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -5719,7 +5694,7 @@
   "radar": false,
   "notiz": "Das Restaurant im Hotel Greulich hat eine neue Küche – baulich und kulinarisch. Die «Small Plates» stillen den grossen und den kleinen Hunger. Teilen ist erwünscht.",
   "web": "http://www.greulich.ch",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "EE76151D-6657-4ECE-9149-20EC13CF333B",
@@ -5748,8 +5723,8 @@
   "key": "grottotessinwaidberg",
   "name": "Grotto Tessin, Waidberg",
   "title": "Rest. Grotto Tessin, Waidberg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Waidbadstrasse 151, 8037 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -5766,15 +5741,15 @@
   "radar": false,
   "notiz": "|  <br><br> OFFEN: Mittwoch bis Sonntag von 09:00 - 23:00 <br>  |  <br>TESSIN GROTTO<br> Waidbadstrasse 151<br> CH-8037 Zürich-Höngg  |  <br>Tel 044 271 47 50<br> Fax 044 271 47 53<br> info@tessin-grotto.ch |",
   "web": "http://www.tessingrotto.ch/index.php",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "62DA5655-8BE4-4104-83E6-EC00B77547D7",
   "key": "guldenenrestwaldhofguldenen",
   "name": "Guldenen: Rest. Waldhof Guldenen",
   "title": "Guldenen: Rest. Waldhof Guldenen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Holzbodeweg, 8127 Maur",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -5788,7 +5763,7 @@
   "radar": true,
   "notiz": "Das neue Wirtepaar Rose und Benjamin Plsek lebt seit April auf dem Waldhof Guldenen. Sie haben auch zwei Schweine.",
   "web": "",
-  "geaendert": "2026-06-08"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "B71DFE17-1856-4EC8-A325-D7941EE236F5",
@@ -5899,31 +5874,7 @@
   "radar": true,
   "notiz": "Clip-Quelle:Haus am Fluss | Asian Food Hall + Bar | Sihlquai | Zurich",
   "web": "https://haus-am-fluss.ch/",
-  "geaendert": "2026-03-15"
- },
- {
-  "id": "75EAEAFC-8439-484B-8076-CE68BC387FCF",
-  "key": "hechtplatzsommergarten",
-  "name": "Hechtplatz (Sommergarten)",
-  "title": "Rest. Hechtplatz (Sommergarten)",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Italienisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Hausgemachte und frisch-zubereitete Pastas",
-  "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "B95C3EB5-B49F-470B-8336-F5C770419759",
@@ -5947,27 +5898,6 @@
   "notiz": "Grosse Berge verlangen nach grossen Burgern. Und damit meinen wir nicht prinzipiell die Grösse des Burgers, sondern vielmehr die Qualität. Burger müssen kein ungesundes Massenprodukt sein, sondern können auch reich an Nährwerten und …",
   "web": "http://www.heiditell.com/#",
   "geaendert": "2026-11-11"
- },
- {
-  "id": "A6CC5B4E-A12D-4C92-A813-07A32FDC48EC",
-  "key": "hellberg",
-  "name": "Hellberg",
-  "title": "Rest. Hellberg",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Wo vorher jahrzehntelang chinesisch gegessen wurde, verströmt in der Zürcher Altstadt nun das «Hellberg» eine gelungene Form von Internationalität.",
-  "web": "https://www.hellbergs.ch/",
-  "geaendert": "2026-03-15"
  },
  {
   "id": "1514E8D0-F0D2-497B-8505-DC8C1EB8ACEE",
@@ -6135,8 +6065,8 @@
   "key": "hombrechtikonhofkafibreitlen",
   "name": "Hombrechtikon: Hof-Kafi Breitlen",
   "title": "Hombrechtikon: Hof-Kafi Breitlen",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Altersheimstrasse, 8634 Hombrechtikon",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Café",
@@ -6150,7 +6080,7 @@
   "radar": false,
   "notiz": "Markenzeichen des Hof-Kafi Breitlen ist das Hof-Kafi-Huhn.",
   "web": "https://www.hof-kafi.ch/",
-  "geaendert": "2026-10-11"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "16830A41-A193-45EC-A39C-E65DAF1D9214",
@@ -6309,8 +6239,8 @@
   "key": "hotelsanktmartin",
   "name": "Hotel Sankt Martin",
   "title": "Hotel Sankt Martin",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sankt Martin im Calfeisental, 7315 Vättis",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -6322,7 +6252,7 @@
   "radar": false,
   "notiz": "Das Genuss-Alphotel & Bergrestaurant mit 5 Alp-Sternen",
   "web": "https://www.sanktmartin.online/fuenfsterne",
-  "geaendert": "2026-09-20"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "DDA22972-E057-446A-BD33-83E790053C70",
@@ -6369,8 +6299,8 @@
   "key": "hotelzurichberg",
   "name": "Hotel Zürichberg",
   "title": "Rest. Hotel Zürichberg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Orellistrasse 21, 8044 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -6383,7 +6313,7 @@
   "radar": false,
   "notiz": "Speisen und geniessen im Restaurant und im Garten R21",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "3C44FE97-3A1E-4D2F-A186-9574A18BC372",
@@ -6433,28 +6363,6 @@
   "geaendert": "2024-07-30"
  },
  {
-  "id": "8838AB32-2F0E-4751-B345-99ED622F7477",
-  "key": "hugosbiergarten",
-  "name": "Hugo’s Biergarten",
-  "title": "Rest. Hugo’s Biergarten",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Hugo's Biergarten, Basteiplatz, 8001 Zürich, +41 79 220 73 34, info@hugos-biergarten.ch, www.hugos-biergarten.ch",
-  "web": "https://www.zuerich.com/de/besuchen/restaurants/hugos-biergarten#group_description",
-  "geaendert": "2026-03-15"
- },
- {
   "id": "A9B9D94D-5CD5-4AA6-9399-AA7A6C042CB7",
   "key": "huusbeiz",
   "name": "Huusbeiz",
@@ -6481,8 +6389,8 @@
   "key": "huntwangenpuithaifood",
   "name": "Hüntwangen: Pui Thai Food",
   "title": "Hüntwangen: Pui Thai Food",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Alte Hüntwangerstrasse, 8193 Eglisau",
+  "quelle": "bear",
   "tags": [
    "Eglisau+",
    "GASTRO",
@@ -6495,7 +6403,7 @@
   "radar": false,
   "notiz": "Kontaktieren Sie uns, um mehr über unsere Thai Catering-Services zu erfahren und wie wir Ihre Veranstaltung zu einem kulinarischen Highlight machen können.",
   "web": "https://pui-thaifood.ch/",
-  "geaendert": "2026-11-08"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "B80DFE66-855C-4ECE-B2A3-3616083CB304",
@@ -6518,29 +6426,6 @@
   "notiz": "IGNIV Zürich by Andreas Caminada und delish – la pinseria",
   "web": "https://www.exploretock.com/marktgassehotel",
   "geaendert": "2026-11-09"
- },
- {
-  "id": "9C29BEA9-8CD4-4849-B31B-2046D10F3521",
-  "key": "ilgattopardo",
-  "name": "Il Gattopardo",
-  "title": "Rest. Il Gattopardo",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Italienisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Das Ehepaar Fertitta ist ein eingespieltes Gastroteam. Im neuen Restaurant kommt das so richtig gut zur Geltung.",
-  "web": "http://www.ilgattopardo.ch/",
-  "geaendert": "2026-03-15"
  },
  {
   "id": "CADB0C35-57A4-4FB9-964E-0999C79C734B",
@@ -6638,8 +6523,8 @@
   "key": "italienhotelsanroccoorta",
   "name": "Italien: Hotel San Rocco, Orta",
   "title": "Italien: Hotel San Rocco, Orta",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Cattarina Gippini Verona, 28016 Orta San Giulio",
+  "quelle": "bear",
   "tags": [
    "AUSLAND",
    "EUROPA",
@@ -6653,7 +6538,7 @@
   "radar": false,
   "notiz": "La storia dell’Hotel San Roccocomincia più di 400 anni fa. Affacciato sulle sponde del magico Lago d’Orta, in Piemonte e delimitato dalle mura di un antico monastero, questo complesso, che per quasi 150 anni è stato un convento di …",
   "web": "http://www.hotelsanrocco.it/index.php?pg=chi_siamo",
-  "geaendert": "2022-02-28"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "EF629690-A3C4-4F03-8112-40B585ED1552",
@@ -6682,8 +6567,8 @@
   "key": "johnbaker",
   "name": "John Baker",
   "title": "John Baker",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Stadelhoferstrasse 28, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -6695,15 +6580,15 @@
   "radar": false,
   "notiz": "Per Elektroveloexpress zu dir nach Hause",
   "web": "http://www.johnbaker.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "6427F9C5-10A5-4BE5-945D-D68B76386C93",
   "key": "jurahotelchateauderaymontpierre",
   "name": "Jura: Hotel Château de Raymontpierre",
   "title": "Jura: Hotel Château de Raymontpierre",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Château de Raimontpierre 3, 2829 Vermes",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -6713,7 +6598,7 @@
   "radar": false,
   "notiz": "Wer vom «Château de Raymontpierre» abreist, nimmt mehr mit als ein weiteres Hotelerlebnis – der Aufenthalt im 400 Jahre alten Schloss hoch über dem Val Terbi im Schweizer Jura fühlt sich eher an wie ein Wochenende bei Freunden: Man …",
   "web": "",
-  "geaendert": "2025-10-19"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "B8084070-65B1-4050-91CF-07CF1EB02C20",
@@ -6744,8 +6629,8 @@
   "key": "kafidihei",
   "name": "Kafi Dihei",
   "title": "Kafi Dihei",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zurlindenstrasse 231, 8003 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -6757,15 +6642,15 @@
   "radar": false,
   "notiz": "Im Kreis 3 hat vor ein paar Wochen das «Kafi Dihei» eröffnet. Eine der beiden Betreiberinnen stammt aus der Fünfsterne-Gastronomie.",
   "web": "http://www.kafidihei.ch",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "1D59CD4C-1409-4B87-94DC-0C81D9679191",
   "key": "kafifederlos",
   "name": "Kafi Federlos",
   "title": "Kafi Federlos",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hofwiesenstrasse 135, 8057 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -6777,15 +6662,15 @@
   "radar": false,
   "notiz": "1950er-Jahre-Bauten, eine Apotheke, ein Blumengeschäft – die Gegend rund um den Bucheggplatz ist nicht unbedingt als Hotspot für Latte-Liebhaber und Partygänger bekannt. Aber es tut sich was im Quartier. Das spürt man spätestens dann, …",
   "web": "https://www.bracheguggach.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "220DB83F-F9CD-4981-AEF9-55D88A96E7F3",
-  "key": "kafihofliprovenceimseefeld",
-  "name": "Kafi Höfli – Provence im Seefeld",
-  "title": "Kafi Höfli – Provence im Seefeld",
-  "adresse": "",
-  "quelle": "",
+  "key": "kafihofli",
+  "name": "Kafi Höfli",
+  "title": "Kafi Höfli",
+  "adresse": "Brotgasse 3, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Café",
    "GASTRO",
@@ -6797,28 +6682,7 @@
   "radar": false,
   "notiz": "Etwas improvisiert, nur bei schönem Wetter geöffnet, klein und fein: Das Kafi Höfli liegt versteckt in einem Innenhof und wird durch eine Boutique betreten.",
   "web": "http://www.zueritipp.ch/gastro/",
-  "geaendert": "2022-03-05"
- },
- {
-  "id": "39DA1E49-3846-41A8-8646-333649B57D33",
-  "key": "kaisersreblaube",
-  "name": "Kaiser's Reblaube",
-  "title": "Rest. Kaiser's Reblaube",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Perfektion in der Einfachheit: Diese Ziel haben wir unserer Arbeit gesetzt; Hochwertige Rohprodukte in harmonischen Geschmacks - verbindungen, leicht und liebevoll gekocht und schnörkellos präsentiert.",
-  "web": "http://www.kaisers-reblaube.ch/logo.gif",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "CEE5BA89-C310-4DA6-9A9A-364B700A8734",
@@ -6894,8 +6758,8 @@
   "key": "kleinefreiheit",
   "name": "Kleine Freiheit",
   "title": "Rest. Kleine Freiheit",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Weinbergstrasse 30, 8006 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Bar",
@@ -6911,15 +6775,15 @@
   "radar": false,
   "notiz": "Das Zürcher Openair-Restaurant Kleine Freiheit überzeugt durch grosse Gemütlichkeit.",
   "web": "http://www.kleinefreiheit.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "90D91E49-9CB7-4DCA-8389-ED9EE59BB3B1",
   "key": "klosterfahr",
   "name": "Kloster Fahr",
   "title": "Rest. Kloster Fahr",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Klosterplatz 2, 8109 Kloster Fahr",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -6932,30 +6796,7 @@
   "radar": false,
   "notiz": "Hilde-Garten des Restaurants Zu den zwei Raben, Kloster Fahr.",
   "web": "",
-  "geaendert": "2026-03-15"
- },
- {
-  "id": "6E83B15F-97DE-4D51-9A9C-EE4BAB3AA779",
-  "key": "kornerburgers",
-  "name": "Korner (Burgers)",
-  "title": "Rest. Korner (Burgers)",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Amerikanisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Im neu eröffneten Korner an der Gartenstrasse stehen vierzehn Burger auf der Karte. Das Fleisch ist perfekt, der Kellner gestresst und der Gast zufrieden.",
-  "web": "http://www.gourmetburger.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "5A3E77A7-EDEC-4712-B666-43D87B5F6E66",
@@ -6982,8 +6823,8 @@
   "key": "kronelapuntengadin",
   "name": "Krone La Punt, Engadin",
   "title": "Rest. Krone La Punt, Engadin",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Cumünela, 7522 La Punt Chamues-ch",
+  "quelle": "bear",
   "tags": [
    "Engadin",
    "GASTRO",
@@ -6997,7 +6838,7 @@
   "radar": true,
   "notiz": "Der britische Sternekoch amtet neu als Küchenchef in der Hotelperle am Fusse des Albula. Mit regionalen Produkten bereitet er Gerichte ohne Kompromisse zu, die eine Reminiszenz an den Ort und an die Stationen seiner internationalen …",
   "web": "",
-  "geaendert": "2022-07-29"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "5E2D1283-7F1A-45D2-B88A-B73B7BBA942C",
@@ -7520,8 +7361,8 @@
   "key": "leventinagrottodeipescatorigiornico",
   "name": "Leventina: Grotto dei Pescatori, Giornico",
   "title": "Leventina: Grotto dei Pescatori, Giornico",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via San Gottardo 75, 6745 Giornico",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -7535,7 +7376,7 @@
   "radar": false,
   "notiz": "Am nördlichen Ortsausgang von Giornico findet der kulinarische Genießer von Anfang Mai bis Ende September einen Platz, wo er inmitten wilder Natur vorzüglich speisen kann. Das Grotto ist aus groben Felssteinen erbaut und bietet eine …",
   "web": "https://www.ticino.ch/de/restaurants/details/Grotto-dei-Pescatori/74353.html#description",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "D32707B6-94C4-43FF-8383-D6DB4BF753CF",
@@ -7566,8 +7407,8 @@
   "key": "leventinachiggiognaanzonicostradaalta",
   "name": "Leventina: Osteria Anzonico",
   "title": "Leventina: Chiggiogna-Anzonico (Strada alta)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Anzonico, 6748 Anzonico",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Grono",
@@ -7582,7 +7423,7 @@
   "radar": false,
   "notiz": "Impressionen von der Leventina-Route: die Strada Alta vor Anzonico, der Wasserfall bei Chiggiogna, das Kirchlein San Martino in Calonico und ein Fresko im Innern.",
   "web": "",
-  "geaendert": "2026-10-11"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "D598BADD-0A8B-433C-9507-761F72D7B226",
@@ -7704,8 +7545,8 @@
   "key": "loftfive",
   "name": "Loft Five",
   "title": "Rest. Loft Five",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Europaallee 15, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -7718,7 +7559,7 @@
   "radar": false,
   "notiz": "Das Loft Five in der Europaallee schafft es, warme Stimmung in moderne Räume zu bringen. Die Speisen waren – fast alle zumindest – gut.",
   "web": "http://www.loftfive.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "17380BC4-0BD9-4940-BB8E-AD6A381A0908",
@@ -7769,8 +7610,8 @@
   "key": "luganograndhotelvillacastagnola",
   "name": "Lugano: Grand Hotel Villa Castagnola",
   "title": "Lugano: Grand Hotel Villa Castagnola",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Pico 9, 6900 Lugano",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -7784,15 +7625,15 @@
   "radar": false,
   "notiz": "Clip-Quelle:Lugano: Grand Hotel Villa Castagnola - 5-Sterne-Hotel, Lugano, Tessin, Schweiz - Business and Wellness Resort - Grand Hotel Villa Castagnola",
   "web": "https://www.villacastagnola.com/de",
-  "geaendert": "2026-05-14"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "8453B62F-8FA8-4E04-A6AE-61148FC40303",
   "key": "luganogrottodeipescatori",
   "name": "Lugano: Grotto dei Pescatori",
   "title": "Lugano: Grotto dei Pescatori",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sentiero alla Cava, 6823 Lugano",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -7809,7 +7650,7 @@
   "radar": false,
   "notiz": "Sentiero, Cantine di Caprino, 6823 Lugano",
   "web": "https://www.grottodeipescatori.ch/",
-  "geaendert": "2026-10-11"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "03726499-BBD9-49A9-8D7B-0B0D4750E639",
@@ -7863,8 +7704,8 @@
   "key": "luganohoteltheview",
   "name": "Lugano: Hotel The View",
   "title": "Lugano: Hotel The View",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Guidino 29, 6900 Paradiso",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -7878,7 +7719,7 @@
   "radar": false,
   "notiz": "Achtzehn traumhafte Suiten, (Sechzehn Junior Suiten von 50 m2 und zwei Suiten von 105 m2), mit zauberhafter Sicht auf den Luganer See. Die umliegende Umgebung erinnert an die Romantik eines malerischen Ortes und seiner unberührten …",
   "web": "https://www.theviewlugano.com/de/",
-  "geaendert": "2026-05-14"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "5347F7E2-81B6-4388-862B-C828022B6AE0",
@@ -8019,8 +7860,8 @@
   "key": "luzernhotelseeburg",
   "name": "Luzern: Hotel Seeburg",
   "title": "Luzern: Hotel Seeburg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seeburgstrasse 53-61, 6006 Luzern",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -8032,7 +7873,7 @@
   "radar": false,
   "notiz": "Die exklusive Lage macht das Hotel Seeburg einzigartig. Die Zimmer bieten beste Aussicht auf den Vierwaldstättersee, die Stadt Luzern und den Hausberg Pilatus. Die eindrückliche Stimmung macht den Aufenthalt zum doppelten Erlebnis – als …",
   "web": "http://www.verkehrshaus.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "49A2CA54-9625-40A4-8C87-B9346405FCEC",
@@ -10047,6 +9888,28 @@
   "notiz": "Die Welt des Genusses und der Eleganz im Ristorante Ornellaia – eine einzigartige Zusammenarbeit zwischen dem renommierten Weingut Ornellaia aus Bolgheri und der Familie Bindella.  Im Herzen der Stadt Zürich gelegen, vereint dieses …",
   "web": "https://www.ristorante-ornellaia.ch/de",
   "geaendert": "2026-03-15"
+ },
+ {
+  "id": "4214DA62-3E3D-4055-82D2-3CB321AC6CD1",
+  "key": "ristoranteepizzerianapoletanaalugano",
+  "name": "Ristorante e Pizzeria Napoletana a Lugano",
+  "title": "Ristorante e Pizzeria Napoletana a Lugano",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "GASTRO",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Sottoceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang"
+  ],
+  "radar": true,
+  "notiz": "Il calore di un piatto di pasta, di un tegame di polpette, di una pizza fumante. Il nostro scopo è farvi riscoprire la felicità di una cucina semplice, senza troppi fronzoli. Piatti amati da grandi e piccini e tramandati di generazione …",
+  "web": "https://spaghettipomodoro.ch/",
+  "geaendert": "2026-11-15"
  },
  {
   "id": "AB1C20E1-2768-4950-A59D-0BB20B384D39",
@@ -14198,51 +14061,6 @@
   "notiz": "Im Zweifelsfall hinter die Fassade schauen, und im Zweifelsfall zweimal Pasta bestellen – so taten wir es beim Besuch des «Paneolio» unweit des Bezirksgebäudes in Zürich. Zum Innenhof gelangt man im Sommer durch eine grüne, dichte …",
   "web": "https://paneolio.ch/",
   "geaendert": "2024-08-09"
- },
- {
-  "id": "998725BF-18A7-4479-A692-4CDF30E584BF",
-  "key": "zurichrooftopbars",
-  "name": "Zürich: Rooftop Bars",
-  "title": "Zürich: Rooftop Bars",
-  "adresse": "Poststrasse 12, 8001 Zürich",
-  "quelle": "text",
-  "tags": [
-   "Aussenraum",
-   "Bar",
-   "GASTRO",
-   "Radar",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "Mit der Stadt auf Gipfelhöhe. Bei der Polyterrasse befindet sich das bQm-Kulturcafé.",
-  "web": "https://www.george-grill.ch/",
-  "geaendert": "2024-07-31"
- },
- {
-  "id": "C8C1D3D2-FB04-4FDA-BEAD-928CFE6E7E50",
-  "key": "zurichrooftopbars",
-  "name": "Zürich: Rooftop-Bars",
-  "title": "Zürich: Rooftop-Bars",
-  "adresse": "Poststr. 12, 8001 Zürich",
-  "quelle": "text",
-  "tags": [
-   "Aussenraum",
-   "Bar",
-   "GASTRO",
-   "Radar",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "Mit der Stadt auf Gipfelhöhe. Bei der Polyterrasse befindet sich das bQm-Kulturcafé.",
-  "web": "https://www.mandarinoriental.com/de/zurich/savoy/dine/1838",
-  "geaendert": "2026-05-30"
  },
  {
   "id": "658AAF62-2FFE-4BB4-98AC-3922C6F55B86",

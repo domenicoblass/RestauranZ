@@ -11959,8 +11959,8 @@
   "key": "trattoriasempretavolataimniederdorf",
   "name": "Trattoria Sempre: Tavolata im Niederdorf",
   "title": "Rest. Trattoria Sempre: Tavolata im Niederdorf",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Niederdorfstrasse 7, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -11974,7 +11974,7 @@
   "radar": false,
   "notiz": "Das neue Bindella-Restaurant im Zürcher Niederdorf serviert italienische Spezialitäten wie Cicchetti, Arancini und Gnudi. Das kultige Interieur hat der Zürcher Szene-Gastronom Sami Khouri gestaltet.",
   "web": "https://www.bindella.ch/gastronomie/trattoria-sempre",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "6506B2D8-7973-486F-AF6D-D3DBC8CD305E",
@@ -11997,27 +11997,6 @@
   "notiz": "Ein konzeptioneller Spagat zwischen helvetischer und italienischer Kochtradition: Kommt das gut? Wir haben in Herrliberg die Probe aufs Exempel gemacht.",
   "web": "http://strozzis.ch/trattoria-und-chuchi/",
   "geaendert": "2022-03-06"
- },
- {
-  "id": "47B3B06A-4517-48C4-ACE5-E9154D1871BE",
-  "key": "trefratelli",
-  "name": "Tre Fratelli",
-  "title": "Rest. Tre Fratelli",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Jetzt schützen Sie die grossen Platanenblätter wieder zuverlässig von der Sommerhitze. Und vor kleinen Regentropfen auch.",
-  "web": "http://trefratelli.ch/index.php?pid=1&amp;l=de",
-  "geaendert": "2022-03-05"
  },
  {
   "id": "1DB63372-66BD-49E2-9895-C6318B54D794",
@@ -12045,26 +12024,6 @@
   "notiz": "Phänomenal: Die Aussicht vom Grotto Grassi in Tremona.",
   "web": "https://www.grottograssitremona.ch/",
   "geaendert": "2026-10-11"
- },
- {
-  "id": "EF76A1F8-DC16-4B39-8599-EE2F94DC8FD5",
-  "key": "tremondiquintendashippebedbreakfastamwalensee",
-  "name": "Tremondi Quinten: Das hippe Bed & Breakfast am Walensee",
-  "title": "Tremondi Quinten: Das hippe Bed & Breakfast am Walensee",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Hotel",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Mit ihrer Quintener Dépendance hat ein Zürcher Szene-Wirtepaar ein idyllisches Hide-Away für Corona-müde Städter geschaffen.",
-  "web": "https://www.tre-mondi.ch/quinten",
-  "geaendert": "2024-07-30"
  },
  {
   "id": "6DC64785-3173-44CC-BB77-3A2E34C31FAB",
@@ -12139,8 +12098,8 @@
   "key": "turbinenhaus",
   "name": "Turbinenhaus",
   "title": "Rest. Turbinenhaus",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Am Wasser 55, 8049 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -12153,15 +12112,15 @@
   "radar": false,
   "notiz": "Oberer Letten: voll. Unterer Letten: voll. Werdinsel: voll. Wer in diesen heissen Tagen in Zürich ein ruhiges Plätzchen an der Limmat sucht, der hat es schwer. Die Badetücher liegen dicht an dicht, und die Schlangen vor Bars und …",
   "web": "",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "E4BD195B-38D3-41F5-863C-D53CA3FB812C",
   "key": "turbinenhaus",
   "name": "Turbinenhaus",
   "title": "Rest. Turbinenhaus",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Am Wasser 55, 8049 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -12176,15 +12135,15 @@
   "radar": false,
   "notiz": "Im Restaurant-Turbinenhaus geniessen Sie eine Küche ohne grosses Trara und ohne Schnickschnack. Eine ehrliche, einfache Schweizer-Mediterrane Küche. Von Oktober bis Februar bieten wir Fondue. Dazu gehört der gepflegte Service ebenso wie …",
   "web": "",
-  "geaendert": "2022-05-19"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "6A36ABEB-634F-452B-8E99-AFF6ACD72822",
   "key": "tosseggwaldheimbeizli",
   "name": "Tössegg: Waldheim Beizli",
   "title": "Tössegg: Waldheim Beizli",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Waldheimstrasse, 8193 Eglisau",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Eglisau+",
@@ -12198,7 +12157,7 @@
   "radar": false,
   "notiz": "Es freut uns sehr, Sie wieder jeden Samstag und Sonntag, bei schönem Wetter verwöhnen zu dürfen.",
   "web": "https://www.zuonline.ch/bruecke-ueber-die-toess-oeffnet-am-freitagabend-wieder-956378659271",
-  "geaendert": "2026-06-28"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "26EF6DAF-6FBA-4B25-AEB9-636095038C6A",
@@ -12248,8 +12207,8 @@
   "key": "ufenau",
   "name": "Ufenau",
   "title": "Rest. Ufenau",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Insel Ufenau, 8008 Ufnau",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -12262,15 +12221,15 @@
   "radar": false,
   "notiz": "Von April bis Oktober legt das Kursschiff an der Ufenau an. Ein Inselrundgang dauert eine halbe Stunde. Danach kehren fast alle bei «Rösli» ein.",
   "web": "http://tagi.ch/12213416",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "8D8BD495-9E90-46FC-AE3D-BBCEDF88B548",
   "key": "ufenauinselwirtschaftufnau",
   "name": "Ufenau: Inselwirtschaft Ufnau",
   "title": "Ufenau: Inselwirtschaft Ufnau",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Insel Ufenau, 8008 Ufnau",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -12284,7 +12243,7 @@
   "radar": false,
   "notiz": "Fischnknusperli aus dem Zürichsee gibt es in der Inselwirtschaft Ufnau. (Bild: Wolfgang Fassbender)",
   "web": "https://www.inselufnau.ch/",
-  "geaendert": "2026-11-11"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "0C30543D-4D8A-42F6-82AF-E7425C63A345",
@@ -12340,8 +12299,8 @@
   "key": "valdanniviershotelbellatola",
   "name": "Val d'Anniviers: Hotel Bella Tola",
   "title": "Val d'Anniviers: Hotel Bella Tola",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Route Principale, 3961 Anniviers",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -12353,15 +12312,15 @@
   "radar": false,
   "notiz": "Das Hotel Bella Tola in St. Luc, Val d'Anniviers, liegt auf 1650 m.ü.M. Die Gegend bietet nicht nur unzählige Wanderwege sondern auch einen Ausblick auf Viertausender wie das Matterhorn, hier aus ungewöhnlicher Perspektive.",
   "web": "https://www.bellatola.ch/de",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "741FF8F4-B370-4924-A461-3CC02565CA45",
   "key": "vallumneziaustrialumerins",
   "name": "Val Lumnezia: Ustria Lumerins",
   "title": "Val Lumnezia: Ustria Lumerins",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sassegl 93, 7148 Lumbrein",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -12374,15 +12333,15 @@
   "radar": false,
   "notiz": "Dorfwärts öffnet sich das Haus zu einem Hof. (Bild: Christian Schaulin)",
   "web": "https://www.lumerins.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "CF1E0F80-25CE-4888-8A22-D315F56713A8",
   "key": "valmustairhotelchalavaina",
   "name": "Val Müstair: Hotel Chalavaina",
   "title": "Val Müstair: Hotel Chalavaina",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Maistra 70, 7537 Münstertal",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -12392,7 +12351,7 @@
   "radar": false,
   "notiz": "Das Haus ist von der Liebe fürs Detail geprägt. (Bild: Selina Feuerstein/PD)",
   "web": "",
-  "geaendert": "2023-07-09"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "ED4F44C3-56CA-4868-AA0A-4CE215BE5CB7",
@@ -12462,8 +12421,8 @@
   "key": "valligrottopozzascpecciaseitentalvalmaggia",
   "name": "Valli: Grotto Pozzasc, Peccia (Seitental Val Maggia)",
   "title": "Valli: Grotto Pozzasc, Peccia (Seitental Val Maggia)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Al fiume, 6695 Peccia",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -12477,7 +12436,7 @@
   "radar": false,
   "notiz": "Grotto Pozzasc, Al fiume, 6695 Peccia, +41 91 755 16 04, grotto.pozzasc@bluewin.ch, www.pozzasc.ch",
   "web": "http://www.pozzasc.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "820FE5B9-0057-4A6E-B34F-6A03F042CEC5",
@@ -12529,8 +12488,8 @@
   "key": "valliosteriasascolamaggiatal",
   "name": "Valli: Osteria Sascola (Maggiatal)",
   "title": "Valli: Osteria Sascola (Maggiatal)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Al Stradón 3, 6682 Linescio",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -12545,15 +12504,15 @@
   "radar": false,
   "notiz": "Das rote Häuschen ist innen so freundlich wie aussen.",
   "web": "https://osteriasascola.ch/",
-  "geaendert": "2026-03-09"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "4773AED1-772F-41FD-909C-AE232FA51D67",
   "key": "vallirestaurantalgrottcafe",
   "name": "Valli: Restaurant Al Grott Cafe",
   "title": "Valli: Restaurant Al Grott Cafe",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via val Resa, 6645 Brione sopra Minusio",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -12568,7 +12527,7 @@
   "radar": false,
   "notiz": "Dank an euch alle und Auf Wiedersehen im nächsten Jahr",
   "web": "http://www.algrottcafe.ch/de#",
-  "geaendert": "2026-10-12"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "8D93C128-920E-431D-9EF1-8F68DDA1F2FA",
@@ -12622,8 +12581,8 @@
   "key": "venicebar",
   "name": "Venice Bar",
   "title": "Venice Bar",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Schiffbauplatz, 8005 Zürich",
+  "quelle": "bear",
   "tags": [
    "Bar",
    "GASTRO",
@@ -12635,7 +12594,7 @@
   "radar": false,
   "notiz": "Die Venice Bar ist dein neuer Rooftop Hotspot im italienischen Flair. Über den Dächern von Zürich tauchst du ein in die kulinarische Welt der venetianischen Tapasküche und genießt ein einzigartiges Ambiente mit Panoramablick. Lass' dich …",
   "web": "https://venicebar.ch",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "72B47806-E843-4A86-ABED-8E64A354C7DF",
@@ -12662,8 +12621,8 @@
   "key": "villasunneschy",
   "name": "Villa Sunneschy",
   "title": "Rest. Villa Sunneschy",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seestrasse 156, 8712 Stäfa",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -12677,7 +12636,7 @@
   "radar": false,
   "notiz": "Bitte voten Sie für unser Restaurant für den Best of Swiss Gastro Award",
   "web": "http://www.villa-s.ch/#",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "B8A7C577-F279-4B3A-9D71-94875FBD00A2",
@@ -12706,8 +12665,8 @@
   "key": "vulkan",
   "name": "Vulkan",
   "title": "Rest. Vulkan",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Klingenstrasse 33, 8005 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -12719,7 +12678,7 @@
   "radar": false,
   "notiz": "Nicht einmal jeder Einheimische kennt dieses Lokal – und das kann man als Fehler bezeichnen. Über die paar Thai-Gerichte auf der Speisekarte sollte man hinwegschauen und lieber das bestellen, was aus dem Tandoor kommt, dem typisch …",
   "web": "https://www.restaurant-vulkan.ch/",
-  "geaendert": "2024-02-23"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "D6DDEC6C-40ED-4274-9C7E-A686EE1410A2",
@@ -12774,8 +12733,8 @@
   "key": "waldkantine",
   "name": "Waldkantine",
   "title": "Rest. Waldkantine",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Zürichstrasse 137, 8600 Dübendorf",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -12787,7 +12746,7 @@
   "radar": false,
   "notiz": "Direkt beim Bahnhof Stettbach ensteht mit der Waldkantine ein neuer Sommergarten in Zürich. Der Aussenbereich des ehemaligen Credit Suisse Gebäudes verwandelt sich in ein urbanes Outdoor-Restaurant. Der gemütliche Sommergarten wird ein …",
   "web": "https://waldkantine.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "CC2DFCFF-FE84-4B99-BE37-5C605A0EA76E",
@@ -12815,8 +12774,8 @@
   "key": "waldschenkealtbergdanikonuetliberg",
   "name": "Waldschenke Altberg, Dänikon (Üetliberg)",
   "title": "Waldschenke Altberg, Dänikon (Üetliberg)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Altberg 1, 8114 Dänikon ZH",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -12833,15 +12792,15 @@
   "radar": false,
   "notiz": "Kein Rummel und schon gar keine Touristen: Die Waldschenke Altberg ist ein Ort, wie man ihn nur noch selten antrifft.",
   "web": "http://www.waldschenke-altberg.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "554449D7-46E0-4160-8345-072AE81F9B43",
-  "key": "walenseehasenberglodgeeinhideaway",
-  "name": "Walensee: Hasenberg Lodge, ein Hideaway",
-  "title": "Walensee: Hasenberg Lodge, ein Hideaway",
-  "adresse": "",
-  "quelle": "",
+  "key": "walenseehasenberglodge",
+  "name": "Walensee: Hasenberg Lodge",
+  "title": "Walensee: Hasenberg Lodge",
+  "adresse": "Hasenbergweg 11A, 8880 Walenstadt",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -12853,7 +12812,27 @@
   "radar": false,
   "notiz": "Nur knapp eine Stunde von Zürich entfernt, hat das Architektenpaar Roger Zogg und Michelle Corrodi eine Lodge eröffnet, die einem das Gefühl vermittelt, weit weg von allem und doch daheim zu sein.",
   "web": "https://www.hasenberg-lodge.com/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
+ },
+ {
+  "id": "EF76A1F8-DC16-4B39-8599-EE2F94DC8FD5",
+  "key": "walenseetremondiquinten",
+  "name": "Walensee: Tremondi Quinten",
+  "title": "Walensee: Tremondi Quinten",
+  "adresse": "Dörfli 1370, Quinten",
+  "quelle": "bear",
+  "tags": [
+   "GASTRO",
+   "Hotel",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": false,
+  "notiz": "Mit ihrer Quintener Dépendance hat ein Zürcher Szene-Wirtepaar ein idyllisches Hide-Away für Corona-müde Städter geschaffen.",
+  "web": "https://www.tre-mondi.ch/quinten",
+  "geaendert": "2026-11-15"
  },
  {
   "id": "144E987E-35FF-424D-90BA-9C2BF2D8C938",
@@ -13073,8 +13052,8 @@
   "key": "wirtschaftdegenried",
   "name": "Wirtschaft Degenried",
   "title": "Rest. Wirtschaft Degenried",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Degenriedstrasse 135, 8032 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -13089,7 +13068,7 @@
   "radar": false,
   "notiz": "Ihre Browserversion ist veraltet. Wir empfehlen, Ihren Browser auf die neueste Version zu aktualisieren.",
   "web": "http://www.degenried.ch/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "ADC836A2-9280-4406-A11A-138FB01619F0",
@@ -13160,8 +13139,8 @@
   "key": "wurstmoritz",
   "name": "Wurst & Moritz",
   "title": "Rest. Wurst & Moritz",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hardstrasse 318, 8005 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -13174,7 +13153,7 @@
   "radar": false,
   "notiz": "Die Currywurst ist das Herzstück im Angebot des neuen Wurst & Moritz. Speziell gut sind die Saucen dazu, die von einem Sternekoch kreiert wurden.",
   "web": "http://www.wurstundmoritz.com",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "00B0ECC4-0518-443A-B8EB-9938262BD492",
@@ -13204,8 +13183,8 @@
   "key": "wadenswilrestederseichmuhle",
   "name": "Wädenswil: Rest. Eder’s Eichmühle",
   "title": "Wädenswil: Rest. Eder’s Eichmühle",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Eichmüli 2, 8820 Wädenswil",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -13219,7 +13198,7 @@
   "radar": true,
   "notiz": "Lauschige Stimmung im Weiler Eichmühle: Ob man drinnen im Glasanbau oder draussen sitzt, der Blick geht ins Grün der knorrigen alten Bäume.",
   "web": "",
-  "geaendert": "2026-06-07"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "8B0EEF7C-CE99-49EA-BE72-505CDD218302",
@@ -13384,11 +13363,11 @@
  },
  {
   "id": "E5047024-9D58-4A25-8678-94F71592877E",
-  "key": "zermatthotelomni",
-  "name": "Zermatt: Hotel Omni",
-  "title": "Zermatt: Hotel Omni",
-  "adresse": "",
-  "quelle": "",
+  "key": "zermatthotelomnia",
+  "name": "Zermatt: Hotel Omnia",
+  "title": "Zermatt: Hotel Omnia",
+  "adresse": "Triftweg 40, 3920 Zermatt",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -13400,15 +13379,15 @@
   "radar": false,
   "notiz": "Nummer eins der Schweiz: Das Omnia in Zermatt wurde von Tripadvisor zum beliebtesten Schweizer Hotel gewählt. Bild: Hotel Omnia (7 Bilder)",
   "web": "https://www.the-omnia.com/de/hotel/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "F0304AFB-97F0-4162-8842-1969940AE15F",
   "key": "zermatthotelriffelhauscornergrat",
   "name": "Zermatt: Hotel Riffelhaus, Cornergrat",
   "title": "Zermatt: Hotel Riffelhaus, Cornergrat",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Riffelberg 2500 m, 3920 Zermatt",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -13420,7 +13399,7 @@
   "radar": false,
   "notiz": "Eine Herausforderung für Flachländer mit Höhensorgen: Das Kulmhotel auf dem Gornergrat ob Zermatt. Foto: Gaudenz Danuser",
   "web": "http://files.newsnetz.ch/file_upload/53/18/76/37/box_92268545_textbig1_1_REI_ZermattGornergrat01.jpg",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "9E11771F-D7FE-4D93-BFE3-7C4380F5CED9",
@@ -13449,8 +13428,8 @@
   "key": "ziegelhutte",
   "name": "Ziegelhütte",
   "title": "Rest. Ziegelhütte",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Hüttenkopfstrasse 70, 8051 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -13466,7 +13445,7 @@
   "radar": false,
   "notiz": "Stammgast und Städter gleichermassen anzusprechen, ist der Ziegelhütte mit der Renovation gelungen. Ein Ausflug lohnt sich.",
   "web": "http://www.wirtschaft-ziegelhuette.ch",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "CA7257C1-E2D8-46E5-8746-32202870EE50",
@@ -13486,25 +13465,6 @@
   "radar": false,
   "notiz": "HOTEL ZOLLHAUS | NEWS | ANREISE & CHECK-IN | FOOD & DRINKS | BILDER | STANDORT & KONTAKT",
   "web": "https://zollhausbern.ch/de/Info/HOTEL_ZOLLHAUS",
-  "geaendert": "2024-07-30"
- },
- {
-  "id": "D8F93435-14FD-4D56-9048-0CA251210EB4",
-  "key": "zugrestseehotelrigiroyalzugersee",
-  "name": "Zug: Rest. Seehotel Rigi-Royal, Zugersee",
-  "title": "Zug: Rest. Seehotel Rigi-Royal, Zugersee",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Das Seehotel Rigi-Royal führt eine ausgezeichnete Fischküche. Die Spezialitätenkarte ist auf Marktfrische und Abwechslung ausgerichtet und lässt keine Wünsche offen.",
-  "web": "http://www.hotel-rigi.ch/",
   "geaendert": "2024-07-30"
  },
  {
@@ -13555,8 +13515,8 @@
   "key": "zumfrischenmax",
   "name": "Zum frischen Max",
   "title": "Rest. Zum frischen Max",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Max-Frisch-Platz, 8050 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -13570,7 +13530,7 @@
   "radar": false,
   "notiz": ", wo früher eine Kofferfabrik von Albert Heinrich Landis stand, schlage ich, der Max, für ein paar Jahre meine Zelte auf – im wahrsten Sinne des Wortes, denn ein Tipizelt bildet das Zentrum. Den Namen habe ich übrigens von Max Frisch, …",
   "web": "https://zumfrischenmax.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "EC5D4F91-D5EB-4A61-BF9C-A29AB4B63E7A",
@@ -13686,8 +13646,8 @@
   "key": "zurmetzg",
   "name": "Zur Metzg",
   "title": "Rest. Zur Metzg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seefeldstrasse 159, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -13701,7 +13661,7 @@
   "radar": false,
   "notiz": "http://www.restaurant-metzg.ch/swf10/home.html",
   "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "386E2187-7293-46E6-B870-506E015860BD",
@@ -14039,8 +13999,8 @@
   "key": "churchillsbbpopup",
   "name": "«Churchill» | SBB (Pop-Up)",
   "title": "Rest. «Churchill» | SBB (Pop-Up)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Bahnhofplatz, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Pop-Up",
@@ -14054,7 +14014,7 @@
   "radar": false,
   "notiz": "Clip-Quelle:SBB Pop-up-Restaurant «Churchill» | SBB",
   "web": "https://www.sbb.ch/de/freizeit-ferien/ideen/angebot.html/tagesausflug/pop-up-restaurant?sap-outbound-id=E5CA110FEC9523416DF5E825B18F41D65B909D88",
-  "geaendert": "2026-10-20"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "0FDF885A-B654-41BB-BD06-4AF5BFA503D5",

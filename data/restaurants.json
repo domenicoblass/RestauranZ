@@ -818,6 +818,31 @@
   "geaendert": "2024-09-16"
  },
  {
+  "id": "DF529700-4C2F-4893-8BCC-4DA1284CA735",
+  "key": "australieninlugano",
+  "name": "Australien in Lugano",
+  "title": "Australien in Lugano",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "Aktualisieren",
+   "GASTRO",
+   "Grono",
+   "Locarnese",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Sopraceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang"
+  ],
+  "radar": true,
+  "notiz": "An einem derart monumentalen Tisch ass ich noch nie zuvor.",
+  "web": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGJURc_UkdGKeh0_qx2mx9cpoSMFgm52KV2_w_5tWUsbsocIT3uOeYE9EB9QqXqn5b_8b9T4aI4TEUQtGCgfdo5c2qFc1ifp1zPadHy3-P-6ThBKq7pdYbYtzCfAU7JJGwq3BEaAP87cRZ25KhSHgbifIrV7uUeVgAF6Q_i5ZBttcXf_l3UREnIScYuN4/w492-h369/55643981462_889b6a2b54_c.jpg",
+  "geaendert": "2026-11-12"
+ },
+ {
   "id": "90A07194-201D-452D-A070-9E14C1862D55",
   "key": "bachsbesenbeizeichhof",
   "name": "Bachs: Besenbeiz Eichhof",
@@ -2123,8 +2148,8 @@
   "key": "bielrestecluse",
   "name": "Biel: Rest. Ecluse",
   "title": "Biel: Rest. Ecluse",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Schüsspromenade 14D, 2502 Biel",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -2138,7 +2163,7 @@
   "radar": false,
   "notiz": "Clip-Quelle:Restaurant Ecluse: Die neue Adresse in Biel für exzessiven Brunch",
   "web": "",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "780F8A1F-AF91-47AE-9FEA-50C498C97537",
@@ -2303,8 +2328,8 @@
   "key": "bodenseehotelportosofie",
   "name": "Bodensee: Hotel Porto Sofie",
   "title": "Bodensee: Hotel Porto Sofie",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Am Schlosspark 9, 8274 Gottlieben",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -2316,7 +2341,7 @@
   "radar": false,
   "notiz": "Clip-Quelle:Hotel%20Porto%20Sofie%20%u2013%20Ihr%20Boutique%20Hotel%20am%20Bodensee",
   "web": "https://portosofie.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "CBFD66DC-5AC7-43C3-9B83-AB9EDFDCCBB8",
@@ -3728,8 +3753,8 @@
   "key": "comerseehotelilsereno",
   "name": "Comersee: Hotel Il Sereno",
   "title": "Comersee: Hotel Il Sereno",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Torrazza, 10, 22020 Torno CO, Italien",
+  "quelle": "bear",
   "tags": [
    "EUROPA",
    "GASTRO",
@@ -3742,15 +3767,15 @@
   "radar": false,
   "notiz": "Das «Il Sereno» am Comersee wurde vor vier Jahren eröffnet. (Bild: PD)",
   "web": "https://www.serenohotels.com/property/il-sereno/",
-  "geaendert": "2022-08-24"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "42FC8AFA-5365-4B23-B971-7880031E014F",
   "key": "comerseehotelvillapassalacqua",
   "name": "Comersee: Hotel Villa Passalacqua",
   "title": "Comersee: Hotel Villa Passalacqua",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Besana, 59, 22010 Moltrasio CO, Italien",
+  "quelle": "bear",
   "tags": [
    "AUSLAND",
    "EUROPA",
@@ -3764,29 +3789,30 @@
   "radar": false,
   "notiz": "Hinter dem Projekt steckt die Hoteliersfamilie De Santis, die nebst dem ikonischen Grand-Hotel Tremezzo nun ein zweites Zuhause für ihre Gäste geschaffen hat.",
   "web": "https://www.passalacqua.it/en/",
-  "geaendert": "2023-06-14"
+  "geaendert": "2026-11-15"
  },
  {
-  "id": "DD05EBFD-7CC0-4B2B-AB69-F30FB4D198BA",
-  "key": "cucinareginaateliermaxzuberpopup",
-  "name": "Cucina Regina @ Atelier Max Zuber (Pop-Up)",
-  "title": "Rest. Cucina Regina @ Atelier Max Zuber (Pop-Up)",
+  "id": "AFD2B252-9EBD-49C1-A821-C99BDC59D638",
+  "key": "comoentdeckendolcevitatippsfurpalazzirestaurantsundkunst",
+  "name": "Como entdecken: Dolce Vita, Tipps für Palazzi, Restaurants und Kunst",
+  "title": "Como entdecken: Dolce Vita, Tipps für Palazzi, Restaurants und Kunst",
   "adresse": "",
   "quelle": "",
   "tags": [
+   "Aktualisieren",
    "GASTRO",
-   "Pop-Up",
+   "Radar",
    "Restaurant",
    "SCHWEIZ",
-   "Stadt",
+   "Sottoceneri",
+   "Ticino+",
    "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
+   "UNTERWEGS/Ausgang"
   ],
-  "radar": false,
-  "notiz": "Bereits zum dritten Mal verwandelt sich das Atelier Max Zuber im Zürcher Seefeld in ein stimmungsvolles Pop-up-Restaurant. An diesem besonderen Ort lädt das Team um Mo Frey sowie Salma und Patrick Salama zu genussvollen Dinner-Abenden …",
-  "web": "https://www.maxzuber.ch/atelier-zuerich",
-  "geaendert": "2026-10-20"
+  "radar": true,
+  "notiz": "Es ist noch nicht einmal 18 Uhr, doch der Aperitivo ist schon in vollem Gange. Zumindest am Wochenende. Zumindest auf der Piazza Volta, die nur wenige Meter von den trubeligen Altstadtgassen und dem Seeufer entfernt liegt. Der Platz …",
+  "web": "https://www.martesanamilano.com/",
+  "geaendert": "2026-11-13"
  },
  {
   "id": "DCD597A9-4764-43A7-B263-15558F978B0E",
@@ -3833,28 +3859,6 @@
   "radar": false,
   "notiz": "Seit fünfzig Jahren wird in Altstetten in eher unscheinbarer Umgebung eine gehobene Form von Italianità zelebriert – mit Humor und Herzlichkeit.",
   "web": "https://www.daangela.ch/",
-  "geaendert": "2026-03-15"
- },
- {
-  "id": "D538A2A2-BD98-40E1-A60D-2491424774DB",
-  "key": "dachkantine",
-  "name": "Dachkantine",
-  "title": "Rest. Dachkantine",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Party",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Ein aussergewöhnlicher Ort, an dem du von Mo bis Fr in guter Gesellschaft (Atelierhaus Gleis 70) und lockerer Atmosphäre frisch, saisonal und abwechslungsreich essen kannst. Die Lokalität kann auch für Feste oder Firmenanlässe gemietet …",
-  "web": "https://www.ronorp.net/media/userpics/3009000-3010000/3009367_1_standard.jpg?f=1694167725&amp;media_id=11158843",
   "geaendert": "2026-03-15"
  },
  {
@@ -3905,8 +3909,8 @@
   "key": "daymaker",
   "name": "Day-Maker",
   "title": "Rest. Day-Maker",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seestrasse 6, 8702 Zollikon",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -3919,28 +3923,7 @@
   "radar": false,
   "notiz": "Rest. DayMaker.pdf<!-- {\"embed\":\"true\", \"preview\":\"true\"} -->  http://www.day-maker.ch/images/stories/daymakerspeisekarte110516.pdf",
   "web": "",
-  "geaendert": "2026-03-15"
- },
- {
-  "id": "7C674DBB-44A3-48D9-9B19-D7BE9C98CAB6",
-  "key": "departemento",
-  "name": "Departemento",
-  "title": "Rest. Departemento",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Wer etwas auf sich gibt, wird Wirt. Zumindest am Wochenende. Mini-Restaurants in Wohnzimmern, wie das Departamento in Zürich Höngg, boomen.",
-  "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "7835F479-8087-473C-A4F8-00C56DF00116",
@@ -4095,27 +4078,6 @@
   "geaendert": "2025-02-11"
  },
  {
-  "id": "24D47CE1-7F13-4C8F-8475-9550FED23A79",
-  "key": "domm",
-  "name": "Domm",
-  "title": "Rest. Domm",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Cucina del Nord Italia | Italienisches Restaurant Zürich",
-  "web": "http://domm.ch/",
-  "geaendert": "2026-03-15"
- },
- {
   "id": "0DAACE0E-C024-4C08-9190-7CB3E40FAA83",
   "key": "dreistuben",
   "name": "Drei Stuben",
@@ -4141,8 +4103,8 @@
   "key": "dreierlei",
   "name": "Dreierlei",
   "title": "Rest. Dreierlei",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Flüelastrasse 16, 8048 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -4157,7 +4119,7 @@
   "radar": false,
   "notiz": "opening:dreikönigstag, 6. januar 2018 ab 18:00",
   "web": "https://www.dreierlei-zueri.ch/lunch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "261B4CAE-29FE-4D6E-B2B0-149F596D4CE9",
@@ -4362,8 +4324,8 @@
   "key": "emmentalromantikhotelbarendurrenrot",
   "name": "Emmental: Romantik-Hotel Bären, Dürrenrot",
   "title": "Emmental: Romantik-Hotel Bären, Dürrenrot",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Dorfstrasse 17, 3465 Dürrenroth",
+  "quelle": "bear",
   "tags": [
    "Bern",
    "GASTRO",
@@ -4375,7 +4337,7 @@
   "radar": false,
   "notiz": "https://adserver.adtech.de/?adlink/1135.1/6428318/0/1217/AdId=-3;BnId=0;itime=317907309;gdpr=0;",
   "web": "https://adserver.adtech.de/?adlink/1135.1/6428318/0/1217/AdId=-3;BnId=0;itime=317907309;gdpr=0;",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "1CC7B6D8-18E9-4D0F-8634-93479A457BF1",
@@ -4404,8 +4366,8 @@
   "key": "engadinhofzuortunterengadin",
   "name": "Engadin: Hof Zuort, Unterengadin",
   "title": "Engadin: Hof Zuort, Unterengadin",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via da Zuort, 7550 Scuol",
+  "quelle": "bear",
   "tags": [
    "Engadin",
    "GASTRO",
@@ -4420,7 +4382,7 @@
   "radar": false,
   "notiz": "Landwirtschaftsbetrieb, Residenz und eine Art Künstlerkolonie: Der Hof Zuort hat eine wechselvolle Geschichte hinter sich Foto: Bernd Grundmann",
   "web": "http://www.zuort.ch",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "FF8B35D7-3919-466A-B57B-ABA758528F83",
@@ -4579,8 +4541,8 @@
   "key": "enja",
   "name": "Enja",
   "title": "Rest. Enja",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Sihlstrasse 9, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -4593,7 +4555,7 @@
   "radar": false,
   "notiz": "Die Lage ist top, die Terrasse wunderbar gediegen, und auch das zugängliche Essen überzeugt im Restaurant des neu renovierten Hotels Seidenhof unweit der Bahnhofstrasse in Zürich.",
   "web": "https://restaurant-enja.ch/",
-  "geaendert": "2026-10-20"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "3706CCC9-D166-47F1-AA7F-EDB9E59DA1E2",
@@ -4768,8 +4730,8 @@
   "key": "fischersfritz",
   "name": "Fischer's Fritz",
   "title": "Rest. Fischer's Fritz",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seestrasse 557, 8038 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Bar",
@@ -4784,9 +4746,9 @@
    "Zürich+"
   ],
   "radar": false,
-  "notiz": "|    Fischer's Fritz<br> +41 (0)44 480 13 4044%20480%2013%2040)<br> beiz@fischers-fritz.ch<br> <br> Wir freuen uns<br> auf Ihren Besuch.   |",
+  "notiz": "Ali Sarikaya und alle Mitarbeiter heissen Sie herzlich willkommen in Ihrem kleinen Paradies am See! Der Tagesanzeiger nannte die BEIZ einen Mix aus französischem Bistro und Sylter Strandbeiz – das finden wir sehr treffend! Einfach, …",
   "web": "http://www.fischers-fritz.ch/tel:+41%20(0",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "30B44D61-662C-4003-86E8-D2A772295834",
@@ -4964,30 +4926,6 @@
   "geaendert": "2026-03-15"
  },
  {
-  "id": "469CF10C-5C5E-4C85-82E5-BF212D6791FB",
-  "key": "fonduechaletsihlcity",
-  "name": "Fondue-Chalet Sihlcity",
-  "title": "Rest. Fondue-Chalet Sihlcity",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Fondue",
-   "GASTRO/Küche/Gutbürgerlich",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "|## Mitten in Zürich...## ... und doch in den Alpen.<br> Das Fondue Chalet bringt viel Charme und Ambiente in die schöne Stadt an der Sihl. Kommen Sie auf den Kalanderplatz in Sihlcity und geniessen Sie bestes Gletscherfondue und feine …",
-  "web": "http://www.fondue-chalet.ch/index.php",
-  "geaendert": "2026-03-15"
- },
- {
   "id": "D98BA85B-1425-4A85-BDED-0CDB5C46C207",
   "key": "forchrestzurchaltehose",
   "name": "Forch: Rest. Zur chalte Hose",
@@ -5101,29 +5039,6 @@
   "geaendert": "2026-10-12"
  },
  {
-  "id": "21B38670-6629-4B9B-B8CA-7C89623AE2E5",
-  "key": "freudenhaus",
-  "name": "Freudenhaus",
-  "title": "Rest. Freudenhaus",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Österreichisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Im Freudenhaus isst man vor allem Österreichisches, blickt aber über den Tellerrand hinaus auch nach Frankreich.",
-  "web": "",
-  "geaendert": "2026-03-15"
- },
- {
   "id": "5A4C774F-1F84-4A70-82CF-903DEC96E57E",
   "key": "friskfisk",
   "name": "FriskFisk",
@@ -5220,8 +5135,8 @@
   "key": "gainsbourgbareventlocation",
   "name": "Gainsbourg Bar & Event Location",
   "title": "Gainsbourg Bar & Event Location",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Kreuzstrasse 26, 8008 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -5234,7 +5149,7 @@
   "radar": false,
   "notiz": "«Das Zürcher Seefeld hat vieles zu bieten - und darüber möchten wir berichten!»",
   "web": "http://www.xn--zrichkreis8-thb.ch/editorial/",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "D4130ED4-FEC4-4B55-B620-9127B19F743C",
@@ -6347,6 +6262,29 @@
   "geaendert": "2026-03-15"
  },
  {
+  "id": "974CE14C-5E33-4290-9B5A-08D004EFF568",
+  "key": "hotelcasabiancaincomoschonesboutiquehoteldirektamlagodicomo",
+  "name": "Hotel Casabianca in Como: Schönes Boutique-Hotel direkt am Lago di Como",
+  "title": "Hotel Casabianca in Como: Schönes Boutique-Hotel direkt am Lago di Como",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "Aktualisieren",
+   "GASTRO",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Sottoceneri",
+   "Ticino+",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang"
+  ],
+  "radar": true,
+  "notiz": "Man könnte achtlos daran vorbeigehen. Aus dem Augenwinkel die zurückhaltende Eleganz der weissen Villa wahrnehmen. Vielleicht über die klobigen schwarzen Granitplatten im Garten staunen. Wer neugierig ist, bleibt stehen. «Dove le stelle …",
+  "web": "",
+  "geaendert": "2026-11-13"
+ },
+ {
   "id": "6086A88B-0CB5-4BBA-A920-DCAA0F7EB58C",
   "key": "hotelpontisellastampaimbergellrefugiumfurdesignliebhaber",
   "name": "Hotel Pontisella Stampa im Bergell: Refugium für Designliebhaber",
@@ -7151,6 +7089,29 @@
   "geaendert": "2025-10-19"
  },
  {
+  "id": "97F59BFB-6218-419F-A92E-BE3F13BF479B",
+  "key": "lafontana",
+  "name": "La Fontana",
+  "title": "Rest. La Fontana",
+  "adresse": "Haldenbachstrasse 2, 8006 Zürich",
+  "quelle": "bear",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Italienisch",
+   "Restaurant",
+   "SCHWEIZ",
+   "Stadt",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": false,
+  "notiz": "Voller Überraschungen: Olivia (l.) und Patrizia Fontana in ihrem neuen Lokal an der Haldenbachstrasse.",
+  "web": "https://twitter.com/zueritipp_",
+  "geaendert": "2026-11-11"
+ },
+ {
   "id": "77E0B9C8-C2F2-4C2A-B04D-8DAFB135BB8C",
   "key": "lafontana",
   "name": "La Fontana",
@@ -7174,29 +7135,6 @@
   "notiz": "Ab 12 Uhr erwarten Sie bei uns täglich wechselnde Mittagsmenüs sowie leckere Focaccia, Pizza Slices und frische Salate. Genießen Sie eine abwechslungsreiche Mittagspause!",
   "web": "https://www.lafontana-shop.ch/",
   "geaendert": "2026-11-09"
- },
- {
-  "id": "97F59BFB-6218-419F-A92E-BE3F13BF479B",
-  "key": "lafontana",
-  "name": "La Fontana",
-  "title": "Rest. La Fontana",
-  "adresse": "Haldenbachstrasse 2, 8006 Zürich",
-  "quelle": "bear",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Italienisch",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Voller Überraschungen: Olivia (l.) und Patrizia Fontana in ihrem neuen Lokal an der Haldenbachstrasse.",
-  "web": "https://twitter.com/zueritipp_",
-  "geaendert": "2026-11-11"
  },
  {
   "id": "15AE6212-997C-407E-8A2F-5022DA4421A9",
@@ -11866,6 +11804,29 @@
   "geaendert": "2022-02-28"
  },
  {
+  "id": "23E55CFF-43E9-4EFD-87A6-74FCC398ABC2",
+  "key": "sweethomekochensiemiteinerprisepoesie",
+  "name": "Sweet Home: Kochen Sie mit einer Prise Poesie",
+  "title": "Sweet Home: Kochen Sie mit einer Prise Poesie",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "Aktualisieren",
+   "GASTRO",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Stadt",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": true,
+  "notiz": "Am letzten Donnerstagabend spazierte ich mit meinem Hündchen Daisy Richtung Helvetiaplatz in das neue Restaurant «Schweizer Weinstube». Inspiriert dazu hat mich ein Instagrambild einer Kollegin. Zudem war es wieder an der Zeit, mich ein …",
+  "web": "",
+  "geaendert": "2026-11-12"
+ },
+ {
   "id": "C39224FA-19B0-48E0-8234-02FA923C0A28",
   "key": "szenarioadliswil",
   "name": "Szenario, Adliswil",
@@ -13025,6 +12986,31 @@
   "notiz": "Nicht einmal jeder Einheimische kennt dieses Lokal – und das kann man als Fehler bezeichnen. Über die paar Thai-Gerichte auf der Speisekarte sollte man hinwegschauen und lieber das bestellen, was aus dem Tandoor kommt, dem typisch …",
   "web": "https://www.restaurant-vulkan.ch/",
   "geaendert": "2024-02-23"
+ },
+ {
+  "id": "D6DDEC6C-40ED-4274-9C7E-A686EE1410A2",
+  "key": "waadtlandchaletlabreguettaz",
+  "name": "Waadtland: Chalet La Breguettaz.",
+  "title": "Waadtland: Chalet La Breguettaz.",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "Aktualisieren",
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fondue",
+   "GASTRO/Küche/Gutbürgerlich",
+   "Radar",
+   "Restaurant",
+   "Romandie",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang"
+  ],
+  "radar": true,
+  "notiz": "EINKEHR IN DER NATUR Etwa zehn Autominuten vom Lac de Joux entfernt, mitten in den Waldweiden des Waadtländer Jura, steht einsam das Chalet La Breguettaz. So abgeschieden die Beiz auch liegt, an Gästen mangelt es nie. Auf der Karte …",
+  "web": "https://www.labreguettaz.ch/?utm_source=sfmc&utm_medium=email&utm_campaign=SF_ED_9_ENG_EM_NL_XX_UNSEREFREIZEITTIPPS_XX_2026-11-12&utm_term=2026-11-11&utm_content=6957534_",
+  "geaendert": "2026-11-12"
  },
  {
   "id": "A723D176-91A2-43EE-B432-9DD2C68B0FD6",

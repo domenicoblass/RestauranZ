@@ -1575,6 +1575,26 @@
   "geaendert": "2026-11-11"
  },
  {
+  "id": "E9FAC09B-D009-4813-8794-97ECB1DA816C",
+  "key": "baselrestroots",
+  "name": "Basel: Rest. Roots",
+  "title": "Basel: Rest. Roots",
+  "adresse": "Mülhauserstrasse 17, Basel",
+  "quelle": "bear",
+  "tags": [
+   "Basel",
+   "GASTRO",
+   "Restaurant",
+   "SCHWEIZ",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausflüge"
+  ],
+  "radar": false,
+  "notiz": "Ein Restaurant zu finden, das vom Ambiente über das Personal bis zum Speiseangebot überzeugt und dennoch auf dem Boden bleibt, ist nicht leicht. Das «Roots» hält ein Erfolgsrezept bereit: eine verständliche Küche auf Gourmet-Level, ohne …",
+  "web": "https://www.roots-basel.ch/",
+  "geaendert": "2026-11-15"
+ },
+ {
   "id": "077ACAE0-6FF3-4EAC-8043-F0537E8B392D",
   "key": "bauernschanke",
   "name": "Bauernschänke",
@@ -9031,8 +9051,8 @@
   "key": "palette",
   "name": "Palette",
   "title": "Rest. Palette",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Schützengasse 7, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -9045,7 +9065,7 @@
   "radar": false,
   "notiz": "Eine gemütlich-urbane Mischung aus Café, Bar, Restaurant und Take-Away. Das Angebot umfasst eine feine Auswahl an mediterran-orientalischen Spezialitäten. Vieles vegetarisch, aber auch Fleisch, Fisch oder Geflügel, immer serviert in …",
   "web": "",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "90430076-765B-4B1C-B7BA-A86F133F1CAE",
@@ -9190,8 +9210,8 @@
   "key": "piccologiardinodieessbar",
   "name": "Piccolo Giardino – Die EssBar",
   "title": "Rest. Piccolo Giardino – Die EssBar",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Schöneggplatz 9, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Restaurant",
@@ -9203,7 +9223,7 @@
   "radar": false,
   "notiz": "halten wir für Euch drei feine Menus, knusprige, frisch zubereitete Panini caldi, einen leckeren Salat an raffinierter Sauce und eine währschafte Suppe oder einen gluschtigen Eintopf bereit.",
   "web": "http://www.piccologiardino.ch/index.html",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "6FFEB338-9470-4BDF-A0C8-B05DC4ECD637",
@@ -9246,29 +9266,6 @@
   "notiz": "Essen ist auch ein Stück Heimat: Ashraf Soliman in seinem Restaurant.",
   "web": "https://twitter.com/sbusz",
   "geaendert": "2026-11-11"
- },
- {
-  "id": "ADA13BF3-0B3D-4197-B97E-E3506CD247F7",
-  "key": "quai61events",
-  "name": "Quai 61: Events",
-  "title": "Rest. Quai 61: Events",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bar",
-   "Event",
-   "GASTRO",
-   "Party",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "bankettmappedeutschohnegetraenke.pdf<!-- {\"embed\":\"true\", \"preview\":\"true\"} -->",
-  "web": "",
-  "geaendert": "2022-03-05"
  },
  {
   "id": "CFE76F99-4AC1-4886-913B-672BE12DE84F",
@@ -9581,28 +9578,6 @@
   "radar": false,
   "notiz": "Dinghy Bar & Restaurant | Brandschenkestrasse 5",
   "web": "http://dinghy.ch/",
-  "geaendert": "2026-03-15"
- },
- {
-  "id": "4A2EFFD7-DB86-411D-BE9C-2DA0182864A9",
-  "key": "restbarheimelig",
-  "name": "Rest./Bar Heimelig",
-  "title": "Rest./Bar Heimelig",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bar",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Zürichs Szenebar Daniel H. ist neu auch ein Restaurant – mit Heimatgefühl in vielerlei Hinsicht.",
-  "web": "http://www.danielh.ch",
   "geaendert": "2026-03-15"
  },
  {
@@ -9983,8 +9958,8 @@
   "key": "roietthai",
   "name": "Roi-Et (Thai)",
   "title": "Rest. Roi-Et (Thai)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Schöneggstrasse 30, 8004 Zürich",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -9997,8 +9972,8 @@
   ],
   "radar": false,
   "notiz": "|  Mo bis Fr: |  11:45 - 14:00 Uhr<br> 18:00 - 23:30 Uhr |",
-  "web": "http://www.roi-et.ch/index.html",
-  "geaendert": "2022-03-05"
+  "web": "",
+  "geaendert": "2026-11-15"
  },
  {
   "id": "3DADB047-0188-41B8-A326-89E8237B7AA1",
@@ -10020,26 +9995,6 @@
   "notiz": "From April to the end of October you may enjoy the breathtaking view of the most beautiful city. - Zurich from a different perspective!",
   "web": "https://storchen.ch/en/eat-drink/the-nest/menu",
   "geaendert": "2026-11-11"
- },
- {
-  "id": "E9FAC09B-D009-4813-8794-97ECB1DA816C",
-  "key": "rootsbaselkucheaufgourmetlevel",
-  "name": "Roots, Basel: Küche auf Gourmet-Level",
-  "title": "Rest. Roots, Basel: Küche auf Gourmet-Level",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Basel",
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausflüge"
-  ],
-  "radar": false,
-  "notiz": "Ein Restaurant zu finden, das vom Ambiente über das Personal bis zum Speiseangebot überzeugt und dennoch auf dem Boden bleibt, ist nicht leicht. Das «Roots» hält ein Erfolgsrezept bereit: eine verständliche Küche auf Gourmet-Level, ohne …",
-  "web": "https://www.roots-basel.ch/",
-  "geaendert": "2025-12-27"
  },
  {
   "id": "6012C1EC-36BE-4603-BB60-2345B17D59E1",
@@ -10069,8 +10024,8 @@
   "key": "rosengarten",
   "name": "Rosengarten",
   "title": "Rest. Rosengarten",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Gemeindestrasse 60, 8032 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -10081,17 +10036,17 @@
    "Zürich+"
   ],
   "radar": false,
-  "notiz": "Unsere Küche ist geöffnet von Montag bis Freitag:",
-  "web": "http://m.rosengarten.ch/index.php?site=home",
-  "geaendert": "2022-03-05"
+  "notiz": "Ob Reservierungen, private Feiern oder geschäftliche Anlässe. Wir stehen Ihnen gerne für alle Anfragen zur Verfügung.",
+  "web": "",
+  "geaendert": "2026-11-15"
  },
  {
   "id": "42FAECDF-C97A-4110-ABEC-D89B9D2F3007",
   "key": "rosenlauihotel",
   "name": "Rosenlaui: Hotel",
   "title": "Rosenlaui: Hotel",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "3860 Rosenlaui",
+  "quelle": "bear",
   "tags": [
    "Bern",
    "GASTRO",
@@ -10101,7 +10056,7 @@
   "radar": false,
   "notiz": "Sherlock-Holmes-Fans werden ihre helle Freude an diesem Bijou haben – und am sanft rauschenden Rychenbach davor.",
   "web": "https://rosenlaui.ch/",
-  "geaendert": "2026-06-07"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "474A5DA7-3A81-480D-AEC9-3C5749BB3DA5",
@@ -10150,10 +10105,11 @@
   "key": "runway34",
   "name": "Runway34",
   "title": "Rest. Runway34",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Rohrholzstrasse 67, 8152 Glattbrugg",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
+   "Party",
    "Restaurant",
    "SCHWEIZ",
    "UNTERWEGS",
@@ -10161,9 +10117,9 @@
    "Zürich+"
   ],
   "radar": false,
-  "notiz": "| |    |   <br> Runway 34 - das Flug-Erlebnis-Restaurant<br> Bei uns erleben Sie die Faszination <br> des Fliegens und Reisens hautnah. Geniessen Sie in der Wingwalker-Bar Ihren Apéro<br> und die atemberaubende Aussicht auf den …",
+  "notiz": "Runway 34 - das Flug-Erlebnis-Restaurant",
   "web": "http://www.runway34.ch/cms/index.php?option=com_breezingforms&amp;Itemid=100018&amp;lang=de",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "0606D38D-0D68-4D09-BD62-21A3B94DEC2C",
@@ -10344,8 +10300,8 @@
   "key": "ruschlikonresttracht",
   "name": "Rüschlikon: Rest. Tracht",
   "title": "Rüschlikon: Rest. Tracht",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Seestrasse 25, 8803 Rüschlikon",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -10357,7 +10313,7 @@
   "radar": false,
   "notiz": "Näher am See geht nicht mehr. (Bild: PD)",
   "web": "http://www.einhausamsee.ch/",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "B6B6101C-72E2-4366-8D47-D22E2236E7C9",
@@ -10385,8 +10341,8 @@
   "key": "sagibeizmurg",
   "name": "Sagibeiz, Murg",
   "title": "Rest. Sagibeiz, Murg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Alte Staatsstrasse, 8877 Quarten",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Event",
@@ -10404,47 +10360,7 @@
   "radar": false,
   "notiz": "Eventdoku.pdf<!-- {\"embed\":\"true\", \"preview\":\"true\"} -->",
   "web": "",
-  "geaendert": "2022-03-05"
- },
- {
-  "id": "6A385609-66DF-41A0-9366-49F985EDFAB5",
-  "key": "salietabacchi",
-  "name": "Sali e Tabacchi",
-  "title": "Rest. Sali e Tabacchi",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Dienstag bis Samstag, warme Küche ab 18:30 Uhr",
-  "web": "",
-  "geaendert": "2022-03-05"
- },
- {
-  "id": "2B381A13-2E23-4CAC-92F1-AA79255B8DC7",
-  "key": "salir",
-  "name": "Salir",
-  "title": "Rest. Salir",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Salir befindet sich hinter einer unscheinbaren Fassade, nur wenige Schritte vom Zürcher – Kunsthaus entfernt und bietet verschiedene mehrgängige Erlebnisse in einem einladenden Speisesaal.",
-  "web": "https://www.salir.ch/ueber-uns",
-  "geaendert": "2022-03-06"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "173D7D73-40E5-450C-B0EC-A42EC4F9EE34",
@@ -10561,8 +10477,8 @@
   "key": "schipfe16",
   "name": "Schipfe 16",
   "title": "Rest. Schipfe 16",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Schipfe 16, 8001 Zürich",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "GASTRO",
@@ -10575,7 +10491,7 @@
   "radar": false,
   "notiz": "Unser Restaurant liegt mitten in der Zürcher Altstadt, unter dem Lindenhof, einem der Wahrzeichen der Stadt, in einem denkmalgeschützten Haus direkt am Ufer der Limmat.",
   "web": "http://stadt-zuerich.ch/content/sd/de/index/engagementeinkaufen/restaurantcatering/schipfe16/oeffnungszeiten.html#contenttabs",
-  "geaendert": "2022-03-05"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "CDE645C1-6FAF-4765-9D06-F2B68F047C01",
@@ -10913,8 +10829,8 @@
   "key": "sihlbruggsihlmattrestaurant",
   "name": "Sihlbrugg-Sihlmatt (Restaurant)",
   "title": "Sihlbrugg-Sihlmatt (Restaurant)",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "6313 Menzingen",
+  "quelle": "bear",
   "tags": [
    "Favorit",
    "GASTRO",
@@ -10928,7 +10844,7 @@
   "radar": true,
   "notiz": "6313 Menzingen, Schweiz +41 41 755 12 44 info@sihlmatt.ch",
   "web": "http://map.geo.admin.ch",
-  "geaendert": "2026-09-21"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "8202C012-DCA7-4AB2-BF9A-97DECAEC00E4",
@@ -11161,8 +11077,8 @@
   "key": "sopraceneriosteriaborei",
   "name": "Sopraceneri: Osteria Borei",
   "title": "Sopraceneri: Osteria Borei",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Ghiridone 77, 6614 Brissago",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -11178,15 +11094,15 @@
   "radar": false,
   "notiz": "Mercoledì e giovedì chiuso<br><br> Mittwoch und Donnerstag geschlossen   |",
   "web": "https://www.osteriaborei.ch/index.html",
-  "geaendert": "2024-09-16"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "1EBFE3AB-CA9E-4598-ACFF-DD128DF6F678",
   "key": "sopracenerirestlaclaustraamgotthard",
   "name": "Sopraceneri: Rest. La Claustra am Gotthard",
   "title": "Sopraceneri: Rest. La Claustra am Gotthard",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via S. Gottardo, 6780 Airolo",
+  "quelle": "bear",
   "tags": [
    "Event",
    "GASTRO",
@@ -11201,15 +11117,15 @@
   "radar": false,
   "notiz": "Nach der Versteigerung der unterirdischen Vier-Sterne-Herberge La Claustra auf dem Gotthardpass steht die Neueröffnung bevor. Gäste sollen unter anderem Mitglieder von Oldtimer-Klubs sein.",
   "web": "",
-  "geaendert": "2024-09-16"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "28F757C5-2436-42C7-A6E8-781A4DAC22DD",
   "key": "sottocenerianticogrottoticinomendrisio",
   "name": "Sottoceneri: Antico Grotto Ticino, Mendrisio",
   "title": "Sottoceneri: Antico Grotto Ticino, Mendrisio",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Alle Cantine 20, 6850 Mendrisio",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "GASTRO/Küche",
@@ -11223,7 +11139,7 @@
   "radar": false,
   "notiz": "L'Antico Grotto Ticino, gestito da Peter e Odette Raith, si trova nella via delle Cantine del Borgo di Mendrisio.",
   "web": "http://www.grottoticino.ch/deu/dove_siamo.php",
-  "geaendert": "2024-09-16"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "96FB1BF2-9E1A-4C55-9437-A6FC082FE03D",
@@ -11369,8 +11285,8 @@
   "key": "sottocenerivilladelsolepontetresa",
   "name": "Sottoceneri: Villa del Sole, Ponte Tresa",
   "title": "Sottoceneri: Villa del Sole, Ponte Tresa",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Via Purasca, 6988 Tresa",
+  "quelle": "bear",
   "tags": [
    "Bike",
    "GASTRO",
@@ -11384,15 +11300,15 @@
   "radar": false,
   "notiz": "Hotel Villa del Sole, Via Purasca, 6988 Ponte TresaTel. +41 91 606 57 22, Fax +41 91 606 58 68, info@villadelsole.ch",
   "web": "http://www.myswitzerland.com/de-ch/malcantone-caslano.html",
-  "geaendert": "2024-09-16"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "7A99C934-D3C7-4565-8025-50968B46B651",
   "key": "sottocenerivillaoleandroincasima",
   "name": "Sottoceneri: Villa Oleandro in Casima",
   "title": "Sottoceneri: Villa Oleandro in Casima",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Casima Nucleo 4, 6875 Casima",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -11403,28 +11319,7 @@
   "radar": false,
   "notiz": "Nur schon die Fassadenfarbe ist hier freundlich.",
   "web": "https://www.villaoleandro.net/",
-  "geaendert": "2026-06-07"
- },
- {
-  "id": "52C88FD7-2B90-48DE-B1AD-93AF96938F38",
-  "key": "soussoleventlokalinzurich",
-  "name": "Sous-Sol - Eventlokal in Zurich",
-  "title": "Sous-Sol - Eventlokal in Zurich",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Bar",
-   "GASTRO",
-   "Party",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": false,
-  "notiz": "Sous-Sol - Eventlokal - Eventlocation - Die Lounge die man mieten kann",
-  "web": "http://www.eventlokale.com/de/recommend-locality-1153.html",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "85E7D3FB-79CF-402B-B9C7-100A129C7E11",
@@ -11651,8 +11546,8 @@
   "key": "surselvaalbiertgreina",
   "name": "Surselva: Albiert Greina",
   "title": "Surselva: Albiert Greina",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Ligiazun 125a, 7149 Vrin",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Graubünden",
@@ -11664,7 +11559,7 @@
   "radar": false,
   "notiz": "Sie hätten gerne ein Zimmer mit Aussicht? Bitte sehr...Unsere eigens für Sie angefertigten Outdoor Schlafzimmer bieten ein Naturerlebnis der Sonderklasse mit Sicht auf eine faszinierende Bergwelt und auf den Sternenhimmel. Sie werden …",
   "web": "https://www.surselva.info/Media/Gastronomie/Alm-Berggasthof-Vrin-Albiert-Greina#images",
-  "geaendert": "2022-02-28"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "23E55CFF-43E9-4EFD-87A6-74FCC398ABC2",
@@ -11688,30 +11583,6 @@
   "notiz": "Am letzten Donnerstagabend spazierte ich mit meinem Hündchen Daisy Richtung Helvetiaplatz in das neue Restaurant «Schweizer Weinstube». Inspiriert dazu hat mich ein Instagrambild einer Kollegin. Zudem war es wieder an der Zeit, mich ein …",
   "web": "",
   "geaendert": "2026-11-12"
- },
- {
-  "id": "C39224FA-19B0-48E0-8234-02FA923C0A28",
-  "key": "szenarioadliswil",
-  "name": "Szenario, Adliswil",
-  "title": "Rest. Szenario, Adliswil",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Aussenraum",
-   "Event",
-   "GASTRO",
-   "Party",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "in Langnau am Albis bietet ihren Gästen mediterrane, marktfrische und schnörkellose Küche.",
-  "web": "",
-  "geaendert": "2023-08-27"
  },
  {
   "id": "B2B11089-7C3C-4E95-B2EF-F3BB118CDED5",
@@ -11805,8 +11676,8 @@
   "key": "teufenhofladenwyberg",
   "name": "Teufen: Hofladen Wyberg",
   "title": "Teufen: Hofladen Wyberg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Oberteufenerstrasse 1, 8428 Teufen ZH",
+  "quelle": "bear",
   "tags": [
    "Eglisau+",
    "GASTRO",
@@ -11816,7 +11687,7 @@
   "radar": false,
   "notiz": "Daniela SchenkerPubliziert: 30.04.2025, 11:33",
   "web": "https://wyberg.ch/shop/",
-  "geaendert": "2026-10-11"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "46F90A90-D3C2-470B-843D-85BFF7C92359",
@@ -11869,8 +11740,8 @@
   "key": "teufenschlosscafe",
   "name": "Teufen: Schloss-Café",
   "title": "Teufen: Schloss-Café",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Neues Schloss 1, 8428 Teufen ZH",
+  "quelle": "bear",
   "tags": [
    "Aussenraum",
    "Café",
@@ -11883,7 +11754,7 @@
   "radar": true,
   "notiz": "",
   "web": "",
-  "geaendert": "2023-05-31"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "D512E0CC-0979-416A-8E4A-74FD256358C2",
@@ -12045,8 +11916,8 @@
   "key": "toggenburggasthausrosslimogelsberg",
   "name": "Toggenburg:  Gasthaus Rössli Mogelsberg",
   "title": "Toggenburg:  Gasthaus Rössli Mogelsberg",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Dorfstrasse 16, 9122 Mogelsberg",
+  "quelle": "bear",
   "tags": [
    "GASTRO",
    "Hotel",
@@ -12059,7 +11930,7 @@
   "radar": false,
   "notiz": "Das Oekohotel mit biologischer Gourmetküche",
   "web": "https://tbooking.toubiz.de/TDS00020012214437590/tbooking/?globalReset=1&amp;lang=de",
-  "geaendert": "2024-07-30"
+  "geaendert": "2026-11-15"
  },
  {
   "id": "7055CD72-7D14-41E3-A39F-C127F3C803CC",

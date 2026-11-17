@@ -120,6 +120,10 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 .pop .acts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px }
 .pop .acts a { font-weight: 600; font-size: 13px; text-decoration: none; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--line); color: var(--fg) }
 .pop .acts a.bear { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+.pop .acts.icons { gap: 14px; margin: 4px 0 2px }
+.pop .acts a.ico { padding: 0; border: 0; border-radius: 12px; line-height: 0 }
+.pop .acts a.ico img { width: 44px; height: 44px; display: block; border-radius: 10px }
+.pop .acts a.ico:active img { transform: scale(.94) }
 .pop details.fix summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--accent) }
 .pop details.fix .edit-row { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px }
 .pop details.fix input { width: 100%; font: 15px var(--font); padding: 7px 9px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--fg) }
@@ -455,8 +459,8 @@ function popupEl(d) {
     (d.adresse ? `<div class="addr">${esc(d.adresse)}</div>` : fix) +
     note +
     (tags ? `<div class="tags">${tags}</div>` : "") +
-    `<div class="acts"><a class="bear" href="${esc(bearOpen(d))}">In Bear öffnen</a><a href="${esc(apple)}" target="_blank" rel="noopener">Apple Karten</a><a href="${esc(google)}" target="_blank" rel="noopener">Google Maps</a>` +
-    (d.web ? `<a href="${esc(d.web)}" target="_blank" rel="noopener">Website</a>` : "") + `</div>` +
+    `<div class="acts icons"><a class="ico" href="${esc(bearOpen(d))}" title="In Bear öffnen" aria-label="In Bear öffnen"><img src="icons/bear.png" alt=""></a><a class="ico" href="${esc(apple)}" target="_blank" rel="noopener" title="Apple Karten" aria-label="Apple Karten"><img src="icons/apple-karten.png" alt=""></a><a class="ico" href="${esc(google)}" target="_blank" rel="noopener" title="Google Maps" aria-label="Google Maps"><img src="icons/google-maps.png" alt=""></a>` +
+    (d.web ? `<a class="ico" href="${esc(d.web)}" target="_blank" rel="noopener" title="Website" aria-label="Website"><img src="icons/website.png" alt=""></a>` : "") + `</div>` +
     (d.adresse ? fix : "") +
     `<div class="more"><button type="button" class="coll" title="Sammelartikel aus der App nehmen (Tag #GASTRO/Sammlung)">Ist eine Sammlung</button><button type="button" class="del">Löschen</button></div>`;
   el.querySelector("details.fix").appendChild(addressForm(d, false));

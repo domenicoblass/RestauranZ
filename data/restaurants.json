@@ -216,7 +216,7 @@
   "key": "alpsteinberggasthausaescher",
   "name": "Alpstein: Berggasthaus Aescher",
   "title": "Alpstein: Berggasthaus Aescher",
-  "adresse": "Aescher, 9057 Weissbad",
+  "adresse": "Äscher, Wasserauen",
   "quelle": "bear",
   "tags": [
    "Appenzell",
@@ -235,7 +235,7 @@
   "radar": true,
   "notiz": "Das Berggasthaus Aescher öffnet per Oktober wieder seine Zimmer.",
   "web": "http://www.aescher-ai.ch/impressum.html",
-  "geaendert": "2026-11-11"
+  "geaendert": "2026-11-19"
  },
  {
   "id": "4767B856-5680-4452-974F-FBEBC1331D58",
@@ -489,11 +489,11 @@
   "geaendert": "2026-11-11"
  },
  {
-  "id": "280F8777-8A94-4E92-A3C8-6DB2CAB1C686",
-  "key": "appenzell6hochgenusstouren",
-  "name": "Appenzell: 6 Hochgenuss-Touren",
-  "title": "Appenzell: 6 Hochgenuss-Touren",
-  "adresse": "Meldegg 415, 9428 Walzenhausen",
+  "id": "02A203FB-F6FC-4014-AA26-CFB003F09266",
+  "key": "appenzellgernbeizliinbuhler",
+  "name": "Appenzell: Gern-Beizli in Bühler",
+  "title": "Appenzell: Gern-Beizli in Bühler",
+  "adresse": "Gern 27, 9055 Bühler",
   "quelle": "text",
   "tags": [
    "Appenzell",
@@ -508,9 +508,9 @@
    "Sport"
   ],
   "radar": true,
-  "notiz": "Die «Meldegg» thront über einem Felsband.",
-  "web": "https://meldegg.ch/",
-  "geaendert": "2025-07-31"
+  "notiz": "Die Bauernfamilie Enderlin baute ihren ehemaligen Schweinestall zu einer hübschen Bergbeiz um.",
+  "web": "https://gernbeizli.ch/",
+  "geaendert": "2026-11-19"
  },
  {
   "id": "5EDDE165-81F4-4AF8-9525-D8693B18B8C3",
@@ -536,6 +536,76 @@
   "geaendert": "2026-11-11"
  },
  {
+  "id": "280F8777-8A94-4E92-A3C8-6DB2CAB1C686",
+  "key": "appenzellrestaurantalpenroseinhundwil",
+  "name": "Appenzell: Restaurant Alpenrose in Hundwil",
+  "title": "Appenzell: Restaurant Alpenrose in Hundwil",
+  "adresse": "Sondernasse 236, 9064 Hundwil",
+  "quelle": "text",
+  "tags": [
+   "Appenzell",
+   "Aussenraum",
+   "GASTRO",
+   "Ostschweiz",
+   "Radar",
+   "Restaurant",
+   "Route",
+   "SCHWEIZ",
+   "SPORT/Wandern",
+   "Sport"
+  ],
+  "radar": true,
+  "notiz": "Kinderfreundlich: Restaurant Alpenrose in Hundwil.",
+  "web": "https://alpenrose-hundwil.ch/",
+  "geaendert": "2026-11-19"
+ },
+ {
+  "id": "F8F1305E-1AFE-44C2-B221-A395F4F738F7",
+  "key": "appenzellrestaurantrechberginherisau",
+  "name": "Appenzell: Restaurant Rechberg in Herisau",
+  "title": "Appenzell: Restaurant Rechberg in Herisau",
+  "adresse": "Rechberg 2288, 9100 Herisau",
+  "quelle": "text",
+  "tags": [
+   "Appenzell",
+   "Aussenraum",
+   "GASTRO",
+   "Ostschweiz",
+   "Radar",
+   "Restaurant",
+   "Route",
+   "SCHWEIZ",
+   "SPORT/Wandern",
+   "Sport"
+  ],
+  "radar": true,
+  "notiz": "Auf der Terrasse des Restaurants Rechberg wird Gutbürgerliches serviert.",
+  "web": "http://rechberg-herisau.chÖffnungszeiten",
+  "geaendert": "2026-11-19"
+ },
+ {
+  "id": "77F5EDBF-EBB1-4D6A-910A-E6DEE8CE4B4B",
+  "key": "appenzellschwellbrunnherisau",
+  "name": "Appenzell: Schwellbrunn – Herisau",
+  "title": "Appenzell: Schwellbrunn – Herisau",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "Appenzell",
+   "GASTRO",
+   "Ostschweiz",
+   "Restaurant",
+   "Route",
+   "SCHWEIZ",
+   "SPORT/Wandern",
+   "Sport"
+  ],
+  "radar": false,
+  "notiz": "Gestern Mittag in Schwellbrunn, gegen den Alpstein zu hats noch Nebel.",
+  "web": "https://www.schwellbrunn.ch/restaurants/132299",
+  "geaendert": "2026-11-15"
+ },
+ {
   "id": "49CD30E8-DAA2-4D43-A66F-74005B5E135B",
   "key": "appenzellwillkommeninderbilderbuchschweiz",
   "name": "Appenzell: Willkommen in der Bilderbuchschweiz",
@@ -555,6 +625,30 @@
   "notiz": "Das schmucke Dorf Stein im Appenzeller Hinterland.",
   "web": "https://cdn.unitycms.io/images/4lwL839jKVTAR-iQqciM9o.jpg?op=ocroped&amp;val=400,400,1000,1000,0,0&amp;sum=6UFF2kDjMS4",
   "geaendert": "2024-09-30"
+ },
+ {
+  "id": "A0F7E261-CE03-4DE1-BFC0-719B48407F24",
+  "key": "appenzellwirtschaftzumbareninrehetobel",
+  "name": "Appenzell: Wirtschaft zum Bären in Rehetobel",
+  "title": "Appenzell: Wirtschaft zum Bären in Rehetobel",
+  "adresse": "Robach 25, 9038 Rehetobel",
+  "quelle": "text",
+  "tags": [
+   "Appenzell",
+   "Aussenraum",
+   "GASTRO",
+   "Ostschweiz",
+   "Radar",
+   "Restaurant",
+   "Route",
+   "SCHWEIZ",
+   "SPORT/Wandern",
+   "Sport"
+  ],
+  "radar": true,
+  "notiz": "Die Wirtschaft zum Bären, bei Einheimischen auch als «Urwaldhaus» bekannt, gehört zu den ältesten Häusern von Rehetobel.",
+  "web": "https://www.urwaldhaus.ch/",
+  "geaendert": "2026-11-19"
  },
  {
   "id": "DE18A16C-3102-4C33-872D-75908381F0C4",
@@ -5571,28 +5665,6 @@
   "geaendert": "2026-11-09"
  },
  {
-  "id": "77F5EDBF-EBB1-4D6A-910A-E6DEE8CE4B4B",
-  "key": "goldenerherbstundetwaswinter",
-  "name": "Goldener Herbst (und etwas Winter)",
-  "title": "Goldener Herbst (und etwas Winter)",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "Appenzell",
-   "GASTRO",
-   "Ostschweiz",
-   "Restaurant",
-   "Route",
-   "SCHWEIZ",
-   "SPORT/Wandern",
-   "Sport"
-  ],
-  "radar": false,
-  "notiz": "Gestern Mittag in Schwellbrunn, gegen den Alpstein zu hats noch Nebel.",
-  "web": "https://www.schwellbrunn.ch/restaurants/132299",
-  "geaendert": "2026-11-15"
- },
- {
   "id": "810C38A9-95DE-4C1A-AA20-9A61238C3686",
   "key": "gondelgartli",
   "name": "Gondel Gärtli",
@@ -6752,6 +6824,28 @@
   "geaendert": "2026-11-11"
  },
  {
+  "id": "BB81721F-6CE7-4F3B-B691-FC7B1E4EE5DE",
+  "key": "kju",
+  "name": "Kju",
+  "title": "Rest. Kju",
+  "adresse": "Josefstr. 112, 8005 Zürich",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Japanisch",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Stadt",
+   "Zürich+"
+  ],
+  "radar": true,
+  "notiz": "Das neue japanische Lokal im Kreis 5 will mehr als bloss eine Sushi-Bar sein. Der Plan geht auf. Und doch landet man am Ende beim Nigiri, zum Glück.",
+  "web": "https://kju.ch/",
+  "geaendert": "2026-11-19"
+ },
+ {
   "id": "462A4175-5FE8-475C-8834-71630CF0D01C",
   "key": "kle",
   "name": "Kle",
@@ -6948,6 +7042,30 @@
   "notiz": "Isabel HemmelPubliziert: 15.12.2024, 15:52",
   "web": "https://de.la-brea.ch/",
   "geaendert": "2025-10-19"
+ },
+ {
+  "id": "F2AD25F1-21D2-4B29-8FD8-4D51E1B25B38",
+  "key": "lacote",
+  "name": "La Côte",
+  "title": "Rest. La Côte",
+  "adresse": "Aemtlerstrasse 26, 8003 Zürich",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fleisch",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Stadt",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": true,
+  "notiz": "Gourmets wissen es: Im La Côte in Wiedikon gibt es zu «Freveln» und zu «Sündigen», wie auch der Blick in die Karte zeigt. Die Atmosphäre ist gemütlich. Bei der Bestellung des Entrecote wird Wert darauf gelegt, dass «medium» nicht …",
+  "web": "https://lacote.atelier-kgr.ch/LaCote2026/",
+  "geaendert": "2026-11-19"
  },
  {
   "id": "97F59BFB-6218-419F-A92E-BE3F13BF479B",
@@ -7624,6 +7742,30 @@
   "notiz": "So sieht Comfortfood aus: Der Chicago Beef im Lou's Restaurant & Bar.",
   "web": "https://www.lous-restaurant.ch/menutel:+41444510707",
   "geaendert": "2026-11-09"
+ },
+ {
+  "id": "E6EE0582-1E72-4F02-848C-90A35CC10C2E",
+  "key": "luca2",
+  "name": "Luca2",
+  "title": "Rest. Luca2",
+  "adresse": "Asylstrasse 81, 8032 Zürich",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fleisch",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Stadt",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": true,
+  "notiz": "Die Zubereitung dauert Stunden: Bei den Spareribs im Luca² löst sich das Fleisch mürbe vom Knochen, ist butterzart und wunderbar glaciert.",
+  "web": "https://www.restaurant-luca.ch/",
+  "geaendert": "2026-11-19"
  },
  {
   "id": "8678A9ED-03D2-4079-B1CD-3A79014B3789",
@@ -9369,6 +9511,30 @@
   "notiz": "Im Lokal an der Chorgasse haben Mira Luisa Labusch und Flavia Carina Niederer die Küche übernommen. So sieht ihre kulinarische Handschrift aus.",
   "web": "https://rechberg1837.com/",
   "geaendert": "2025-11-24"
+ },
+ {
+  "id": "AEE33353-2D61-416D-A114-07206B49A9A4",
+  "key": "relaisdelentrecote",
+  "name": "Relais de L’Entrecôte",
+  "title": "Rest. Relais de L’Entrecôte",
+  "adresse": "In Gassen 5, 8001 Zürich",
+  "quelle": "text",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fleisch",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Stadt",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": true,
+  "notiz": "Die Zürcher Dépendance des Klassikers aus Paris macht es den Gästen leicht: keine Reservation, keine Speisekarte. Im Relais de L’Entrecôte ist der Name Programm. Im unweit vom Paradeplatz gelegenen Steakhouse wird exakt so gebraten, wie …",
+  "web": "https://www.relaisdelentrecote.com/de",
+  "geaendert": "2026-11-19"
  },
  {
   "id": "904F5C7F-73EE-42D2-9B5E-453A977609A8",
@@ -12801,6 +12967,30 @@
   "notiz": "",
   "web": "",
   "geaendert": "2022-03-05"
+ },
+ {
+  "id": "39EBC910-DA3B-4534-A860-0D3EFDA263C5",
+  "key": "williamsbutcherstable",
+  "name": "Williams Butchers Table",
+  "title": "Rest. Williams Butchers Table",
+  "adresse": "",
+  "quelle": "",
+  "tags": [
+   "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fleisch",
+   "Radar",
+   "Restaurant",
+   "SCHWEIZ",
+   "Stadt",
+   "UNTERWEGS",
+   "UNTERWEGS/Ausgang",
+   "Zürich+"
+  ],
+  "radar": true,
+  "notiz": "Vom Rib-Eye-Steak bis zum Black-Angus-Bavette: Im Williams Butchers Table wird das Fleisch direkt an der Metzgertheke ausgewählt. Es stamme von Schweizer Familienbetrieben, versprechen die drei Inhaber, die ihr Konzept als «Rock ’n’ …",
+  "web": "https://www.williamsbutcherstable.ch/",
+  "geaendert": "2026-11-19"
  },
  {
   "id": "B7EC1F6F-11F7-402C-9BD2-0F727ADCF484",

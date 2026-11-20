@@ -588,8 +588,8 @@
   "key": "appenzellschwellbrunnherisau",
   "name": "Appenzell: Schwellbrunn – Herisau",
   "title": "Appenzell: Schwellbrunn – Herisau",
-  "adresse": "",
-  "quelle": "",
+  "adresse": "Rötschwil 411, 9103 Schwellbrunn",
+  "quelle": "bear",
   "tags": [
    "Appenzell",
    "GASTRO",
@@ -603,7 +603,7 @@
   "radar": false,
   "notiz": "Gestern Mittag in Schwellbrunn, gegen den Alpstein zu hats noch Nebel.",
   "web": "https://www.schwellbrunn.ch/restaurants/132299",
-  "geaendert": "2026-11-15"
+  "geaendert": "2026-11-20"
  },
  {
   "id": "49CD30E8-DAA2-4D43-A66F-74005B5E135B",
@@ -2741,15 +2741,17 @@
   "geaendert": "2026-11-11"
  },
  {
-  "id": "C3735D3C-4FEC-4A30-951A-0A541A10D871",
+  "id": "E7E862DC-16C6-426B-9C1C-CD3C0BEEA248",
   "key": "butcherstable",
   "name": "ButchersTable",
   "title": "Rest. ButchersTable",
   "adresse": "Neumünsterstrasse 34, 8008 Zürich",
   "quelle": "text",
   "tags": [
-   "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fleisch",
+   "Radar",
    "Restaurant",
    "SCHWEIZ",
    "Stadt",
@@ -2757,10 +2759,10 @@
    "UNTERWEGS/Ausgang",
    "Zürich+"
   ],
-  "radar": false,
+  "radar": true,
   "notiz": "Wer hat nicht schon einmal davon geträumt, auf der Strasse angequatscht zu werden und seinen Traumjob auf dem Silbertablett serviert zu bekommen? So wie Gisèle Bündchen zum Beispiel. Die wurde beim Burgeressen in einem Einkaufszentrum …",
   "web": "https://www.butcherstable.ch/",
-  "geaendert": "2026-03-15"
+  "geaendert": "2026-11-20"
  },
  {
   "id": "9CF0C1BA-678E-4D27-BAE0-A44EAEA3DB82",
@@ -3651,6 +3653,8 @@
   "quelle": "bear",
   "tags": [
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fleisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -3662,7 +3666,7 @@
   "radar": true,
   "notiz": "With French and German roots and a background as unconventional as his cooking style, Tristan Jaensch took a winding path to the kitchen. Before discovering his true calling in food, he worked as a music producer, events organizer, and …",
   "web": "https://www.char-zurich.ch/",
-  "geaendert": "2026-11-09"
+  "geaendert": "2026-11-19"
  },
  {
   "id": "A8C6F7F8-8710-419D-9C66-094ABB3B8293",
@@ -9247,6 +9251,8 @@
   "tags": [
    "Aussenraum",
    "GASTRO",
+   "GASTRO/Küche",
+   "GASTRO/Küche/Fleisch",
    "Radar",
    "Restaurant",
    "SCHWEIZ",
@@ -9258,7 +9264,7 @@
   "radar": true,
   "notiz": "Eine ruhige grüne Oase unweit der Badenerstrasse, in der Feriengefühle aufkommen: die Terrasse des Restaurants Parea im Kreis 3.",
   "web": "https://www.parea.rest/",
-  "geaendert": "2026-11-09"
+  "geaendert": "2026-11-19"
  },
  {
   "id": "914AD1BB-6CC2-4153-BCB3-9D6B46C0F478",
@@ -12967,30 +12973,6 @@
   "notiz": "",
   "web": "",
   "geaendert": "2022-03-05"
- },
- {
-  "id": "39EBC910-DA3B-4534-A860-0D3EFDA263C5",
-  "key": "williamsbutcherstable",
-  "name": "Williams Butchers Table",
-  "title": "Rest. Williams Butchers Table",
-  "adresse": "",
-  "quelle": "",
-  "tags": [
-   "GASTRO",
-   "GASTRO/Küche",
-   "GASTRO/Küche/Fleisch",
-   "Radar",
-   "Restaurant",
-   "SCHWEIZ",
-   "Stadt",
-   "UNTERWEGS",
-   "UNTERWEGS/Ausgang",
-   "Zürich+"
-  ],
-  "radar": true,
-  "notiz": "Vom Rib-Eye-Steak bis zum Black-Angus-Bavette: Im Williams Butchers Table wird das Fleisch direkt an der Metzgertheke ausgewählt. Es stamme von Schweizer Familienbetrieben, versprechen die drei Inhaber, die ihr Konzept als «Rock ’n’ …",
-  "web": "https://www.williamsbutcherstable.ch/",
-  "geaendert": "2026-11-19"
  },
  {
   "id": "B7EC1F6F-11F7-402C-9BD2-0F727ADCF484",

@@ -250,6 +250,26 @@ const pending = store.get("guide.pending", {});
 // Als Sammlung markierte Einträge: bis zum nächsten Abgleich lokal ausblenden
 const collections = store.get("guide.sammlung", {});
 const geoCache = store.get("guide.geo", {});
+// Gemeinsamer Speicher auf dem Server (alle Geräte); ohne Verbindung arbeitet die App wie bisher nur lokal
+const shared = {
+  on: false,
+  async load() {
+    try {
+      const r = await fetch("/api/state", { cache: "no-store" });
+      if (!r.ok) return null;
+      this.on = true;
+      return await r.json();
+    } catch { return null; }
+  },
+  async send(body) {
+    if (!this.on) return false;
+    try { const r = await fetch("/api/state", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) }); return r.ok; }
+    catch { return false; }
+  },
+  setAdresse(id, p) { return this.send({ art: "adressen", id, wert: p }); },
+  setAusblenden(id, v) { return this.send({ art: "ausblenden", id, wert: v }); },
+  remove(art, ids) { return ids.length ? this.send({ art, ids, loeschen: true }) : Promise.resolve(true); }
+};
 
 // ---------- Karte ----------
 const map = L.map("map", { zoomControl: true }).setView([47.38, 8.54], 9);
@@ -611,8 +631,9 @@ function addressForm(d, withExtras) {
     let c = null;
     try { c = await check(); } catch {}
     if (c) { pending[d.id].lat = c[0]; pending[d.id].lon = c[1]; store.set("guide.pending", pending); }
+    shared.setAdresse(d.id, pending[d.id]);
     applyPending(); renderOutbox();
-    say("Übernommen. Unten «An Bear senden» schickt alle gemerkten Adressen auf einmal.", "ok");
+    say("Übernommen und auf allen Geräten sichtbar. «An Bear senden» schickt alle gemerkten Adressen auf einmal.", "ok");
     if (!withExtras) setTimeout(() => { map.closePopup(); probe && probe.remove(); probe = null; render(false); const m = markers.get(d.id); m && m.openPopup(); }, 900);
     else renderList();
   };
@@ -633,14 +654,15 @@ function sendOutbox() {
   const lines = list.map(([id, p]) => `- ${id} | ${p.adresse} | ${(p.name || "").replace(/\|/g, "/")}`);
   const text = "Von der App gesammelte Adressen. Claude überträgt sie beim nächsten «RestauranZ aktualisieren» in die einzelnen Notizen.\n\n" + lines.join("\n");
   location.href = "bear://x-callback-url/create?" + new URLSearchParams({ title: "RestauranZ Adressen " + stamp, text, tags: "RestauranZ/Eingang", open_note: "no", show_window: "no" }).toString().replace(/\+/g, "%20");
-  for (const [id] of list) pending[id].sent = true;
+  for (const [id] of list) { pending[id].sent = true; shared.setAdresse(id, pending[id]); }
   store.set("guide.pending", pending);
   renderOutbox(); renderList();
 }
 // Bis zum nächsten Abgleich lokal ausblenden (Sammlung markiert oder in Bear gelöscht)
 function hideLocally(d, why) {
-  collections[d.id] = { why, am: new Date().toISOString() };
+  collections[d.id] = { why, am: new Date().toISOString(), name: d.name };
   store.set("guide.sammlung", collections);
+  shared.setAusblenden(d.id, collections[d.id]);
   DATA = DATA.filter(x => x.id !== d.id);
   map.closePopup();
   render(false);
@@ -652,14 +674,16 @@ function trashNote(d) {
 }
 // Lokal gespeicherte Adressen anwenden; sobald Bear dieselbe Adresse liefert, wird der Eintrag gelöscht
 function applyPending() {
+  const done = [];
   for (const d of DATA) {
     const p = pending[d.id];
     if (!p) continue;
-    if (d.quelle === "bear" && d.adresse === p.adresse) { delete pending[d.id]; continue; }
+    if (d.quelle === "bear" && d.adresse === p.adresse) { delete pending[d.id]; done.push(d.id); continue; }
     d.adresse = p.adresse;
     if (p.lat != null) { d.lat = p.lat; d.lon = p.lon; } else { delete d.lat; delete d.lon; }
   }
   store.set("guide.pending", pending);
+  shared.remove("adressen", done);
 }
 
 // ---------- Bedienung ----------
@@ -697,8 +721,22 @@ $("reset").onclick = () => { selected.clear(); store.set("guide.tags", []); $("q
     $("list").innerHTML = '<li class="empty">Die Daten konnten nicht geladen werden. Bitte neu laden.</li>';
     return;
   }
-  // Sammlungen, die Bear beim Abgleich schon weglässt, aus dem lokalen Speicher entfernen
-  for (const id of Object.keys(collections)) if (!DATA.some(x => x.id === id)) delete collections[id];
+  // Gemeinsamen Stand aller Geräte holen; was nur hier lokal liegt, dorthin nachtragen
+  const remote = await shared.load();
+  if (remote) {
+    for (const [id, p] of Object.entries(remote.adressen || {})) {
+      const mine = pending[id];
+      if (!mine || (p.am || "") >= (mine.am || "")) pending[id] = p;
+    }
+    for (const [id, p] of Object.entries(pending)) if (!remote.adressen?.[id] || (remote.adressen[id].am || "") < (p.am || "")) shared.setAdresse(id, p);
+    for (const [id, v] of Object.entries(remote.ausblenden || {})) collections[id] ||= v;
+    for (const [id, v] of Object.entries(collections)) if (!remote.ausblenden?.[id]) shared.setAusblenden(id, v);
+    store.set("guide.pending", pending);
+  }
+  // Sammlungen, die Bear beim Abgleich schon weglässt, aus dem Speicher entfernen
+  const gone = Object.keys(collections).filter(id => !DATA.some(x => x.id === id));
+  for (const id of gone) delete collections[id];
+  shared.remove("ausblenden", gone);
   store.set("guide.sammlung", collections);
   DATA = DATA.filter(x => !collections[x.id]);
   applyPending(); renderOutbox();

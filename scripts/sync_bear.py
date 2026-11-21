@@ -54,6 +54,8 @@ out, seen = [], set()
 for n in notes:
     md, raw = n["metadata"], n["content"]
     md["tags"] = sorted(set(normTag(t) for t in md["tags"]))
+    if "SPORT/Wandern" in md["tags"] and "Route" in md["tags"]:
+        md["tags"] = sorted(md["tags"] + ["Ausflug"])   # Wanderroute mit Einkehr: in der App unter Typ «Ausflug»
     if md["id"] in seen: continue
     if md.get("location", "notes") != "notes": continue   # Papierkorb und Archiv nicht übernehmen
     if "GASTRO/Sammlung" in md["tags"]: continue   # Sammelartikel, keine einzelnen Lokale

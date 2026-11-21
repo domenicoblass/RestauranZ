@@ -271,6 +271,19 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
 };
 
+// Filter merken, solange man unterwegs ist (z. B. Website besucht und zurück).
+// Neu laden oder nach 30 Minuten Pause startet die Seite wieder mit «Alle».
+const FILTER_KEYS = ["guide.region", "guide.radar", "guide.bucket", "guide.tags", "guide.q"];
+{
+  let nav = ""; try { nav = performance.getEntriesByType("navigation")[0]?.type || ""; } catch {}
+  if (nav === "reload" || Date.now() - store.get("guide.seen", 0) > 30 * 60e3)
+    FILTER_KEYS.forEach(k => { try { localStorage.removeItem(k); } catch {} });
+}
+const touch = () => store.set("guide.seen", Date.now());
+touch();
+addEventListener("pagehide", touch);
+document.addEventListener("visibilitychange", touch);
+
 let DATA = [];
 let region = store.get("guide.region", null);
 let onlyRadar = store.get("guide.radar", false);
@@ -779,8 +792,9 @@ $("editTabs").querySelectorAll("button").forEach(b => b.onclick = () => {
 });
 map.on("moveend", () => { if (inArea) renderList(); });
 let qTimer;
-$("q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(() => render(false), 150); });
-$("reset").onclick = () => { selected.clear(); store.set("guide.tags", []); $("q").value = ""; render(true); };
+$("q").value = store.get("guide.q", "");
+$("q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(() => { store.set("guide.q", $("q").value); render(false); }, 150); });
+$("reset").onclick = () => { selected.clear(); store.set("guide.tags", []); $("q").value = ""; store.set("guide.q", ""); render(true); };
 
 (async function start() {
   renderRegions();

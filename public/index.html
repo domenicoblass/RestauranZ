@@ -46,6 +46,24 @@ body { background: var(--bg); color: var(--fg); font: 15px/1.45 var(--font); dis
 #regions button { flex: 0 0 auto; display: inline-flex; align-items: center; gap: 8px; min-height: 76px; border-radius: 16px; font-size: 17px; padding: 8px 16px 8px 12px }
 #regions button:not(:has(img)) { padding: 8px 18px }
 #regions button.sub { font-size: 15px }
+/* Hauptleiste: Radar, Ziel, Alle, Ort, Küche, Typ; darunter die jeweilige Auswahl */
+#regions button.menu { gap: 6px }
+#regions button.menu .ico { font-size: 22px; line-height: 1 }
+#regions button.menu .caret { font-size: 11px; opacity: .6; margin-left: 2px; transition: transform .15s }
+#regions button.menu.open .caret { transform: rotate(180deg) }
+#regions button.menu.open:not([aria-pressed="true"]) { border-color: var(--fg); box-shadow: inset 0 0 0 1px var(--fg) }
+#subnav { display: flex; flex-wrap: wrap; gap: 6px }
+#subnav.ort { flex-wrap: wrap; row-gap: 6px }
+#subnav.ort button { display: inline-flex; align-items: center; gap: 8px; min-height: 60px; border-radius: 14px; font-size: 16px; padding: 6px 14px 6px 10px }
+#subnav.ort img.wappen { height: 44px; width: auto; display: block; filter: drop-shadow(0 0 .6px rgba(0,0,0,.55)) }
+#subnav.ort button.sub { border-style: dashed; font-size: 15px }
+#subnav.ort button.sub img.wappen { height: 34px }
+#subnav .opt { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; padding: 8px 13px; font-size: 15px; white-space: nowrap }
+#subnav .opt .f { font-size: 18px; line-height: 1 }
+#subnav .opt .n { color: var(--muted); font-weight: 400; font-size: 13px }
+#subnav button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg) }
+#subnav button[aria-pressed="true"] .n { color: inherit; opacity: .7 }
+#subnav button[aria-pressed="true"] img.wappen { filter: drop-shadow(0 0 .8px rgba(255,255,255,.9)) }
 #side { display: flex; flex-direction: column; min-height: 0; border-right: 1px solid var(--line); background: var(--surface) }
 #map { min-height: 0; background: var(--bg) }
 .top { padding: 12px 16px 10px; display: grid; gap: 10px; border-bottom: 1px solid var(--line) }
@@ -149,15 +167,25 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
   body { grid-template-columns: 100%; grid-template-rows: auto 38% minmax(0, 1fr) }
   #map { grid-row: 2 } #side { grid-row: 3; border-right: 0; border-top: 1px solid var(--line) }
   h1 { font-size: 3.2rem } .logo { width: 56px; height: 56px }
-  #regions button { min-height: 64px; font-size: 15px; gap: 6px; padding: 6px 12px 6px 10px }
-  #regions { flex-wrap: nowrap }
-  #regions img.wappen { height: 44px }
+  /* Hauptleiste auf dem Handy: alle sechs Knöpfe sichtbar, 3 × 2 */
+  #regions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; overflow: visible }
+  #regions button { min-height: 48px; font-size: 15px; gap: 5px; padding: 4px 6px; justify-content: center; border-radius: 12px; min-width: 0 }
+  #regions button:not(:has(img)) { padding: 4px 6px }
+  #regions button.menu .ico { font-size: 18px }
+  #regions img.wappen { height: 30px }
   #regions button.sub img.wappen { height: 34px }
+  /* Unterauswahl auf dem Handy: waagrecht scrollen, Küche und Typ in zwei Reihen */
+  #subnav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px }
+  #subnav::-webkit-scrollbar { display: none }
+  #subnav.ort { flex-wrap: nowrap }
+  #subnav.ort button { flex: 0 0 auto; min-height: 54px; font-size: 15px }
+  #subnav.ort img.wappen { height: 38px }
+  #subnav.chips2 { display: grid; grid-auto-flow: column; grid-template-rows: repeat(2, auto); justify-content: start }
   #topbar { gap: 10px; padding-top: calc(10px + env(safe-area-inset-top)) }
   .groups { max-height: 24vh }
   /* Adressen bearbeiten: kompakter Kopf, kleine Karte, Platz für die Liste */
   body.editing { grid-template-rows: auto 22% minmax(0, 1fr) }
-  body.editing #regions, body.editing #info { display: none }
+  body.editing #regions, body.editing #subnav, body.editing #info { display: none }
   body.editing h1 { font-size: 0; gap: 0 } body.editing .logo { width: 38px; height: 38px; border-radius: 9px }
   body.editing #topbar { gap: 0; padding-bottom: 8px }
   body.editing .top { padding: 8px 16px; gap: 8px }
@@ -166,7 +194,7 @@ ul#list { list-style: none; margin: 0; padding: 0; overflow: auto; flex: 1; min-
 }
 body.editing ul#list { padding-bottom: 90px }
 /* Gleiche aufgeräumte Bearbeiten-Ansicht auf allen iOS-Geräten (auch iPad, egal wie breit) */
-html.ios body.editing #regions, html.ios body.editing #info, html.ios body.editing .area-btn { display: none }
+html.ios body.editing #regions, html.ios body.editing #subnav, html.ios body.editing #info, html.ios body.editing .area-btn { display: none }
 html.ios body.editing h1 { font-size: 0; gap: 0 } html.ios body.editing .logo { width: 38px; height: 38px; border-radius: 9px }
 html.ios body.editing #topbar { gap: 0; padding-top: calc(8px + env(safe-area-inset-top)); padding-bottom: 8px }
 html.ios body.editing .top { padding: 8px 16px; gap: 8px }
@@ -188,13 +216,14 @@ html.ios body.editing .head { flex-wrap: nowrap } html.ios body.editing .tool { 
       <a class="tool" href="/aenderungen.html">Änderungen</a>
     </div>
   </div>
-  <div class="seg" id="regions" role="group" aria-label="Region"></div>
+  <div class="seg" id="regions" role="group" aria-label="Auswahl"></div>
+  <div id="subnav" hidden></div>
 </header>
 <aside id="side">
   <div class="top">
     <input id="q" type="search" placeholder="Name, Ort oder Stichwort" aria-label="Suchen" autocomplete="off">
     <div id="browseOnly">
-      <details class="filters" id="filters"><summary>Tags <b id="tagSum"></b></summary><div class="groups" id="groups"></div></details>
+      <details class="filters" id="filters"><summary>Weitere Tags <b id="tagSum"></b></summary><div class="groups" id="groups"></div></details>
     </div>
     <div class="seg" id="editTabs" hidden role="group" aria-label="Anzeige">
       <button type="button" data-v="missing" aria-pressed="true">Ohne Adresse</button>
@@ -221,6 +250,11 @@ const HIDDEN = new Set(["GASTRO", "SCHWEIZ", "Radar", "UNTERWEGS", "GASTRO/Küch
   "Fokus", "Winter", "Ernährung"]);
 // Filtergruppen (Küche kommt aus den Untertags GASTRO/Küche/…)
 const TYP = ["Restaurant", "Café", "Bar", "Hotel", "Ausflug", "Take Away", "Pop-Up", "Catering"];
+const TYP_ICON = { Restaurant: "🍽️", "Café": "☕", Bar: "🍸", Hotel: "🏨", Ausflug: "🥾", "Take Away": "🥡", "Pop-Up": "⛺", Catering: "🧑‍🍳" };
+// Küchen: Flagge der Region, wo es eine gibt, sonst ein passendes Symbol
+const KUECHE_ICON = { Italienisch: "🇮🇹", "Französisch": "🇫🇷", Spanisch: "🇪🇸", "Österreichisch": "🇦🇹", "Türkisch": "🇹🇷", Japanisch: "🇯🇵",
+  Chinesisch: "🇨🇳", Thai: "🇹🇭", Indisch: "🇮🇳", Amerikanisch: "🇺🇸", "Gutbürgerlich": "🇨🇭", Fondue: "🫕", Asiatisch: "🌏", Latino: "🌎",
+  Orientalisch: "🧆", Fisch: "🐟", Fleisch: "🥩", Vegetarisch: "🥗", Fusion: "🌐", Brunch: "🥐" };
 const REGION_FILTER = ["Winterthur", "Ostschweiz", "Appenzell", "Zentralschweiz", "Graubünden", "Engadin", "Bern", "Basel", "Mittelland", "Romandie", "Wallis",
   "Deutschland", "Frankreich", "Italien", "Iberien", "Grossbritannien", "Skandinavien", "USA"];
 const AUSSTATTUNG = ["Aussenraum", "amwasser", "Wellness", "Kurier"];
@@ -407,35 +441,73 @@ function chip(t, n) {
   b.onclick = () => { selected.has(t) ? selected.delete(t) : selected.add(t); store.set("guide.tags", [...selected]); render(true); };
   return b;
 }
+let openMenu = null; // "ort" | "kueche" | "typ"
+const pickedKitchen = () => [...selected].find(t => t.startsWith(KUECHE)) || null;
+const pickedTyp = () => [...selected].find(t => TYP.includes(t)) || null;
+// Küche und Typ: jeweils eine Auswahl; nochmals tippen hebt sie auf
+function pickOne(t, isGroup) {
+  const had = selected.has(t);
+  for (const x of [...selected]) if (isGroup(x)) selected.delete(x);
+  if (!had) selected.add(t);
+  store.set("guide.tags", [...selected]);
+}
 function renderRegions() {
   const box = $("regions"); box.textContent = "";
-  const fav = document.createElement("button");
-  fav.type = "button"; fav.className = "radar"; fav.textContent = "★ Radar";
-  fav.title = "Nur Favoriten (Tag Radar)";
-  fav.setAttribute("aria-pressed", onlyRadar);
-  fav.onclick = () => { onlyRadar = !onlyRadar; store.set("guide.radar", onlyRadar); renderRegions(); render(true); };
-  box.appendChild(fav);
-  const bucket = document.createElement("button");
-  bucket.type = "button"; bucket.className = "bucket"; bucket.textContent = "🎯 Ziel";
-  bucket.title = "Nur Ziele (Tag Bucket List)";
-  bucket.setAttribute("aria-pressed", onlyBucket);
-  bucket.onclick = () => { onlyBucket = !onlyBucket; store.set("guide.bucket", onlyBucket); renderRegions(); render(true); };
-  box.appendChild(bucket);
-  for (const [name, tag, wappen, sub] of REGIONS) {
+  const btn = (cls, html, pressed, title, onclick) => {
     const b = document.createElement("button");
-    b.type = "button"; b.textContent = name;
-    if (wappen) { const img = document.createElement("img"); img.className = "wappen"; img.src = `/wappen/${wappen}.png`; img.alt = ""; b.prepend(img); }
-    if (sub) { b.classList.add("sub"); b.title = "Teil von Ticino"; b.setAttribute("aria-label", name); }
-    b.setAttribute("aria-pressed", region === tag);
-    b.onclick = () => { region = tag; store.set("guide.region", tag); renderRegions(); render(true); };
-    box.appendChild(b);
+    b.type = "button"; b.className = cls; b.innerHTML = html; b.title = title;
+    b.setAttribute("aria-pressed", pressed); b.onclick = onclick; box.appendChild(b); return b;
+  };
+  btn("radar", "★ Radar", onlyRadar, "Nur Favoriten (Tag Radar)", () => { onlyRadar = !onlyRadar; store.set("guide.radar", onlyRadar); render(true); });
+  btn("bucket", "🎯 Ziel", onlyBucket, "Nur Ziele (Tag Bucket List)", () => { onlyBucket = !onlyBucket; store.set("guide.bucket", onlyBucket); render(true); });
+  const k = pickedKitchen(), ty = pickedTyp();
+  const all = btn("", '<img class="wappen" src="/wappen/schweiz.png" alt="">Alle', !region && !k && !ty, "Alle Orte, Küchen und Typen", () => {
+    region = null; store.set("guide.region", null);
+    for (const x of [...selected]) if (x.startsWith(KUECHE) || TYP.includes(x)) selected.delete(x);
+    store.set("guide.tags", [...selected]); openMenu = null; render(true);
+  });
+  const reg = region ? REGIONS.find(r => r[1] === region) : null;
+  const menu = (key, icon, text, active, title) => {
+    const b = btn("menu" + (openMenu === key ? " open" : ""), `<span class="ico">${icon}</span>${esc(text)}<span class="caret">▾</span>`, active, title,
+      () => { openMenu = openMenu === key ? null : key; renderRegions(); });
+    b.setAttribute("aria-expanded", openMenu === key);
+  };
+  menu("ort", "📍", reg ? reg[0] : "Ort", !!region, "Ort wählen");
+  menu("kueche", k ? (KUECHE_ICON[label(k)] || "🥘") : "🥘", k ? label(k) : "Küche", !!k, "Küche wählen");
+  menu("typ", ty ? (TYP_ICON[ty] || "🍽️") : "🍽️", ty || "Typ", !!ty, "Typ wählen");
+  renderSubnav();
+}
+function renderSubnav() {
+  const box = $("subnav"); box.textContent = ""; box.className = openMenu === "ort" ? "ort" : "chips2";
+  box.hidden = !openMenu;
+  if (!openMenu) return;
+  const counts = new Map();
+  for (const d of DATA.filter(inRegion)) for (const t of d.tags) counts.set(t, (counts.get(t) || 0) + 1);
+  const opt = (html, pressed, onclick, cls = "opt") => {
+    const b = document.createElement("button"); b.type = "button"; b.className = cls; b.innerHTML = html;
+    b.setAttribute("aria-pressed", pressed); b.onclick = onclick; box.appendChild(b); return b;
+  };
+  if (openMenu === "ort") {
+    for (const [name, tag, wappen, sub] of REGIONS) {
+      if (!tag) continue;
+      const b = opt(`<img class="wappen" src="/wappen/${wappen}.png" alt="">${esc(name)}`, region === tag, () => {
+        region = region === tag ? null : tag; store.set("guide.region", region); openMenu = null; render(true);
+      }, sub ? "sub" : "");
+      if (sub) b.title = "Teil von Ticino";
+    }
+  } else if (openMenu === "kueche") {
+    const list = [...counts.keys()].filter(t => t.startsWith(KUECHE)).sort((a, b) => counts.get(b) - counts.get(a) || label(a).localeCompare(label(b), "de"));
+    for (const t of list) opt(`<span class="f">${KUECHE_ICON[label(t)] || "🍴"}</span>${esc(label(t))}<span class="n">${counts.get(t)}</span>`, selected.has(t),
+      () => { pickOne(t, x => x.startsWith(KUECHE)); openMenu = null; render(true); });
+  } else {
+    for (const t of TYP) if (counts.get(t) || selected.has(t)) opt(`<span class="f">${TYP_ICON[t]}</span>${esc(t)}<span class="n">${counts.get(t) || 0}</span>`, selected.has(t),
+      () => { pickOne(t, x => TYP.includes(x)); openMenu = null; render(true); });
   }
 }
 function renderGroups(filtered) {
   const counts = tagCounts(filtered);
   const all = tagCounts(DATA.filter(inRegion));
   const g = $("groups"); g.textContent = "";
-  const kitchen = [...all.keys()].filter(t => t.startsWith(KUECHE)).sort((a, b) => label(a).localeCompare(label(b), "de"));
   const other = [...all.keys()].filter(t => !t.startsWith(KUECHE)).sort((a, b) => all.get(b) - all.get(a) || a.localeCompare(b, "de"));
   const add = (title, tags, more) => {
     if (!tags.length) return;
@@ -446,9 +518,7 @@ function renderGroups(filtered) {
     if (more) c.appendChild(more);
     div.appendChild(c); g.appendChild(div);
   };
-  add("Küche", kitchen);
   const inList = list => list.filter(t => all.has(t) || selected.has(t));
-  add("Typ", inList(TYP));
   add("Region", inList(REGION_FILTER).sort((a, b) => (all.get(b) || 0) - (all.get(a) || 0)));
   add("Ausstattung", inList(AUSSTATTUNG));
   const grouped = new Set([...TYP, ...REGION_FILTER, ...AUSSTATTUNG]);
@@ -462,7 +532,8 @@ function renderGroups(filtered) {
     more.onclick = () => { showAllTags = !showAllTags; render(false); };
   }
   add("Weitere", shown, more);
-  $("tagSum").textContent = selected.size ? [...selected].map(label).join(", ") : "";
+  const others = [...selected].filter(t => !t.startsWith(KUECHE) && !TYP.includes(t));
+  $("tagSum").textContent = others.length ? others.map(label).join(", ") : "";
 }
 
 // ---------- Darstellung ----------
@@ -502,6 +573,7 @@ function openItem(d) {
 }
 let lastFiltered = [];
 function render(fit) {
+  renderRegions();
   lastFiltered = DATA.filter(matches);
   if (!editMode) renderGroups(lastFiltered);
   $("reset").hidden = editMode || (!selected.size && !$("q").value);
